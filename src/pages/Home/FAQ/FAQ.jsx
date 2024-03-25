@@ -45,12 +45,14 @@ const FAQ = () => {
   };
     return (
         <div>
-            <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
+            <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          <h3 className="text-4xl uppercase  pt-4 font-bold font-serif">
             FAQ
           </h3>
+          
         </div>
+        <div className="h-1 w-20 bg-white rounded flex justify-center items-center mx-auto my-auto"></div>
         <div className="rounded-lg font-sans">
           {accordionsData.map((PerAccordion, idx) => (
             <div
