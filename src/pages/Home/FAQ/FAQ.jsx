@@ -4,22 +4,37 @@ const FAQ = () => {
     const [isOpen, setIsOpen] = useState(null);
   const accordionsData = [
     {
-      title: "CSE103:Structure of C programming language.",
+      title: "Why should I consider your software development company as a partner?",
       description:
         'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
     },
     {
-      title: "CSE106:Discrete Mathematics.",
+      title: "Do you offer custom software development services for my industry?",
       description:
         "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
     },
     {
-      title: "CSE110:Object Oriented Programming",
+      title: "What is your process for end-to-end software development?",
       description:
         "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
     },
     {
-      title: "Are there any discounts for loyal customers?",
+      title: "How does your team augmentation process work?",
+      description:
+        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+    },
+    {
+      title: "Do you offer teams for mobile app development?",
+      description:
+        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+    },
+    {
+      title: "What is your preferred development methodology?",
+      description:
+        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+    },
+    {
+      title: "Can you help me identify the core features for my MVP?",
       description:
         "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
     },
@@ -44,14 +59,14 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggle(idx)}
-                className="flex h-full w-full justify-between py-4 text-left font-medium text-black dark:text-black"
+                className="flex h-full w-full justify-between py-4 text-left font-medium text-white dark:text-white"
               >
                 <span className="sm:text-lg md:text-xl">
                   {PerAccordion.title}
                 </span>
                 <span className="rounded-full p-2 ">
                   <svg
-                    className="ml-8 mr-7 shrink-0 fill-black dark:fill-black"
+                    className="ml-8 mr-7 shrink-0 fill-white dark:fill-white"
                     width="16"
                     height="16"
                     xmlns="http://www.w3.org/2000/svg"
