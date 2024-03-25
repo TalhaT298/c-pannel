@@ -43,19 +43,19 @@ const Footer = () => {
               Company
               </h2>
               <nav class="list-none mb-10">
-                <li>
-                  <Link to=""><a class="text-white">About Us</a></Link>
+                <li className="pb-4">
+                  <Link to=""><a className="text-white">About Us</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">Blog</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">OceanCapp2.0</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""><a class="text-white">Product</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">Privacy Policy</a></Link>
                 </li>
                 {/* <li>
@@ -65,22 +65,22 @@ const Footer = () => {
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-              Hosting
+              Service
               </h2>
               <nav class="list-none mb-10">
-                <li>
-                  <Link to=""><a class="text-white">Airbnb your home</a></Link>
+                <li className="pb-4">
+                  <Link to=""><a class="text-white">Team Augmentation</a></Link>
                 </li>
-                <li>
-                <Link to=""> <a class="text-white">AirCover for Hosts</a></Link>
+                <li className="pb-4">
+                <Link to=""> <a class="text-white">Offshore Development</a></Link>
                 </li>
-                <li>
-                <Link to=""> <a class="text-white">Hosting resources</a></Link>
+                <li className="pb-4">
+                <Link to=""> <a class="text-white">MVP Service</a></Link>
                 </li>
-                <li>
-                <Link to=""><a class="text-white">Community forum</a></Link>
+                <li className="pb-4">
+                <Link to=""><a class="text-white">End to End Development</a></Link>
                 </li>
-                <li>
+                {/* <li>
                 <Link to=""> <a class="text-white">Hosting responsibly</a></Link>
                 </li>
                 <li>
@@ -88,55 +88,55 @@ const Footer = () => {
                 </li>
                 <li>
                 <Link to=""> <a class="text-white">Join a free Hosting class</a></Link>
+                </li> */}
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
+              Hiring Developers
+              </h2>
+              <nav class="list-none mb-10">
+                <li className="pb-4">
+                  <Link to=""><a class="text-white">Hire Developers</a></Link>
+                </li>
+                <li className="pb-4">
+                <Link to=""> <a class="text-white">Hire JavaScript Developers</a></Link>
+                </li>
+                <li className="pb-4">
+                <Link to=""> <a class="text-white">Hire Python Developers</a></Link>
+                </li>
+                <li className="pb-4">
+                <Link to=""><a class="text-white">Hire Java Developers</a></Link>
+                </li>
+                <li className="pb-4">
+                <Link to=""> <a class="text-white">Hire Golang Developers</a></Link>
+                </li>
+                <li className="pb-4">
+                <Link to=""> <a class="text-white">Hire .NET Developers</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-              Airbnb
+              Contact Us
               </h2>
               <nav class="list-none mb-10">
-                <li>
-                  <Link to=""><a class="text-white">Newsroom</a></Link>
-                </li>
-                <li>
-                <Link to=""> <a class="text-white">New features</a></Link>
-                </li>
-                <li>
-                <Link to=""> <a class="text-white">Careers</a></Link>
-                </li>
-                <li>
-                <Link to=""><a class="text-white">Investors</a></Link>
-                </li>
-                <li>
-                <Link to=""> <a class="text-white">Gift cards</a></Link>
-                </li>
-                <li>
-                <Link to=""> <a class="text-white">Airbnb.org emergency</a></Link>
-                </li>
-              </nav>
-            </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-                Support
-              </h2>
-              <nav class="list-none mb-10">
-                <li>
+                <li className="pb-4">
                   <Link to=""><a class="text-white">Help Center</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">AirCover</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">Anti-discrimination</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""><a class="text-white">Disability support</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">Cancellation options</a></Link>
                 </li>
-                <li>
+                <li className="pb-4">
                 <Link to=""> <a class="text-white">Report neighborhood</a></Link>
                 </li>
               </nav>
