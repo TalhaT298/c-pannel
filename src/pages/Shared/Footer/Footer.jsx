@@ -40,27 +40,27 @@ const Footer = () => {
           <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-                Support
+              Company
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Link to=""><a class="text-white">Help Center</a></Link>
+                  <Link to=""><a class="text-white">About Us</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-white">AirCover</a></Link>
+                <Link to=""> <a class="text-white">Blog</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-white">Anti-discrimination</a></Link>
+                <Link to=""> <a class="text-white">OceanCapp2.0</a></Link>
                 </li>
                 <li>
-                <Link to=""><a class="text-white">Disability support</a></Link>
+                <Link to=""><a class="text-white">Product</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-white">Cancellation options</a></Link>
+                <Link to=""> <a class="text-white">Privacy Policy</a></Link>
                 </li>
-                <li>
+                {/* <li>
                 <Link to=""> <a class="text-white">Report neighborhood</a></Link>
-                </li>
+                </li> */}
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
