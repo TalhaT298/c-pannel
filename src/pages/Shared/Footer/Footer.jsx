@@ -40,23 +40,36 @@ const Footer = () => {
           <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-              Company
+                Company
               </h2>
               <nav class="list-none mb-10">
                 <li className="pb-4">
-                  <Link to=""><a className="text-white">About Us</a></Link>
+                  <Link to="">
+                    <a className="text-white text-sm">About Us</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Blog</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Blog</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">OceanCapp2.0</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">OceanCapp2.0</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""><a class="text-white">Product</a></Link>
+                  <Link to="">
+                    <a class="text-white text-sm">Product</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Privacy Policy</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Privacy Policy</a>
+                  </Link>
                 </li>
                 {/* <li>
                 <Link to=""> <a class="text-white">Report neighborhood</a></Link>
@@ -65,20 +78,30 @@ const Footer = () => {
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-              Service
+                Service
               </h2>
               <nav class="list-none mb-10">
                 <li className="pb-4">
-                  <Link to=""><a class="text-white">Team Augmentation</a></Link>
+                  <Link to="">
+                    <a class="text-white text-sm">Team Augmentation</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Offshore Development</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Offshore Development</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">MVP Service</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">MVP Service</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""><a class="text-white">End to End Development</a></Link>
+                  <Link to="">
+                    <a class="text-white text-sm">End to End Development</a>
+                  </Link>
                 </li>
                 {/* <li>
                 <Link to=""> <a class="text-white">Hosting responsibly</a></Link>
@@ -93,55 +116,86 @@ const Footer = () => {
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-              Hiring Developers
+                Hiring Developers
               </h2>
               <nav class="list-none mb-10">
                 <li className="pb-4">
-                  <Link to=""><a class="text-white">Hire Developers</a></Link>
+                  <Link to="">
+                    <a class="text-white text-sm">Hire Developers</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Hire JavaScript Developers</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Hire JavaScript Developers</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Hire Python Developers</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Hire Python Developers</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""><a class="text-white">Hire Java Developers</a></Link>
+                  <Link to="">
+                    <a class="text-white text-sm">Hire Java Developers</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Hire Golang Developers</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Hire Golang Developers</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Hire .NET Developers</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">Hire .NET Developers</a>
+                  </Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
-              Contact Us
+                Contact Us
               </h2>
               <nav class="list-none mb-10">
                 <li className="pb-4">
-                  <Link to=""><a class="text-white">Help Center</a></Link>
+                  <Link to="">
+                    <a class="text-white text-sm">contact@oceanCapp.com</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">AirCover</a></Link>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white text-sm">+880 1785030648</a>
+                  </Link>
+                </li>
+                {/* <li className="pb-4">
+                  <Link to="">
+                    {" "}
+                    <a class="text-white">Anti-discrimination</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""> <a class="text-white">Anti-discrimination</a></Link>
+                  <Link to="">
+                    <a class="text-white">Disability support</a>
+                  </Link>
                 </li>
                 <li className="pb-4">
-                <Link to=""><a class="text-white">Disability support</a></Link>
-                </li>
-                <li className="pb-4">
-                <Link to=""> <a class="text-white">Cancellation options</a></Link>
-                </li>
-                <li className="pb-4">
-                <Link to=""> <a class="text-white">Report neighborhood</a></Link>
-                </li>
+                  <Link to="">
+                    {" "}
+                    <a class="text-white">Cancellation options</a>
+                  </Link>
+                </li> */}
+                {/* <li className="pb-4">
+                  <Link to="">
+                    {" "}
+                    <a class="text-white">Report neighborhood</a>
+                  </Link>
+                </li> */}
               </nav>
             </div>
-            
           </div>
         </div>
         <div class="h-[1px] w-full bg-white"></div>
@@ -201,26 +255,26 @@ const Footer = () => {
                   </Link>
                 </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaDiscord size="1.2rem" color="white" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <FaDiscord size="1.2rem" color="white" />
+                    </a>
+                  </Link>
+                </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaThreads size="1.2rem" color="white" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <FaThreads size="1.2rem" color="white" />
+                    </a>
+                  </Link>
+                </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaYoutube size="1.2rem" color="white" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <FaYoutube size="1.2rem" color="white" />
+                    </a>
+                  </Link>
+                </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
