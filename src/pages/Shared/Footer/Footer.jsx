@@ -5,14 +5,17 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { BsTwitterX } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { FaDiscord } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <div>
       Explain
-      <footer class="text-gray-600 body-font">
+      <footer class="text-white body-font">
         <div class="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -30,118 +33,118 @@ const Footer = () => {
               </svg>
               <span class="ml-3 text-xl">Tailblocks</span>
             </a>
-            <p class="mt-2 text-sm text-gray-500">
+            <p class="mt-2 text-sm text-white">
               Air plant banjo lyft occupy retro adaptogen indego
             </p>
           </div>
           <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+              <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
                 Support
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Link to=""><a class="text-black">Help Center</a></Link>
+                  <Link to=""><a class="text-white">Help Center</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">AirCover</a></Link>
+                <Link to=""> <a class="text-white">AirCover</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Anti-discrimination</a></Link>
+                <Link to=""> <a class="text-white">Anti-discrimination</a></Link>
                 </li>
                 <li>
-                <Link to=""><a class="text-black">Disability support</a></Link>
+                <Link to=""><a class="text-white">Disability support</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Cancellation options</a></Link>
+                <Link to=""> <a class="text-white">Cancellation options</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Report neighborhood</a></Link>
+                <Link to=""> <a class="text-white">Report neighborhood</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+              <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
               Hosting
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Link to=""><a class="text-black">Airbnb your home</a></Link>
+                  <Link to=""><a class="text-white">Airbnb your home</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">AirCover for Hosts</a></Link>
+                <Link to=""> <a class="text-white">AirCover for Hosts</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Hosting resources</a></Link>
+                <Link to=""> <a class="text-white">Hosting resources</a></Link>
                 </li>
                 <li>
-                <Link to=""><a class="text-black">Community forum</a></Link>
+                <Link to=""><a class="text-white">Community forum</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Hosting responsibly</a></Link>
+                <Link to=""> <a class="text-white">Hosting responsibly</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Airbnb-friendly apartments</a></Link>
+                <Link to=""> <a class="text-white">Airbnb-friendly apartments</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Join a free Hosting class</a></Link>
+                <Link to=""> <a class="text-white">Join a free Hosting class</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+              <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
               Airbnb
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Link to=""><a class="text-black">Newsroom</a></Link>
+                  <Link to=""><a class="text-white">Newsroom</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">New features</a></Link>
+                <Link to=""> <a class="text-white">New features</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Careers</a></Link>
+                <Link to=""> <a class="text-white">Careers</a></Link>
                 </li>
                 <li>
-                <Link to=""><a class="text-black">Investors</a></Link>
+                <Link to=""><a class="text-white">Investors</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Gift cards</a></Link>
+                <Link to=""> <a class="text-white">Gift cards</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Airbnb.org emergency</a></Link>
+                <Link to=""> <a class="text-white">Airbnb.org emergency</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+              <h2 class="title-font font-bold text-white tracking-widest text-base mb-3">
                 Support
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Link to=""><a class="text-black">Help Center</a></Link>
+                  <Link to=""><a class="text-white">Help Center</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">AirCover</a></Link>
+                <Link to=""> <a class="text-white">AirCover</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Anti-discrimination</a></Link>
+                <Link to=""> <a class="text-white">Anti-discrimination</a></Link>
                 </li>
                 <li>
-                <Link to=""><a class="text-black">Disability support</a></Link>
+                <Link to=""><a class="text-white">Disability support</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Cancellation options</a></Link>
+                <Link to=""> <a class="text-white">Cancellation options</a></Link>
                 </li>
                 <li>
-                <Link to=""> <a class="text-black">Report neighborhood</a></Link>
+                <Link to=""> <a class="text-white">Report neighborhood</a></Link>
                 </li>
               </nav>
             </div>
             
           </div>
         </div>
-        <div class="h-[1px] w-full bg-black"></div>
+        <div class="h-[1px] w-full bg-white"></div>
         <div class="">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p class="text-gray-500 text-sm text-center sm:text-left">
@@ -162,7 +165,7 @@ const Footer = () => {
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <FaFacebookF size="1.2rem" color="black" />
+                      <FaFacebookF size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
@@ -170,7 +173,7 @@ const Footer = () => {
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <FaInstagram size="1.2rem" color="black" />
+                      <FaInstagram size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
@@ -178,7 +181,7 @@ const Footer = () => {
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <FaLinkedinIn size="1.2rem" color="black" />
+                      <FaLinkedinIn size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
@@ -186,42 +189,42 @@ const Footer = () => {
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <BsTwitterX size="1.2rem" color="black" />
+                      <BsTwitterX size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <FaWhatsapp size="1.2rem" color="black" />
+                      <FaWhatsapp size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaDiscord size="1.7rem" color="black" />
+                  <FaDiscord size="1.2rem" color="white" />
                 </a>
               </Link>
-            </motion.div> */}
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaThreads size="1.7rem" color="black" />
+                  <FaThreads size="1.2rem" color="white" />
                 </a>
               </Link>
-            </motion.div> */}
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaYoutube size="1.7rem" color="black" />
+                  <FaYoutube size="1.2rem" color="white" />
                 </a>
               </Link>
-            </motion.div> */}
+            </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <BiLogoGmail size="1.2rem" color="black" />
+                      <BiLogoGmail size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
