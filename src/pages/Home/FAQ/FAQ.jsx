@@ -6,37 +6,37 @@ const FAQ = () => {
     {
       title: "Why should I consider your software development company as a partner?",
       description:
-        'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
+        'At OceanCapp, we take pride in developing high-quality applications in record time. We have 250+ experienced developers who understand the importance of agile methodologies and use cutting-edge technologies such as Java, NodeJS, AngularJS and React Native to deliver unique software solutions that provide maximum value for our clients. Our team is committed to delivering timely results while keeping costs low so you can maximize your ROI..',
     },
     {
       title: "Do you offer custom software development services for my industry?",
       description:
-        "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
+        "We understand the need for reliable, secure and cost-effective software solutions that are designed to meet the specific requirements of each client. Our developers have a wealth of expertise in developing custom applications and can tailor our services to the exact needs of your business. From enterprise resource planning (ERP) systems to customer relationship management (CRM) platforms, we offer comprehensive software development solutions that will help optimize your operations and improve efficiency.",
     },
     {
       title: "What is your process for end-to-end software development?",
       description:
-        "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
+        "OceanCapp follows a tried and tested process for end-to-end software development. This process includes gathering requirements, designing a solution, developing and testing the software, and deploying and maintaining the finished product. Our team of experienced software engineers will work with you at every step of the way to ensure that your project is a success.",
     },
     {
       title: "How does your team augmentation process work?",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "OceanCapp’s team augmentation process is designed to seamlessly integrate our experienced software engineers into your existing development team. We will work with you to understand your specific needs and goals, and then provide you with a team of engineers who have the skills and expertise to help you achieve them. Our team members will work closely with your team to ensure that they are able to contribute effectively and efficiently.",
     },
     {
       title: "Do you offer teams for mobile app development?",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "Yes, OceanCapp offers team augmentation services for mobile app development. Our team of experienced software engineers has expertise in developing high-quality, user-friendly mobile apps for a variety of platforms, including iOS, Android, and Windows. Our team members will work closely with your team to ensure that the mobile app development process goes smoothly and that the final product meets your requirements.",
     },
     {
       title: "What is your preferred development methodology?",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "We have experience with different methodologies, including Scrum, Waterfall, and Kanban. We can adapt our approach as needed to meet the specific requirements of our clients.In most of our software development projects, we follow the agile Scrum methodology. It allows for rapid iteration and continuous delivery and is particularly useful for projects where requirements are subject to change.",
     },
     {
       title: "Can you help me identify the core features for my MVP?",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "Yes, our team of experienced software engineers can help you identify the core features for your MVP. We will work with you to understand your business goals and target audience, and then help you prioritize the features that will have the greatest impact. This will allow you to focus on the most important features first, while still being able to add additional features in future iterations.",
     },
   ];
 
@@ -93,7 +93,7 @@ const FAQ = () => {
                 </span>
               </button>
               <div
-                className={`grid overflow-hidden text-gray-800 transition-all duration-300 ease-in-out dark:text-gray-400 ${
+                className={`grid overflow-hidden text-gray-500 transition-all duration-300 ease-in-out dark:text-gray-300 ${
                   isOpen === idx
                     ? "grid-rows-[1fr] pb-3 opacity-100"
                     : "grid-rows-[0fr] opacity-0"
