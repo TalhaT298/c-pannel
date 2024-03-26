@@ -44,7 +44,7 @@ const FAQ = () => {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
   };
     return (
-        <div>
+        <div  className="py-8">
             <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
           <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
