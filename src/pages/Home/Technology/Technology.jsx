@@ -16,6 +16,7 @@ import img13 from "../../../assets/ruby.svg";
 import img14 from "../../../assets/npm.svg";
 import img15 from "../../../assets/firebase.svg";
 import img16 from "../../../assets/github.svg";
+import img17 from "../../../assets/aws.svg";
 
 const Technology = () => {
   return (
@@ -122,6 +123,12 @@ const Technology = () => {
         <img
           className="h-32 w-32"
           src={img16}
+          alt=""
+          style={{ marginRight: "20px" }}
+        />
+        <img
+          className="h-32 w-32"
+          src={img17}
           alt=""
           style={{ marginRight: "20px" }}
         />
