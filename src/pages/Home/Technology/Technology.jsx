@@ -17,6 +17,7 @@ import img14 from "../../../assets/npm.svg";
 import img15 from "../../../assets/firebase.svg";
 import img16 from "../../../assets/github.svg";
 import img17 from "../../../assets/aws.svg";
+import img18 from "../../../assets/laravel.svg";
 
 const Technology = () => {
   return (
@@ -27,7 +28,9 @@ const Technology = () => {
           Technology We Used
         </h3>
       </div>
-      <div className="h-1 w-[800px] bg-white rounded flex justify-center items-center mx-auto my-auto"></div>
+      {/* <div className="h-1 w-[800px] bg-white rounded flex justify-center items-center mx-auto my-auto"></div> */}
+      {/* <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto animate-ping"></div> */}
+      <div class="h-1 w-[600px] bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <Marquee className="my-5 ">
         {/* //130*130 */}
         <img
@@ -129,6 +132,13 @@ const Technology = () => {
         <img
           className="h-32 w-32"
           src={img17}
+          alt=""
+          style={{ marginRight: "20px" }}
+        />
+      
+        <img
+          className="h-32 w-32"
+          src={img18}
           alt=""
           style={{ marginRight: "20px" }}
         />
