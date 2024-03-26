@@ -9,6 +9,13 @@ import img6 from "../../../assets/javascript.svg"
 import img7 from "../../../assets/java.svg"
 import img8 from "../../../assets/go.svg"
 import img9 from "../../../assets/flutter.svg"
+import img10 from "../../../assets/redux.svg"
+import img11 from "../../../assets/typescript.svg"
+import img12 from "../../../assets/tailwind-css.svg"
+import img13 from "../../../assets/ruby.svg"
+import img14 from "../../../assets/npm.svg"
+import img15 from "../../../assets/firebase.svg"
+import img16 from "../../../assets/github.svg"
 
 
 const Technology = () => {
@@ -25,6 +32,13 @@ const Technology = () => {
         <img className='h-32 w-32' src={img7} alt=""  style={{ marginRight: '20px' }}/>
         <img className='h-32 w-32' src={img8} alt=""  style={{ marginRight: '20px' }}/>
         <img className='h-32 w-32' src={img9} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img10} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img11} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img12} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img13} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img14} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img15} alt=""  style={{ marginRight: '20px' }}/>
+        <img className='h-32 w-32' src={img16} alt=""  style={{ marginRight: '20px' }}/>
         
     </Marquee>
         </div>
