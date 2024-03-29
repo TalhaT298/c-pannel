@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
+import { motion } from "framer-motion";
 const Offer = () => {
-    return (
-        <div>
-            <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
-        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+  return (
+    <div>
+      <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.8 }}
+          className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96"
+        >
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
@@ -14,38 +19,10 @@ const Offer = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title text-center">Programming Hero Seminar</h2>
+            <h2 className="card-title">Web Design</h2>
             <p>
-              Every year REC Sports club holds different types of sports
-              tournaments.
-            </p>
-            <div className="card-actions flex justify-center items-center">
-              <Link to="/programming-hero">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
-                  Read More
-                  <PiArrowRightLight
-                    size="1.1rem"
-                    className="text-white group-hover:text-black"
-                  />
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
-          <figure className="px-4 pt-10">
-            <img
-              src="https://i.ibb.co/pxTDWWp/khela.webp"
-              alt="Shoes"
-              className="rounded-xl"
-            />
-          </figure>
-          <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">REC Cricket Tournament</h2>
-            <p>
-              Every year REC Sports club holds different types of sports
-              tournaments.
+              Our skilled designers use their knowledge of industry standards
+              and best practices for app and online design to
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
@@ -59,9 +36,13 @@ const Offer = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.8 }}
+          className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96"
+        >
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
@@ -70,10 +51,10 @@ const Offer = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">REC Cricket Tournament</h2>
+            <h2 className="card-title">Game Development</h2>
             <p>
-              Every year REC Sports club holds different types of sports
-              tournaments.
+              Our game development studio develops games and designs plots
+              behind them through fruitful game art solutions.
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
@@ -87,10 +68,43 @@ const Offer = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.8 }}
+          className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96"
+        >
+          <figure className="px-4 pt-10">
+            <img
+              src="https://i.ibb.co/pxTDWWp/khela.webp"
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">Web Development</h2>
+            <p>
+              Build user-centric websites using our unique web development
+              services' processes and our skilled team of developers and
+              designers.
+            </p>
+            <div className="card-actions card-actions flex justify-center items-center">
+              <Link to="/cricket">
+                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                  Read More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </motion.div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Offer;
