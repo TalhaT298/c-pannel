@@ -5,6 +5,12 @@ import { motion } from "framer-motion";
 const Offer = () => {
   return (
     <div>
+        <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
+        {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+        <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
+        Solution We Offer
+        </h3>
+      </div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center ">
         <motion.div
           whileHover={{ scale: 1.05 }}
