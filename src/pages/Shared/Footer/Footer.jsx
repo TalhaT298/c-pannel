@@ -10,6 +10,8 @@ import { FaThreads } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
+import { MdOutlinePhoneCallback } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -161,13 +163,17 @@ const Footer = () => {
               <nav class="list-none mb-10">
                 <li className="pb-4">
                   <Link to="">
-                    <a class="text-white text-sm">contact@oceanCapp.com</a>
+                  <div className="flex ">
+                  <MdOutlinePhoneCallback size="1.3rem" className="" color="white" /> <a className="text-white text-sm">contact@oceanCapp.com</a>
+                  </div>
                   </Link>
                 </li>
                 <li className="pb-4">
                   <Link to="">
                     {" "}
-                    <a class="text-white text-sm">+880 1785030648</a>
+                    <div className="flex ">
+                  <MdEmail size="1.3rem" className="" color="white" /> <a className="text-white text-sm">+880 1785030648</a>
+                  </div>
                   </Link>
                 </li>
                 {/* <li className="pb-4">
