@@ -1,10 +1,10 @@
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import './Testimonial.css';
+import './reviews.css';
 import { useEffect, useState } from 'react';
 import ReviewCard from './ReviewCard';
 
-const Testimonial = () => {
+const Reviews = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
@@ -27,4 +27,4 @@ const Testimonial = () => {
     );
 };
 
-export default Testimonial;
+export default Reviews;

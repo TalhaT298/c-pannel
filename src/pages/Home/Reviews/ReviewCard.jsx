@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TestimonialCard = ({ userReview }) => {
+const ReviewCard = ({ userReview }) => {
     const { authorImage, name, location, review } = userReview;
     return (
         <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-white shadow-none">
@@ -97,4 +97,4 @@ const TestimonialCard = ({ userReview }) => {
     );
 };
 
-export default TestimonialCard;
+export default ReviewCard;
