@@ -22,7 +22,7 @@ const ReviewCard = ({ userReview }) => {
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
                                 aria-hidden="true"
-                                className="w-5 h-5 text-yellow-700"
+                                className="w-5 h-5 text-black"
                             >
                                 <path
                                     
@@ -35,7 +35,7 @@ const ReviewCard = ({ userReview }) => {
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
                                 aria-hidden="true"
-                                className="w-5 h-5 text-yellow-700"
+                                className="w-5 h-5 text-black"
                             >
                                 <path
                                     
@@ -48,7 +48,7 @@ const ReviewCard = ({ userReview }) => {
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
                                 aria-hidden="true"
-                                className="w-5 h-5 text-yellow-700"
+                                className="w-5 h-5 text-black"
                             >
                                 <path
                                     
@@ -61,7 +61,7 @@ const ReviewCard = ({ userReview }) => {
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
                                 aria-hidden="true"
-                                className="w-5 h-5 text-yellow-700"
+                                className="w-5 h-5 text-black"
                             >
                                 <path
                                     
@@ -74,7 +74,7 @@ const ReviewCard = ({ userReview }) => {
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
                                 aria-hidden="true"
-                                className="w-5 h-5 text-yellow-700"
+                                className="w-5 h-5 text-black"
                             >
                                 <path
                                     
