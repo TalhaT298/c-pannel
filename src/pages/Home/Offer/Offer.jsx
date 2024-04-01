@@ -80,7 +80,7 @@ const Offer = () => {
               behind them through fruitful game art solutions.
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/cricket">
+              <Link to="/gameDevelopment">
                 <motion.button
                   initial={{ x: -1000 }}
                   animate={{ x: 0 }}
