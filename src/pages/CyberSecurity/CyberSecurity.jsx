@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CyberSecurity = () => {
     return (
-        <Link>
+        <Link to="/cybersecurity">
         <div>
             this is cyber security
             </div>
