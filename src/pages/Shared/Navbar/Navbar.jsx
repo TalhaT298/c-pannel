@@ -33,12 +33,16 @@ const Navbar = () => {
           <li className="group flex  cursor-pointer flex-col">
             Home<span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
+          <Link to="/services">
           <li className="group flex  cursor-pointer flex-col">
             Services<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
+          </Link>
+          <Link to="/about">
           <li className="group flex  cursor-pointer flex-col">
             About<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
+          </Link>
           <li className="group flex  cursor-pointer flex-col">
             Contact<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const GameDevelopment = () => {
     return (
-        <Link to="/gameDevelopment">
+        <Link to="gameDevelopment">
         <div>
             this is game
             </div>
