@@ -3,6 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useRef } from 'react';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
@@ -49,9 +50,11 @@ const Navbar = () => {
               <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
                 Home
               </li>
+              <Link to="/services">
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 Services
               </li>
+              </Link>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 About
               </li>
