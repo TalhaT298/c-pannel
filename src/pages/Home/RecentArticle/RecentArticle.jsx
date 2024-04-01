@@ -3,7 +3,13 @@ import React from "react";
 const RecentArticle = () => {
   return (
     <div>
-      Explain
+      <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
+        {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+        <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
+        recent articles
+        </h3>
+      </div>
+      <div class="h-1 w-[600px] bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <section class="text-gray-600 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
           <div class="-my-8 divide-y-2 divide-gray-100">
