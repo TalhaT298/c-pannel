@@ -6,6 +6,7 @@ import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import WebDesign from "../pages/WebDesign/WebDesign";
 import GameDevelopment from "../pages/GameDevelopment/GameDevelopment";
+import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
 
   
   export const router = createBrowserRouter([
@@ -24,6 +25,10 @@ import GameDevelopment from "../pages/GameDevelopment/GameDevelopment";
         {
             path:'/gameDevelopment',
             element:<GameDevelopment></GameDevelopment>
+        },
+        {
+            path:'/webdevelopment',
+            element:<WebDevelopment></WebDevelopment>
         },
 
       ]

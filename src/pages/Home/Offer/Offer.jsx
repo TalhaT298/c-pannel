@@ -125,7 +125,7 @@ const Offer = () => {
               designers.
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/cricket">
+              <Link to="/webdevelopment">
                 <motion.button
                   initial={{ x: -1000 }}
                   animate={{ x: 0 }}
