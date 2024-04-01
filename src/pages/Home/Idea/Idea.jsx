@@ -12,7 +12,7 @@ const Idea = () => {
     // </div>
     <div className="flex">
       <div className="w-3/5 pt-24 pl-20">
-        <h1 className="text-3xl font-bold pb-6">Have Any Project Idea</h1>
+        <h1 className="text-lg font-bold pb-6">Have Any Project Idea</h1>
         <p className="">
           Lets discuss about your offshore project. We can Help you by our
           skillful Global team. <br />
