@@ -55,9 +55,11 @@ const Navbar = () => {
                 Services
               </li>
               </Link>
+              <Link to="/about">
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 About
               </li>
+              </Link>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 Contact
               </li>
