@@ -9,6 +9,7 @@ import GameDevelopment from "../pages/GameDevelopment/GameDevelopment";
 import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
 import CyberSecurity from "../pages/CyberSecurity/CyberSecurity";
 import Services from "../pages/Services/Services";
+import About from "../pages/About/About";
 
   
   export const router = createBrowserRouter([
@@ -39,6 +40,10 @@ import Services from "../pages/Services/Services";
         {
             path:'/services',
             element:<Services></Services>
+        },
+        {
+            path:'/about',
+            element:<About></About>
         },
 
       ]
