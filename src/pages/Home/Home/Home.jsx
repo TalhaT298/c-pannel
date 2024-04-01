@@ -9,7 +9,6 @@ import RecentArticle from '../RecentArticle/RecentArticle';
 const Home = () => {
     return (
         <div>
-            <p>This is Home</p>
             <Offer></Offer>
             <Technology></Technology>
             <Idea></Idea>
