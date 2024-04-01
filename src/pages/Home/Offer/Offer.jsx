@@ -36,7 +36,7 @@ const Offer = () => {
               and best practices for app and online design to
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/cricket">
+              <Link to="/webdesign">
                 <motion.button
                   initial={{ x: -1000 }}
                   animate={{ x: 0 }}
