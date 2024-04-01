@@ -12,18 +12,18 @@ const Idea = () => {
     // </div>
     <div className="flex">
       <div className="w-3/5 pt-24 pl-20">
-        <h1 className="text-lg font-bold pb-6">Have Any Project Idea</h1>
-        <p className="">
+        <h1 className="text-4xl font-bold pb-6">Have Any Project Idea</h1>
+        <p className="text-lg">
           Lets discuss about your offshore project. We can Help you by our
           skillful Global team. <br />
           You can take a free counciling by taking a schedule
         </p>
         <Link to="">
-          <button className="btn btn-outline text-xl pl-1 mt-6 w- bg-black text-white border-black border group">
+          <button className="btn btn-outline text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
             Get Started
             <PiArrowRightLight
               size="1.4rem"
-              className="text-white group-hover:text-black"
+              className="text-white group-hover:text-white"
             />
           </button>
         </Link>
