@@ -26,7 +26,7 @@ const Banner = () => {
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://source.unsplash.com/1200x540/?sea",
+      img: "https://i.ibb.co/h9vPTwQ/ai-site-helping-with-software-production.webp",
       title: "Escape 5",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
@@ -41,9 +41,9 @@ const Banner = () => {
     );
   const isSmallScreen = window.innerWidth <= 768;
   return (
-    <div>
+    <div className="">
       <div
-        className="w-full h-80 sm:h-96 md:h-[540px] flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50 before:inset-0 transform duration-1000 ease-linear z-50 overflow-hidden"
+        className="w-full h-80 sm:h-96 md:h-[540px]  flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50 before:inset-0 transform duration-1000 ease-linear z-50 overflow-hidden" 
         style={{
           backgroundImage: `url(${
             currentSlider === 0

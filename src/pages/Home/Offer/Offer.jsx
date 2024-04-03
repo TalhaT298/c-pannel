@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import { motion } from "framer-motion";
+import img1 from "../../../assets/Web_design (1).webp";
 const Offer = () => {
   return (
     <div>
@@ -24,7 +25,7 @@ const Offer = () => {
         >
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/6NWH8LP/Untitled-design-7.webp"
+              src={img1}
               alt="Shoes"
               className="rounded-xl"
             />
