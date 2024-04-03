@@ -2,7 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import { motion } from "framer-motion";
-import img1 from "../../../assets/Web_design (1).webp";
+import img1 from "../../../assets/Web_design (2).webp";
+import img2 from "../../../assets/Web_design (3).webp";
+import img3 from "../../../assets/Web_design (1).webp";
+import img4 from "../../../assets/Web_design (5).webp";
+
 const Offer = () => {
   return (
     <div>
@@ -69,7 +73,7 @@ const Offer = () => {
         >
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/L0SHvMw/Untitled-design-6.webp"
+              src={img2}
               alt="Shoes"
               className="rounded-xl"
             />
@@ -113,7 +117,7 @@ const Offer = () => {
         >
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/jzQ7JGv/Untitled-design-8.webp"
+              src={img3}
               alt="Shoes"
               className="rounded-xl"
             />
@@ -158,7 +162,7 @@ const Offer = () => {
         >
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/jzQ7JGv/Untitled-design-8.webp"
+              src={img4}
               alt="Shoes"
               className="rounded-xl"
             />
