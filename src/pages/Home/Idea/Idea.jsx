@@ -10,26 +10,26 @@ const Idea = () => {
     //   Have Any Project Idea
     //   </div>
     // </div>
-    <div className="flex">
-      <div className="w-3/5 pt-24 pl-20">
-        <h1 className="text-4xl font-bold pb-6">Have Any Project Idea</h1>
-        <p className="text-lg">
-          Lets discuss about your offshore project. We can Help you by our
-          skillful Global team. <br />
-          You can take a free counciling by taking a schedule
+    <div class="flex flex-col md:flex-row">
+      <div class="w-full md:w-3/5 pt-6 lg:pl-20 lg:pt-24 pl-4 pr-4">
+        <h1 class="lg:text-4xl text-xl font-bold lg:pb-6 pb-3">
+          Have Any Project Idea
+        </h1>
+        <p class="lg:text-lg text-base">
+          Let's discuss your offshore project. We can help you with our skillful
+          Global team. <br />
+          You can schedule a free consultation.
         </p>
-        <Link to="">
-          <button className="btn btn-outline text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
+        <button className="btn btn-outline text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
             Get Started
             <PiArrowRightLight
               size="1.4rem"
               className="text-white group-hover:text-white"
             />
           </button>
-        </Link>
       </div>
-      <div className="w-2/5 pl-20">
-        <img src={idea} alt="" />
+      <div class="w-full md:w-2/5 lg:pl-20 pl-4 pr-4">
+        <img src={idea} alt="Project Idea" class="w-full" />
       </div>
     </div>
   );
