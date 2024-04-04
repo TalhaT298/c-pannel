@@ -197,7 +197,7 @@ const Footer = () => {
         <div class="">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p class="text-gray-500 text-sm text-center sm:text-left">
-              © 2020 Tailblocks —
+              © 2024 OceanCapp —
               <a
                 href="https://twitter.com/knyttneve"
                 rel="noopener noreferrer"
@@ -205,7 +205,7 @@ const Footer = () => {
                 target="_blank"
                 previewlistener="true"
               >
-                @knyttneve
+                @OceanCapp
               </a>
             </p>
 
