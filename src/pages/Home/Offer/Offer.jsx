@@ -10,7 +10,7 @@ import img4 from "../../../assets/Web_design (5).webp";
 const Offer = () => {
   return (
     <div>
-      <div className="mx-auto md:w-8/12 mb-4 flex justify-center items-center ">
+      <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
         <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
           Solution We Offer
