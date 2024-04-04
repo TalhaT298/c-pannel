@@ -162,7 +162,7 @@ const Banner = () => {
           <div>
             <h1 className="text-5xl text-cyan-700 font-bold">
             <Typewriter
-            words={['Q', 'Sleep', 'Code', 'Repeat!']}
+            words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
             loop={5}
             cursor
             cursorStyle=''
