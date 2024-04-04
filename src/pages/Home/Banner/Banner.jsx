@@ -146,15 +146,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import banner from "../../../assets/banner.gif"
+import { Typewriter } from 'react-simple-typewriter'
 
 const Banner = () => {
+   
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`)
+  }
   return (
     <div>
       <div className="hero  pt-2 pb-4">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={banner} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
           <div>
-            <h1 className="text-5xl text-cyan-700 font-bold">Quality First</h1>
+            <h1 className="text-5xl text-cyan-700 font-bold">
+            <Typewriter
+            words={['Q', 'Sleep', 'Code', 'Repeat!']}
+            loop={5}
+            cursor
+            cursorStyle=''
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            onLoopDone={handleDone}
+             
+          />
+              </h1>
             <p className="py-6 font-semibold">
               We are a customer-driven company that sells the highest quality
               medical tools, supplies and German-manufactured surgical
