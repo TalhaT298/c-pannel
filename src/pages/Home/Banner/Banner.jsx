@@ -43,7 +43,7 @@
 //   return (
 //     <div className="">
 //       <div
-//         className="w-full h-80 sm:h-96 md:h-[540px]  flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50 before:inset-0 transform duration-1000 ease-linear z-50 overflow-hidden" 
+//         className="w-full h-80 sm:h-96 md:h-[540px]  flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50 before:inset-0 transform duration-1000 ease-linear z-50 overflow-hidden"
 //         style={{
 //           backgroundImage: `url(${
 //             currentSlider === 0
@@ -143,12 +143,44 @@
 
 // export default Banner;
 
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import banner from "../../../assets/banner.gif"
 
 const Banner = () => {
   return (
     <div>
-      
+      <div className="hero  pt-2 pb-4">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img src={banner} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
+          <div>
+            <h1 className="text-5xl text-cyan-700 font-bold">Quality First</h1>
+            <p className="py-6 font-semibold">
+              We are a customer-driven company that sells the highest quality
+              medical tools, supplies and German-manufactured surgical
+              instruments at cost-effective pricing. Save up to off list prices
+              on ALL your medical surgical online orders!
+            </p>
+            <Link to="">
+              <button
+                className="btn btn-outline text-teal-600 mr-6"
+                data-aos-duration="1000"
+              >
+                Contact
+                
+              </button>
+            </Link>
+            <Link to="">
+              <button
+                className="btn btn-outline text-cyan-700"
+                data-aos-duration="1000"
+              >
+                See More
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
