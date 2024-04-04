@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useRef } from 'react';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo from "../../../assets/logo.png"
 
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
     <div className=''>
       <nav className="flex items-center justify-between bg-[#000000] pt-8 pb-0 text-white mb-24">
         <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
-          <img src="" alt="" />
+          <img src={logo} className='w-28 h-20' alt="" />
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
           <li className="group flex  cursor-pointer flex-col">
