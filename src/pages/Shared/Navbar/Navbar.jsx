@@ -25,7 +25,7 @@ const Navbar = () => {
     }, []);
   return (
     <div className=''>
-      <nav className="flex items-center justify-between bg-[#000000]  pb-0 text-white ">
+      <nav className="flex items-center justify-between bg-[#000000]  py-4 text-white ">
         <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
           <img src={logo} className='w-52 h-20' alt="" />
         </div>
