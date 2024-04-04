@@ -6,12 +6,12 @@ const Banner = () => {
   const [currentSlider, setCurrentSlider] = useState(0);
   const sliders = [
     {
-      img: "https://i.ibb.co/5s5dT4w/434217989-369382626085656-6333476396927609199-n.jpg",
+      img: "https://i.ibb.co/zrD2709/web-DESIGN.png",
       title: "Escape 1",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://source.unsplash.com/1200x540/?hill",
+      img: "https://i.ibb.co/23NGNwH/web-DESIGN-1.png",
       title: "Escape 2",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
@@ -26,7 +26,7 @@ const Banner = () => {
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://i.ibb.co/h9vPTwQ/ai-site-helping-with-software-production.webp",
+      img: "https://i.ibb.co/PNxmSdJ/Untitled-design-9.webp",
       title: "Escape 5",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
