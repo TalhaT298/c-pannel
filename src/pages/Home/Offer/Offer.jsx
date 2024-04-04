@@ -16,7 +16,7 @@ const Offer = () => {
           Solution We Offer
         </h3>
       </div>
-      <div class="h-1 w-[600px] bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
         <motion.div
           whileHover={{ scale: 1.05 }}

@@ -10,7 +10,7 @@ const RecentArticle = () => {
           recent articles
         </h3>
       </div>
-      <div class="h-1 w-[600px] bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <section class="text-white body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
           <div class="-my-8 divide-y-2 divide-gray-100">
