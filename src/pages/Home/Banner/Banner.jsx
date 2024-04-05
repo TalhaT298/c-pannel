@@ -215,11 +215,11 @@ const Banner = () => {
                 ></path>
               </svg>
             </div>
-            <div className="stat-title">Programs</div>
+            {/* <div className="stat-title">Dedicated Engineers</div> */}
             <div className="stat-value">
-              <CountUp end={38} duration={20} />
+              <CountUp end={38} duration={50} />
             </div>
-            <div className="stat-desc">Jan 1st - Feb 1st</div>
+            <div className="stat-desc">Dedicated Engineers</div>
           </div>
 
           <div className="stat">
@@ -240,11 +240,11 @@ const Banner = () => {
                 ></path>
               </svg>
             </div>
-            <div className="stat-title">New Users</div>
+            {/* <div className="stat-title">Successful Projects</div> */}
             <div className="stat-value">
-              <CountUp end={4200} duration={20} />
+              <CountUp end={4200} duration={50} />
             </div>
-            <div className="stat-desc">↗︎ 400 (22%)</div>
+            <div className="stat-desc">Successful Projects</div>
           </div>
 
           <div className="stat">
@@ -265,11 +265,12 @@ const Banner = () => {
                 ></path>
               </svg>
             </div>
-            <div className="stat-title">Research</div>
+            {/* <div className="stat-title">Research</div> */}
             <div className="stat-value">
-              <CountUp end={1200} duration={20} />
+              <CountUp end={1200} duration={50} />
             </div>
-            <div className="stat-desc">↗︎ 1000 (14%)</div>
+            {/* <div className="stat-desc">↗︎ 1000 (14%)</div> */}
+            <div className="stat-desc">Research</div>
           </div>
         </div>
             </div>
