@@ -148,6 +148,7 @@ import { Link } from "react-router-dom";
 import banner from "../../../assets/banner.gif"
 import { Typewriter } from 'react-simple-typewriter'
 import CountUp from "react-countup";
+import { PiArrowRightLight } from "react-icons/pi";
 
 const Banner = () => {
    
@@ -273,6 +274,18 @@ const Banner = () => {
             <div className="stat-desc">Research</div>
           </div>
         </div>
+        <Link to="">
+              <button
+                className="btn btn-outline text-xl pl-1 mt-6 w-  bg-black text-white border-black border group hover:bg-black hover:text-white"
+                data-aos-duration="1000"
+              >
+                Engage US
+                <PiArrowRightLight
+              size="2.2rem"
+              className="text-white group-hover:text-white"
+            />
+              </button>
+            </Link>
             </div>
           </div>
         </div>
