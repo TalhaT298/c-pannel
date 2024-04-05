@@ -163,7 +163,7 @@ const Banner = () => {
             <h1 className="text-5xl text-cyan-700 font-bold">
             <Typewriter
             words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
-            loop={5}
+            loop={50}
             cursor
             cursorStyle=''
             typeSpeed={70}
