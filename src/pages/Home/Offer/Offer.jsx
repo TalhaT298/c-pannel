@@ -18,9 +18,9 @@ const Offer = () => {
       </div>
       <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.8 }}
+        <div
+          // whileHover={{ scale: 1.05 }}
+          // whileTap={{ scale: 0.8 }}
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
           style={{
             boxShadow:
@@ -42,13 +42,8 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/webdesign">
-                <motion.button
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{
-                    duration: "2",
-                    delay: "0.2",
-                  }}
+                <button
+                  
                   className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
                 >
                   Learn More
@@ -56,15 +51,14 @@ const Offer = () => {
                     size="1.1rem"
                     className="text-white group-hover:text-black"
                   />
-                </motion.button>
+                </button>
               </Link>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.8 }}
+        <div
+          
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
           style={{
             boxShadow:
@@ -86,13 +80,8 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/gameDevelopment">
-                <motion.button
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{
-                    duration: "2",
-                    delay: "0.2",
-                  }}
+                <button
+                  
                   className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
                 >
                   Learn More
@@ -100,15 +89,14 @@ const Offer = () => {
                     size="1.1rem"
                     className="text-white group-hover:text-black"
                   />
-                </motion.button>
+                </button>
               </Link>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.8 }}
+        <div
+          
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
           style={{
             boxShadow:
@@ -131,13 +119,8 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/webdevelopment">
-                <motion.button
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{
-                    duration: "2",
-                    delay: "0.2",
-                  }}
+                <button
+                  
                   className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
                 >
                   Learn More
@@ -145,15 +128,15 @@ const Offer = () => {
                     size="1.1rem"
                     className="text-white group-hover:text-black"
                   />
-                </motion.button>
+                </button>
               </Link>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.8 }}
+        <div
+          // whileHover={{ scale: 1.05 }}
+          // whileTap={{ scale: 0.8 }}
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
           style={{
             boxShadow:
@@ -176,13 +159,8 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cybersecurity">
-                <motion.button
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{
-                    duration: "2",
-                    delay: "0.2",
-                  }}
+                <button
+                  
                   className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
                 >
                   Learn More
@@ -190,13 +168,13 @@ const Offer = () => {
                     size="1.1rem"
                     className="text-white group-hover:text-black"
                   />
-                </motion.button>
+                </button>
               </Link>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
+        <div
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.8 }}
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
@@ -221,13 +199,8 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
-                <motion.button
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{
-                    duration: "2",
-                    delay: "0.2",
-                  }}
+                <button
+                
                   className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
                 >
                   Learn More
@@ -235,13 +208,13 @@ const Offer = () => {
                     size="1.1rem"
                     className="text-white group-hover:text-black"
                   />
-                </motion.button>
+                </button>
               </Link>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
+        {/* <motion.div
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.8 }}
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
@@ -284,7 +257,45 @@ const Offer = () => {
               </Link>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
+        <div
+         
+          className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
+          style={{
+            boxShadow:
+              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <figure className="px-4 pt-10">
+            <img
+              src="https://i.ibb.co/jzQ7JGv/Untitled-design-8.webp"
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">Web Development</h2>
+            <p>
+              Build user-centric websites using our unique web development
+              services' processes and our skilled team of developers and
+              designers.
+            </p>
+            <div className="card-actions card-actions flex justify-center items-center">
+              <Link to="/cricket">
+                <button
+                  
+                  className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
+                >
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
