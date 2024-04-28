@@ -47,7 +47,7 @@ import Schedule from "../pages/Schedule/Schedule";
             element:<About></About>
         },
         {
-            path:'/about',
+            path:'/sched',
             element:<Schedule></Schedule>
         },
 
