@@ -6,6 +6,7 @@ import Reviews from '../Reviews/Reviews';
 import Idea from '../Idea/Idea';
 import RecentArticle from '../RecentArticle/RecentArticle';
 import Banner from '../Banner/Banner';
+import ThreeD from '../ThreeD/ThreeD';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <RecentArticle></RecentArticle>
             <Reviews></Reviews>
             <FAQ></FAQ>
+            <ThreeD></ThreeD>
         </div>
     );
 };
