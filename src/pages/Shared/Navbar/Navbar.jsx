@@ -47,7 +47,7 @@ const Navbar = () => {
             Contact<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-white transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="group flex  cursor-pointer flex-col">
-          <button className="relative h-14 w-32 origin-top transform rounded border-2 border-sky-500 text-xl text-sky-500 before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-white hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">Schedulae a Call</button>
+          <button className="relative h-10 w-32 origin-top transform rounded border-2 border-sky-500 text-sm text-white before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-black hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">Schedulae a Call</button>
           </li>
         </ul>
         <div ref={dropDownMenuRef} onClick={() => setDropDownState(!dropDownState)} className="relative flex transition-transform md:hidden">
@@ -71,7 +71,7 @@ const Navbar = () => {
                 Contact
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-white ">
-              <button className="relative h-14 w-32 origin-top transform rounded border-2 border-sky-500 text-xl text-sky-500 before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-white hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">Schedulae a Call</button>
+              <button className="relative h-14 w-32 origin-top transform rounded border-2 border-stone-50 text-sm text-stone-50 before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-white hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">Schedulae a Call</button>
               </li>
             </ul>
           )}
