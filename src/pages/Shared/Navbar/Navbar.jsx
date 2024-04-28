@@ -67,6 +67,9 @@ const Navbar = () => {
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-white ">
                 Contact
               </li>
+              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-white ">
+              Schedulae a Call
+              </li>
             </ul>
           )}
         </div>
