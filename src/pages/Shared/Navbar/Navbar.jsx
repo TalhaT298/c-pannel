@@ -71,7 +71,7 @@ const Navbar = () => {
                 Contact
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-white ">
-              Schedulae a Call
+              <button className="relative h-14 w-32 origin-top transform rounded-lg border-2 border-sky-500 text-xl text-sky-500 before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-white hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">Schedulae a Call</button>
               </li>
             </ul>
           )}
