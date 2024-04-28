@@ -10,6 +10,7 @@ import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
 import CyberSecurity from "../pages/CyberSecurity/CyberSecurity";
 import Services from "../pages/Services/Services";
 import About from "../pages/About/About";
+import Schedule from "../pages/Schedule/Schedule";
 
   
   export const router = createBrowserRouter([
@@ -44,6 +45,10 @@ import About from "../pages/About/About";
         {
             path:'/about',
             element:<About></About>
+        },
+        {
+            path:'/about',
+            element:<Schedule></Schedule>
         },
 
       ]
