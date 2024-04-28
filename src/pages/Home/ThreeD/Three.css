@@ -99,5 +99,5 @@
     margin: 0;
     
     display: grid;
-    place-items: center;
+    /* place-items: center; */ 
   }
