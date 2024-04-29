@@ -21,6 +21,7 @@ const Schedule = () => {
                 src="https://calendly.com/tariquetalha6/oceancapp" 
                 width="100%"
                 height="600"
+                color=''
                 frameborder="0"></iframe>
             </div>
         </div>
