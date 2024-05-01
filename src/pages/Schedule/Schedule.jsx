@@ -18,7 +18,7 @@ const Schedule = () => {
                 <iframe 
                 
                 
-                src="https://calendly.com/tariquetalha6/oceancapp" 
+                src="https://calendly.com/oceancapp/30min" 
                 width="100%"
                 height="600"
                 color=''
