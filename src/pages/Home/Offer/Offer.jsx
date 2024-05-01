@@ -11,7 +11,7 @@ const Offer = () => {
   return (
     <div>
       <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
-        {/* <p className='text-yellow-600'>----{subHeading}---</p */}
+        {/* <p className='text-yellow-600'>----{subHeading}--</p */}
         <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
           Solution We Offer
         </h3>
