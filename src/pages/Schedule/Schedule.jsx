@@ -12,7 +12,7 @@ const Schedule = () => {
                 rootElement={document.getElementById("root")}
                 text="Click here to schedule!"
                 textColor="#ffffff"
-                color="#00a2ff"
+                color="#00a2ff
             /> */}
             <div>
                 <iframe 
