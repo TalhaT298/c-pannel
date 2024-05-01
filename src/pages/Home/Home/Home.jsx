@@ -7,6 +7,7 @@ import Idea from '../Idea/Idea';
 import RecentArticle from '../RecentArticle/RecentArticle';
 import Banner from '../Banner/Banner';
 import ThreeD from '../ThreeD/ThreeD';
+import Members from '../Members/Members';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Idea></Idea>
             <RecentArticle></RecentArticle>
             <Reviews></Reviews>
+            <Members></Members>
             <FAQ></FAQ>
             <ThreeD></ThreeD>
         </div>
