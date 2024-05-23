@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import FAQ from '../FAQ/FAQ';
 import Technology from '../Technology/Technology';
