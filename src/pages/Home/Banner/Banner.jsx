@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // import React from "react";
 
 // import { useState } from "react";
@@ -162,7 +163,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={banner} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
           <div>
-            <h1 className="text-5xl text-cyan-700 font-bold">
+            <h1 className="text-5xl text-cyan-600 font-bold">
             <Typewriter
             words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
             loop={50}
@@ -204,7 +205,7 @@ const Banner = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                class="inline-block w-8 h-8 stroke-current"
+                className="inline-block w-8 h-8 stroke-current"
                 color="black"
               >
                 <path
@@ -229,7 +230,7 @@ const Banner = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                class="inline-block w-8 h-8 stroke-current"
+                className="inline-block w-8 h-8 stroke-current"
                 color="black"
               >
                 <path
@@ -254,7 +255,7 @@ const Banner = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                class="inline-block w-8 h-8 stroke-current"
+                className="inline-block w-8 h-8 stroke-current"
                 color="black"
               >
                 <path
