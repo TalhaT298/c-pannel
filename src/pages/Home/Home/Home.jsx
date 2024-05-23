@@ -9,6 +9,7 @@ import RecentArticle from '../RecentArticle/RecentArticle';
 import Banner from '../Banner/Banner';
 import ThreeD from '../ThreeD/ThreeD';
 import Members from '../Members/Members';
+import Text from '../Text/Text';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Reviews></Reviews>
             <Members></Members>
             <FAQ></FAQ>
+            <Text></Text>
             <ThreeD></ThreeD>
         </div>
     );
