@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^11.0.20",
+    "framer-motion": "^11.2.6",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",
     "react-calendly": "^4.3.0",

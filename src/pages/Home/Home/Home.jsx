@@ -7,7 +7,7 @@ import Reviews from '../Reviews/Reviews';
 import Idea from '../Idea/Idea';
 import RecentArticle from '../RecentArticle/RecentArticle';
 import Banner from '../Banner/Banner';
-import ThreeD from '../ThreeD/ThreeD';
+// import ThreeD from '../ThreeD/ThreeD';
 import Members from '../Members/Members';
 import Text from '../Text/Text';
 
@@ -23,7 +23,7 @@ const Home = () => {
             <Members></Members>
             <FAQ></FAQ>
             <Text></Text>
-            <ThreeD></ThreeD>
+            {/* <ThreeD></ThreeD> */}
         </div>
     );
 };
