@@ -15,11 +15,11 @@ const Offer = () => {
     <div>
       <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-        <h3 className="text-4xl text-cyan-400 uppercase font-bold font-serif">
+        <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
           Solution We Offer
         </h3>
       </div>
-      <div className="h-1 w-80 bg-cyan-400 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
         <div
           // whileHover={{ scale: 1.05 }}

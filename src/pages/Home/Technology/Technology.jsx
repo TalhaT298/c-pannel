@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Marquee from "react-fast-marquee";
 import img1 from "../../../assets/react.svg";
@@ -24,13 +25,13 @@ const Technology = () => {
     <div className="py-8">
       <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
+        <h3 className="text-4xl text-cyan-500 uppercase  pt-4 font-bold font-serif">
           Technology We Used
         </h3>
       </div>
       {/* <div className="h-1 w-[800px] bg-white rounded flex justify-center items-center mx-auto my-auto"></div> */}
       {/* <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto animate-ping"></div> */}
-      <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-80 bg-cyan-400 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <Marquee className="my-5 ">
         {/* //130*130 */}
         <img

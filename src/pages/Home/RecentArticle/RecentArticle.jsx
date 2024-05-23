@@ -7,11 +7,11 @@ const RecentArticle = () => {
     <div>
       <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
+        <h3 className="text-4xl text-cyan-500 uppercase  pt-4 font-bold font-serif">
           recent articles
         </h3>
       </div>
-      <div className="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <section className="text-white body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="-my-8 divide-y-2 divide-gray-100">

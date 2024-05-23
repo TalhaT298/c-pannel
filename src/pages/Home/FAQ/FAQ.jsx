@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 
 const FAQ = () => {
@@ -47,17 +48,17 @@ const FAQ = () => {
         <div  className="py-8">
             <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl text-white uppercase  pt-4 font-bold font-serif">
+          <h3 className="text-4xl text-cyan-500 uppercase  pt-4 font-bold font-serif">
             FAQ
           </h3>
           
         </div>
-        <div className="h-1 w-80 mb-8 bg-white rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div className="h-1 w-80 mb-8 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <div className="rounded-lg font-sans">
           {accordionsData.map((PerAccordion, idx) => (
             <div
               key={idx}
-              className="border-b border-gray-500 last-of-type:border-none"
+              className="border-b border-cyan-500 last-of-type:border-none"
             >
               <button
                 onClick={() => toggle(idx)}
@@ -68,7 +69,7 @@ const FAQ = () => {
                 </span>
                 <span className="rounded-full p-2 ">
                   <svg
-                    className="ml-8 mr-7 shrink-0 fill-white dark:fill-white"
+                    className="ml-8 mr-7 shrink-0 fill-white dark:white"
                     width="16"
                     height="16"
                     xmlns="http://www.w3.org/2000/svg"

@@ -163,7 +163,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={banner} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
           <div>
-            <h1 className="text-5xl text-cyan-400 font-bold">
+            <h1 className="text-5xl text-cyan-500 font-bold">
             <Typewriter
             words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
             loop={50}
