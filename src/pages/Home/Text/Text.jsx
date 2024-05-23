@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const Text = () => {
   const constraintsRef = useRef(null);
+  const names = ["Drag me 1", "Drag me 2", "Drag me 3", "Drag me 4", "Drag me 5","Drag me 5"];
 
   return (
     <div>
@@ -17,22 +18,28 @@ const Text = () => {
           overflow: "hidden"
         }}
       >
-        <motion.div
-          drag
-          dragConstraints={constraintsRef}
-          style={{
-            width: 100,
-            height: 100,
-            backgroundColor: "#ffcc00",
-            borderRadius: 20,
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            position: "absolute",
-          }}
-        >
-          Drag me 
-        </motion.div>
+        {names.map((name, index) => (
+          <motion.div
+            key={index}
+            drag
+            dragConstraints={constraintsRef}
+            style={{
+              width: 100,
+              height: 100,
+              backgroundColor: "#ffcc00",
+              borderRadius: 20,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              position: "absolute",
+              top: `${index * 20 + 20}px`,
+              left: `${index * 20 + 20}px`,
+            }}
+          >
+            {name}
+          </motion.div>
+        ))}
+
       </motion.div>
     </div>
   );
