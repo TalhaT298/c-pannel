@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Text = () => {
   const constraintsRef = useRef(null);
-  const names = ["Drag me 1", "Drag me 2", "Drag me 3", "Drag me 4", "Drag me 5","Drag me 5"];
+  const names = ["Dragme 1", "Drag me 2", "Drag me 3", "Drag me 4", "Drag me 5","Drag me 5"];
 
   return (
     <div>
