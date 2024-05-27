@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Text = () => {
   const constraintsRef = useRef(null);
-  const names = ["Innovation", "Drag me 2", "Drag me 3", "Drag me 4", "Drag me 5","Drag me 5"];
+  const names = ["Innovation", "Excellence", "Creativity", "Passion", "Leadership","Commitment","Opportunity"];
 
   return (
     <div>
@@ -12,7 +12,7 @@ const Text = () => {
         ref={constraintsRef}
         style={{
           width: "100%",
-          height: "40vh",
+          height: "30vh",
           background: "#000000",
           position: "relative",
           overflow: "hidden"
@@ -25,15 +25,15 @@ const Text = () => {
             dragConstraints={constraintsRef}
             style={{
               width: 100,
-              height: 100,
-              backgroundColor: "#ffcc00",
+              height: 40,
+              backgroundColor: "#00ACC1",
               borderRadius: 20,
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
               position: "absolute",
               top: `${index * 20 + 20}px`,
-              left: `${index * 20 + 20}px`,
+              left: `${index * 60 + 40}px`,
             }}
           >
             {name}
