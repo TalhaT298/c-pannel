@@ -29,11 +29,11 @@ const Technology = () => {
         <h3 className="text-4xl text-cyan-500 uppercase  pt-4 font-bold font-serif">
         We Serve All Tech Stacks
         </h3>
-        <p>In today's competitive market, companies must develop their own software products to stay ahead.</p>
       </div>
       {/* <div className="h-1 w-[800px] bg-white rounded flex justify-center items-center mx-auto my-auto"></div> */}
       {/* <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto animate-ping"></div> */}
-      <div className="h-1 w-80 bg-cyan-400 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <p className=" flex justify-center items-center pb-8">In today's competitive market, companies must develop their own software products to stay ahead.</p>
+      <div className="h-1 w-[600px]  bg-cyan-400 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       {/* //130*130 */}
       {/* <Marquee className="my-5 " direction="right" speed={50}>
       
@@ -148,7 +148,7 @@ const Technology = () => {
           style={{ marginRight: "20px" }}
         />
       </Marquee> */}
-      <Marquee className="my-5"  direction="right" speed={50}>
+      <Marquee className="pt-16"  direction="right" speed={50}>
         <p className="text-4xl font-extrabold font-serif px-4">React</p>
         <p className="text-4xl font-extrabold font-serif px-4">Java</p>
         <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
