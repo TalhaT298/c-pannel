@@ -146,7 +146,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import banner from "../../../assets/banner.gif"
+import banner from "../../../assets/banner.png"
 import { Typewriter } from 'react-simple-typewriter'
 import CountUp from "react-countup";
 import { PiArrowRightLight } from "react-icons/pi";
