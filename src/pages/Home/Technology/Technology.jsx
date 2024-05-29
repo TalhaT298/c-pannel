@@ -28,6 +28,7 @@ const Technology = () => {
         <h3 className="text-4xl text-cyan-500 uppercase  pt-4 font-bold font-serif">
         We Serve All Tech Stacks
         </h3>
+        <p>In today's competitive market, companies must develop their own software products to stay ahead.</p>
       </div>
       {/* <div className="h-1 w-[800px] bg-white rounded flex justify-center items-center mx-auto my-auto"></div> */}
       {/* <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto animate-ping"></div> */}
