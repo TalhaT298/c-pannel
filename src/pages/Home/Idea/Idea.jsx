@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import idea from "../../../assets/idea.gif";
 import { Link } from "react-router-dom";
@@ -10,12 +12,12 @@ const Idea = () => {
     //   Have Any Project Idea
     //   </div>
     // </div>
-    <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-3/5 pt-6 lg:pl-20 lg:pt-24 pl-4 pr-4">
-        <h1 class="lg:text-4xl text-xl font-bold lg:pb-6 pb-3">
+    <div className="flex flex-col md:flex-row">
+      <div className="w-full md:w-3/5 pt-6 lg:pl-20 lg:pt-24 pl-4 pr-4">
+        <h1 className="lg:text-4xl text-xl font-bold lg:pb-6 pb-3">
           Have Any Project Idea
         </h1>
-        <p class="lg:text-lg text-base">
+        <p className="lg:text-lg text-base">
           Let's discuss your offshore project. We can help you with our skillful
           Global team. <br />
           You can schedule a free consultation.
@@ -28,8 +30,8 @@ const Idea = () => {
             />
           </button>
       </div>
-      <div class="w-full md:w-2/5 lg:pl-20 pl-4 pr-4">
-        <img src={idea} alt="Project Idea" class="w-full" />
+      <div className="w-full md:w-2/5 lg:pl-20 pl-4 pr-4">
+        <img src={idea} alt="Project Idea" className="w-full" />
       </div>
     </div>
   );
