@@ -2,24 +2,24 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Marquee from "react-fast-marquee";
-import img1 from "../../../assets/react.svg";
-import img2 from "../../../assets/vuejs.svg";
-import img3 from "../../../assets/python.svg";
-import img4 from "../../../assets/node-js.svg";
-import img5 from "../../../assets/mongodb.svg";
-import img6 from "../../../assets/javascript.svg";
-import img7 from "../../../assets/java.svg";
-import img8 from "../../../assets/go.svg";
-import img9 from "../../../assets/flutter.svg";
-import img10 from "../../../assets/redux.svg";
-import img11 from "../../../assets/typescript.svg";
-import img12 from "../../../assets/tailwind-css.svg";
-import img13 from "../../../assets/ruby.svg";
-import img14 from "../../../assets/npm.svg";
-import img15 from "../../../assets/firebase.svg";
-import img16 from "../../../assets/github.svg";
-import img17 from "../../../assets/aws.svg";
-import img18 from "../../../assets/laravel.svg";
+// import img1 from "../../../assets/react.svg";
+// import img2 from "../../../assets/vuejs.svg";
+// import img3 from "../../../assets/python.svg";
+// import img4 from "../../../assets/node-js.svg";
+// import img5 from "../../../assets/mongodb.svg";
+// import img6 from "../../../assets/javascript.svg";
+// import img7 from "../../../assets/java.svg";
+// import img8 from "../../../assets/go.svg";
+// import img9 from "../../../assets/flutter.svg";
+// import img10 from "../../../assets/redux.svg";
+// import img11 from "../../../assets/typescript.svg";
+// import img12 from "../../../assets/tailwind-css.svg";
+// import img13 from "../../../assets/ruby.svg";
+// import img14 from "../../../assets/npm.svg";
+// import img15 from "../../../assets/firebase.svg";
+// import img16 from "../../../assets/github.svg";
+// import img17 from "../../../assets/aws.svg";
+// import img18 from "../../../assets/laravel.svg";
 
 const Technology = () => {
   return (
