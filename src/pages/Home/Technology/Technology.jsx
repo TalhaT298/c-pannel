@@ -164,7 +164,7 @@ const Technology = () => {
         <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
         <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
         <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-        <p className="text-4xl font-extrabold font-serif px-4">OpenSource</p>
+        <p className="text-4xl font-extrabold font-serif px-4">OpnSource</p>
         <p className="text-4xl font-extrabold font-serif px-4">Reux</p>
       </Marquee>
       <Marquee className="my-5"  direction="left" speed={50}>
