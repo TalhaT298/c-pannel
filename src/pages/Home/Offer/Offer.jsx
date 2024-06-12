@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import { motion } from "framer-motion";
 import img1 from "../../../assets/Web_design (2).webp";
-import img2 from "../../../assets/Web_design (3).webp";
+import img2 from "../../../assets/Wordpress.jpg";
 import img3 from "../../../assets/Web_design (1).webp";
 import img4 from "../../../assets/Web_design (5).webp";
 import "./Offer.css";
@@ -29,7 +29,7 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="Shoes" className="rounded-xl" />
+            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">WordPress development</h2>
