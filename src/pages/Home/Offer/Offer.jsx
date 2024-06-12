@@ -9,7 +9,7 @@ import img1 from "../../../assets/Web_design (2).webp";
 import img2 from "../../../assets/Web_design (3).webp";
 import img3 from "../../../assets/Web_design (1).webp";
 import img4 from "../../../assets/Web_design (5).webp";
-
+import "./Offer.css"; 
 const Offer = () => {
   return (
     <div>
@@ -22,42 +22,37 @@ const Offer = () => {
       <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
        
-        <div
-          
-          className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
-          style={{
-            boxShadow:
-              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
-          }}
-        >
-          <figure className="px-4 pt-10">
-            <img
-              src={img2}
-              alt="Shoes"
-              className="rounded-xl"
-            />
-          </figure>
-          <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">WordPress development</h2>
-            <p>
-            Our skilled WordPress developers create custom, user-friendly, and SEO-optimized websites that are easy to manage and tailored to your needs.
-            </p>
-            <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/gameDevelopment">
-                <button
-                  
-                  className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
-                >
-                  Learn More
-                  <PiArrowRightLight
-                    size="1.1rem"
-                    className="text-white group-hover:text-black"
-                  />
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
+      <div
+  className="card bg-base-100 mx-4 mb-8 md:w-96 rounded custom-gradient"
+  style={{
+    boxShadow:
+      "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+  }}
+>
+  <figure className="px-4 pt-10">
+    <img src={img2} alt="Shoes" className="rounded-xl" />
+  </figure>
+  <div className="card-body text-center flex justify-center items-center">
+    <h2 className="card-title">WordPress development</h2>
+    <p>
+      Our skilled WordPress developers create custom, user-friendly, and
+      SEO-optimized websites that are easy to manage and tailored to your
+      needs.
+    </p>
+    <div className="card-actions card-actions flex justify-center items-center">
+      <Link to="/gameDevelopment">
+        <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+          Learn More
+          <PiArrowRightLight
+            size="1.1rem"
+            className="text-white group-hover:text-black"
+          />
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
 
         <div
           
