@@ -21,45 +21,7 @@ const Offer = () => {
       </div>
       <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
-        <div
-          // whileHover={{ scale: 1.05 }}
-          // whileTap={{ scale: 0.8 }}
-          className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
-          style={{
-            boxShadow:
-              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
-          }}
-        >
-          <figure className="px-4 pt-10">
-            <img
-              src={img1}
-              alt="Shoes"
-              className="rounded-xl"
-            />
-          </figure>
-          <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Web Design</h2>
-            <p>
-              Our skilled designers use their knowledge of industry standards
-              and best practices for app and online design to
-            </p>
-            <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/webdesign">
-                <button
-                  
-                  className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
-                >
-                  Learn More
-                  <PiArrowRightLight
-                    size="1.1rem"
-                    className="text-white group-hover:text-black"
-                  />
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-
+       
         <div
           
           className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
@@ -176,6 +138,47 @@ const Offer = () => {
           </div>
         </div>
 
+
+          {/* 2nd section */}
+          <div
+          // whileHover={{ scale: 1.05 }}
+          // whileTap={{ scale: 0.8 }}
+          className="card bg-base-100  mx-4 mb-8 md:w-96 rounded "
+          style={{
+            boxShadow:
+              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <figure className="px-4 pt-10">
+            <img
+              src={img1}
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">Web Design</h2>
+            <p>
+              Our skilled designers use their knowledge of industry standards
+              and best practices for app and online design to
+            </p>
+            <div className="card-actions card-actions flex justify-center items-center">
+              <Link to="/webdesign">
+                <button
+                  
+                  className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black"
+                >
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
         <div
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.8 }}
@@ -193,11 +196,9 @@ const Offer = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Web Development</h2>
+            <h2 className="card-title">Prompt Engineering</h2>
             <p>
-              We excel in graphic design, crafting visuals that elevate brands
-              and tell stories. Trust us to bring your vision to life with
-              creativity and precision.
+            Our proficient prompt engineers specialize in designing and optimizing AI prompts to enhance user interactions, ensuring precise, efficient, and meaningful responses tailored to your business needs
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
