@@ -277,11 +277,9 @@ const Offer = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Web Development</h2>
+            <h2 className="card-title">Graphics Design</h2>
             <p>
-              Build user-centric websites using our unique web development
-              services' processes and our skilled team of developers and
-              designers.
+            Our talented graphic designers craft visually compelling and innovative designs that effectively communicate your brand message, ensuring your visuals stand out and captivate your audience.
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
