@@ -76,10 +76,9 @@ const Offer = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Game Development</h2>
+            <h2 className="card-title">WordPress development</h2>
             <p>
-              Our game development studio develops games and designs plots
-              behind them through fruitful game art solutions.
+            Our skilled WordPress developers create custom, user-friendly, and SEO-optimized websites that are easy to manage and tailored to your needs.
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/gameDevelopment">
