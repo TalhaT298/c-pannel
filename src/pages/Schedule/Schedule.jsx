@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
 // import { PopupButton } from "react-calendly";
@@ -15,9 +16,10 @@ const Schedule = () => {
             /> */}
       <div >
         <iframe
-          src="https://calendly.com/oceancapp/30min"
+          src="https://calendly.com/oceancapp/30-minute-meeting"
           width="100%"
           height="600"
+          // eslint-disable-next-line react/no-unknown-property
           frameborder="0"
           id="calendlyFrame"
         ></iframe>
