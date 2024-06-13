@@ -5,7 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { FreeMode, Pagination } from "swiper/modules";
+import "swiper/css/autoplay";  // Import autoplay css
+import { FreeMode, Pagination, Autoplay } from "swiper/modules"; // Import the Autoplay module
 import { FaShareAlt } from "react-icons/fa";
 import { GiSelfLove } from "react-icons/gi";
 const RecentArticle = () => {
@@ -26,7 +27,11 @@ const RecentArticle = () => {
           pagination={{
             clickable: true,
           }}
-          modules={[FreeMode, Pagination]}
+          autoplay={{
+            delay: 5000, // 5 seconds delay
+            disableOnInteraction: false,
+          }}
+          modules={[FreeMode, Pagination, Autoplay]} // Add Autoplay module
           className="mySwiper"
         >
           <SwiperSlide>
