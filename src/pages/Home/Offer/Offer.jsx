@@ -129,7 +129,7 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img5} alt="Shoes" className="rounded-xl" />
+            <img src={img1} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Web Design</h2>
@@ -243,7 +243,7 @@ const Offer = () => {
         >
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/jzQ7JGv/Untitled-design-8.webp"
+              src={img5}
               alt="Shoes"
               className="rounded-xl"
             />
@@ -252,9 +252,10 @@ const Offer = () => {
             <h2 className="card-title">Graphics Design</h2>
             <p>
               Our talented graphic designers craft visually compelling and
-              innovative designs that effectively communicate your brand
+              innovative designs that effectively communicate...
+               {/* your brand
               message, ensuring your visuals stand out and captivate your
-              audience.
+              audience. */}
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
