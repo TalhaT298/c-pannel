@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import { motion } from "framer-motion";
 import img1 from "../../../assets/Web_design (2).webp";
-import img2 from "../../../assets/Wordpress.jpg";
-import img6 from "../../../assets/prompt.jpg";
+import img2 from "../../../assets/word.png";
+import img6 from "../../../assets/Promt.png";
 import img3 from "../../../assets/Web_design (1).webp";
 import img4 from "../../../assets/Web_design (5).webp";
 import "./Offer.css";
@@ -169,10 +169,11 @@ const Offer = () => {
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Prompt Engineering</h2>
             <p>
-              Our proficient prompt engineers specialize in designing and
+              Our proficient prompt engineers specialize in 
               optimizing AI prompts to enhance user interactions, ensuring
-              precise, efficient, and meaningful responses tailored to your
-              business needs
+              precise, efficient,... 
+              {/* and meaningful responses tailored to your
+              business needs */}
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
