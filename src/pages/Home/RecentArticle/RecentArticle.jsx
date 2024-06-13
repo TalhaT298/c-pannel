@@ -31,7 +31,7 @@ const RecentArticle = () => {
             delay: 5000, // 5 seconds delay
             disableOnInteraction: false,
           }}
-          modules={[FreeMode, Pagination, Autoplay]} // Add Autoplay module
+          modules={[FreeMode, Pagination, Autoplay]} 
           className="mySwiper"
         >
           <SwiperSlide>
