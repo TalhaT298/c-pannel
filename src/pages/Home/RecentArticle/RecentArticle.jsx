@@ -143,7 +143,7 @@ const RecentArticle = () => {
               </div>
             </div>
           </SwiperSlide>
-          {/* pat2 ---------------------------*/}
+          {/* pat2 --------------------------*/}
           <SwiperSlide>
             {" "}
             <div className=" mx-auto my-6 max-w-[350px] rounded-lg bg-white font-sans shadow-lg dark:bg-[#18181B]">
