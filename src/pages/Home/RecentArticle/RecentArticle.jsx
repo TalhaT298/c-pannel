@@ -231,7 +231,7 @@ const RecentArticle = () => {
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    10k
+                    16.4k
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -245,7 +245,7 @@ const RecentArticle = () => {
                     <FaShareAlt  className="" style={{ fontSize: '20px' }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    34
+                    295
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
