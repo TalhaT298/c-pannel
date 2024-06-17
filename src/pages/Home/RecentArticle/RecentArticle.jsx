@@ -10,7 +10,9 @@ import "swiper/css/autoplay";  // Import autoplay css
 import { FreeMode, Pagination, Autoplay } from "swiper/modules"; // Import the Autoplay module
 import { FaShareAlt } from "react-icons/fa";
 import { GiSelfLove } from "react-icons/gi";
-import Ruij from "../../../assets/Ruij.jpg"
+import Ruij from "../../../assets/Ruij.jpg";
+import ar21 from "../../../assets/2.1.webp";
+import ar22 from "../../../assets/2.2.webp";
 const RecentArticle = () => {
   return (
     <div>
@@ -178,7 +180,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src="https://source.unsplash.com/400x200/?arts"
+                    src={ar21}
                     alt="card navigate ui"
                   />
                 </div>
@@ -187,7 +189,7 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/201x201/?arts"
+                    src={ar22}
                     alt="card navigate ui"
                   />
                   <img
