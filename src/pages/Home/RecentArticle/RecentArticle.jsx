@@ -13,6 +13,8 @@ import { GiSelfLove } from "react-icons/gi";
 import Ruij from "../../../assets/Ruij.jpg";
 import ar21 from "../../../assets/2.1.webp";
 import ar22 from "../../../assets/2.2.webp";
+import ar23 from "../../../assets/Screenshot_122.png";
+import { Link } from "react-router-dom";
 const RecentArticle = () => {
   return (
     <div>
@@ -23,7 +25,7 @@ const RecentArticle = () => {
         </h3>
       </div>
       <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-      <div className="mx-auto md:w-8/12 my-4">
+      <div className="mx-auto md:w-10/12 my-4">
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -196,7 +198,7 @@ const RecentArticle = () => {
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/202x202/?arts"
+                    src={ar23}
                     alt="card navigate ui"
                   />
                 </div>
@@ -210,7 +212,7 @@ const RecentArticle = () => {
                 My name is Benoit. I have been a software engineer for the past eight and a half years.....
                  {/* I stayed at my previous (and first) company for seven and a half years, then I joined a new one in early 2022....{" "} */}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    See more
+                    <Link to="https://medium.com/better-programming/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55">See more</Link>
                   </span>
                 </h2>
               </div>
