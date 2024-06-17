@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
 
@@ -9,6 +10,7 @@ import "swiper/css/autoplay";  // Import autoplay css
 import { FreeMode, Pagination, Autoplay } from "swiper/modules"; // Import the Autoplay module
 import { FaShareAlt } from "react-icons/fa";
 import { GiSelfLove } from "react-icons/gi";
+import Ruij from "../../../assets/Ruij.jpg"
 const RecentArticle = () => {
   return (
     <div>
@@ -154,12 +156,12 @@ const RecentArticle = () => {
                     width={100}
                     height={100}
                     className="h-16 w-16 rounded-full bg-black/40"
-                    src="https://source.unsplash.com/100x100/?portrait"
+                    src={Ruij}
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
-                    <h2 className="text-xl font-semibold">Yoan Lee</h2>
-                    <p className="text-gray-400">2 days ago</p>
+                    <h2 className="text-xl font-semibold">Ruiz</h2>
+                    <p className="text-gray-400">Mar 14,2023</p>
                   </div>
                 </div>
                 {/* Setting button */}
@@ -200,11 +202,11 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                  My new paintings
+                8-Year Engineer's Advice
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                  Hey, I captured some picture recently. You can check it and
-                  share you thoughts with me. I want to listen your thoughts...{" "}
+                My name is Benoit. I have been a software engineer for the past eight and a half years.....
+                 {/* I stayed at my previous (and first) company for seven and a half years, then I joined a new one in early 2022....{" "} */}
                   <span className="cursor-pointer text-[#3e96d4]">
                     See more
                   </span>
