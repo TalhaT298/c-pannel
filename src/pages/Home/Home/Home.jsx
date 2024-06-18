@@ -10,12 +10,14 @@ import Banner from '../Banner/Banner';
 // import ThreeD from '../ThreeD/ThreeD';
 import Members from '../Members/Members';
 import Text from '../Text/Text';
+import Something from '../Something/Something';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
             <Offer></Offer>
+            <Something></Something>
             <Technology></Technology>
             <Idea></Idea>
             <RecentArticle></RecentArticle>
