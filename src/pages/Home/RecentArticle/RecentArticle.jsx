@@ -320,8 +320,7 @@ const RecentArticle = () => {
                 Image text in 5 lines
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                  Hey, I captured some picture recently. You can check it and
-                  share you thoughts with me. I want to listen your thoughts...{" "}
+                Share an incredible CSS trick that you can achieve with just five lines of code. This technique will make your ..{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
                     See more
                   </span>
