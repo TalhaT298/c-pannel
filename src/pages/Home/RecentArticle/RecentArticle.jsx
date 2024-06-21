@@ -59,7 +59,7 @@ const RecentArticle = () => {
                   />
                   <div className="flex flex-col">
                     <h2 className="text-xl font-semibold">Ayesha</h2>
-                    <p className="text-gray-400">2 days ago</p>
+                    <p className="text-gray-400">June 22,2024</p>
                   </div>
                 </div>
                 {/* Setting button */}
