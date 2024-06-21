@@ -275,8 +275,8 @@ const RecentArticle = () => {
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
-                    <h2 className="text-xl font-semibold">Yoan Lee</h2>
-                    <p className="text-gray-400">2 days ago</p>
+                    <h2 className="text-xl font-semibold">Talha</h2>
+                    <p className="text-gray-400">June 14,24</p>
                   </div>
                 </div>
                 {/* Setting button */}
@@ -317,7 +317,7 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                  My new paintings
+                Image text in 5 lines
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
                   Hey, I captured some picture recently. You can check it and
