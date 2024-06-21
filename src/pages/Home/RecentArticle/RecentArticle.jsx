@@ -13,7 +13,10 @@ import { GiSelfLove } from "react-icons/gi";
 import Ruij from "../../../assets/Ruij.jpg";
 import ar21 from "../../../assets/2.1.webp";
 import ar22 from "../../../assets/2.2.webp";
+import ar24 from "../../../assets/a213.jpg";
+import ar25 from "../../../assets/a212.jpg";
 import ar23 from "../../../assets/Screenshot_122.png";
+import a26 from "../../../assets/Screenshot_158.png";
 import Talha from "../../../assets/talha.png";
 import { Link } from "react-router-dom";
 const RecentArticle = () => {
@@ -294,7 +297,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src="https://source.unsplash.com/400x200/?arts"
+                    src={ar24}
                     alt="card navigate ui"
                   />
                 </div>
@@ -303,14 +306,14 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/201x201/?arts"
+                    src={ar25}
                     alt="card navigate ui"
                   />
                   <img
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/202x202/?arts"
+                    src={a26}
                     alt="card navigate ui"
                   />
                 </div>
