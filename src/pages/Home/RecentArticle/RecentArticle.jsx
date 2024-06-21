@@ -14,6 +14,7 @@ import Ruij from "../../../assets/Ruij.jpg";
 import ar21 from "../../../assets/2.1.webp";
 import ar22 from "../../../assets/2.2.webp";
 import ar23 from "../../../assets/Screenshot_122.png";
+import Talha from "../../../assets/talha.png";
 import { Link } from "react-router-dom";
 const RecentArticle = () => {
   return (
@@ -271,7 +272,7 @@ const RecentArticle = () => {
                     width={100}
                     height={100}
                     className="h-16 w-16 rounded-full bg-black/40"
-                    src="https://source.unsplash.com/100x100/?portrait"
+                    src={Talha}
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
