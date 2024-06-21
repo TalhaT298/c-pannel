@@ -44,7 +44,7 @@ const RecentArticle = () => {
             {" "}
             <div className=" mx-auto my-6 max-w-[350px] rounded-lg bg-white font-sans shadow-lg dark:bg-[#18181B]">
               <div className="flex items-center justify-between gap-10 px-4 py-4">
-                {/* Avatar image  */}
+                {/* Avata image  */}
                 <div className="flex items-center gap-3">
                   <img
                     width={100}
