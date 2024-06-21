@@ -277,7 +277,7 @@ const RecentArticle = () => {
                   />
                   <div className="flex flex-col">
                     <h2 className="text-xl font-semibold">Talha</h2>
-                    <p className="text-gray-400">June 14,24</p>
+                    <p className="text-gray-400">June 14,2024</p>
                   </div>
                 </div>
                 {/* Setting button */}
