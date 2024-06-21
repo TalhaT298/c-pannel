@@ -326,7 +326,7 @@ const RecentArticle = () => {
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
                 Share an incredible CSS trick that you can achieve with just five lines of code. This technique will make your ..{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    See more
+                    <Link to="https://www.facebook.com/share/p/AJCjcF8o58wRycpA/">See more</Link>
                   </span>
                 </h2>
               </div>
