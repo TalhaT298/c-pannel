@@ -1,7 +1,7 @@
 .custom-gradient {
     border-width: 5px;
     border-style: solid;
-    border-image: linear-gradient(to right, #00bcd4, #061d20);
+    border-image: linear-gradient(to right, #14b0c5, #061d20);
     border-image-slice: 1;
     transition: border-image 0.3s ease-in-out;
   }
