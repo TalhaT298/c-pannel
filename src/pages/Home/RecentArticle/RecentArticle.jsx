@@ -439,7 +439,7 @@ const RecentArticle = () => {
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
                 The evolution of cybersecurity has been a dynamic journey, reflecting the rapid advancements in technology...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    See more
+                    <Link to="https://www.linkedin.com/posts/oceancapp_oceancapp-infosec-cybersecurity-activity-7211395572593786880-r8X4?utm_source=share&utm_medium=member_desktop">See more</Link>
                   </span>
                 </h2>
               </div>
