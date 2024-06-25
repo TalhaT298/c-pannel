@@ -388,7 +388,7 @@ const RecentArticle = () => {
                     width={100}
                     height={100}
                     className="h-16 w-16 rounded-full bg-black/40"
-                    src="https://source.unsplash.com/100x100/?portrait"
+                    src={Efad}
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
@@ -410,7 +410,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src="https://source.unsplash.com/400x200/?arts"
+                    src={ar32}
                     alt="card navigate ui"
                   />
                 </div>
@@ -419,14 +419,14 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/201x201/?arts"
+                    src={ar31}
                     alt="card navigate ui"
                   />
                   <img
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/202x202/?arts"
+                    src={ar33}
                     alt="card navigate ui"
                   />
                 </div>
@@ -434,11 +434,10 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                  My new paintings
+                Cybersecurity:A Quick History
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                  Hey, I captured some picture recently. You can check it and
-                  share you thoughts with me. I want to listen your thoughts...{" "}
+                The evolution of cybersecurity has been a dynamic journey, reflecting the rapid advancements in technology...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
                     See more
                   </span>
