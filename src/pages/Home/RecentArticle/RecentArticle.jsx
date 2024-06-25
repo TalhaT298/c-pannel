@@ -17,7 +17,7 @@ import ar24 from "../../../assets/a213.jpg";
 import ar25 from "../../../assets/a212.jpg";
 import ar27 from "../../../assets/nlp-working.webp";
 import ar28 from "../../../assets/nj.jpg";
-import ar29 from "../../../assets/S0xzd_mbh4_221223.jpg";
+import ar29 from "../../../assets/0xzd_mbh4_221223.jpg";
 import ar23 from "../../../assets/Screenshot_122.png";
 import a26 from "../../../assets/Screenshot_158.png";
 import Talha from "../../../assets/talha.png";
@@ -107,7 +107,7 @@ const RecentArticle = () => {
                 NLP and Emotion Tech
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                In a world where machines decode human emotions through text and create empathetic responses, Natural Language Processing (NLP) is ...{" "}
+                In a world where machines decode human emotions through text and create empathetic responses,NLP is ...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
                     <Link to="https://www.facebook.com/share/p/X7VKHV5Vy2U3ZWmA/">See more</Link>
                   </span>
