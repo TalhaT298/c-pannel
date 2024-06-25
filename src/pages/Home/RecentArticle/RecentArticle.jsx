@@ -109,7 +109,7 @@ const RecentArticle = () => {
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
                 In a world where machines decode human emotions through text and create empathetic responses, Natural Language Processing (NLP) is ...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    See more
+                    <Link to="">See more</Link>
                   </span>
                 </h2>
               </div>
