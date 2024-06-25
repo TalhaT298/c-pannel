@@ -392,8 +392,8 @@ const RecentArticle = () => {
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
-                    <h2 className="text-xl font-semibold">Yoan Lee</h2>
-                    <p className="text-gray-400">2 days ago</p>
+                    <h2 className="text-xl font-semibold">Efad</h2>
+                    <p className="text-gray-400">June 25,2024</p>
                   </div>
                 </div>
                 {/* Setting button */}
