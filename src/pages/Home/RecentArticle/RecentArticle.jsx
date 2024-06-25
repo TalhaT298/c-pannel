@@ -20,8 +20,12 @@ import ar28 from "../../../assets/nj.jpg";
 import ar29 from "../../../assets/0xzd_mbh4_221223.jpg";
 import ar23 from "../../../assets/Screenshot_122.png";
 import a26 from "../../../assets/Screenshot_158.png";
+import ar32 from "../../../assets/Screenshot_177.png";
+import ar31 from "../../../assets/Screenshot_178.png";
+import ar33 from "../../../assets/Screenshot_179.png";
 import Talha from "../../../assets/talha.png";
 import Anika from "../../../assets/pro1.png";
+import Efad from "../../../assets/ea.png";
 import { Link } from "react-router-dom";
 const RecentArticle = () => {
   return (
