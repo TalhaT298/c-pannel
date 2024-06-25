@@ -15,6 +15,7 @@ import ar21 from "../../../assets/2.1.webp";
 import ar22 from "../../../assets/2.2.webp";
 import ar24 from "../../../assets/a213.jpg";
 import ar25 from "../../../assets/a212.jpg";
+import ar27 from "../../../assets/nlp-working.webp";
 import ar23 from "../../../assets/Screenshot_122.png";
 import a26 from "../../../assets/Screenshot_158.png";
 import Talha from "../../../assets/talha.png";
