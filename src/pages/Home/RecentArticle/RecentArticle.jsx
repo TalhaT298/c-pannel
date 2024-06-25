@@ -16,9 +16,12 @@ import ar22 from "../../../assets/2.2.webp";
 import ar24 from "../../../assets/a213.jpg";
 import ar25 from "../../../assets/a212.jpg";
 import ar27 from "../../../assets/nlp-working.webp";
+import ar28 from "../../../assets/nj.jpg";
+import ar29 from "../../../assets/S0xzd_mbh4_221223.jpg";
 import ar23 from "../../../assets/Screenshot_122.png";
 import a26 from "../../../assets/Screenshot_158.png";
 import Talha from "../../../assets/talha.png";
+import Anika from "../../../assets/pro1.png";
 import { Link } from "react-router-dom";
 const RecentArticle = () => {
   return (
@@ -55,7 +58,7 @@ const RecentArticle = () => {
                     width={100}
                     height={100}
                     className="h-16 w-16 rounded-full bg-black/40"
-                    src="https://source.unsplash.com/100x100/?portrait"
+                    src={Anika}
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
@@ -77,7 +80,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src="https://source.unsplash.com/400x200/?arts"
+                    src={ar29}
                     alt="card navigate ui"
                   />
                 </div>
@@ -86,14 +89,14 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/201x201/?arts"
+                    src={ar27}
                     alt="card navigate ui"
                   />
                   <img
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src="https://source.unsplash.com/202x202/?arts"
+                    src={ar28}
                     alt="card navigate ui"
                   />
                 </div>
@@ -101,7 +104,7 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                  My new paintings
+                NLP and Emotion Tech
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
                   Hey, I captured some picture recently. You can check it and
