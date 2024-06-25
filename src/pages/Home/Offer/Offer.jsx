@@ -177,7 +177,7 @@ const Offer = () => {
               business needs */}
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/cricket">
+              <Link to="/prompt">
                 <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
                   Learn More
                   <PiArrowRightLight
@@ -258,7 +258,7 @@ const Offer = () => {
               audience. */}
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
-              <Link to="/cricket">
+              <Link to="/graphics">
                 <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
                   Learn More
                   <PiArrowRightLight

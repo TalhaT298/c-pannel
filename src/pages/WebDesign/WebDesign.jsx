@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 
 const WebDesign = () => {
     return (
-        <Link to="/webdesign">
+        <>
+        <Link to="/webdesign"></Link>
         <div>
             this is web design
         </div>
-        </Link>
+        </>
+        
     );
 };
 
