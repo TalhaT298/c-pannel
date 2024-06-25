@@ -165,18 +165,18 @@ const RecentArticle = () => {
             {" "}
             <div className=" mx-auto my-6 max-w-[350px] rounded-lg bg-white font-sans shadow-lg dark:bg-[#18181B]">
               <div className="flex items-center justify-between gap-10 px-4 py-4">
-            
+                {/* Avatar image  */}
                 <div className="flex items-center gap-3">
                   <img
                     width={100}
                     height={100}
                     className="h-16 w-16 rounded-full bg-black/40"
-                    src={Ruij}
+                    src={Efad}
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
-                    <h2 className="text-xl font-semibold">Ruiz</h2>
-                    <p className="text-gray-400">Mar 14,2023</p>
+                    <h2 className="text-xl font-semibold">Efad</h2>
+                    <p className="text-gray-400">June 25,2024</p>
                   </div>
                 </div>
                 {/* Setting button */}
@@ -193,7 +193,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src={ar21}
+                    src={ar32}
                     alt="card navigate ui"
                   />
                 </div>
@@ -202,14 +202,14 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src={ar22}
+                    src={ar31}
                     alt="card navigate ui"
                   />
                   <img
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src={ar23}
+                    src={ar33}
                     alt="card navigate ui"
                   />
                 </div>
@@ -217,13 +217,12 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                8-Year Engineer's Advice
+                Cybersecurity:A Quick History
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                My name is Benoit. I have been a software engineer for the past eight and a half years.....
-                 {/* I stayed at my previous (and first) company for seven and a half years, then I joined a new one in early 2022....{" "} */}
+                The evolution of cybersecurity has been a dynamic journey, reflecting the rapid advancements in technology...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://medium.com/better-programming/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55">See more</Link>
+                    <Link to="https://www.linkedin.com/posts/oceancapp_oceancapp-infosec-cybersecurity-activity-7211395572593786880-r8X4?utm_source=share&utm_medium=member_desktop">See more</Link>
                   </span>
                 </h2>
               </div>
@@ -246,7 +245,7 @@ const RecentArticle = () => {
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    16.4k
+                    10k
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -260,7 +259,7 @@ const RecentArticle = () => {
                     <FaShareAlt  className="" style={{ fontSize: '20px' }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    295
+                    34
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -386,18 +385,18 @@ const RecentArticle = () => {
             {" "}
             <div className=" mx-auto my-6 max-w-[350px] rounded-lg bg-white font-sans shadow-lg dark:bg-[#18181B]">
               <div className="flex items-center justify-between gap-10 px-4 py-4">
-                {/* Avatar image  */}
+            
                 <div className="flex items-center gap-3">
                   <img
                     width={100}
                     height={100}
                     className="h-16 w-16 rounded-full bg-black/40"
-                    src={Efad}
+                    src={Ruij}
                     alt="card navigate ui"
                   />
                   <div className="flex flex-col">
-                    <h2 className="text-xl font-semibold">Efad</h2>
-                    <p className="text-gray-400">June 25,2024</p>
+                    <h2 className="text-xl font-semibold">Ruiz</h2>
+                    <p className="text-gray-400">Mar 14,2023</p>
                   </div>
                 </div>
                 {/* Setting button */}
@@ -414,7 +413,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src={ar32}
+                    src={ar21}
                     alt="card navigate ui"
                   />
                 </div>
@@ -423,14 +422,14 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src={ar31}
+                    src={ar22}
                     alt="card navigate ui"
                   />
                   <img
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src={ar33}
+                    src={ar23}
                     alt="card navigate ui"
                   />
                 </div>
@@ -438,12 +437,13 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                Cybersecurity:A Quick History
+                8-Year Engineer's Advice
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                The evolution of cybersecurity has been a dynamic journey, reflecting the rapid advancements in technology...{" "}
+                My name is Benoit. I have been a software engineer for the past eight and a half years.....
+                 {/* I stayed at my previous (and first) company for seven and a half years, then I joined a new one in early 2022....{" "} */}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://www.linkedin.com/posts/oceancapp_oceancapp-infosec-cybersecurity-activity-7211395572593786880-r8X4?utm_source=share&utm_medium=member_desktop">See more</Link>
+                    <Link to="https://medium.com/better-programming/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55">See more</Link>
                   </span>
                 </h2>
               </div>
@@ -466,7 +466,7 @@ const RecentArticle = () => {
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    10k
+                    16.4k
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -480,7 +480,7 @@ const RecentArticle = () => {
                     <FaShareAlt  className="" style={{ fontSize: '20px' }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    34
+                    295
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
