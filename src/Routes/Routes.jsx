@@ -11,6 +11,8 @@ import CyberSecurity from "../pages/CyberSecurity/CyberSecurity";
 import Services from "../pages/Services/Services";
 import About from "../pages/About/About";
 import Schedule from "../pages/Schedule/Schedule";
+import GraphicsDesign from "../pages/GraphicsDesign/GraphicsDesign";
+import PromptEngineering from "../pages/PromptEngineering/PromptEngineering";
 
   
   export const router = createBrowserRouter([
@@ -49,6 +51,14 @@ import Schedule from "../pages/Schedule/Schedule";
         {
             path:'/sched',
             element:<Schedule></Schedule>
+        },
+        {
+            path:'/graphics',
+            element:<GraphicsDesign></GraphicsDesign>
+        },
+        {
+            path:'/prompt',
+            element:<PromptEngineering></PromptEngineering>
         },
 
       ]
