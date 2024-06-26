@@ -14,27 +14,27 @@ const Delivered = () => {
         <div className="w-full text-white p-4">
         {/* <h1 className="text-2xl font-bold">delivered most services</h1> */}
           <ul>
-            <li className="flex items-center justify-center md:justify-end text-lg mb-2">
+            <li className="flex items-center justify-center md:justify-end text-xl mb-2">
               <span className="w-3 h-3 bg-blue-400 rounded-full mr-2"></span>
               Web Development
             </li>
-            <li className="flex items-center justify-center md:justify-end text-lg mb-2">
+            <li className="flex items-center justify-center md:justify-end text-xl mb-2">
               <span className="w-3 h-3 bg-orange-400 rounded-full mr-2"></span>
               Cyber Security
             </li>
-            <li className="flex items-center justify-center md:justify-end text-lg mb-2">
+            <li className="flex items-center justify-center md:justify-end text-xl mb-2">
               <span className="w-3 h-3 bg-purple-400 rounded-full mr-2"></span>
               WordPress development
             </li>
-            <li className="flex items-center justify-center md:justify-end text-lg mb-2">
+            <li className="flex items-center justify-center md:justify-end text-xl mb-2">
               <span className="w-3 h-3 bg-pink-400 rounded-full mr-2"></span>
               Graphics Design
             </li>
-            <li className="flex items-center justify-center md:justify-end text-lg mb-2">
+            <li className="flex items-center justify-center md:justify-end text-xl mb-2">
               <span className="w-3 h-3 bg-green-400 rounded-full mr-2"></span>
               Web Design
             </li>
-            <li className="flex items-center justify-center md:justify-end text-lg">
+            <li className="flex items-center justify-center md:justify-end text-xl">
               <span className="w-3 h-3 bg-red-400 rounded-full mr-2"></span>
               Prompt Engineering
             </li>
