@@ -23,6 +23,9 @@ import a26 from "../../../assets/Screenshot_158.png";
 import ar32 from "../../../assets/Screenshot_177.png";
 import ar31 from "../../../assets/Screenshot_178.png";
 import ar33 from "../../../assets/Screenshot_179.png";
+import ar42 from "../../../assets/2.png";
+import ar41 from "../../../assets/code1.png";
+import ar43 from "../../../assets/code4.png";
 import Talha from "../../../assets/talha.png";
 import Anika from "../../../assets/pro1.png";
 import Efad from "../../../assets/ea.png";
@@ -524,7 +527,7 @@ const RecentArticle = () => {
                     width={400}
                     height={200}
                     className="h-[150px] w-full bg-black/40"
-                    src={ar24}
+                    src={ar42}
                     alt="card navigate ui"
                   />
                 </div>
@@ -533,14 +536,14 @@ const RecentArticle = () => {
                     width={201}
                     height={201}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src={ar25}
+                    src={ar41}
                     alt="card navigate ui"
                   />
                   <img
                     width={202}
                     height={202}
                     className="h-[150px] w-[49.5%] bg-black/40"
-                    src={a26}
+                    src={ar43}
                     alt="card navigate ui"
                   />
                 </div>
