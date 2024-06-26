@@ -551,7 +551,7 @@ const RecentArticle = () => {
                 Animations with CSS & SVG
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                Share an incredible CSS trick that you can achieve with just five lines of code. This technique will make your ..{" "}
+                Web animations can significantly enhance user experience by adding a layer of interactivity and visual appeal ...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
                     <Link to="https://medium.com/@talhatarique/designing-stunning-and-efficient-web-animations-with-css-and-svg-dac338c22dbd">See more</Link>
                   </span>
