@@ -11,6 +11,7 @@ import Banner from '../Banner/Banner';
 import Members from '../Members/Members';
 import Text from '../Text/Text';
 import Something from '../Something/Something';
+import Delivered from '../Delivered/Delivered';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <Idea></Idea>
             <RecentArticle></RecentArticle>
             <Reviews></Reviews>
+            <Delivered></Delivered>
             <Members></Members>
             <FAQ></FAQ>
             <Text></Text>
