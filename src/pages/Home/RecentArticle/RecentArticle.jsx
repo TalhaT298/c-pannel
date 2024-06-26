@@ -491,7 +491,116 @@ const RecentArticle = () => {
             </div>
           </SwiperSlide>
           {/* part4end ---------------------------------------------------------------------------------------*/}
-          <SwiperSlide>Slide 4</SwiperSlide>
+          {/* Path5strat------------------------------------------------------------------------------------- */}
+          <SwiperSlide>
+            {" "}
+            <div className=" mx-auto my-6 max-w-[350px] rounded-lg bg-white font-sans shadow-lg dark:bg-[#18181B]">
+              <div className="flex items-center justify-between gap-10 px-4 py-4">
+                {/* Avatar image  */}
+                <div className="flex items-center gap-3">
+                  <img
+                    width={100}
+                    height={100}
+                    className="h-16 w-16 rounded-full bg-black/40"
+                    src={Talha}
+                    alt="card navigate ui"
+                  />
+                  <div className="flex flex-col">
+                    <h2 className="text-xl font-semibold">Talha</h2>
+                    <p className="text-gray-400">June 14,2024</p>
+                  </div>
+                </div>
+                {/* Setting button */}
+                <div className="flex cursor-pointer flex-col gap-2 rounded-full px-4 py-3">
+                  <span className="size-[3px] rounded-full bg-gray-600"></span>
+                  <span className="size-[3px] rounded-full bg-gray-600"></span>
+                  <span className="size-[3px] rounded-full bg-gray-600"></span>
+                </div>
+              </div>
+              {/* Post Image */}
+              <div className="flex flex-col gap-1">
+                <div className="w-full">
+                  <img
+                    width={400}
+                    height={200}
+                    className="h-[150px] w-full bg-black/40"
+                    src={ar24}
+                    alt="card navigate ui"
+                  />
+                </div>
+                <div className="flex gap-1 overflow-hidden">
+                  <img
+                    width={201}
+                    height={201}
+                    className="h-[150px] w-[49.5%] bg-black/40"
+                    src={ar25}
+                    alt="card navigate ui"
+                  />
+                  <img
+                    width={202}
+                    height={202}
+                    className="h-[150px] w-[49.5%] bg-black/40"
+                    src={a26}
+                    alt="card navigate ui"
+                  />
+                </div>
+              </div>
+              {/* Post content */}
+              <div className="mt-3 space-y-2 px-4">
+                <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
+                Image text in 5 lines
+                </h2>
+                <h2 className="text-sm text-gray-500 dark:text-white/50">
+                Share an incredible CSS trick that you can achieve with just five lines of code. This technique will make your ..{" "}
+                  <span className="cursor-pointer text-[#3e96d4]">
+                    <Link to="https://www.facebook.com/share/p/AJCjcF8o58wRycpA/">See more</Link>
+                  </span>
+                </h2>
+              </div>
+              {/* icons */}
+              <div className="mt-4 flex justify-between px-4 pb-4">
+                <div className="flex items-center gap-2">
+                  <svg
+                    className="w-6 fill-[#1E293B] dark:fill-white/90"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g strokeWidth="0"></g>
+                    <g
+                      id="navigateui"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    ></g>
+                    <g id="navigateui">
+                    <GiSelfLove className="" style={{ fontSize: '26px' }}/>
+                    </g>
+                  </svg>
+                  <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
+                    10k
+                  </h2>
+                </div>
+                <div className="flex items-center gap-2">
+                  <svg
+                    className="fill-[#1E293B] dark:fill-white/90"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="22"
+                    viewBox="0 0 21 22"
+                  >
+                    <FaShareAlt  className="" style={{ fontSize: '20px' }} />
+                  </svg>
+                  <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
+                    34
+                  </h2>
+                </div>
+                <div className="flex items-center gap-2">
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          {/* Path5end ------------------------------------------------------------------------------------- */}
           
           
         </Swiper>
