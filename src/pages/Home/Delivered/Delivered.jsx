@@ -15,28 +15,28 @@ const Delivered = () => {
         {/* <h1 className="text-2xl font-bold">delivered most services</h1> */}
           <ul>
             <li className="flex items-center justify-center md:justify-end text-lg mb-2">
-              <span className="w-3 h-3 bg-yellow-400 rounded-full mr-2"></span>
-              Play-to-earn: 53.8%
+              <span className="w-3 h-3 bg-blue-400 rounded-full mr-2"></span>
+              Web Development
             </li>
             <li className="flex items-center justify-center md:justify-end text-lg mb-2">
-              <span className="w-3 h-3 bg-green-400 rounded-full mr-2"></span>
-              Presale: 23.7%
+              <span className="w-3 h-3 bg-orange-400 rounded-full mr-2"></span>
+              Cyber Security
             </li>
             <li className="flex items-center justify-center md:justify-end text-lg mb-2">
               <span className="w-3 h-3 bg-purple-400 rounded-full mr-2"></span>
-              Team: 10%
+              WordPress development
             </li>
             <li className="flex items-center justify-center md:justify-end text-lg mb-2">
               <span className="w-3 h-3 bg-pink-400 rounded-full mr-2"></span>
-              Marketing & Partnership: 8%
+              Graphics Design
             </li>
             <li className="flex items-center justify-center md:justify-end text-lg mb-2">
-              <span className="w-3 h-3 bg-blue-400 rounded-full mr-2"></span>
-              Liquidity Pools: 2.5%
+              <span className="w-3 h-3 bg-green-400 rounded-full mr-2"></span>
+              Web Design
             </li>
             <li className="flex items-center justify-center md:justify-end text-lg">
               <span className="w-3 h-3 bg-red-400 rounded-full mr-2"></span>
-              Airdrop: 2%
+              Prompt Engineering
             </li>
           </ul>
         </div>
