@@ -10,7 +10,9 @@ const Delivered = () => {
       </div>
       {/* right div */}
       <div className="w-full md:w-1/2 flex justify-center items-center mt-4 md:mt-0 md:mr-40">
+      
         <div className="w-full text-white p-4">
+        {/* <h1 className="text-2xl font-bold">delivered most services</h1> */}
           <ul>
             <li className="flex items-center justify-center md:justify-end text-lg mb-2">
               <span className="w-3 h-3 bg-yellow-400 rounded-full mr-2"></span>
