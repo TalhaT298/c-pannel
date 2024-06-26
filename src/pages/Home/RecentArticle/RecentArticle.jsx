@@ -507,7 +507,7 @@ const RecentArticle = () => {
                   />
                   <div className="flex flex-col">
                     <h2 className="text-xl font-semibold">Talha</h2>
-                    <p className="text-gray-400">June 14,2024</p>
+                    <p className="text-gray-400">June 27,2024</p>
                   </div>
                 </div>
                 {/* Setting button */}
@@ -548,12 +548,12 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                Image text in 5 lines
+                Animations with CSS & SVG
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
                 Share an incredible CSS trick that you can achieve with just five lines of code. This technique will make your ..{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://www.facebook.com/share/p/AJCjcF8o58wRycpA/">See more</Link>
+                    <Link to="https://medium.com/@talhatarique/designing-stunning-and-efficient-web-animations-with-css-and-svg-dac338c22dbd">See more</Link>
                   </span>
                 </h2>
               </div>
