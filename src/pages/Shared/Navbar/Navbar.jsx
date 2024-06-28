@@ -44,9 +44,11 @@ const Navbar = () => {
             About<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-white transition-all duration-300 group-hover:w-full"></span>
           </li>
           </Link>
+          <Link to="/contact">
           <li className="group flex  cursor-pointer flex-col">
             Contact<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-white transition-all duration-300 group-hover:w-full"></span>
           </li>
+          </Link>
           <li className="group flex  cursor-pointer flex-col">
           <Link to="/sched">
           <button className="relative h-10 w-32 origin-top transform rounded border-2 border-sky-500 text-sm text-white before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-black hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">Schedulae a Call</button>
