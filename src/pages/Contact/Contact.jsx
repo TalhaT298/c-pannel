@@ -54,6 +54,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {/* prlin */}
+      <div>
+    
+      </div>
     </div>
   );
 };
