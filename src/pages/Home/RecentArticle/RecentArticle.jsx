@@ -548,7 +548,7 @@ const RecentArticle = () => {
                   />
                 </div>
               </div>
-              {/* Post content */}
+              {/* Post conten */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
                 Animations with CSS & SVG
