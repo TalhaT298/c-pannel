@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
-
+import './Contact.css';
 const Contact = () => {
   return (
     <div>
@@ -55,8 +55,10 @@ const Contact = () => {
         </div>
       </div>
       {/* prlin */}
-      <div>
-    
+      <div >
+      <div id="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
       </div>
     </div>
   );
