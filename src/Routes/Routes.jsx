@@ -13,6 +13,7 @@ import About from "../pages/About/About";
 import Schedule from "../pages/Schedule/Schedule";
 import GraphicsDesign from "../pages/GraphicsDesign/GraphicsDesign";
 import PromptEngineering from "../pages/PromptEngineering/PromptEngineering";
+import Contact from "../pages/Contact/Contact";
 
   
   export const router = createBrowserRouter([
@@ -59,6 +60,10 @@ import PromptEngineering from "../pages/PromptEngineering/PromptEngineering";
         {
             path:'/prompt',
             element:<PromptEngineering></PromptEngineering>
+        },
+        {
+            path:'/contact',
+            element:<Contact></Contact>
         },
 
       ]
