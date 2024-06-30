@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
@@ -56,9 +57,7 @@ const Contact = () => {
       </div>
       {/* prlin */}
       <div >
-      <div id="chart-container">
-        <canvas id="myChart"></canvas>
-    </div>
+      
       </div>
     </div>
   );
