@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/* prlin */}
+      {/* prlin*/}
       <div >
       
       </div>
