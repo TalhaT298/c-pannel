@@ -105,6 +105,132 @@ const Career = () => {
                 </a>
                 </Link>
             </div>
+            {/* 2S */}
+            <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <Link to="">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
+                    Apply Now
+                </a>
+                </Link>
+            </div>
+            {/* 2E */}
+            {/* 3S */}
+            <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <Link to="">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
+                    Apply Now
+                </a>
+                </Link>
+            </div>
+            {/* 3E */}
+            {/* 4S */}
+            <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <Link to="">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
+                    Apply Now
+                </a>
+                </Link>
+            </div>
+            {/* 4E */}
+            {/* 5S */}
+            <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <Link to="">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
+                    Apply Now
+                </a>
+                </Link>
+            </div>
+            {/* 55 */}
+            {/* 6S */}
+            <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <Link to="">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
+                    Apply Now
+                </a>
+                </Link>
+            </div>
+            {/* 65 */}
+            {/* 7S */}
+            <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <Link to="">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
+                    Apply Now
+                </a>
+                </Link>
+            </div>
+            {/* 7E */}
         </div>
     </div>
         {/* 3rd phase end*/}
