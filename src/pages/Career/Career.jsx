@@ -99,7 +99,8 @@ const Career = () => {
                         2+ Years Exp.
                     </div>
                 </div>
-                <a href="#" className="bg-purple-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-purple-600 transition duration-300">
+                <a  href="#"
+                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
                     Apply Now
                 </a>
             </div>
