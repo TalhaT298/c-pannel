@@ -10,7 +10,7 @@ const Career = () => {
       <div>
         {/* 1st phase */}
         <div>
-          <div className="h-screen flex items-center justify-center">
+          <div className="flex items-center justify-center">
             <div className="container mx-auto px-4 py-8 flex items-center justify-center">
               <div className="flex flex-col md:flex-row items-center justify-between">
                 <div className="w-full md:w-1/4 p-4">
