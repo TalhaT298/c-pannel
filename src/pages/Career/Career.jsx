@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import efad from "../../assets/efad.png";
-import sadman from "../../assets/sadman.png";
+import sadman from "../../assets/Sadman.webp";
 const Career = () => {
   return (
     <>
