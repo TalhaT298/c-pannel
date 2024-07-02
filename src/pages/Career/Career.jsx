@@ -53,16 +53,32 @@ const Career = () => {
         {/* 1st phase enddddddd*/}
         {/* 2nd phase start */}
         <div>
-        <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
-        {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-        <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
-          Why Join US
-        </h3>
-      </div>
-      <p className="flex justify-center items-center mb-4">OceanCapp is a top-tier IT company that offers premium solutions using the latest technology stacks.</p>
-      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
+            {/* <p className='text-yellow-600'>----{subHeading}--</p */}
+            <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
+              Why Join US
+            </h3>
+          </div>
+          <p className="flex justify-center items-center mb-4">
+            OceanCapp is a top-tier IT company that offers premium solutions
+            using the latest technology stacks.
+          </p>
+          <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         </div>
+        <div className="flex items-center justify-center">
+          <div className="container mx-auto px-4 py-8">
+            <div className="flex items-center justify-between w-full">
+              <div className="w-40 p-4 bg-blue-200">Left Side (40%)</div>
+              <div className="w-30 p-4 bg-green-200">Middle Side (30%)</div>
+              <div className="w-30 p-4 bg-red-200">Right Side (30%)</div>
+            </div>
+          </div>
+        </div>
+
         {/* 2nd phase end */}
+        {/* 3rd phase start*/}
+        <div className=""></div>
+        {/* 3rd phase end*/}
       </div>
     </>
   );
