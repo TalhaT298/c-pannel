@@ -89,9 +89,7 @@ const Career = () => {
                 <div>
                     <h2 className="text-2xl font-semibold mb-2">Senior Content Strategist</h2>
                     <div className="text-gray-500 flex items-center mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-2.293-6.707a1 1 0 011.414 0L10 12.586l.879-.879a1 1 0 011.415 1.415l-1.5 1.5a1 1 0 01-1.414 0l-2-2a1 1 0 010-1.414z" clip-rule="evenodd" />
-                        </svg>
+                    <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
                     </div>
                     <div className="text-gray-500 flex items-center">
