@@ -72,7 +72,9 @@ const Career = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between w-full">
               <div className="w-40 p-4 bg-blue-200">Left Side (40%)</div>
-              <div className="w-30 p-4 bg-green-200">Middle Side (30%)</div>
+              <div className="w-30 p-4 bg-green-200">
+                Middle Side (30%)
+                </div>
               <div className="w-30 p-4 bg-red-200">Right Side (30%)</div>
             </div>
           </div>
@@ -108,7 +110,7 @@ const Career = () => {
             {/* 2S */}
             <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Digital Marketing Executive (SEO)</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
@@ -129,7 +131,7 @@ const Career = () => {
             {/* 3S */}
             <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior React.Js Developer</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
@@ -150,7 +152,7 @@ const Career = () => {
             {/* 4S */}
             <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Assistant Manager (Digital Marketing)</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
@@ -171,7 +173,7 @@ const Career = () => {
             {/* 5S */}
             <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Full Stack Developer</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
@@ -192,7 +194,7 @@ const Career = () => {
             {/* 6S */}
             <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Flutter Developer</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
@@ -213,7 +215,7 @@ const Career = () => {
             {/* 7S */}
             <div className="bg-white p-6 my-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">MERN Stack Developer</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
