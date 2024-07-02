@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import efad from "../../assets/efad.png";
 import sadman from "../../assets/Sadman.webp";
 import { FaLocationDot } from "react-icons/fa6";
+import { RiExpandLeftRightLine } from "react-icons/ri";
 const Career = () => {
   return (
     <>
@@ -85,24 +86,24 @@ const Career = () => {
             <p className="text-white mb-8">
             Don't let a lack of personnel hinder your progress. Enhance your team's capabilities and meet your business goals through superior IT Staff Augmentation.
             </p>
-            <div className="bg-purple-50 p-6 rounded-lg flex items-center justify-between">
+            <div className="bg-white p-6 rounded-lg flex items-center justify-between">
                 <div>
-                    <h2 className="text-2xl font-semibold mb-2">Senior Content Strategist</h2>
+                    <h2 className="text-2xl font-semibold text-black mb-2">Senior Content Strategist</h2>
                     <div className="text-gray-500 flex items-center mb-2">
                     <FaLocationDot className="h-5 w-5 mr-2 text-cyan-500" />
                         Dhaka, Bangladesh
                     </div>
                     <div className="text-gray-500 flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v1H2V5zm2 2h12v6a2 2 0 01-2 2H6a2 2 0 01-2-2V7zm3 5a1 1 0 112 0 1 1 0 01-2 0zm3 0a1 1 0 112 0 1 1 0 01-2 0zm3 0a1 1 0 112 0 1 1 0 01-2 0z" clip-rule="evenodd" />
-                        </svg>
+                    <RiExpandLeftRightLine className="h-7 w-5 mr-2 text-cyan-500" />
                         2+ Years Exp.
                     </div>
                 </div>
+                <Link to="">
                 <a  href="#"
                       className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500">
                     Apply Now
                 </a>
+                </Link>
             </div>
         </div>
     </div>
