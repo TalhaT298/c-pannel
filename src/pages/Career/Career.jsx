@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import efad from "../../assets/efad.png";
 import sadman from "../../assets/Sadman.webp";
+import { FaLocationDot } from "react-icons/fa6";
 const Career = () => {
   return (
     <>
