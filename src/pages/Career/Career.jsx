@@ -51,6 +51,18 @@ const Career = () => {
           </div>
         </div>
         {/* 1st phase enddddddd*/}
+        {/* 2nd phase start */}
+        <div>
+        <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
+        {/* <p className='text-yellow-600'>----{subHeading}--</p */}
+        <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
+          Why Join US
+        </h3>
+      </div>
+      <p className="flex justify-center items-center mb-4">OceanCapp is a top-tier IT company that offers premium solutions using the latest technology stacks.</p>
+      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        </div>
+        {/* 2nd phase end */}
       </div>
     </>
   );
