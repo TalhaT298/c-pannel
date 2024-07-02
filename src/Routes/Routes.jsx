@@ -14,6 +14,7 @@ import Schedule from "../pages/Schedule/Schedule";
 import GraphicsDesign from "../pages/GraphicsDesign/GraphicsDesign";
 import PromptEngineering from "../pages/PromptEngineering/PromptEngineering";
 import Contact from "../pages/Contact/Contact";
+import Career from "../pages/Career/Career";
 
   
   export const router = createBrowserRouter([
@@ -64,6 +65,10 @@ import Contact from "../pages/Contact/Contact";
         {
             path:'/contact',
             element:<Contact></Contact>
+        },
+        {
+            path:'/career',
+            element:<Career></Career>
         },
 
       ]
