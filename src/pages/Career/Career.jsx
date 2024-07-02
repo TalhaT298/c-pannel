@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
@@ -77,7 +78,34 @@ const Career = () => {
 
         {/* 2nd phase end */}
         {/* 3rd phase start*/}
-        <div className=""></div>
+        <div className="container mx-auto p-6">
+        <div className="shadow-md rounded-lg p-8">
+            <h1 className="text-4xl text-cyan-500 font-bold mb-4">Open Position</h1>
+            <p className="text-white mb-8">
+            Don't let a lack of personnel hinder your progress. Enhance your team's capabilities and meet your business goals through superior IT Staff Augmentation.
+            </p>
+            <div className="bg-purple-50 p-6 rounded-lg flex items-center justify-between">
+                <div>
+                    <h2 className="text-2xl font-semibold mb-2">Senior Content Strategist</h2>
+                    <div className="text-gray-500 flex items-center mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-2.293-6.707a1 1 0 011.414 0L10 12.586l.879-.879a1 1 0 011.415 1.415l-1.5 1.5a1 1 0 01-1.414 0l-2-2a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                        Dhaka, Bangladesh
+                    </div>
+                    <div className="text-gray-500 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v1H2V5zm2 2h12v6a2 2 0 01-2 2H6a2 2 0 01-2-2V7zm3 5a1 1 0 112 0 1 1 0 01-2 0zm3 0a1 1 0 112 0 1 1 0 01-2 0zm3 0a1 1 0 112 0 1 1 0 01-2 0z" clip-rule="evenodd" />
+                        </svg>
+                        2+ Years Exp.
+                    </div>
+                </div>
+                <a href="#" className="bg-purple-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-purple-600 transition duration-300">
+                    Apply Now
+                </a>
+            </div>
+        </div>
+    </div>
         {/* 3rd phase end*/}
       </div>
     </>
