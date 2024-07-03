@@ -75,18 +75,18 @@ const Career = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between w-full">
               <div className="w-40 p-4 bg-blue-200">Left Side (40%)</div>
-              <div className="w-30 p-4 bg-green-200">
-              <div className="flex justify-center items-center">
-              <LiaIndustrySolid className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl text-bold">Top-tier IT Development Company</p>
+              <div className="w-30 p-4 bg-green-200 flex flex-col gap-y-6">
+              <div className="flex justify-center items-center ">
+              <LiaIndustrySolid className="text-white w-8 h-8 "/>
+              <p className="text-white text-2xl font-bold pl-4">Top-tier IT Development Company</p>
               </div>
               <div className="flex justify-start items-start">
               <IoMdTimer className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl text-bold">Flexible Work-Hours</p>
+              <p className="text-white text-2xl font-bold pl-4">Flexible Work-Hours</p>
               </div>
               <div className="flex justify-start items-start">
               <FaWarehouse className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl text-bold">Revolutionary Software Culture</p>
+              <p className="text-white text-2xl font-bold pl-4">Revolutionary Software Culture</p>
               </div>
                 </div>
               <div className="w-30 p-4 bg-red-200">Right Side (30%)</div>
