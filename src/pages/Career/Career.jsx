@@ -12,6 +12,7 @@ import { GiGiftOfKnowledge } from "react-icons/gi";
 import { IoGameControllerOutline } from "react-icons/io5";
 import { IoMdTimer } from "react-icons/io";
 import { FaWarehouse } from "react-icons/fa";
+import { IoGitCompare } from "react-icons/io5";
 const Career = () => {
   return (
     <>
@@ -105,7 +106,7 @@ const Career = () => {
               <p className="text-white text-2xl font-bold pl-4">Knowledge Sharing</p>
               </div>
               <div className="flex justify-start items-start">
-              <FaWarehouse className="text-white w-8 h-8"/>
+              <IoGitCompare className="text-white w-8 h-8"/>
               <p className="text-white text-2xl font-bold pl-4">Competitive Remuneration</p>
               </div>
                 </div>
