@@ -3,7 +3,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Contact.css';
+import { getAuth } from "firebase/auth";
+import app from "../../firebase/firebase.init";
 const Contact = () => {
+  const auth =getAuth(app)
   return (
     <div>
       <Link to="/contact"></Link>
