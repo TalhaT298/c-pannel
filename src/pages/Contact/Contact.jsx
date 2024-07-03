@@ -8,6 +8,7 @@ import app from "../../firebase/firebase.init";
 
 const Contact = () => {
   const auth =getAuth(app);
+  console.log(app);
   const provider = new GoogleAuthProvider();
 
   const handleGooglrSignIn=()=>{
