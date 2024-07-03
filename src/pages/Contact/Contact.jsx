@@ -3,10 +3,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Contact.css';
-import { getAuth } from "firebase/auth";
+import { GoogleAuthProvider, getAuth } from "firebase/auth";
 import app from "../../firebase/firebase.init";
+
 const Contact = () => {
-  const auth =getAuth(app)
+  const auth =getAuth(app);
+  const provider = new GoogleAuthProvider
   return (
     <div>
       <Link to="/contact"></Link>
