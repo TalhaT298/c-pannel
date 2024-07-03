@@ -4,9 +4,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import efad from "../../assets/efad.png";
 import sadman from "../../assets/Sadman.webp";
+import employee from "../../assets/employee.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { RiExpandLeftRightLine } from "react-icons/ri";
 import { LiaIndustrySolid } from "react-icons/lia";
+import { GiGiftOfKnowledge } from "react-icons/gi";
+import { IoGameControllerOutline } from "react-icons/io5";
 import { IoMdTimer } from "react-icons/io";
 import { FaWarehouse } from "react-icons/fa";
 const Career = () => {
@@ -74,11 +77,13 @@ const Career = () => {
         <div className="flex items-center justify-center">
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between w-full">
-              <div className="w-40 p-4 bg-blue-200">Left Side (40%)</div>
-              <div className="w-30 p-4 bg-green-200 flex flex-col gap-y-6">
-              <div className="flex justify-center items-center ">
-              <LiaIndustrySolid className="text-white w-8 h-8 "/>
-              <p className="text-white text-2xl font-bold pl-4">Top-tier IT Development Company</p>
+              <div className="  ">
+                <img src={employee} className="rounded-tr-[80px] rounded-bl-[80px]" alt="" />
+              </div>
+              <div className="w-30 p-4  flex flex-col gap-y-6">
+              <div className="flex justify-start items-start">
+              <LiaIndustrySolid className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl font-bold pl-4"> IT Development</p>
               </div>
               <div className="flex justify-start items-start">
               <IoMdTimer className="text-white w-8 h-8"/>
@@ -86,10 +91,24 @@ const Career = () => {
               </div>
               <div className="flex justify-start items-start">
               <FaWarehouse className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4">Revolutionary Software Culture</p>
+              <p className="text-white text-2xl font-bold pl-4">Revolutionary Culture</p>
               </div>
                 </div>
-              <div className="w-30 p-4 bg-red-200">Right Side (30%)</div>
+              {/* right side */}
+              <div className="w-30 p-4  flex flex-col gap-y-6">
+              <div className="flex justify-start items-start">
+              <GiGiftOfKnowledge className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl font-bold pl-4">Game Zone</p>
+              </div>
+              <div className="flex justify-start items-start">
+              <IoGameControllerOutline className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl font-bold pl-4">Knowledge Sharing</p>
+              </div>
+              <div className="flex justify-start items-start">
+              <FaWarehouse className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl font-bold pl-4">Competitive Remuneration</p>
+              </div>
+                </div>
             </div>
           </div>
         </div>
