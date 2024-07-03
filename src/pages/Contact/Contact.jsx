@@ -3,16 +3,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Contact.css';
-import { GoogleAuthProvider, getAuth } from "firebase/auth";
+import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import app from "../../firebase/firebase.init";
 
 const Contact = () => {
   const auth =getAuth(app);
-  const provider = new GoogleAuthProvider
+  const provider = new GoogleAuthProvider();
+
+  const handleGooglrSignIn=()=>{
+    signInWithPopup(auth,provider)
+    .then(result =>{
+      const user = result.user;
+      console.log(user);
+    })
+    .catch(error =>{
+      console.log('error',error.message)
+    })
+  }
   return (
     <div>
       <Link to="/contact"></Link>
       <div>
+        <div>
+          <button onClick={handleGooglrSignIn}>Google login</button>
+        </div>
         <div className="hero bg-base-200 min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center w-1/2 lg:text-left">
