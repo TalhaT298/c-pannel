@@ -78,10 +78,10 @@ const Career = () => {
         <div className="flex items-center justify-center">
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between w-full">
-              <div className="  ">
+              <div className="w-[500px]">
                 <img src={employee} className="rounded-tr-[80px] rounded-bl-[80px]" alt="" />
               </div>
-              <div className="w-30 p-4  flex flex-col gap-y-6">
+              <div className="w-30 p-4  flex flex-col gap-y-16">
               <div className="flex justify-start items-start">
               <LiaIndustrySolid className="text-white w-8 h-8"/>
               <p className="text-white text-2xl font-bold pl-4"> IT Development</p>
@@ -96,13 +96,13 @@ const Career = () => {
               </div>
                 </div>
               {/* right side */}
-              <div className="w-30 p-4  flex flex-col gap-y-6">
+              <div className="w-30 p-4  flex flex-col gap-y-16">
               <div className="flex justify-start items-start">
-              <GiGiftOfKnowledge className="text-white w-8 h-8"/>
+              <IoGameControllerOutline  className="text-white w-8 h-8"/>
               <p className="text-white text-2xl font-bold pl-4">Game Zone</p>
               </div>
               <div className="flex justify-start items-start">
-              <IoGameControllerOutline className="text-white w-8 h-8"/>
+              <GiGiftOfKnowledge className="text-white w-8 h-8"/>
               <p className="text-white text-2xl font-bold pl-4">Knowledge Sharing</p>
               </div>
               <div className="flex justify-start items-start">
