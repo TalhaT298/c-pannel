@@ -6,6 +6,9 @@ import efad from "../../assets/efad.png";
 import sadman from "../../assets/Sadman.webp";
 import { FaLocationDot } from "react-icons/fa6";
 import { RiExpandLeftRightLine } from "react-icons/ri";
+import { LiaIndustrySolid } from "react-icons/lia";
+import { IoMdTimer } from "react-icons/io";
+import { FaWarehouse } from "react-icons/fa";
 const Career = () => {
   return (
     <>
@@ -73,7 +76,18 @@ const Career = () => {
             <div className="flex items-center justify-between w-full">
               <div className="w-40 p-4 bg-blue-200">Left Side (40%)</div>
               <div className="w-30 p-4 bg-green-200">
-                Middle Side (30%)
+              <div className="flex justify-center items-center">
+              <LiaIndustrySolid className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl text-bold">Top-tier IT Development Company</p>
+              </div>
+              <div className="flex justify-start items-start">
+              <IoMdTimer className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl text-bold">Flexible Work-Hours</p>
+              </div>
+              <div className="flex justify-start items-start">
+              <FaWarehouse className="text-white w-8 h-8"/>
+              <p className="text-white text-2xl text-bold">Revolutionary Software Culture</p>
+              </div>
                 </div>
               <div className="w-30 p-4 bg-red-200">Right Side (30%)</div>
             </div>
