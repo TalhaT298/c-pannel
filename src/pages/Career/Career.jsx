@@ -43,7 +43,7 @@ const Career = () => {
                     </p>
                     <a
                       href="#"
-                      className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
+                      className="inline-block bg-cyan-600 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                     >
                       Explore Job Openings &rarr;
                     </a>
