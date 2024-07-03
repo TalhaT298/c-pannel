@@ -76,43 +76,43 @@ const Career = () => {
           <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="container mx-auto px-4 py-8">
-            <div className="flex items-center justify-between w-full">
-              <div className="w-[500px]">
-                <img src={employee} className="rounded-tr-[80px] rounded-bl-[80px]" alt="" />
-              </div>
-              <div className="w-30 p-4  flex flex-col gap-y-16">
-              <div className="flex justify-start items-start">
-              <LiaIndustrySolid className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4"> IT Development</p>
-              </div>
-              <div className="flex justify-start items-start">
-              <IoMdTimer className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4">Flexible Work-Hours</p>
-              </div>
-              <div className="flex justify-start items-start">
-              <FaWarehouse className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4">Revolutionary Culture</p>
-              </div>
-                </div>
-              {/* right side */}
-              <div className="w-30 p-4  flex flex-col gap-y-16">
-              <div className="flex justify-start items-start">
-              <IoGameControllerOutline  className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4">Game Zone</p>
-              </div>
-              <div className="flex justify-start items-start">
-              <GiGiftOfKnowledge className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4">Knowledge Sharing</p>
-              </div>
-              <div className="flex justify-start items-start">
-              <IoGitCompare className="text-white w-8 h-8"/>
-              <p className="text-white text-2xl font-bold pl-4">Competitive Remuneration</p>
-              </div>
-                </div>
-            </div>
-          </div>
+  <div className="container mx-auto px-4 py-8">
+    <div className="flex flex-col lg:flex-row items-center justify-between w-full">
+      <div className="w-full lg:w-[500px] mb-8 lg:mb-0">
+        <img src={employee} className="rounded-tr-[80px] rounded-bl-[80px] w-full" alt="Employee" />
+      </div>
+      <div className="w-full lg:w-1/3 p-4 flex flex-col gap-y-16">
+        <div className="flex justify-start items-start">
+          <LiaIndustrySolid className="text-cyan-500 w-8 h-8"/>
+          <p className="text-white text-2xl font-bold pl-4">IT Development</p>
         </div>
+        <div className="flex justify-start items-start">
+          <IoMdTimer className="text-white w-8 h-8"/>
+          <p className="text-white text-2xl font-bold pl-4">Flexible Work-Hours</p>
+        </div>
+        <div className="flex justify-start items-start">
+          <FaWarehouse className="text-white w-8 h-8"/>
+          <p className="text-white text-2xl font-bold pl-4">Revolutionary Culture</p>
+        </div>
+      </div>
+      <div className="w-full lg:w-1/3 p-4 flex flex-col gap-y-16">
+        <div className="flex justify-start items-start">
+          <IoGameControllerOutline className="text-white w-8 h-8"/>
+          <p className="text-white text-2xl font-bold pl-4">Game Zone</p>
+        </div>
+        <div className="flex justify-start items-start">
+          <GiGiftOfKnowledge className="text-white w-8 h-8"/>
+          <p className="text-white text-2xl font-bold pl-4">Knowledge Sharing</p>
+        </div>
+        <div className="flex justify-start items-start">
+          <IoGitCompare className="text-white w-8 h-8"/>
+          <p className="text-white text-2xl font-bold pl-4">Competitive Remuneration</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         {/* 2nd phase end */}
         {/* 3rd phase start*/}
