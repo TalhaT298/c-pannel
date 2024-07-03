@@ -22,13 +22,19 @@ const Idea = () => {
           Global team. <br />
           You can schedule a free consultation.
         </p>
-        <button className="btn btn-outline text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
-            Get Started
-            <PiArrowRightLight
-              size="1.4rem"
-              className="text-white group-hover:text-white"
-            />
-          </button>
+        <button className=" text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
+          {/* Get Started
+          <PiArrowRightLight
+            size="1.4rem"
+            className="text-white group-hover:text-white"
+          /> */}
+          <a
+            href="#"
+            className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
+          >
+             Get Started &rarr;
+          </a>
+        </button>
       </div>
       <div className="w-full md:w-2/5 lg:pl-20 pl-4 pr-4">
         <img src={idea} alt="Project Idea" className="w-full" />
