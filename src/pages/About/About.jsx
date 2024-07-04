@@ -6,7 +6,8 @@ import background from "../../assets/back.png";
 const About = () => {
   return (
     <>
-      <Link to="about">
+      <Link to="/about"></Link>
+      {/* 1st phase done */}
         <div className="relative w-full h-full">
           <img
             src={background}
@@ -18,7 +19,26 @@ const About = () => {
             Your text goes here
           </div>
         </div>
-      </Link>
+      {/* 1st phase done finish*/}
+      {/* 2nd phase start */}
+      <div className="flex">
+        <div className="w-1/2">
+        
+        <p>Innovative Solutions, Unmatched Quality</p>
+        <p>Expert Developers, Exceptional Results</p>
+        <p>Agile Strategies, Seamless Execution</p>
+        <p>Client-Centric Approach, Unwavering Support</p>
+        <p>Timely Delivery, Guaranteed Satisfaction</p>
+        <p>Cutting-Edge Technology, Future-Proof Solutions</p>
+        <p>Collaborative Partnership, Shared Success</p>
+        <p>Proven Expertise, Trusted Excellence</p>
+        
+        </div>
+        <div className="w-1/2">
+        <img src="" alt="" />
+        </div>
+      </div>
+      {/* 2nd phase finish */}
     </>
   );
 };
