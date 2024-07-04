@@ -11,6 +11,10 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import Aysha from "../../assets/pro1.png"
+import Efad from "../../assets/ea.png"
+import Sadman from "../../assets/Sadman.webp"
+import dip from "../../assets/dip.jpg"
 const About = () => {
   return (
     <>
@@ -89,7 +93,7 @@ const About = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
-              src=""
+              src={Aysha}
               alt="content"
             ></img>
             <h3 className=" text-black text-xs font-medium title-font">
@@ -146,7 +150,7 @@ const About = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
-              src=""
+              src={Efad}
               alt="content"
             ></img>
             <h3 className="tracking-widest text-black text-xs font-medium title-font">
@@ -201,7 +205,7 @@ const About = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
-              src=""
+              src={Sadman}
               alt="content"
             ></img>
             <h3 className="tracking-widest text-black text-xs font-medium title-font">
@@ -256,14 +260,14 @@ const About = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
-              src=""
+              src={dip}
               alt="content"
             ></img>
             <h3 className="tracking-widest text-black text-xs font-medium title-font">
-              Lecturer,B.Sc. in CSE(RU)
+              Game Developer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-              Kanij Rabeya Nancy
+            Taksimul Hasan Dip 
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
