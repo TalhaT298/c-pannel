@@ -3,6 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import background from "../../assets/back.png";
 import tal from "../../assets/tal.png";
+import { FaAngleDoubleRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
@@ -24,14 +27,14 @@ const About = () => {
       <div className="flex py-16 px-8">
         <div className="w-3/5 font-bold text-xl space-y-4 pt-8">
         <h1 className="text-4xl text-cyan-600 pb-4">Cutting-Edge Solutions and Expertise</h1>
-          <p>⚪ Innovative Solutions, Unmatched Quality</p>
-          <p>⚪ Expert Developers, Exceptional Results</p>
-          <p>⚪ Agile Strategies, Seamless Execution</p>
-          <p>⚪ Client-Centric Approach, Unwavering Support</p>
-          <p>⚪ Timely Delivery, Guaranteed Satisfaction</p>
-          <p>⚪ Cutting-Edge Technology, Future-Proof Solutions</p>
-          <p>⚪ Collaborative Partnership, Shared Success</p>
-          <p>⚪ Proven Expertise, Trusted Excellence</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Innovative Solutions, Unmatched Quality</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Expert Developers, Exceptional Results</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Agile Strategies, Seamless Execution</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Client-Centric Approach, Unwavering Support</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Timely Delivery, Guaranteed Satisfaction</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Cutting-Edge Technology, Future-Proof Solutions</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Collaborative Partnership, Shared Success</p>
+          <p className="flex items-center"><FaArrowRight className="w-6 h-6 pr-2"/> Proven Expertise, Trusted Excellence</p>
         </div>
         <div className="w-2/5">
           <img

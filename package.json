@@ -14,7 +14,7 @@
     "chart.js": "^4.4.3",
     "firebase": "^10.12.2",
     "flowbite": "^2.4.1",
-    "framer-motion": "^11.2.6",
+    "framer-motion": "^11.2.13",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",
