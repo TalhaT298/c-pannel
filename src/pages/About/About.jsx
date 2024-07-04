@@ -51,6 +51,13 @@ const About = () => {
       </div>
       {/* 2nd phase finish */}
       {/* 3rd phase Strat */}
+      <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
+        {/* <p className='text-yellow-600'>----{subHeading}--</p */}
+        <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
+        Get Advice From Expert
+        </h3>
+      </div>
+      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-wrap -m-4">
               <div className="xl:w-1/4 md:w-1/2 p-4">
                 <div className="bg-gray-100 p-6 rounded-lg">
@@ -282,6 +289,9 @@ const About = () => {
               </div>
             </div>
       {/* 3rd phase finish */}
+      {/* 4th phase Strat */}
+
+      {/* 4th phase finish */}
     </>
   );
 };
