@@ -88,7 +88,7 @@ const About = () => {
         </h3>
       </div>
       <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-      <div className="flex flex-wrap -m-4">
+      <div className="flex flex-wrap -m-4 py-8">
         <div className="xl:w-1/4 md:w-1/2 p-4">
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
@@ -209,7 +209,7 @@ const About = () => {
               alt="content"
             ></img>
             <h3 className="tracking-widest text-black text-xs font-medium title-font">
-              Lecturer,B.Sc. in CSE(SUST)
+              Full Stack Developer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
               Sadman Islam
