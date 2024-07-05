@@ -271,14 +271,14 @@ const About = () => {
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="https://www.facebook.com/profile.php?id=100012102336348">
+                <Link to="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL">
                   <a
-                    href="https://www.facebook.com/profile.php?id=100012102336348"
+                    href="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaFacebookF
-                      href="https://www.facebook.com/profile.php?id=100012102336348"
+                      href="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL"
                       size="1.7rem"
                       color="black"
                     />
@@ -287,32 +287,32 @@ const About = () => {
               </motion.div>
 
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaInstagram size="1.7rem" color="black" />
+                <Link to="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
+                  <a href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
+                    <FaInstagram href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D" size="1.7rem" color="black" />
                   </a>
                 </Link>
               </motion.div>
 
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaLinkedinIn size="1.7rem" color="black" />
+                <Link to="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                  <a href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <FaLinkedinIn href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" size="1.7rem" color="black" />
                   </a>
                 </Link>
               </motion.div>
 
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaWhatsapp size="1.7rem" color="black" />
+                <Link to="https://wa.link/dhn4di">
+                  <a href="https://wa.link/dhn4di">
+                    <FaWhatsapp href="https://wa.link/dhn4di" size="1.7rem" color="black" />
                   </a>
                 </Link>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <BiLogoGmail size="1.7rem" color="black" />
+                <Link to="mailto:info@oceancapp.com">
+                  <a href="mailto:info@oceancapp.com">
+                    <BiLogoGmail href="mailto:info@oceancapp.com" size="1.7rem" color="black" />
                   </a>
                 </Link>
               </motion.div>
