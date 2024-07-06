@@ -23,34 +23,34 @@ const About = () => {
     <>
       <Link to="/about"></Link>
       {/* 0 phase start */}
-      <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container px-2 py-2 mx-auto">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <img
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center "
-              src={aboutb}
-            ></img>
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <h2 className="text-sm title-font text-gray-500 tracking-widest">
-                BRAND NAME
-              </h2>
-              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                The Catcher in the Rye
-              </h1>
+      <section className="text-white body-font overflow-hidden">
+  <div className="container py-2 mx-auto">
+    <div className="flex flex-wrap">
+      <div className="w-full lg:w-2/5 pl-2">
+        <img
+          alt="ecommerce"
+          className="object-cover object-center w-full h-full"
+          src={aboutb}
+        />
+      </div>
+      <div className="w-full lg:w-3/5 lg:pl-20 lg:py-6 mt-6 lg:mt-0">
+        <h1 className="text-gray-900 text-8xl title-font font-medium mb-1">
+          Empowering Next_ Generation
+        </h1>
+        <p className="leading-relaxed">
+          Fam locavore kickstarter distillery. Mixtape chillwave tumeric
+          sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
+          juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
+          seitan poutine tumeric. Gastropub blue bottle austin listicle
+          pour-over, neutra jean shorts keytar banjo tattooed umami
+          cardigan.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-              <p className="leading-relaxed">
-                Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-                juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
-                seitan poutine tumeric. Gastropub blue bottle austin listicle
-                pour-over, neutra jean shorts keytar banjo tattooed umami
-                cardigan.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/* 0 phase end*/}
       {/* 1st phase done */}
       <div className="relative w-full h-full">
