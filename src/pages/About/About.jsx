@@ -216,9 +216,9 @@ const About = () => {
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="https://www.facebook.com/profile.php?id=100000580366774&mibextid=JRoKGi">
-                    <FaFacebookF size="1.7rem" color="black" />
+                <Link to="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
+                  <a href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
+                    <FaFacebookF href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD" size="1.7rem" color="black" />
                   </a>
                 </Link>
               </motion.div>
