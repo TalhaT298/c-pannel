@@ -24,28 +24,28 @@ const About = () => {
       <Link to="/about"></Link>
       {/* 0 phase start */}
       <section className="text-white body-font overflow-hidden">
-  <div className="container py-2 mx-auto">
-    <div className="flex flex-wrap">
-      <div className="w-full lg:w-2/5 pl-6">
-        <img
-          alt="ecommerce"
-          className="object-cover object-center w-full h-full"
-          src={aboutb}
-        />
-      </div>
-      <div className="w-full lg:w-3/5 lg:pl-36 lg:py-6 mt-8 lg:mt-16">
-        <h1 className="text-white text-8xl title-font font-medium mb-1">
-          Empowering Next<span className="text-cyan-600">_</span> Generation
-        </h1>
-        <p className="leading-relaxed text-gray-400">
-        Unlock superior software solutions with OceanCapp, a leading offshore development firm delivering creativity and expertise.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+        <div className="container py-2 mx-auto">
+          <div className="flex flex-wrap">
+            <div className="w-full lg:w-2/5 pl-6">
+              <img
+                alt="ecommerce"
+                className="object-cover object-center w-full h-full"
+                src={aboutb}
+              />
+            </div>
+            <div className="w-full lg:w-3/5 lg:pl-36 lg:py-6 mt-8 lg:mt-16">
+              <h1 className="text-white text-4xl sm:text-6xl md:text-8xl title-font font-medium mb-1">
+                Empowering Next<span className="text-cyan-600">_</span>{" "}
+                Generation
+              </h1>
+              <p className="leading-relaxed text-gray-400">
+                Unlock superior software solutions with OceanCapp, a leading
+                offshore development firm delivering creativity and expertise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* 0 phase end*/}
       {/* 1st phase done */}
       <div className="relative w-full h-full">
@@ -110,21 +110,20 @@ const About = () => {
       {/* 2nd phase finish */}
       {/* 3rd phase Strat */}
       <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
-        {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-        <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
+        <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif text-center">
           Get Advice From Expert
         </h3>
       </div>
-      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-      <div className="flex flex-wrap -m-4 py-8">
-        <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className="h-1 w-40 md:w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="flex flex-wrap -m-4 py-8 justify-center">
+        <div className="w-full sm:w-1/2 md:w-1/3 xl:w-1/4 p-4">
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
               src={Aysha}
               alt="content"
             ></img>
-            <h3 className=" text-black text-xs font-medium title-font">
+            <h3 className="text-black text-xs font-medium title-font">
               CEO and Founder
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -133,55 +132,40 @@ const About = () => {
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <a href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL">
-                  <FaFacebookF
-                    href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL"
-                    size="1.7rem"
-                    color="black"
-                  />
+                  <FaFacebookF size="1.7rem" color="black" />
                 </a>
               </motion.div>
-
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaInstagram size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaLinkedinIn size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaWhatsapp size="1.7rem" color="black" />
-                  </a>
-                </Link>
+                <a href="">
+                  <FaInstagram size="1.7rem" color="black" />
+                </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <BiLogoGmail size="1.7rem" color="black" />
-                  </a>
-                </Link>
+                <a href="">
+                  <FaLinkedinIn size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <FaWhatsapp size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <BiLogoGmail size="1.7rem" color="black" />
+                </a>
               </motion.div>
             </div>
           </div>
         </div>
-        <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="w-full sm:w-1/2 md:w-1/3 xl:w-1/4 p-4">
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
               src={Efad}
               alt="content"
             ></img>
-            <h3 className="tracking-widest text-black text-xs font-medium title-font">
+            <h3 className="text-black text-xs font-medium title-font">
               Chief Information Security Officer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -189,54 +173,41 @@ const About = () => {
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="https://www.facebook.com/Dipto93?mibextid=ZbWKwL">
-                    <FaFacebookF size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaInstagram size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaLinkedinIn size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaWhatsapp size="1.7rem" color="black" />
-                  </a>
-                </Link>
+                <a href="https://www.facebook.com/Dipto93?mibextid=ZbWKwL">
+                  <FaFacebookF size="1.7rem" color="black" />
+                </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <BiLogoGmail size="1.7rem" color="black" />
-                  </a>
-                </Link>
+                <a href="">
+                  <FaInstagram size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <FaLinkedinIn size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <FaWhatsapp size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <BiLogoGmail size="1.7rem" color="black" />
+                </a>
               </motion.div>
             </div>
           </div>
         </div>
-        <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="w-full sm:w-1/2 md:w-1/3 xl:w-1/4 p-4">
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
               src={Sadman}
               alt="content"
             ></img>
-            <h3 className="tracking-widest text-black text-xs font-medium title-font">
+            <h3 className="text-black text-xs font-medium title-font">
               Full Stack Developer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -244,58 +215,41 @@ const About = () => {
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
-                  <a href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
-                    <FaFacebookF
-                      href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD"
-                      size="1.7rem"
-                      color="black"
-                    />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaInstagram size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaLinkedinIn size="1.7rem" color="black" />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <FaWhatsapp size="1.7rem" color="black" />
-                  </a>
-                </Link>
+                <a href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
+                  <FaFacebookF size="1.7rem" color="black" />
+                </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="">
-                  <a href="">
-                    <BiLogoGmail size="1.7rem" color="black" />
-                  </a>
-                </Link>
+                <a href="">
+                  <FaInstagram size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <FaLinkedinIn size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <FaWhatsapp size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="">
+                  <BiLogoGmail size="1.7rem" color="black" />
+                </a>
               </motion.div>
             </div>
           </div>
         </div>
-        <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="w-full sm:w-1/2 md:w-1/3 xl:w-1/4 p-4">
           <div className="bg-gray-100 p-6 rounded-lg">
             <img
               className="h-52 rounded w-full object-cover object-center mb-6"
               src={dip}
               alt="content"
             ></img>
-            <h3 className="tracking-widest text-black text-xs font-medium title-font">
+            <h3 className="text-black text-xs font-medium title-font">
               Game Developer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -303,71 +257,35 @@ const About = () => {
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL">
-                  <a
-                    href="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebookF
-                      href="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL"
-                      size="1.7rem"
-                      color="black"
-                    />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
-                  <a href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
-                    <FaInstagram
-                      href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D"
-                      size="1.7rem"
-                      color="black"
-                    />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                  <a href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                    <FaLinkedinIn
-                      href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                      size="1.7rem"
-                      color="black"
-                    />
-                  </a>
-                </Link>
-              </motion.div>
-
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="https://wa.link/dhn4di">
-                  <a href="https://wa.link/dhn4di">
-                    <FaWhatsapp
-                      href="https://wa.link/dhn4di"
-                      size="1.7rem"
-                      color="black"
-                    />
-                  </a>
-                </Link>
+                <a href="https://www.facebook.com/taksimul.hasan.7489?mibextid=ZbWKwL">
+                  <FaFacebookF size="1.7rem" color="black" />
+                </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <Link to="mailto:info@oceancapp.com">
-                  <a href="mailto:info@oceancapp.com">
-                    <BiLogoGmail
-                      href="mailto:info@oceancapp.com"
-                      size="1.7rem"
-                      color="black"
-                    />
-                  </a>
-                </Link>
+                <a href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
+                  <FaInstagram size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                  <FaLinkedinIn size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="https://wa.link/dhn4di">
+                  <FaWhatsapp size="1.7rem" color="black" />
+                </a>
+              </motion.div>
+              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="mailto:info@oceancapp.com">
+                  <BiLogoGmail size="1.7rem" color="black" />
+                </a>
               </motion.div>
             </div>
           </div>
         </div>
       </div>
+
       {/* 3rd phase finish */}
       {/* 4th phase Strat */}
 
