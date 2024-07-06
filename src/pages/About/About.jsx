@@ -12,29 +12,45 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import Aysha from "../../assets/pro1.png"
-import Efad from "../../assets/ea.png"
-import Sadman from "../../assets/Sadman.webp"
-import dip from "../../assets/dip.jpg"
+import Aysha from "../../assets/pro1.png";
+import Efad from "../../assets/ea.png";
+import Sadman from "../../assets/Sadman.webp";
+import dip from "../../assets/dip.jpg";
+import aboutb from "../../assets/aboutbanner.png";
+
 const About = () => {
   return (
     <>
       <Link to="/about"></Link>
       {/* 0 phase start */}
-        <section className="text-gray-600 body-font overflow-hidden">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="lg:w-4/5 mx-auto flex flex-wrap">
-      <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"></img>
-      <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-        <h2 className="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-        <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
-        
-        <p className="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
-        
-      </div>
-    </div>
-  </div>
-</section>
+      <section className="text-gray-600 body-font overflow-hidden">
+        <div className="container px-2 py-2 mx-auto">
+          <div className="lg:w-4/5 mx-auto flex flex-wrap">
+            <img
+              alt="ecommerce"
+              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center "
+              src={aboutb}
+            ></img>
+            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h2 className="text-sm title-font text-gray-500 tracking-widest">
+                BRAND NAME
+              </h2>
+              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+                The Catcher in the Rye
+              </h1>
+
+              <p className="leading-relaxed">
+                Fam locavore kickstarter distillery. Mixtape chillwave tumeric
+                sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
+                juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
+                seitan poutine tumeric. Gastropub blue bottle austin listicle
+                pour-over, neutra jean shorts keytar banjo tattooed umami
+                cardigan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* 0 phase end*/}
       {/* 1st phase done */}
       <div className="relative w-full h-full">
@@ -171,10 +187,10 @@ const About = () => {
               alt="content"
             ></img>
             <h3 className="tracking-widest text-black text-xs font-medium title-font">
-            Chief Information Security Officer
+              Chief Information Security Officer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            Efadul Islam
+              Efadul Islam
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -235,7 +251,11 @@ const About = () => {
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <Link to="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
                   <a href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
-                    <FaFacebookF href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD" size="1.7rem" color="black" />
+                    <FaFacebookF
+                      href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD"
+                      size="1.7rem"
+                      color="black"
+                    />
                   </a>
                 </Link>
               </motion.div>
@@ -284,7 +304,7 @@ const About = () => {
               Game Developer
             </h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            Taksimul Hasan Dip 
+              Taksimul Hasan Dip
             </h2>
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -306,7 +326,11 @@ const About = () => {
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <Link to="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
                   <a href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D">
-                    <FaInstagram href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D" size="1.7rem" color="black" />
+                    <FaInstagram
+                      href="https://www.instagram.com/into_the_deep_sleep?igsh=MWRha3I3bXoxN2d6NA%3D%3D"
+                      size="1.7rem"
+                      color="black"
+                    />
                   </a>
                 </Link>
               </motion.div>
@@ -314,7 +338,11 @@ const About = () => {
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <Link to="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <a href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                    <FaLinkedinIn href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" size="1.7rem" color="black" />
+                    <FaLinkedinIn
+                      href="https://www.linkedin.com/in/taksimul-hasan-dip-86864a272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      size="1.7rem"
+                      color="black"
+                    />
                   </a>
                 </Link>
               </motion.div>
@@ -322,14 +350,22 @@ const About = () => {
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <Link to="https://wa.link/dhn4di">
                   <a href="https://wa.link/dhn4di">
-                    <FaWhatsapp href="https://wa.link/dhn4di" size="1.7rem" color="black" />
+                    <FaWhatsapp
+                      href="https://wa.link/dhn4di"
+                      size="1.7rem"
+                      color="black"
+                    />
                   </a>
                 </Link>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <Link to="mailto:info@oceancapp.com">
                   <a href="mailto:info@oceancapp.com">
-                    <BiLogoGmail href="mailto:info@oceancapp.com" size="1.7rem" color="black" />
+                    <BiLogoGmail
+                      href="mailto:info@oceancapp.com"
+                      size="1.7rem"
+                      color="black"
+                    />
                   </a>
                 </Link>
               </motion.div>
