@@ -26,24 +26,19 @@ const About = () => {
       <section className="text-white body-font overflow-hidden">
   <div className="container py-2 mx-auto">
     <div className="flex flex-wrap">
-      <div className="w-full lg:w-2/5 pl-2">
+      <div className="w-full lg:w-2/5 pl-6">
         <img
           alt="ecommerce"
           className="object-cover object-center w-full h-full"
           src={aboutb}
         />
       </div>
-      <div className="w-full lg:w-3/5 lg:pl-20 lg:py-6 mt-6 lg:mt-0">
-        <h1 className="text-gray-900 text-8xl title-font font-medium mb-1">
-          Empowering Next_ Generation
+      <div className="w-full lg:w-3/5 lg:pl-36 lg:py-6 mt-8 lg:mt-16">
+        <h1 className="text-white text-8xl title-font font-medium mb-1">
+          Empowering Next<span className="text-cyan-600">_</span> Generation
         </h1>
-        <p className="leading-relaxed">
-          Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-          sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-          juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
-          seitan poutine tumeric. Gastropub blue bottle austin listicle
-          pour-over, neutra jean shorts keytar banjo tattooed umami
-          cardigan.
+        <p className="leading-relaxed text-gray-400">
+        Unlock superior software solutions with OceanCapp, a leading offshore development firm delivering creativity and expertise.
         </p>
       </div>
     </div>
