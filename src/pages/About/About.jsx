@@ -16,18 +16,21 @@ import Aysha from "../../assets/pro1.png";
 import Efad from "../../assets/ea.png";
 import Sadman from "../../assets/Sadman.webp";
 import dip from "../../assets/dip.jpg";
+import code from "../../assets/code.png";
+import ai from "../../assets/ai.png";
 import aboutb from "../../assets/aboutbanner.png";
+
 
 const About = () => {
   const [currentSlider, setCurrentSlider] = useState(0);
   const sliders = [
     {
-      img: "https://source.unsplash.com/1200x540/?nature",
+      img: code,
       title: "Escape 1",
       des: "A Symphony of1 Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://source.unsplash.com/1200x540/?hill",
+      img:  ai,
       title: "Escape 2",
       des: "A Symphony of2 Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
