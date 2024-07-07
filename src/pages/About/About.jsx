@@ -29,18 +29,18 @@ const About = () => {
   const sliders = [
     {
       img: code,
-      title: "Escape 1",
-      des: "A Symphony of1 Tranquility. Experience the perfect blend of relaxation and excitement.",
+      title: "Coding",
+      des: "Code is poetry in motion. Every line should be elegant, efficient, and a masterpiece of logic.",
     },
     {
       img: ai,
-      title: "Escape 2",
-      des: "A Symphony of2 Tranquility. Experience the perfect blend of relaxation and excitement.",
+      title: "AI",
+      des: "AI turns dreams into reality, one algorithm at a time",
     },
     {
       img: gra,
-      title: "Escape 3",
-      des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
+      title: "Graphic design",
+      des: "Where creativity meets pixels, crafting visual stories with every stroke",
     },
     {
       img: prompt,
