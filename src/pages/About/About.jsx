@@ -160,7 +160,7 @@ const About = () => {
         </div>
         {/* text container here */}
         <div className="w-1/2 px-4 left-0 absolute drop-shadow-lg text-white rounded-lg">
-          <h1 className="lg:text-4xl font-bold mb-3">{sliders[currentSlider].title}</h1>
+          <h1 className="lg:text-5xl font-bold mb-3">{sliders[currentSlider].title}</h1>
           <p className="text-xs sm:text-sm md:text-base text-gray-400 lg:text-lg">
             {sliders[currentSlider].des}
           </p>
