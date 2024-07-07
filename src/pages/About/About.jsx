@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
@@ -160,7 +161,9 @@ const About = () => {
         </div>
         {/* text container here */}
         <div className="w-1/2 px-4 left-0 absolute drop-shadow-lg text-white rounded-lg">
-          <h1 className="lg:text-5xl font-bold mb-3">{sliders[currentSlider].title}</h1>
+          <h1 className="lg:text-5xl font-bold mb-3">
+            {sliders[currentSlider].title}
+          </h1>
           <p className="text-xs sm:text-sm md:text-base text-gray-400 lg:text-lg">
             {sliders[currentSlider].des}
           </p>
@@ -190,9 +193,39 @@ const About = () => {
         </div>
       </div>
       {/* 1st phase done finish*/}
+      {/* 2nd phase 1 start joldi  ekhane*/}
+      <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif text-center">
+        Our Journey
+      </h3>
+      <div className="h-1 w-40 md:w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div>
+        <p>
+          Welcome to Oceancapp, where innovation converges with expertise to
+          elevate your digital journey. As pioneers in the IT realm, we proudly
+          offer a comprehensive spectrum of services tailored to meet every
+          digital need imaginable. From sleek web development that captivates to
+          dynamic graphics design that mesmerizes, from bespoke WordPress
+          solutions that empower to immersive game development that thrills – we
+          do it all, and we do it with passion. <br /> What sets Oceancapp apart is our
+          commitment to revolutionizing how IT solutions are delivered in
+          Bangladesh. By consolidating web development, graphics design,
+          WordPress customization, game development, prompt engineering, and
+          cybersecurity under one roof, we simplify complexity and amplify
+          efficiency for our clients. <br /> Imagine a future where launching your
+          online presence or securing your digital assets is not only seamless
+          but also exhilarating. At Oceancapp, we don't just meet expectations;
+          we exceed them with our dedication to excellence, creativity, and
+          cutting-edge technology. Join us on this transformative journey as we
+          empower businesses, entrepreneurs, and visionaries across Bangladesh
+          to thrive in the digital age. Together, let's shape a brighter
+          tomorrow where innovation knows no bounds – powered by Oceancapp,
+          where your aspirations meet our expertise!
+        </p>
+      </div>
+      {/* 2nd phase 1 start joldi  sesh eakhen*/}
       {/* 2nd phase start */}
       <div className="flex py-16 px-8">
-        <div className="w-3/5 font-bold text-xl space-y-4 pt-8">
+        <div className="w-3/5 font-bold text-xl space-y-4 pt-8 ">
           <h1 className="text-4xl text-cyan-600 pb-4">
             Cutting-Edge Solutions and Expertise
           </h1>
