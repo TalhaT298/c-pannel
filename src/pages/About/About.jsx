@@ -235,8 +235,8 @@ const About = () => {
                 </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <a href="">
-                  <BiLogoGmail size="1.7rem" color="black" />
+                <a href="mailto:info@sadmank007@gmail.com">
+                  <BiLogoGmail href="mailto:info@sadmank007@gmail.com" size="1.7rem" color="black" />
                 </a>
               </motion.div>
             </div>
