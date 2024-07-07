@@ -35,7 +35,7 @@ const About = () => {
     {
       img: ai,
       title: "AI",
-      des: "AI turns dreams into reality, one algorithm at a time",
+      des: "Turns dreams into reality, one algorithm at a time",
     },
     {
       img: gra,
@@ -44,13 +44,13 @@ const About = () => {
     },
     {
       img: prompt,
-      title: "Escape 4",
-      des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
+      title: "Prompt engineering",
+      des: "Transforming concepts into solutions, with precision and creativity..",
     },
     {
       img: oc,
-      title: "Escape 5",
-      des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
+      title: "OceanCapp",
+      des: "Total Solution, in one platform.",
     },
   ];
   const prevSlider = () =>
@@ -160,8 +160,8 @@ const About = () => {
         </div>
         {/* text container here */}
         <div className="w-1/2 px-4 left-0 absolute drop-shadow-lg text-white rounded-lg">
-          <h1 className="lg:text-3xl mb-3">{sliders[currentSlider].title}</h1>
-          <p className="text-xs sm:text-sm md:text-base lg:text-lg">
+          <h1 className="lg:text-4xl font-bold mb-3">{sliders[currentSlider].title}</h1>
+          <p className="text-xs sm:text-sm md:text-base text-gray-400 lg:text-lg">
             {sliders[currentSlider].des}
           </p>
         </div>
