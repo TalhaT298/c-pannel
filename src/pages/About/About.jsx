@@ -21,6 +21,7 @@ import ai from "../../assets/ai.png";
 import gra from "../../assets/gra.png";
 import prompt from "../../assets/prompt.png";
 import word1 from "../../assets/word1.png";
+import oc from "../../assets/oceang.png";
 import aboutb from "../../assets/aboutbanner.png";
 
 
@@ -48,7 +49,7 @@ const About = () => {
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: word1,
+      img: oc,
       title: "Escape 5",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
