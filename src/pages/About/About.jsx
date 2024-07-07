@@ -216,22 +216,22 @@ const About = () => {
             <div className="grid grid-flow-col gap-3">
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                 <a href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD">
-                  <FaFacebookF size="1.7rem" color="black" />
+                  <FaFacebookF href="https://www.facebook.com/sadmankhan01?mibextid=kFxxJD" size="1.7rem" color="black" />
                 </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <a href="">
-                  <FaInstagram size="1.7rem" color="black" />
+                <a href="https://www.instagram.com/sadman__khan__?igsh=MXV5ZzFqOTBmN2Z3NQ%3D%3D">
+                  <FaInstagram href="https://www.instagram.com/sadman__khan__?igsh=MXV5ZzFqOTBmN2Z3NQ%3D%3D" size="1.7rem" color="black" />
                 </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <a href="">
-                  <FaLinkedinIn size="1.7rem" color="black" />
+                <a href="https://www.linkedin.com/in/sadmankhan07/">
+                  <FaLinkedinIn href="https://www.linkedin.com/in/sadmankhan07/" size="1.7rem" color="black" />
                 </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <a href="">
-                  <FaWhatsapp size="1.7rem" color="black" />
+                <a href="https://wa.link/bx5ack">
+                  <FaWhatsapp href="https://wa.link/bx5ack" size="1.7rem" color="black" />
                 </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -277,8 +277,8 @@ const About = () => {
                 </a>
               </motion.div>
               <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <a href="mailto:info@oceancapp.com">
-                  <BiLogoGmail size="1.7rem" color="black" />
+                <a href="mailto:info@thdip128@gmail.com"> 
+                  <BiLogoGmail href="mailto:info@thdip128@gmail.com" size="1.7rem" color="black" />
                 </a>
               </motion.div>
             </div>
