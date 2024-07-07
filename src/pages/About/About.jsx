@@ -24,7 +24,6 @@ import word1 from "../../assets/word1.png";
 import oc from "../../assets/oceang.png";
 import aboutb from "../../assets/aboutbanner.png";
 
-
 const About = () => {
   const [currentSlider, setCurrentSlider] = useState(0);
   const sliders = [
@@ -34,7 +33,7 @@ const About = () => {
       des: "A Symphony of1 Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img:  ai,
+      img: ai,
       title: "Escape 2",
       des: "A Symphony of2 Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
@@ -104,16 +103,7 @@ const About = () => {
         </div>
       </div> */}
       {/* <----------------------------------------------------------------------------------------------> */}
-      <div
-        className="w-full h-60 sm:h-96 md:h-[540px] flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50 before:inset-0 transform duration-1000 ease-linear z-50 overflow-hidden"
-        style={{
-          backgroundImage: `url(${
-            currentSlider === 0
-              ? sliders[sliders.length - 1].img
-              : sliders[currentSlider - 1].img
-          })`,
-        }}
-      >
+      <div className="w-full h-60 sm:h-96 md:h-[540px] flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50 before:inset-0 transform duration-1000 ease-linear z-50 overflow-hidden">
         {/* arrow */}
         <div className="absolute bottom-1/4 flex gap-3 z-50 px-5">
           {/* arrow left */}
@@ -176,7 +166,7 @@ const About = () => {
           </p>
         </div>
         {/* slider container */}
-        <div className="w-1/2 ml-auto overflow-hidden  absolute -right-5 lg:-right-16 z-50 px-4 py-10">
+        <div className="w-1/2 ml-auto overflow-hidden absolute -right-5 lg:-right-16 z-50 px-4 py-10">
           <div
             className="ease-linear duration-300 flex gap-4 items-center"
             style={{
