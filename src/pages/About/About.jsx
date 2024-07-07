@@ -194,24 +194,26 @@ const About = () => {
       </div>
       {/* 1st phase done finish*/}
       {/* 2nd phase 1 start joldi  ekhane*/}
-      <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif text-center">
+      <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif text-center pb-4">
         Our Journey
       </h3>
-      <div className="h-1 w-40 md:w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-40 md:w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping "></div>
       <div>
-        <p>
-          Welcome to Oceancapp, where innovation converges with expertise to
+        <p className="text-center font-semibold text-2xl pt-4">
+          <p>Welcome to Oceancapp, where innovation converges with expertise to
           elevate your digital journey. As pioneers in the IT realm, we proudly
           offer a comprehensive spectrum of services tailored to meet every
           digital need imaginable. From sleek web development that captivates to
           dynamic graphics design that mesmerizes, from bespoke WordPress
           solutions that empower to immersive game development that thrills – we
-          do it all, and we do it with passion. <br /> What sets Oceancapp apart is our
+          do it all, and we do it with passion. </p><br />
+          <p> What sets Oceancapp apart is our
           commitment to revolutionizing how IT solutions are delivered in
           Bangladesh. By consolidating web development, graphics design,
           WordPress customization, game development, prompt engineering, and
           cybersecurity under one roof, we simplify complexity and amplify
-          efficiency for our clients. <br /> Imagine a future where launching your
+          efficiency for our clients.</p> 
+          <br /> Imagine a future where launching your
           online presence or securing your digital assets is not only seamless
           but also exhilarating. At Oceancapp, we don't just meet expectations;
           we exceed them with our dedication to excellence, creativity, and
