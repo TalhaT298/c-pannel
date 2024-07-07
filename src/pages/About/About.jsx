@@ -18,6 +18,9 @@ import Sadman from "../../assets/Sadman.webp";
 import dip from "../../assets/dip.jpg";
 import code from "../../assets/code.png";
 import ai from "../../assets/ai.png";
+import gra from "../../assets/gra.png";
+import prompt from "../../assets/prompt.png";
+import word1 from "../../assets/word1.png";
 import aboutb from "../../assets/aboutbanner.png";
 
 
@@ -35,17 +38,17 @@ const About = () => {
       des: "A Symphony of2 Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://source.unsplash.com/1200x540/?mountain",
+      img: gra,
       title: "Escape 3",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://source.unsplash.com/1200x540/?river",
+      img: prompt,
       title: "Escape 4",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
     {
-      img: "https://source.unsplash.com/1200x540/?sea",
+      img: word1,
       title: "Escape 5",
       des: "A Symphony of Tranquility. Experience the perfect blend of relaxation and excitement.",
     },
