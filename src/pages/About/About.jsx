@@ -461,10 +461,10 @@ const About = () => {
                   <FaWhatsapp size="1.7rem" color="black" />
                 </a>
               </motion.div>
-              <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                <a href="mailto:info@thdip128@gmail.com">
+              <motion.div href="mailto:thdip128@gmail.com" whileTap={{ rotate: 90, scale: 0.75 }}>
+                <a href="mailto:thdip128@gmail.com">
                   <BiLogoGmail
-                    href="mailto:info@thdip128@gmail.com"
+                    href="mailto:thdip128@gmail.com"
                     size="1.7rem"
                     color="black"
                   />
