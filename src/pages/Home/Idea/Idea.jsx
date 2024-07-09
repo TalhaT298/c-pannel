@@ -22,6 +22,7 @@ const Idea = () => {
           Global team. <br />
           You can schedule a free consultation.
         </p>
+        <Link to="https://www.facebook.com/oceancapp">
         <button className=" text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
           {/* Get Started
           <PiArrowRightLight
@@ -35,6 +36,8 @@ const Idea = () => {
              Get Started &rarr;
           </a>
         </button>
+        
+        </Link>
       </div>
       <div className="w-full md:w-2/5 lg:pl-20 pl-4 pr-4">
         <img src={idea} alt="Project Idea" className="w-full" />
