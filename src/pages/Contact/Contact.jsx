@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Contact.css';
-import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
+import { GoogleAuthProvider, getAuth, signInWithPopup, signOut } from "firebase/auth";
 import app from "../../firebase/firebase.init";
 
 const Contact = () => {
@@ -23,12 +23,31 @@ const Contact = () => {
       console.log('error',error.message)
     })
   }
+
+  const handleSignOut=()=>{
+    signOut(auth)
+        .then(result =>{
+          setUser(null);
+        })
+        .catch(error=>{
+          console.log(error)
+        })
+  }
   return (
     <div>
       <Link to="/contact"></Link>
       <div>
+        {/* emni kortechi ---------------*/}
         <div>
           <button onClick={handleGooglrSignIn}>Google login</button>
+          <button onClick={handleSignOut}>Google logOut</button>
+          {user && <div>
+            <h3>User: {user?.displayName}</h3>
+            <p>Email: {user.email}</p>
+            <img src={user.photoURL} alt="" />
+          </div>
+
+          }
         </div>
         <div className="hero bg-base-200 min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
