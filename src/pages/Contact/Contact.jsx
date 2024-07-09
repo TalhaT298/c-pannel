@@ -1,12 +1,13 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Contact.css';
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import app from "../../firebase/firebase.init";
 
 const Contact = () => {
+  const [user,setUser]=useState(null)
   const auth =getAuth(app);
   console.log(app);
   const provider = new GoogleAuthProvider();
@@ -14,8 +15,9 @@ const Contact = () => {
   const handleGooglrSignIn=()=>{
     signInWithPopup(auth,provider)
     .then(result =>{
-      const user = result.user;
-      console.log(user);
+      const loggedInUser = result.user;
+      console.log(loggedInUser);
+      setUser(loggedInUser);
     })
     .catch(error =>{
       console.log('error',error.message)
