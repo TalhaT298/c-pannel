@@ -27,6 +27,7 @@ const Contact = () => {
   const handleSignOut=()=>{
     signOut(auth)
         .then(result =>{
+          console.log(result);
           setUser(null);
         })
         .catch(error=>{
@@ -39,8 +40,12 @@ const Contact = () => {
       <div>
         {/* emni kortechi ---------------*/}
         <div>
-          <button onClick={handleGooglrSignIn}>Google login</button>
-          <button onClick={handleSignOut}>Google logOut</button>
+          {
+            user?
+            <button onClick={handleSignOut}>Sign Out</button>:
+            <button onClick={handleGooglrSignIn}>Google login</button>
+            
+          }
           {user && <div>
             <h3>User: {user?.displayName}</h3>
             <p>Email: {user.email}</p>
