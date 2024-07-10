@@ -4,7 +4,18 @@ import { motion } from "framer-motion";
 
 const Text = () => {
   const constraintsRef = useRef(null);
-  const names = ["Innovation", "Excellence", "Creativity", "Passion", "Leadership","Commitment","Opportunity"];
+  const names = ["Innovation", "Excellence", "Creativity", "Passion", "Leadership", "Commitment", "Opportunity"];
+
+  // Adjusting positions to match the image layout
+  const positions = [
+    { top: "50px", left: "100px" },    // Innovation
+    { top: "150px", left: "200px" },   // Excellence
+    { top: "100px", left: "350px" },   // Creativity
+    { top: "50px", left: "1100px" },   // Passion
+    { top: "50px", left: "550px" },    // Leadership
+    { top: "100px", left: "900px" },   // Commitment
+    { top: "150px", left: "750px" }    // Opportunity
+  ];
 
   return (
     <div>
@@ -32,8 +43,8 @@ const Text = () => {
               justifyContent: "center",
               alignItems: "center",
               position: "absolute",
-              top: `${index * 20 + 20}px`,
-              left: `${index * 60 + 40}px`,
+              top: positions[index].top,
+              left: positions[index].left,
             }}
           >
             {name}
