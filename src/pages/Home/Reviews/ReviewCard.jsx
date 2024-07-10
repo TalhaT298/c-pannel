@@ -11,11 +11,11 @@ const ReviewCard = ({ userReview }) => {
                 <img
                     src={authorImage}
                     alt="tania andrew"
-                    className="relative inline-block h-[108px] w-[108px] !rounded-full object-cover object-center"
+                    className="relative inline-block h-[128px] w-[128px] !rounded-full object-cover object-center"
                 />
                 <div className="flex w-full flex-col gap-0.5">
                     <div className="flex items-center justify-between">
-                        <h5 className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                        <h5 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                             {name}
                         </h5>
                         <div className="flex items-center gap-0 5">
