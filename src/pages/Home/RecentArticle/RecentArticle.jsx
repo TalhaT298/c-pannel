@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import "swiper/css/autoplay";  // Import autoplay css
+import "swiper/css/autoplay"; // Import autoplay css
 import { FreeMode, Pagination, Autoplay } from "swiper/modules"; // Import the Autoplay module
 import { FaShareAlt } from "react-icons/fa";
 import { GiSelfLove } from "react-icons/gi";
@@ -35,7 +35,7 @@ const RecentArticle = () => {
     <div>
       <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-4xl text-cyan-500 uppercase pt-4 font-bold font-serif">
+        <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
           recent articles
         </h3>
       </div>
@@ -52,7 +52,7 @@ const RecentArticle = () => {
             delay: 5000, // 5 seconds delay
             disableOnInteraction: false,
           }}
-          modules={[FreeMode, Pagination, Autoplay]} 
+          modules={[FreeMode, Pagination, Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -111,12 +111,15 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                NLP and Emotion Tech
+                  NLP and Emotion Tech
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                In a world where machines decode human emotions through text and create empathetic responses,NLP is ...{" "}
+                  In a world where machines decode human emotions through text
+                  and create empathetic responses,NLP is ...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://www.facebook.com/share/p/X7VKHV5Vy2U3ZWmA/">See more</Link>
+                    <Link to="https://www.facebook.com/share/p/X7VKHV5Vy2U3ZWmA/">
+                      See more
+                    </Link>
                   </span>
                 </h2>
               </div>
@@ -135,7 +138,7 @@ const RecentArticle = () => {
                       strokeLinejoin="round"
                     ></g>
                     <g id="navigateui">
-                    <GiSelfLove className="" style={{ fontSize: '26px' }}/>
+                      <GiSelfLove className="" style={{ fontSize: "26px" }} />
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
@@ -150,16 +153,13 @@ const RecentArticle = () => {
                     height="22"
                     viewBox="0 0 21 22"
                   >
-                    <FaShareAlt  className="" style={{ fontSize: '20px' }} />
+                    <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
                     34
                   </h2>
                 </div>
-                <div className="flex items-center gap-2">
-                  
-                  
-                </div>
+                <div className="flex items-center gap-2"></div>
               </div>
             </div>
           </SwiperSlide>
@@ -220,12 +220,15 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                Cybersecurity:A Quick History
+                  Cybersecurity:A Quick History
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                The evolution of cybersecurity has been a dynamic journey, reflecting the rapid advancements in technology...{" "}
+                  The evolution of cybersecurity has been a dynamic journey,
+                  reflecting the rapid advancements in technology...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://www.linkedin.com/posts/oceancapp_oceancapp-infosec-cybersecurity-activity-7211395572593786880-r8X4?utm_source=share&utm_medium=member_desktop">See more</Link>
+                    <Link to="https://www.linkedin.com/posts/oceancapp_oceancapp-infosec-cybersecurity-activity-7211395572593786880-r8X4?utm_source=share&utm_medium=member_desktop">
+                      See more
+                    </Link>
                   </span>
                 </h2>
               </div>
@@ -244,7 +247,7 @@ const RecentArticle = () => {
                       strokeLinejoin="round"
                     ></g>
                     <g id="navigateui">
-                    <GiSelfLove className="" style={{ fontSize: '26px' }}/>
+                      <GiSelfLove className="" style={{ fontSize: "26px" }} />
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
@@ -259,16 +262,13 @@ const RecentArticle = () => {
                     height="22"
                     viewBox="0 0 21 22"
                   >
-                    <FaShareAlt  className="" style={{ fontSize: '20px' }} />
+                    <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
                     34
                   </h2>
                 </div>
-                <div className="flex items-center gap-2">
-                  
-                  
-                </div>
+                <div className="flex items-center gap-2"></div>
               </div>
             </div>
           </SwiperSlide>
@@ -330,12 +330,15 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                Image text in 5 lines
+                  Image text in 5 lines
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                Share an incredible CSS trick that you can achieve with just five lines of code. This technique will make your ..{" "}
+                  Share an incredible CSS trick that you can achieve with just
+                  five lines of code. This technique will make your ..{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://www.facebook.com/share/p/AJCjcF8o58wRycpA/">See more</Link>
+                    <Link to="https://www.facebook.com/share/p/AJCjcF8o58wRycpA/">
+                      See more
+                    </Link>
                   </span>
                 </h2>
               </div>
@@ -354,7 +357,7 @@ const RecentArticle = () => {
                       strokeLinejoin="round"
                     ></g>
                     <g id="navigateui">
-                    <GiSelfLove className="" style={{ fontSize: '26px' }}/>
+                      <GiSelfLove className="" style={{ fontSize: "26px" }} />
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
@@ -369,16 +372,13 @@ const RecentArticle = () => {
                     height="22"
                     viewBox="0 0 21 22"
                   >
-                    <FaShareAlt  className="" style={{ fontSize: '20px' }} />
+                    <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
                     34
                   </h2>
                 </div>
-                <div className="flex items-center gap-2">
-                  
-                  
-                </div>
+                <div className="flex items-center gap-2"></div>
               </div>
             </div>
           </SwiperSlide>
@@ -388,7 +388,6 @@ const RecentArticle = () => {
             {" "}
             <div className=" mx-auto my-6 max-w-[350px] rounded-lg bg-white font-sans shadow-lg dark:bg-[#18181B]">
               <div className="flex items-center justify-between gap-10 px-4 py-4">
-            
                 <div className="flex items-center gap-3">
                   <img
                     width={100}
@@ -440,13 +439,16 @@ const RecentArticle = () => {
               {/* Post content */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                8-Year Engineer's Advice
+                  8-Year Engineer's Advice
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                My name is Benoit. I have been a software engineer for the past eight and a half years.....
-                 {/* I stayed at my previous (and first) company for seven and a half years, then I joined a new one in early 2022....{" "} */}
+                  My name is Benoit. I have been a software engineer for the
+                  past eight and a half years.....
+                  {/* I stayed at my previous (and first) company for seven and a half years, then I joined a new one in early 2022....{" "} */}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://medium.com/better-programming/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55">See more</Link>
+                    <Link to="https://medium.com/better-programming/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55">
+                      See more
+                    </Link>
                   </span>
                 </h2>
               </div>
@@ -465,7 +467,7 @@ const RecentArticle = () => {
                       strokeLinejoin="round"
                     ></g>
                     <g id="navigateui">
-                    <GiSelfLove className="" style={{ fontSize: '26px' }}/>
+                      <GiSelfLove className="" style={{ fontSize: "26px" }} />
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
@@ -480,16 +482,13 @@ const RecentArticle = () => {
                     height="22"
                     viewBox="0 0 21 22"
                   >
-                    <FaShareAlt  className="" style={{ fontSize: '20px' }} />
+                    <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
                     295
                   </h2>
                 </div>
-                <div className="flex items-center gap-2">
-                  
-                  
-                </div>
+                <div className="flex items-center gap-2"></div>
               </div>
             </div>
           </SwiperSlide>
@@ -551,12 +550,15 @@ const RecentArticle = () => {
               {/* Post conten */}
               <div className="mt-3 space-y-2 px-4">
                 <h2 className="text-xl font-semibold text-slate-800 dark:text-white/90">
-                Animations with CSS & SVG
+                  Animations with CSS & SVG
                 </h2>
                 <h2 className="text-sm text-gray-500 dark:text-white/50">
-                Web animations can significantly enhance user experience by adding a layer of interactivity and visual appeal ...{" "}
+                  Web animations can significantly enhance user experience by
+                  adding a layer of interactivity and visual appeal ...{" "}
                   <span className="cursor-pointer text-[#3e96d4]">
-                    <Link to="https://medium.com/@talhatarique/designing-stunning-and-efficient-web-animations-with-css-and-svg-dac338c22dbd">See more</Link>
+                    <Link to="https://medium.com/@talhatarique/designing-stunning-and-efficient-web-animations-with-css-and-svg-dac338c22dbd">
+                      See more
+                    </Link>
                   </span>
                 </h2>
               </div>
@@ -575,7 +577,7 @@ const RecentArticle = () => {
                       strokeLinejoin="round"
                     ></g>
                     <g id="navigateui">
-                    <GiSelfLove className="" style={{ fontSize: '26px' }}/>
+                      <GiSelfLove className="" style={{ fontSize: "26px" }} />
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
@@ -590,22 +592,17 @@ const RecentArticle = () => {
                     height="22"
                     viewBox="0 0 21 22"
                   >
-                    <FaShareAlt  className="" style={{ fontSize: '20px' }} />
+                    <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
                     34
                   </h2>
                 </div>
-                <div className="flex items-center gap-2">
-                  
-                  
-                </div>
+                <div className="flex items-center gap-2"></div>
               </div>
             </div>
           </SwiperSlide>
           {/* Path5end ------------------------------------------------------------------------------------- */}
-          
-          
         </Swiper>
       </div>
     </div>
