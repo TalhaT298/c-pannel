@@ -163,7 +163,8 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={banner} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
           <div>
-            <h1 className="text-5xl text-cyan-500 font-bold">
+            <div className="">
+            <h1 className="text-5xl bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 text-transparent bg-clip-text font-bold">
             <Typewriter
             words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
             loop={50}
@@ -176,6 +177,7 @@ const Banner = () => {
              
           />
               </h1>
+            </div>
             <p className="py-6 font-semibold">
             Trust OceanCapp as your outsourcing partner for top-notch software solutions designed to give your business a competitive edge.
             </p>
