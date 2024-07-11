@@ -21,10 +21,10 @@ const Offer = () => {
           Solution We Offer
         </h3>
       </div>
-      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
         <div
-          className="card bg-gradient-to-r from-sky-800 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
@@ -55,7 +55,7 @@ const Offer = () => {
         </div>
 
         <div
-          className="card bg-gradient-to-t from-sky-800 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
@@ -88,7 +88,7 @@ const Offer = () => {
         <div
           // whileHover={{ scale: 1.05 }}
           // whileTap={{ scale: 0.8 }}
-          className="card bg-gradient-to-l from-sky-800 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",

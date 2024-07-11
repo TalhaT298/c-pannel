@@ -1,4 +1,4 @@
-.custom-gradient {
+/* .custom-gradient {
     border-width: 5px;
     border-style: solid;
     border-image: linear-gradient(to right, #14b0c5, #061d20);
@@ -8,6 +8,6 @@
   
   .custom-gradient-hover:hover {
     border-image: none;
-    border-color: transparent; /* Ensures the border is not visible */
+    border-color: transparent; 
   }
-  
+   */
