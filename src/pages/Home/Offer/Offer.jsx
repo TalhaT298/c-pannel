@@ -42,7 +42,7 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/gameDevelopment">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -73,7 +73,7 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/webdevelopment">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -106,7 +106,7 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cybersecurity">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -139,7 +139,7 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/webdesign">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -178,7 +178,7 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/prompt">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -259,7 +259,7 @@ const Offer = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/graphics">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
                     size="1.1rem"
