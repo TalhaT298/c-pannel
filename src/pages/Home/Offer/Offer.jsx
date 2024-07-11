@@ -132,7 +132,7 @@ const Offer = () => {
             <img src={img1} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Web Design</h2>
+            <h2 className="card-title">App Development</h2>
             <p>
               Our skilled designers use their knowledge of industry standards
               and best practices for app and online design to
