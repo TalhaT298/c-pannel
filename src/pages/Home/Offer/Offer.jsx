@@ -122,7 +122,7 @@ const Offer = () => {
         <div
           // whileHover={{ scale: 1.05 }}
           // whileTap={{ scale: 0.8 }}
-          className="card bg-base-100 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
@@ -154,7 +154,7 @@ const Offer = () => {
         <div
           // whileHover={{ scale: 1.05 }}
           // whileTap={{ scale: 0.8 }}
-          className="card bg-base-100 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
@@ -235,7 +235,7 @@ const Offer = () => {
           </div>
         </motion.div> */}
         <div
-          className="card bg-base-100 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
