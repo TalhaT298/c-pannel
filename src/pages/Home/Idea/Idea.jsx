@@ -31,7 +31,7 @@ const Idea = () => {
           /> */}
           <a
             href="#"
-            className="inline-block bg-cyan-600 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-600"
+            className="flex items-center gap-4 px-8 py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
           >
              Get Started &rarr;
           </a>
