@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import ser from "../../assets/service.png";
 import { GiEarthAsiaOceania } from "react-icons/gi";
 import webc from "../../assets/webc.png";
-
+import { PiArrowRightLight } from "react-icons/pi";
 const Services = () => {
   return (
     <Link to="/services">
@@ -93,6 +93,17 @@ const Services = () => {
                     Responsive design for mobile and desktop
                   </p>
                 </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -107,7 +118,7 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                  WordPress Development
+                    WordPress Development
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
@@ -118,15 +129,13 @@ const Services = () => {
                   unique business requirements effectively. Our team excels in
                   providing comprehensive support, from initial design and
                   development to ongoing maintenance and updates, ensuring
-                  seamless integration and optimal performance. Whether it's
-                  building scalable e-commerce platforms or crafting engaging
-                  content management systems, we prioritize user-friendly
-                  interfaces and robust security measures. 
+                  seamless integration and optimal performance.We prioritize user-friendly
+                  interfaces and robust security measures.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                  Custom WordPress theme development
+                    Custom WordPress theme development
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
@@ -135,13 +144,24 @@ const Services = () => {
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Website maintenance and updates</p>
+                  <p className="pl-2 font-bold">
+                    Website maintenance and updates
+                  </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">
-                  WooCommerce integration
-                  </p>
+                  <p className="pl-2 font-bold">WooCommerce integration</p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="lg:w-1/2 w-full p-4">
