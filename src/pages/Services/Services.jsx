@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
 import ser from "../../assets/service.png";
 import { GiEarthAsiaOceania } from "react-icons/gi";
-import webc from "../../assets/webc.png"
+import webc from "../../assets/webc.png";
 
 const Services = () => {
   return (
@@ -44,7 +45,7 @@ const Services = () => {
         {/* 2nd phase finish */}
         {/* 3rd phase start--------------------------------------------------------------- */}
         <section className="text-gray-600 body-font overflow-hidden">
-          <div className="container px-5 py-16 mx-auto">
+          <div className="container px-5 pt-16 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="lg:w-1/2 w-full p-4">
                 <img
@@ -54,7 +55,7 @@ const Services = () => {
                 />
               </div>
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
-                <h1 class="text-3xl font-bold title-font mb-1">
+                <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
                     Web Development
                   </span>
@@ -73,16 +74,24 @@ const Services = () => {
                   to elevate their online presence.
                 </p>
                 <div className="flex text-white pt-2">
-                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Custom website design and development</p>
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Custom website design and development
+                  </p>
                 </div>
                 <div className="flex text-white pt-2">
-                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">E-commerce solutions</p>
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">E-commerce solutions</p>
                 </div>
                 <div className="flex text-white pt-2">
-                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Web application development</p>
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Web application development</p>
                 </div>
                 <div className="flex text-white pt-2">
-                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Responsive design for mobile and desktop</p>
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Responsive design for mobile and desktop
+                  </p>
                 </div>
               </div>
             </div>
@@ -90,6 +99,62 @@ const Services = () => {
         </section>
 
         {/* 3rd phase finish--------------------------------------------------------------- */}
+
+        {/* 4th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                  WordPress Development
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                  Oceancapp's WordPress services are unmatched in their ability
+                  to create customized solutions that cater specifically to our
+                  clients' needs. We specialize in developing bespoke WordPress
+                  themes and plugins, tailored to enhance functionality and meet
+                  unique business requirements effectively. Our team excels in
+                  providing comprehensive support, from initial design and
+                  development to ongoing maintenance and updates, ensuring
+                  seamless integration and optimal performance. Whether it's
+                  building scalable e-commerce platforms or crafting engaging
+                  content management systems, we prioritize user-friendly
+                  interfaces and robust security measures. 
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Custom WordPress theme development
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Plugin development</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Website maintenance and updates</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  WooCommerce integration
+                  </p>
+                </div>
+              </div>
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={webc}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 4th phase start----------------------------------- */}
       </>
     </Link>
   );
