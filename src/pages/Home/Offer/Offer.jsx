@@ -40,7 +40,7 @@ const Offer = () => {
               SEO-optimized websites that are easy to manage and tailored to
               your needs.
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/gameDevelopment">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -71,7 +71,7 @@ const Offer = () => {
               services' processes and our skilled team of developers and
               designers.
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/webdevelopment">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -104,7 +104,7 @@ const Offer = () => {
               to protect your digital assets from evolving threats. Trust us to
               secure your digital future.
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/cybersecurity">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -137,7 +137,7 @@ const Offer = () => {
               Our skilled designers use their knowledge of industry standards
               and best practices for app and online design to
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/webdesign">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -176,7 +176,7 @@ const Offer = () => {
               {/* and meaningful responses tailored to your
               business needs */}
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/prompt">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -257,7 +257,7 @@ const Offer = () => {
               message, ensuring your visuals stand out and captivate your
               audience. */}
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/graphics">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
