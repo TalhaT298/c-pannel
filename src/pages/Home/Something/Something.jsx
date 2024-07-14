@@ -21,9 +21,9 @@ const Something = () => {
     <div>
       <div className="flex gap-8">
         <div className="w-1/2 text-4xl font-bold leading-relaxed" data-aos="fade-right">
-          Navigating Global Projects with<span className="text-cyan-500"> Expertise </span>and <span className="text-cyan-500">Assurance</span>
+          Navigating Global Projects with<span className="bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 bg-clip-text text-transparent"> Expertise </span>and <span className="bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 bg-clip-text text-transparent">Assurance</span>
         </div>
-        <div className="w-1/2 font-semibold font-thin pt-5" data-aos="fade-left">
+        <div className="w-1/2  font-thin pt-5" data-aos="fade-left">
           Discover Oceancapp, your trusted partner in managing global projects with precision and care. With over 147 experts, 359 client protections, and a 100% service guarantee, we ensure your projects sail smoothly and successfully. Join the 527+ satisfied clients who rely on Oceancapp for unparalleled expertise and peace of mind
         </div>
       </div>

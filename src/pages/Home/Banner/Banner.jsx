@@ -164,7 +164,7 @@ const Banner = () => {
           <img src={banner} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
           <div>
             <div className="">
-            <h1 className="text-5xl bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 text-transparent bg-clip-text font-bold">
+            <h1 className="text-4xl bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 text-transparent bg-clip-text font-bold">
             <Typewriter
             words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
             loop={50}
