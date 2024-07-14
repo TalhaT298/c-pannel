@@ -3,6 +3,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ser from "../../assets/service.png";
+import { GiEarthAsiaOceania } from "react-icons/gi";
 
 const Services = () => {
   return (
@@ -70,6 +71,9 @@ const Services = () => {
                   and quality, making us the ideal choice for businesses looking
                   to elevate their online presence.
                 </p>
+                <div className="flex text-white pt-2">
+                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Custom website design and development</p>
+                </div>
               </div>
             </div>
           </div>
