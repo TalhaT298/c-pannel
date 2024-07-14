@@ -42,26 +42,38 @@ const Services = () => {
         {/* 2nd phase finish */}
         {/* 3rd phase start--------------------------------------------------------------- */}
         <section className="text-gray-600 body-font overflow-hidden">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/2 w-full p-4">
-        <img
-          alt="ecommerce"
-          className="w-full h-full object-cover object-center rounded"
-          src="https://dummyimage.com/400x400"
-        />
-      </div>
-      <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
-        <h1 className="text-white text-3xl title-font font-medium mb-1">
-        Web Development
-        </h1>
-        <p className="leading-relaxed text-white">
-        At Oceancapp, our web development services excel in delivering tailored solutions that blend creativity with technical expertise. We prioritize user-centric design, ensuring our websites are not only visually appealing but also highly functional and responsive across all devices. By leveraging the latest technologies, we create robust e-commerce platforms, dynamic web applications, and intuitive user interfaces that enhance user experience and drive business growth. Oceancapp stands out for its commitment to innovation and quality, making us the ideal choice for businesses looking to elevate their online presence.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src="https://dummyimage.com/400x400"
+                />
+              </div>
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-3xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                    Web Development
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                  At Oceancapp, our web development services excel in delivering
+                  tailored solutions that blend creativity with technical
+                  expertise. We prioritize user-centric design, ensuring our
+                  websites are not only visually appealing but also highly
+                  functional and responsive across all devices. By leveraging
+                  the latest technologies, we create robust e-commerce
+                  platforms, dynamic web applications, and intuitive user
+                  interfaces that enhance user experience and drive business
+                  growth. Oceancapp stands out for its commitment to innovation
+                  and quality, making us the ideal choice for businesses looking
+                  to elevate their online presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* 3rd phase finish--------------------------------------------------------------- */}
       </>
