@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ser from "../../assets/service.png";
 import { GiEarthAsiaOceania } from "react-icons/gi";
+import webc from "../../assets/webc.png"
 
 const Services = () => {
   return (
@@ -43,13 +44,13 @@ const Services = () => {
         {/* 2nd phase finish */}
         {/* 3rd phase start--------------------------------------------------------------- */}
         <section className="text-gray-600 body-font overflow-hidden">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 py-16 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="lg:w-1/2 w-full p-4">
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src="https://dummyimage.com/400x400"
+                  src={webc}
                 />
               </div>
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
@@ -73,6 +74,15 @@ const Services = () => {
                 </p>
                 <div className="flex text-white pt-2">
                 <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Custom website design and development</p>
+                </div>
+                <div className="flex text-white pt-2">
+                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">E-commerce solutions</p>
+                </div>
+                <div className="flex text-white pt-2">
+                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Web application development</p>
+                </div>
+                <div className="flex text-white pt-2">
+                <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700"/><p className="pl-2 font-bold">Responsive design for mobile and desktop</p>
                 </div>
               </div>
             </div>
