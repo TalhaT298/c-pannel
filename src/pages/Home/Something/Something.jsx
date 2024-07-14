@@ -20,7 +20,7 @@ const Something = () => {
   return (
     <div>
       <div className="flex gap-8">
-        <div className="w-1/2 text-5xl font-bold leading-relaxed" data-aos="fade-right">
+        <div className="w-1/2 text-4xl font-bold leading-relaxed" data-aos="fade-right">
           Navigating Global Projects with<span className="text-cyan-500"> Expertise </span>and <span className="text-cyan-500">Assurance</span>
         </div>
         <div className="w-1/2 font-semibold font-thin pt-5" data-aos="fade-left">

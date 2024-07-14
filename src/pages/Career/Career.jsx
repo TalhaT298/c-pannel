@@ -2,8 +2,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
-import efad from "../../assets/efad.png";
-import sadman from "../../assets/Sadman.webp";
+import efad from "../../assets/Untitled design (11).png";
+import sadman from "../../assets/Untitled design (12).png";
 import employee from "../../assets/employee.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { RiExpandLeftRightLine } from "react-icons/ri";
