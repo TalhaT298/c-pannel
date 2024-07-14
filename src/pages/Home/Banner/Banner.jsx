@@ -278,16 +278,13 @@ const Banner = () => {
           </div>
         </div>
         <Link to="">
-              <button
-                className="btn btn-outline text-xl pl-1 mt-6 w-  bg-black text-white border-black border group hover:bg-black hover:text-white"
-                data-aos-duration="1000"
-              >
-                Engage US
-                <PiArrowRightLight
-              size="2.2rem"
-              className="text-white group-hover:text-white"
-            />
-              </button>
+        <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
             </Link>
             </div>
           </div>
