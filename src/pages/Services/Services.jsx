@@ -13,6 +13,7 @@ import cb from "../../assets/cb.png";
 import prompti from "../../assets/prompti.png";
 import vdrfwe from "../../assets/vdrfwe.png";
 import appi from "../../assets/appi.png";
+import idcr from "../../assets/idcr.png";
 import person101 from "../../assets/person101.png";
 import person102 from "../../assets/person102.png";
 import person103 from "../../assets/person103.png";
@@ -564,7 +565,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={prompti}
+                  src={idcr}
                 />
               </div>
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
