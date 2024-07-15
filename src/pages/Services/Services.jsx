@@ -8,6 +8,7 @@ import { GiEarthAsiaOceania } from "react-icons/gi";
 import webc from "../../assets/webc.png";
 import wordc from "../../assets/wordc.png";
 import graa from "../../assets/graa.png";
+import eda from "../../assets/eda.png";
 import cb from "../../assets/cb.png";
 import prompti from "../../assets/prompti.png";
 import appi from "../../assets/appi.png";
@@ -446,7 +447,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={prompti}
+                  src={eda}
                 />
               </div>
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
