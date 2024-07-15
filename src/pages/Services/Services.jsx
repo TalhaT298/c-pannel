@@ -302,40 +302,30 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                    Web Development
+                  Prompt Engineering
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                  At Oceancapp, our web development services excel in delivering
-                  tailored solutions that blend creativity with technical
-                  expertise. We prioritize user-centric design, ensuring our
-                  websites are not only visually appealing but also highly
-                  functional and responsive across all devices. By leveraging
-                  the latest technologies, we create robust e-commerce
-                  platforms, dynamic web applications, and intuitive user
-                  interfaces that enhance user experience and drive business
-                  growth. Oceancapp stands out for its commitment to innovation
-                  and quality, making us the ideal choice for businesses looking
-                  to elevate their online presence.
+                Oceancapp's Prompt Engineering service leads with advanced AI solutions like chatbots, natural language processing, and custom automation scripts. We specialize in enhancing efficiency and user interaction, delivering tailored solutions that integrate seamlessly and drive measurable results. With a focus on innovation and client-specific needs, Oceancapp empowers businesses to achieve operational excellence through cutting-edge Prompt Engineering services.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                    Custom website design and development
+                  AI and chatbot development
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">E-commerce solutions</p>
+                  <p className="pl-2 font-bold">Natural language processing solutions</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Web application development</p>
+                  <p className="pl-2 font-bold">Custom automation scripts</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                    Responsive design for mobile and desktop
+                  AI-driven data analysis and insights
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
