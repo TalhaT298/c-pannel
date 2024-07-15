@@ -11,6 +11,7 @@ import graa from "../../assets/graa.png";
 import eda from "../../assets/eda.png";
 import cb from "../../assets/cb.png";
 import prompti from "../../assets/prompti.png";
+import vdrfwe from "../../assets/vdrfwe.png";
 import appi from "../../assets/appi.png";
 import person101 from "../../assets/person101.png";
 import person102 from "../../assets/person102.png";
@@ -548,7 +549,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={appi}
+                  src={vdrfwe}
                 />
               </div>
             </div>
