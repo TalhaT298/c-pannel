@@ -15,6 +15,9 @@ import GraphicsDesign from "../pages/GraphicsDesign/GraphicsDesign";
 import PromptEngineering from "../pages/PromptEngineering/PromptEngineering";
 import Contact from "../pages/Contact/Contact";
 import Career from "../pages/Career/Career";
+import Education from "../pages/Education/Education";
+import Creation from "../pages/Creation/Creation";
+import Video from "../pages/Video/Video";
 
   
   export const router = createBrowserRouter([
@@ -69,6 +72,18 @@ import Career from "../pages/Career/Career";
         {
             path:'/career',
             element:<Career></Career>
+        },
+        {
+            path:'/education',
+            element:<Education></Education>
+        },
+        {
+            path:'/creation',
+            element:<Creation></Creation>
+        },
+        {
+            path:'/video',
+            element:<Video></Video>
         },
 
       ]
