@@ -105,7 +105,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/webdevelopment">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -164,7 +164,7 @@ const Services = () => {
                   <p className="pl-2 font-bold">WooCommerce integration</p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/webdesign">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -235,7 +235,7 @@ const Services = () => {
                   <p className="pl-2 font-bold">UI/UX design</p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/graphics">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -290,7 +290,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/cybersecurity">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -360,7 +360,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/prompt">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -419,7 +419,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/gameDevelopment">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -482,7 +482,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/education">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
@@ -598,7 +598,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/creation">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
