@@ -12,6 +12,7 @@ import img3 from "../../../assets/Web_design (1).webp";
 import img4 from "../../../assets/Web_design (5).webp";
 import edu from "../../../assets/edu.png";
 import idea23 from "../../../assets/idea23.png";
+import v from "../../../assets/v.png";
 import img5 from "../../../assets/graphics.png";
 import "./Offer.css";
 const Offer = () => {
@@ -339,7 +340,7 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img5} alt="Shoes" className="rounded-xl" />
+            <img src={v} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Video Editing</h2>
