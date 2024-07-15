@@ -175,7 +175,258 @@ const Services = () => {
             </div>
           </div>
         </section>
-        {/* 4th phase start----------------------------------- */}
+        {/* 4th phase finish----------------------------------- */}
+        {/* 5th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 pt-8 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={webc}
+                />
+              </div>
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                  Graphics Design
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                Oceancapp's graphics design services are exceptional due to our creativity, attention to detail, and ability to capture your brand's essence. Our talented designers craft compelling logos, cohesive brand identities, and striking marketing materials that resonate with your audience. We focus on delivering visually appealing, functional designs that align with your vision and goals. By staying updated with the latest trends, we provide innovative and impactful design solutions. Oceancapp's commitment to quality and client satisfaction makes us the top choice for outstanding graphics design services.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Logo design
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Brand identity</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Marketing materials (brochures, flyers, etc.)</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  UI/UX design
+                  </p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 5th phase finish----------------------------------- */}
+        {/* 6th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                    WordPress Development
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                  Oceancapp's WordPress services are unmatched in their ability
+                  to create customized solutions that cater specifically to our
+                  clients' needs. We specialize in developing bespoke WordPress
+                  themes and plugins, tailored to enhance functionality and meet
+                  unique business requirements effectively. Our team excels in
+                  providing comprehensive support, from initial design and
+                  development to ongoing maintenance and updates, ensuring
+                  seamless integration and optimal performance.We prioritize user-friendly
+                  interfaces and robust security measures.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Custom WordPress theme development
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Plugin development</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Website maintenance and updates
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">WooCommerce integration</p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={wordc}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 6th phase finish----------------------------------- */}
+        {/* 7th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 pt-16 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={webc}
+                />
+              </div>
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                    Web Development
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                  At Oceancapp, our web development services excel in delivering
+                  tailored solutions that blend creativity with technical
+                  expertise. We prioritize user-centric design, ensuring our
+                  websites are not only visually appealing but also highly
+                  functional and responsive across all devices. By leveraging
+                  the latest technologies, we create robust e-commerce
+                  platforms, dynamic web applications, and intuitive user
+                  interfaces that enhance user experience and drive business
+                  growth. Oceancapp stands out for its commitment to innovation
+                  and quality, making us the ideal choice for businesses looking
+                  to elevate their online presence.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Custom website design and development
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">E-commerce solutions</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Web application development</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Responsive design for mobile and desktop
+                  </p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 7th phase finish----------------------------------- */}
+        {/* 8th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                    WordPress Development
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                  Oceancapp's WordPress services are unmatched in their ability
+                  to create customized solutions that cater specifically to our
+                  clients' needs. We specialize in developing bespoke WordPress
+                  themes and plugins, tailored to enhance functionality and meet
+                  unique business requirements effectively. Our team excels in
+                  providing comprehensive support, from initial design and
+                  development to ongoing maintenance and updates, ensuring
+                  seamless integration and optimal performance.We prioritize user-friendly
+                  interfaces and robust security measures.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Custom WordPress theme development
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Plugin development</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Website maintenance and updates
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">WooCommerce integration</p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={wordc}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 8th phase finish----------------------------------- */}
+        
       </>
     </Link>
   );
