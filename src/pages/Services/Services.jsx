@@ -239,39 +239,31 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                    WordPress Development
+                  Cybersecurity Solutions
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                  Oceancapp's WordPress services are unmatched in their ability
-                  to create customized solutions that cater specifically to our
-                  clients' needs. We specialize in developing bespoke WordPress
-                  themes and plugins, tailored to enhance functionality and meet
-                  unique business requirements effectively. Our team excels in
-                  providing comprehensive support, from initial design and
-                  development to ongoing maintenance and updates, ensuring
-                  seamless integration and optimal performance.We prioritize user-friendly
-                  interfaces and robust security measures.
+                Oceancapp stands out in cybersecurity with tailored solutions that include thorough audits, vulnerability assessments, and proactive defense strategies. Our team ensures robust data protection and compliance, leveraging advanced technologies to stay ahead of emerging threats. With a focus on proactive security measures and industry standards, Oceancapp is your trusted partner for reliable cybersecurity solutions.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                    Custom WordPress theme development
+                  Security audits and vulnerability assessments
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Plugin development</p>
+                  <p className="pl-2 font-bold">Penetration testing</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                    Website maintenance and updates
+                  Network security
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">WooCommerce integration</p>
+                  <p className="pl-2 font-bold">Data protection and compliance</p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
                   <Link to="">
