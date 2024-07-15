@@ -7,6 +7,10 @@ import ser from "../../assets/service.png";
 import { GiEarthAsiaOceania } from "react-icons/gi";
 import webc from "../../assets/webc.png";
 import wordc from "../../assets/wordc.png";
+import graa from "../../assets/graa.png";
+import cb from "../../assets/cb.png";
+import prompti from "../../assets/prompti.png";
+import appi from "../../assets/appi.png";
 import { PiArrowRightLight } from "react-icons/pi";
 const Services = () => {
   return (
@@ -184,7 +188,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={webc}
+                  src={graa}
                 />
               </div>
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
@@ -281,7 +285,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={wordc}
+                  src={cb}
                 />
               </div>
             </div>
@@ -296,7 +300,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={webc}
+                  src={prompti}
                 />
               </div>
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
@@ -393,7 +397,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={wordc}
+                  src={appi}
                 />
               </div>
             </div>
