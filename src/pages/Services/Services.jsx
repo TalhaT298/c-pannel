@@ -30,7 +30,7 @@ const Services = () => {
             </h3>
           </div>
           <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-          <p className="text-center font-thin">
+          <p className="text-center py-4 font-thin">
             Oceancapp offers a diverse range of IT solutions to meet various
             needs. Our web development services include custom website design,
             e-commerce solutions, and responsive designs for all devices. We
@@ -404,6 +404,17 @@ const Services = () => {
           </div>
         </section>
         {/* 8th phase finish----------------------------------- */}
+        {/* 9th phase start----------------------------------- */}
+        <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
+            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            Words From Clients
+            </h3>
+          </div>
+          <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div>
+            
+          </div>
+        {/* 9th phase finish----------------------------------- */}
         
       </>
     </Link>
