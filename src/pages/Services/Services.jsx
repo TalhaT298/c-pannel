@@ -439,6 +439,178 @@ const Services = () => {
         </section>
         {/* 8th phase finish----------------------------------- */}
         {/* 9th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 pt-16 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={prompti}
+                />
+              </div>
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                  Education Services
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                Oceancapp's Education Services stand out for their commitment to personalized learning experiences tailored to individual needs. We offer interactive and engaging platforms that leverage cutting-edge technology to enrich the educational journey. Our focus on professional development ensures that educators and professionals receive the training and support needed to stay ahead in their fields. Oceancapp is dedicated to fostering a learning environment that promotes growth, innovation, and excellence, making us the ideal partner for achieving educational goals effectively.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Customized Learning Solutions</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Interactive Learning Platforms
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Technology Integration</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Professional Development
+                  </p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 9th phase finish----------------------------------- */}
+        {/* 10th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                  Video Editing
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                Oceancapp's Video Editing service excels in delivering polished and professional videos that captivate audiences. We combine creative flair with technical expertise to transform raw footage into compelling stories. Our team pays meticulous attention to detail, ensuring seamless transitions, enhanced visuals, and impactful storytelling. With a commitment to quality and client satisfaction, we offer fast turnaround times and flexible editing options to meet diverse needs. Whether for corporate presentations, promotional videos, or personal projects, Oceancapp's Video Editing service is trusted for its ability to elevate content and engage viewers effectively.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Professional Video Editing for various purposes.
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Creative and polished editing to enhance storytelling.
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Meticulous attention to detail for seamless transitions and enhanced visuals.
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Fast turnaround times and flexible editing options to meet client needs.
+                  </p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={appi}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 10th phase finsih----------------------------------- */}
+        {/* 11th phase start----------------------------------- */}
+        <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 pt-16 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="lg:w-1/2 w-full p-4">
+                <img
+                  alt="ecommerce"
+                  className="w-full h-full object-cover object-center rounded"
+                  src={prompti}
+                />
+              </div>
+              <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold title-font mb-1">
+                  <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
+                  Idea to Creation
+                  </span>
+                </h1>
+                <p className="leading-relaxed text-white">
+                Oceancapp's Idea to Creation service excels in transforming innovative concepts into tangible realities. We offer comprehensive support from initial idea conception through to final product delivery, ensuring every step is meticulously executed. Our team combines creativity with technical expertise to develop solutions that meet client objectives effectively. With a commitment to quality, innovation, and client satisfaction, Oceancapp is dedicated to bringing ideas to life seamlessly and successfully.
+                </p>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Comprehensive support from concept development to final product delivery</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Creative and innovative solutions tailored to client objectives.
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">Meticulous execution with a focus on quality and client satisfaction.</p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                  Integration of technical expertise to bring ideas to life effectively.
+                  </p>
+                </div>
+                <div className="card-actions pt-2 flex justify-start items-center">
+                  <Link to="">
+                    <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+                      Learn More
+                      <PiArrowRightLight
+                        size="1.1rem"
+                        className="text-white group-hover:text-black"
+                      />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 11th phase finish----------------------------------- */}
+        {/* 12th phase start----------------------------------- */}
         <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
           <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Words From Clients
@@ -495,7 +667,7 @@ const Services = () => {
             </div>
           </section>
         </div>
-        {/* 9th phase finish----------------------------------- */}
+        {/* 12th phase finish----------------------------------- */}
       </>
     </Link>
   );
