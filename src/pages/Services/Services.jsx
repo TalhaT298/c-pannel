@@ -134,8 +134,8 @@ const Services = () => {
                   unique business requirements effectively. Our team excels in
                   providing comprehensive support, from initial design and
                   development to ongoing maintenance and updates, ensuring
-                  seamless integration and optimal performance.We prioritize user-friendly
-                  interfaces and robust security measures.
+                  seamless integration and optimal performance.We prioritize
+                  user-friendly interfaces and robust security measures.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
@@ -194,17 +194,25 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                  Graphics Design
+                    Graphics Design
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                Oceancapp's graphics design services are exceptional due to our creativity, attention to detail, and ability to capture your brand's essence. Our talented designers craft compelling logos, cohesive brand identities, and striking marketing materials that resonate with your audience. We focus on delivering visually appealing, functional designs that align with your vision and goals. By staying updated with the latest trends, we provide innovative and impactful design solutions. Oceancapp's commitment to quality and client satisfaction makes us the top choice for outstanding graphics design services.
+                  Oceancapp's graphics design services are exceptional due to
+                  our creativity, attention to detail, and ability to capture
+                  your brand's essence. Our talented designers craft compelling
+                  logos, cohesive brand identities, and striking marketing
+                  materials that resonate with your audience. We focus on
+                  delivering visually appealing, functional designs that align
+                  with your vision and goals. By staying updated with the latest
+                  trends, we provide innovative and impactful design solutions.
+                  Oceancapp's commitment to quality and client satisfaction
+                  makes us the top choice for outstanding graphics design
+                  services.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">
-                  Logo design
-                  </p>
+                  <p className="pl-2 font-bold">Logo design</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
@@ -212,13 +220,13 @@ const Services = () => {
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Marketing materials (brochures, flyers, etc.)</p>
+                  <p className="pl-2 font-bold">
+                    Marketing materials (brochures, flyers, etc.)
+                  </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">
-                  UI/UX design
-                  </p>
+                  <p className="pl-2 font-bold">UI/UX design</p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
                   <Link to="">
@@ -243,16 +251,22 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                  Cybersecurity Solutions
+                    Cybersecurity Solutions
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                Oceancapp stands out in cybersecurity with tailored solutions that include thorough audits, vulnerability assessments, and proactive defense strategies. Our team ensures robust data protection and compliance, leveraging advanced technologies to stay ahead of emerging threats. With a focus on proactive security measures and industry standards, Oceancapp is your trusted partner for reliable cybersecurity solutions.
+                  Oceancapp stands out in cybersecurity with tailored solutions
+                  that include thorough audits, vulnerability assessments, and
+                  proactive defense strategies. Our team ensures robust data
+                  protection and compliance, leveraging advanced technologies to
+                  stay ahead of emerging threats. With a focus on proactive
+                  security measures and industry standards, Oceancapp is your
+                  trusted partner for reliable cybersecurity solutions.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                  Security audits and vulnerability assessments
+                    Security audits and vulnerability assessments
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
@@ -261,13 +275,13 @@ const Services = () => {
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">
-                  Network security
-                  </p>
+                  <p className="pl-2 font-bold">Network security</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Data protection and compliance</p>
+                  <p className="pl-2 font-bold">
+                    Data protection and compliance
+                  </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
                   <Link to="">
@@ -306,21 +320,28 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                  Prompt Engineering
+                    Prompt Engineering
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                Oceancapp's Prompt Engineering service leads with advanced AI solutions like chatbots, natural language processing, and custom automation scripts. We specialize in enhancing efficiency and user interaction, delivering tailored solutions that integrate seamlessly and drive measurable results. With a focus on innovation and client-specific needs, Oceancapp empowers businesses to achieve operational excellence through cutting-edge Prompt Engineering services.
+                  Oceancapp's Prompt Engineering service leads with advanced AI
+                  solutions like chatbots, natural language processing, and
+                  custom automation scripts. We specialize in enhancing
+                  efficiency and user interaction, delivering tailored solutions
+                  that integrate seamlessly and drive measurable results. With a
+                  focus on innovation and client-specific needs, Oceancapp
+                  empowers businesses to achieve operational excellence through
+                  cutting-edge Prompt Engineering services.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">
-                  AI and chatbot development
-                  </p>
+                  <p className="pl-2 font-bold">AI and chatbot development</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Natural language processing solutions</p>
+                  <p className="pl-2 font-bold">
+                    Natural language processing solutions
+                  </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
@@ -329,7 +350,7 @@ const Services = () => {
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                  AI-driven data analysis and insights
+                    AI-driven data analysis and insights
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
@@ -359,27 +380,37 @@ const Services = () => {
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                Oceancapp excels in app development by delivering tailored solutions for iOS and Android that blend innovation with practicality. We specialize in user-centric design, ensuring intuitive interfaces that enhance engagement. Our cross-platform expertise guarantees seamless performance across devices, making us the preferred choice for businesses seeking reliable and effective app solutions.
+                  Oceancapp excels in app development by delivering tailored
+                  solutions for iOS and Android that blend innovation with
+                  practicality. We specialize in user-centric design, ensuring
+                  intuitive interfaces that enhance engagement. Our
+                  cross-platform expertise guarantees seamless performance
+                  across devices, making us the preferred choice for businesses
+                  seeking reliable and effective app solutions.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                  Custom Mobile Apps for iOS and Android
+                    Custom Mobile Apps for iOS and Android
                   </p>
-                </div>
-                <div className="flex text-white pt-2">
-                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Enterprise Solutions for streamlined operations</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                  User-Centric Design for intuitive interfaces
+                    Enterprise Solutions for streamlined operations
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Cross-Platform Compatibility for seamless performance</p>
+                  <p className="pl-2 font-bold">
+                    User-Centric Design for intuitive interfaces
+                  </p>
+                </div>
+                <div className="flex text-white pt-2">
+                  <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
+                  <p className="pl-2 font-bold">
+                    Cross-Platform Compatibility for seamless performance
+                  </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
                   <Link to="">
@@ -406,16 +437,115 @@ const Services = () => {
         {/* 8th phase finish----------------------------------- */}
         {/* 9th phase start----------------------------------- */}
         <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Words From Clients
-            </h3>
-          </div>
-          <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-          <div>
-            
-          </div>
+          </h3>
+        </div>
+        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div>
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div className="container px-5 py-24 mx-auto">
+              <div className="-my-8 divide-y-2 divide-gray-100">
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700">
+                      CATEGORY
+                    </span>
+                    <span className="mt-1 text-gray-500 text-sm">
+                      12 Jun 2019
+                    </span>
+                  </div>
+                  <div className="md:flex-grow">
+                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                      Bitters hashtag waistcoat fashion axe chia unicorn
+                    </h2>
+                    <p className="leading-relaxed">
+                      Glossier echo park pug, church-key sartorial biodiesel
+                      vexillologist pop-up snackwave ramps cornhole. Marfa 3
+                      wolf moon party messenger bag selfies, poke vaporware
+                      kombucha lumbersexual pork belly polaroid hoodie portland
+                      craft beer.
+                    </p>
+                    <a className="text-indigo-500 inline-flex items-center mt-4">
+                      Learn More
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700">
+                      CATEGORY
+                    </span>
+                    <span className="mt-1 text-gray-500 text-sm">
+                      12 Jun 2019
+                    </span>
+                  </div>
+                  <div className="md:flex-grow">
+                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                      Meditation bushwick direct trade taxidermy shaman
+                    </h2>
+                    <p className="leading-relaxed">
+                      Glossier echo park pug, church-key sartorial biodiesel
+                      vexillologist pop-up snackwave ramps cornhole. Marfa 3
+                      wolf moon party messenger bag selfies, poke vaporware
+                      kombucha lumbersexual pork belly polaroid hoodie portland
+                      craft beer.
+                    </p>
+                    <a className="text-indigo-500 inline-flex items-center mt-4">
+                      Learn More
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700">
+                      CATEGORY
+                    </span>
+                    <span className="text-sm text-gray-500">12 Jun 2019</span>
+                  </div>
+                  <div className="md:flex-grow">
+                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                      Woke master cleanse drinking vinegar salvia
+                    </h2>
+                    <p className="leading-relaxed">
+                      Glossier echo park pug, church-key sartorial biodiesel
+                      vexillologist pop-up snackwave ramps cornhole. Marfa 3
+                      wolf moon party messenger bag selfies, poke vaporware
+                      kombucha lumbersexual pork belly polaroid hoodie portland
+                      craft beer.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
         {/* 9th phase finish----------------------------------- */}
-        
       </>
     </Link>
   );
