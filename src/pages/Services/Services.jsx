@@ -351,39 +351,31 @@ const Services = () => {
               <div className="lg:w-1/2 w-full p-4 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold title-font mb-1">
                   <span class="bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 bg-clip-text text-transparent">
-                    WordPress Development
+                    App Development
                   </span>
                 </h1>
                 <p className="leading-relaxed text-white">
-                  Oceancapp's WordPress services are unmatched in their ability
-                  to create customized solutions that cater specifically to our
-                  clients' needs. We specialize in developing bespoke WordPress
-                  themes and plugins, tailored to enhance functionality and meet
-                  unique business requirements effectively. Our team excels in
-                  providing comprehensive support, from initial design and
-                  development to ongoing maintenance and updates, ensuring
-                  seamless integration and optimal performance.We prioritize user-friendly
-                  interfaces and robust security measures.
+                Oceancapp excels in app development by delivering tailored solutions for iOS and Android that blend innovation with practicality. We specialize in user-centric design, ensuring intuitive interfaces that enhance engagement. Our cross-platform expertise guarantees seamless performance across devices, making us the preferred choice for businesses seeking reliable and effective app solutions.
                 </p>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                    Custom WordPress theme development
+                  Custom Mobile Apps for iOS and Android
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">Plugin development</p>
+                  <p className="pl-2 font-bold">Enterprise Solutions for streamlined operations</p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
                   <p className="pl-2 font-bold">
-                    Website maintenance and updates
+                  User-Centric Design for intuitive interfaces
                   </p>
                 </div>
                 <div className="flex text-white pt-2">
                   <GiEarthAsiaOceania className="w-6 h-6 text-cyan-700" />
-                  <p className="pl-2 font-bold">WooCommerce integration</p>
+                  <p className="pl-2 font-bold">Cross-Platform Compatibility for seamless performance</p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
                   <Link to="">
