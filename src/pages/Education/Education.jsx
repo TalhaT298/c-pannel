@@ -7,7 +7,7 @@ const Education = () => {
         <>
         <Link to="/education"></Link>
         <div>
-            
+            eduction
         </div>
         </>
     );

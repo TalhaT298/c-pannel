@@ -7,7 +7,7 @@ const Creation = () => {
         <>
         <Link to="/creation"></Link>
         <div>
-            
+            creation
         </div>
         </>
     );

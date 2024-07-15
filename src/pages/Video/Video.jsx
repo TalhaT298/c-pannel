@@ -7,7 +7,7 @@ const Video = () => {
         <>
         <Link to="/video"></Link>
         <div>
-            
+            video
         </div>
         </>
     );

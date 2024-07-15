@@ -284,7 +284,7 @@ const Offer = () => {
               that effectively communicate complex concepts..
             </p>
             <div className="card-actions  flex justify-center items-center">
-              <Link to="/gameDevelopment">
+              <Link to="/education">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
@@ -318,7 +318,7 @@ const Offer = () => {
               business needs */}
             </p>
             <div className="card-actions  flex justify-center items-center">
-              <Link to="/prompt">
+              <Link to="/creation">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
@@ -352,7 +352,7 @@ const Offer = () => {
               audience. */}
             </p>
             <div className="card-actions flex justify-center items-center">
-              <Link to="/graphics">
+              <Link to="/video">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
