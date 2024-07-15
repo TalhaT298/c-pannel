@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import ser from "../../assets/service.png";
 import { GiEarthAsiaOceania } from "react-icons/gi";
 import webc from "../../assets/webc.png";
+import wordc from "../../assets/wordc.png";
 import { PiArrowRightLight } from "react-icons/pi";
 const Services = () => {
   return (
@@ -168,7 +169,7 @@ const Services = () => {
                 <img
                   alt="ecommerce"
                   className="w-full h-full object-cover object-center rounded"
-                  src={webc}
+                  src={wordc}
                 />
               </div>
             </div>
