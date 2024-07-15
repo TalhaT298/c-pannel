@@ -439,7 +439,7 @@ const Services = () => {
         </section>
         {/* 8th phase finish----------------------------------- */}
         {/* 9th phase start----------------------------------- */}
-        <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
+        <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
           <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Words From Clients
           </h3>
@@ -447,22 +447,18 @@ const Services = () => {
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <div>
           <section class="text-gray-600 body-font overflow-hidden">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 py-12 mx-auto">
               <div className="-my-8 divide-y-2 divide-cyan-700">
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                     <img src={person101} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                      Bitters hashtag waistcoat fashion axe chia unicorn
+                    <h2 className="text-2xl font-medium text-white title-font mb-2">
+                    Review from Emma Johnson, Founder of GreenTech Solutions
                     </h2>
-                    <p className="leading-relaxed">
-                      Glossier echo park pug, church-key sartorial biodiesel
-                      vexillologist pop-up snackwave ramps cornhole. Marfa 3
-                      wolf moon party messenger bag selfies, poke vaporware
-                      kombucha lumbersexual pork belly polaroid hoodie portland
-                      craft beer.
+                    <p className="leading-relaxed text-white">
+                    I have been working with Oceancapp since 2022, and the experience has been nothing short of exceptional. Their team has taken full responsibility for our web development and cybersecurity needs, ensuring that our online presence is both robust and secure. Recently, Oceancapp also helped us with a complete website redesign, which has significantly improved our user engagement. I have high trust in Oceancapp and am glad to work with such a committed and competent team. I can recommend Oceancapp for any web development or cybersecurity project.
                     </p>
                     
                   </div>
@@ -472,15 +468,11 @@ const Services = () => {
                     <img src={person102} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                      Meditation bushwick direct trade taxidermy shaman
+                    <h2 className="text-2xl font-medium text-white title-font mb-2">
+                    Review from Sophia Martinez, CEO of Hubnex
                     </h2>
-                    <p className="leading-relaxed">
-                      Glossier echo park pug, church-key sartorial biodiesel
-                      vexillologist pop-up snackwave ramps cornhole. Marfa 3
-                      wolf moon party messenger bag selfies, poke vaporware
-                      kombucha lumbersexual pork belly polaroid hoodie portland
-                      craft beer.
+                    <p className="leading-relaxed text-white">
+                    Everything went extremely well with Oceancapp. My project was fairly complex, involving intricate graphics design and WordPress development. The team at Oceancapp succeeded with flying colors, delivering creative and functional designs that exceeded my expectations. Their communication was excellent, and they were very receptive to feedback, which made the whole process smooth and enjoyable. I can't wait to collaborate on another project with them. Fantastic team!
                     </p>
                     
                   </div>
@@ -490,15 +482,11 @@ const Services = () => {
                     <img src={person103} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                      Woke master cleanse drinking vinegar salvia
+                    <h2 className="text-2xl font-medium text-white title-font mb-2">
+                    Review from Michael Thompson, Founder of Tech Innovators
                     </h2>
-                    <p className="leading-relaxed">
-                      Glossier echo park pug, church-key sartorial biodiesel
-                      vexillologist pop-up snackwave ramps cornhole. Marfa 3
-                      wolf moon party messenger bag selfies, poke vaporware
-                      kombucha lumbersexual pork belly polaroid hoodie portland
-                      craft beer.
+                    <p className="leading-relaxed text-white">
+                    We needed a reliable partner to handle our game development and prompt engineering needs, and Oceancapp was the perfect choice. Their team managed to deliver high-quality results within the scheduled timeframe and budget. I worked with Talha remotely and found him to be a person of high personal integrity and professionalism. He was quick to address any issues that arose and always found innovative solutions to complex problems. Oceancapp is highly recommended for any game development or IT solution needs.
                     </p>
                     
                   </div>
