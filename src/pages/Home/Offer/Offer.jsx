@@ -270,6 +270,101 @@ const Offer = () => {
             </div>
           </div>
         </div>
+
+        {/* education service */}
+        <div
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          style={{
+            boxShadow:
+              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <figure className="px-4 pt-10">
+            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">WordPress development</h2>
+            <p>
+              Our skilled WordPress developers create custom, user-friendly, and
+              SEO-optimized websites that are easy to manage and tailored to
+              your needs.
+            </p>
+            <div className="card-actions  flex justify-center items-center">
+              <Link to="/gameDevelopment">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* idea to creation */}
+        <div
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          style={{
+            boxShadow:
+              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <figure className="px-4 pt-10">
+            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">WordPress development</h2>
+            <p>
+              Our skilled WordPress developers create custom, user-friendly, and
+              SEO-optimized websites that are easy to manage and tailored to
+              your needs.
+            </p>
+            <div className="card-actions  flex justify-center items-center">
+              <Link to="/gameDevelopment">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* video editing */}
+        <div
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          style={{
+            boxShadow:
+              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <figure className="px-4 pt-10">
+            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">WordPress development</h2>
+            <p>
+              Our skilled WordPress developers create custom, user-friendly, and
+              SEO-optimized websites that are easy to manage and tailored to
+              your needs.
+            </p>
+            <div className="card-actions  flex justify-center items-center">
+              <Link to="/gameDevelopment">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
