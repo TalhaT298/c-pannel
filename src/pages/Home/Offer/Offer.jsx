@@ -31,7 +31,7 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+            <img src={img2} alt="Shoes" className="rounded-xl w-80" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">WordPress development</h2>
@@ -161,18 +161,14 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img
-              src={img6}
-              alt="Shoes"
-              className="rounded-xl"
-            />
+            <img src={img6} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Prompt Engineering</h2>
             <p>
-              Our proficient prompt engineers specialize in 
-              optimizing AI prompts to enhance user interactions, ensuring
-              precise, efficient,... 
+              Our proficient prompt engineers specialize in optimizing AI
+              prompts to enhance user interactions, ensuring precise,
+              efficient,...
               {/* and meaningful responses tailored to your
               business needs */}
             </p>
@@ -242,18 +238,14 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img
-              src={img5}
-              alt="Shoes"
-              className="rounded-xl"
-            />
+            <img src={img5} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Graphics Design</h2>
             <p>
               Our talented graphic designers craft visually compelling and
               innovative designs that effectively communicate...
-               {/* your brand
+              {/* your brand
               message, ensuring your visuals stand out and captivate your
               audience. */}
             </p>
@@ -280,14 +272,13 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+            <img src={img2} alt="Shoes" className="rounded-xl w-80" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">WordPress development</h2>
+            <h2 className="card-title">Education Services</h2>
             <p>
-              Our skilled WordPress developers create custom, user-friendly, and
-              SEO-optimized websites that are easy to manage and tailored to
-              your needs.
+              Our talented educators develop engaging and innovative lessons
+              that effectively communicate complex concepts..
             </p>
             <div className="card-actions  flex justify-center items-center">
               <Link to="/gameDevelopment">
@@ -304,24 +295,27 @@ const Offer = () => {
         </div>
         {/* idea to creation */}
         <div
-          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          // whileHover={{ scale: 1.05 }}
+          // whileTap={{ scale: 0.8 }}
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+            <img src={img6} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">WordPress development</h2>
+            <h2 className="card-title">Idea to Creation</h2>
             <p>
-              Our skilled WordPress developers create custom, user-friendly, and
-              SEO-optimized websites that are easy to manage and tailored to
-              your needs.
+              OOne of the most compelling and crucial aspects of our IT solution
+              is transforming ideas into reality.
+              {/* and meaningful responses tailored to your
+              business needs */}
             </p>
             <div className="card-actions  flex justify-center items-center">
-              <Link to="/gameDevelopment">
+              <Link to="/prompt">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
@@ -334,26 +328,28 @@ const Offer = () => {
           </div>
         </div>
 
-        {/* video editing */}
+        {/* video editting */}
         <div
-          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="Shoes"  className="rounded-xl w-80" />
+            <img src={img5} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">WordPress development</h2>
+            <h2 className="card-title">Video Editing</h2>
             <p>
-              Our skilled WordPress developers create custom, user-friendly, and
-              SEO-optimized websites that are easy to manage and tailored to
-              your needs.
+              Our skilled video editors create visually stunning and innovative
+              edits that effectively communicate your brand's story...
+              {/* your brand
+              message, ensuring your visuals stand out and captivate your
+              audience. */}
             </p>
-            <div className="card-actions  flex justify-center items-center">
-              <Link to="/gameDevelopment">
+            <div className="card-actions flex justify-center items-center">
+              <Link to="/graphics">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
