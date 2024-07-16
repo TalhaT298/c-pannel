@@ -14,7 +14,7 @@ const GameDevelopment = () => {
           WordPress Development
         </h3>
             <h2 className="text-gray-800 font-extrabold text-2xl mb-4">
-              Register for exclusive deals and personalized shopping!
+            Register by contacting us
             </h2>
             <p className="text-gray-600 mb-4">
               Welcome to Olden Goods! a Open buying and selling platform,
