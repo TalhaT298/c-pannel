@@ -54,7 +54,7 @@ const Services = () => {
           </p>
         </div>
         {/* 2nd phase finish */}
-        {/* 3rd phase start--------------------------------------------------------------- */}
+        {/* 3rd phase start--------------------------------------------------------- */}
         <section className="text-gray-600 body-font overflow-hidden">
           <div className="container px-5 pt-16 mx-auto">
             <div className="flex flex-wrap -m-4">

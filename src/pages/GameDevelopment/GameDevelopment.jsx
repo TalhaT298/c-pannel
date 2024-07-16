@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 
 const GameDevelopment = () => {
     return (
-        <Link to="gameDevelopment">
+        <>
+        <Link to="gameDevelopment"></Link>
         <div>
             this is Wordpress
             </div>
-        </Link>
+        
+        </>
     );
 };
 
