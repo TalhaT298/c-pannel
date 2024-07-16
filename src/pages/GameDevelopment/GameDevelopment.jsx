@@ -3,6 +3,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
+import word1 from "../../assets/word22.png"
+import word2 from "../../assets/word11.png"
 const GameDevelopment = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const GameDevelopment = () => {
             <h2 className="text-white font-extrabold text-2xl mb-4">
               Register by contacting us
             </h2>
-            <p className="text-gray-600 mb-8">
+            <p className="text-white mb-8">
               Oceancapp's WordPress services are unmatched in their ability to
               create customized solutions that cater specifically to our
               clients' needs. We specialize in developing bespoke WordPress
@@ -41,12 +43,12 @@ const GameDevelopment = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src="https://via.placeholder.com/300x200"
+                src={word1}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src="https://via.placeholder.com/150x100"
+                src={word2}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
