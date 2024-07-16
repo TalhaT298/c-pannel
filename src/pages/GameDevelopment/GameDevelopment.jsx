@@ -3,7 +3,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import word1 from "../../assets/word22.png"
+import word1 from "../../assets/manw.png"
 import word2 from "../../assets/word11.png"
 const GameDevelopment = () => {
   return (
