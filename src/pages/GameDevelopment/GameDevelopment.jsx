@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
+import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import word1 from "../../assets/manw.png";
@@ -222,6 +223,46 @@ const GameDevelopment = () => {
         </div>
       </div>
         {/* ---------------------------------4th phase finish----------------------------*/}
+        {/* ---------------------------------5th phase start----------------------------*/}
+        <Marquee className="pt-8"  direction="right" speed={50}>
+        <p className="text-4xl font-extrabold font-serif px-4">React</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
+        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
+        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
+        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
+        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
+        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
+        <p className="text-4xl font-extrabold font-serif px-4">OpnSource</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Reux</p>
+      </Marquee>
+      <Marquee className="my-5"  direction="left" speed={50}>
+        <p className="text-4xl font-extrabold font-serif px-4">React</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
+        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
+        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
+        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
+        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
+        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
+        <p className="text-4xl font-extrabold font-serif px-4">OpenSource</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Redux</p>
+      </Marquee>
+        {/* ---------------------------------5th phase finish----------------------------*/}
 
       </div>
     </>
