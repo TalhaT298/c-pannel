@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import word1 from "../../assets/manw.png"
 import word2 from "../../assets/word11.png"
+import sampleVideo from "../../assets/sample-video.mp4";
 const GameDevelopment = () => {
   return (
     <>
@@ -57,7 +58,37 @@ const GameDevelopment = () => {
         </div>
         {/* ---------------------------------1st phase finish----------------------------*/}
         {/* ---------------------------------2nd phase start----------------------------*/}
-        
+        <div className="p-8 mt-8 rounded-lg shadow-md">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <video controls className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0">
+              <source src={sampleVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div className="md:w-1/2 md:ml-8 text-center md:text-left">
+              <h3 className="text-3xl text-white font-bold mb-4">
+                Learn More About Our WordPress Services
+              </h3>
+              <p className="text-white mb-8">
+                Watch this introductory video to get a better understanding of
+                our comprehensive range of services. Our team of experts is
+                dedicated to providing top-notch solutions tailored to meet your
+                specific needs. From initial consultation to final implementation,
+                we ensure a seamless experience.
+              </p>
+              <a
+                href={sampleVideo}
+                download
+                className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
+              >
+                Download our intro video 
+                <PiArrowRightLight
+                  size="1.1rem"
+                  className="text-white group-hover:text-black"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
         {/* ---------------------------------2nd phase finish----------------------------*/}
 
       </div>
