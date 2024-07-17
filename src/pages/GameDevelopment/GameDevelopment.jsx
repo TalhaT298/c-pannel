@@ -141,7 +141,7 @@ const GameDevelopment = () => {
           </div>
           {/* header  */}
           <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-            Show Us Your Superpower
+          Let's Build Your Dream Website
           </h1>
           {/* description  */}
           <p className="max-w-[58%] mx-auto text-center">
