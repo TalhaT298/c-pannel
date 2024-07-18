@@ -8,10 +8,10 @@ import word3 from "../../assets/word3.png";
 import word4 from "../../assets/word4.png";
 import { GrProjects } from "react-icons/gr";
 import sampleVideo2 from "../../assets/code.mp4";
-import p5 from "../../assets/p5.png";
-import p6 from "../../assets/p6.png";
-import p7 from "../../assets/p7.png";
-import p8 from "../../assets/p8.png";
+import p9 from "../../assets/p9.png";
+import p10 from "../../assets/p10.png";
+import p11 from "../../assets/p11.png";
+import p12 from "../../assets/p12.png";
 import person104 from "../../assets/aishab.png";
 import person105 from "../../assets/rahul.png";
 import person106 from "../../assets/lisa.png";
@@ -155,28 +155,28 @@ const WebDevelopment = () => {
               <div className="w-14 h-14 bg-transparent  rounded-full border-[3px] border-[#191919]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p5}
+                  src={p9}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919] relative -left-5">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p6}
+                  src={p10}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-10">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p7}
+                  src={p11}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-[60px]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p8}
+                  src={p12}
                   alt="avatar navigate ui"
                 />
               </div>
