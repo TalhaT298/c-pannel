@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import word3 from "../../assets/word3.png";
 import word4 from "../../assets/word4.png";
 import { GrProjects } from "react-icons/gr";
-import sampleVideo from "../../assets/sample-video.mp4";
+import sampleVideo2 from "../../assets/code.mp4";
 import p5 from "../../assets/p5.png";
 import p6 from "../../assets/p6.png";
 import p7 from "../../assets/p7.png";
@@ -66,22 +66,18 @@ const WebDevelopment = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={sampleVideo} type="video/mp4" />
+              <source src={sampleVideo2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Our WordPress Services
+                Learn More About Our Web Development Services
               </h3>
               <p className="text-white mb-8">
-                Watch this introductory video to get a better understanding of
-                our comprehensive range of services. Our team of experts is
-                dedicated to providing top-notch solutions tailored to meet your
-                specific needs. From initial consultation to final
-                implementation, we ensure a seamless experience.
+              Explore our dynamic web development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services customized to your unique requirements. From initial ideation to flawless execution, we guarantee a seamless journey towards achieving your digital goals
               </p>
               <a
-                href={sampleVideo}
+                href={sampleVideo2}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
