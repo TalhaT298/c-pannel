@@ -8,13 +8,13 @@ import word1 from "../../assets/manw.png";
 import word2 from "../../assets/word11.png";
 import { GrProjects } from "react-icons/gr";
 import sampleVideo from "../../assets/sample-video.mp4";
-import person1 from "../../assets/p1.png";
-import person2 from "../../assets/p2.png";
-import person3 from "../../assets/p3.png";
-import person4 from "../../assets/p4.png";
-import person101 from "../../assets/person101.png";
-import person102 from "../../assets/person102.png";
-import person103 from "../../assets/person103.png";
+import p5 from "../../assets/p5.png";
+import p6 from "../../assets/p6.png";
+import p7 from "../../assets/p7.png";
+import p8 from "../../assets/p8.png";
+import person104 from "../../assets/aishab.png";
+import person105 from "../../assets/rahul.png";
+import person106 from "../../assets/lisa.png";
 const GameDevelopment = () => {
   return (
     <>
@@ -198,28 +198,28 @@ const GameDevelopment = () => {
               <div className="w-14 h-14 bg-transparent  rounded-full border-[3px] border-[#191919]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={person1}
+                  src={p5}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919] relative -left-5">
                 <img
                   className="w-full h-full rounded-full"
-                  src={person2}
+                  src={p6}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-10">
                 <img
                   className="w-full h-full rounded-full"
-                  src={person3}
+                  src={p7}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-[60px]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={person4}
+                  src={p8}
                   alt="avatar navigate ui"
                 />
               </div>
@@ -332,7 +332,7 @@ const GameDevelopment = () => {
               <div className="-my-8 divide-y-2 divide-cyan-700">
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person101} className="w-40 h-40" alt="" />
+                    <img src={person104} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
                     <h2 className="text-2xl font-medium text-white title-font mb-2">
@@ -346,7 +346,7 @@ const GameDevelopment = () => {
                 </div>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                 <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person102} className="w-40 h-40" alt="" />
+                    <img src={person105} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
                     <h2 className="text-2xl font-medium text-white title-font mb-2">
@@ -360,7 +360,7 @@ const GameDevelopment = () => {
                 </div>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person103} className="w-40 h-40" alt="" />
+                    <img src={person106} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
                     <h2 className="text-2xl font-medium text-white title-font mb-2">
