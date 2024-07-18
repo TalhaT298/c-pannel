@@ -182,7 +182,7 @@ const WebDevelopment = () => {
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">20+</p>
+                <p className="text-lg text-white">70+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
