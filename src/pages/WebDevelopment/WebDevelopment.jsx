@@ -225,55 +225,44 @@ const WebDevelopment = () => {
         </div>
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
-        <Marquee className="pt-8" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Themes</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Core</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Plugins</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Templates</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Hosting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Database</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Pages</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Posts</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Widgets</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Gutenberg</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Custom Fields
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Shortcodes</p>
-          <p className="text-4xl font-extrabold font-serif px-4">SEO</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Backups</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Security</p>
-        </Marquee>
-        <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Multisite</p>
-          <p className="text-4xl font-extrabold font-serif px-4">eCommerce</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Performance</p>
-          <p className="text-4xl font-extrabold font-serif px-4">APIs</p>
-          <p className="text-4xl font-extrabold font-serif px-4">WP-CLI</p>
-          <p className="text-4xl font-extrabold font-serif px-4">REST API</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Taxonomies</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Hooks</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Actions</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Filters</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Customizer</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Blocks</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Page Builders
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Child Themes
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Responsive Design
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Menus</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Media Library
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Custom Post Types
-          </p>
-        </Marquee>
+        <Marquee className="pt-16"  direction="right" speed={50}>
+        <p className="text-4xl font-extrabold font-serif px-4">React</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
+        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
+        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
+        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
+        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
+        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
+        <p className="text-4xl font-extrabold font-serif px-4">OpnSource</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Reux</p>
+      </Marquee>
+      <Marquee className="my-5"  direction="left" speed={50}>
+        <p className="text-4xl font-extrabold font-serif px-4">React</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
+        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
+        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
+        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
+        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
+        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
+        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
+        <p className="text-4xl font-extrabold font-serif px-4">OpenSource</p>
+        <p className="text-4xl font-extrabold font-serif px-4">Redux</p>
+      </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
