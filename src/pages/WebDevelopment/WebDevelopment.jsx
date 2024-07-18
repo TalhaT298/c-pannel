@@ -4,8 +4,8 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import word1 from "../../assets/manw.png";
-import word2 from "../../assets/word11.png";
+import word3 from "../../assets/word3.png";
+import word4 from "../../assets/word4.png";
 import { GrProjects } from "react-icons/gr";
 import sampleVideo from "../../assets/sample-video.mp4";
 import p5 from "../../assets/p5.png";
@@ -31,15 +31,7 @@ const WebDevelopment = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-              Oceancapp's WordPress services are unmatched in their ability to
-              create customized solutions that cater specifically to our
-              clients' needs. We specialize in developing bespoke WordPress
-              themes and plugins, tailored to enhance functionality and meet
-              unique business requirements effectively. Our team excels in
-              providing comprehensive support, from initial design and
-              development to ongoing maintenance and updates, ensuring seamless
-              integration and optimal performance.We prioritize user-friendly
-              interfaces and robust security measures.
+            Oceancapp's web development services stand out for their ability to deliver tailored solutions that perfectly align with our clients' specific needs. We excel in crafting custom websites and web applications designed to boost functionality and meet distinct business objectives. Our expert team offers end-to-end support, from initial conceptualization and development to continuous maintenance and updates, ensuring smooth integration and peak performance. We focus on intuitive interfaces and stringent security protocols, providing an outstanding experience for both you and your users.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -54,12 +46,12 @@ const WebDevelopment = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={word1}
+                src={word3}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={word2}
+                src={word4}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
