@@ -12,6 +12,9 @@ import person1 from "../../assets/p1.png";
 import person2 from "../../assets/p2.png";
 import person3 from "../../assets/p3.png";
 import person4 from "../../assets/p4.png";
+import person101 from "../../assets/person101.png";
+import person102 from "../../assets/person102.png";
+import person103 from "../../assets/person103.png";
 const GameDevelopment = () => {
   return (
     <>
@@ -315,6 +318,66 @@ const GameDevelopment = () => {
           </p>
         </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
+        {/* ---------------------------------6th phase finish----------------------------*/}
+        <div>
+        <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
+          <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            Words From Clients
+          </h3>
+        </div>
+        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div>
+          <section className="text-gray-600 body-font overflow-hidden">
+            <div className="container px-5 py-12 mx-auto">
+              <div className="-my-8 divide-y-2 divide-cyan-700">
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <img src={person101} className="w-40 h-40" alt="" />
+                  </div>
+                  <div className="md:flex-grow">
+                    <h2 className="text-2xl font-medium text-white title-font mb-2">
+                    Aisha Rahman - Entrepreneu
+                    </h2>
+                    <p className="leading-relaxed text-white">
+                    Oceancapp transformed my vision into a stunning reality with their WordPress development services. The team’s attention to detail and innovative approach ensured my website not only looked beautiful but also functioned seamlessly. Their commitment to quality and customer satisfaction is unparalleled
+                    </p>
+                    
+                  </div>
+                </div>
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <img src={person102} className="w-40 h-40" alt="" />
+                  </div>
+                  <div className="md:flex-grow">
+                    <h2 className="text-2xl font-medium text-white title-font mb-2">
+                    Rahul Sen -  WordPress Development
+                    </h2>
+                    <p className="leading-relaxed text-white">
+                    Choosing Oceancapp for our WordPress development needs was the best decision we made. Their team transformed our outdated website into a sleek, responsive, and user-friendly platform. The attention to detail and commitment to excellence is unmatched. Oceancapp truly understands the nuances of WordPress, and their innovative approach simplified everything for us. We couldn't be happier with the results
+                    </p>
+                    
+                  </div>
+                </div>
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <img src={person103} className="w-40 h-40" alt="" />
+                  </div>
+                  <div className="md:flex-grow">
+                    <h2 className="text-2xl font-medium text-white title-font mb-2">
+                    Lisa Thompson- WordPress Development
+                    </h2>
+                    <p className="leading-relaxed text-white">
+                    Oceancapp's WordPress service exceeded our expectations in every way. From the initial consultation to the final delivery, their professionalism and expertise were evident. They listened to our needs, provided insightful recommendations, and delivered a website that not only looks fantastic but also performs flawlessly. Oceancapp's dedication to customer satisfaction is evident in every aspect of their work.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        </div>
+        {/* ---------------------------------6th phase finish----------------------------*/}
       </div>
     </>
   );
