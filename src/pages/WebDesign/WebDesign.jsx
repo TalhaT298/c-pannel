@@ -226,42 +226,37 @@ const WebDesign = () => {
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16"  direction="right" speed={50}>
-        <p className="text-4xl font-extrabold font-serif px-4">React</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
-        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
-        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
-        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
-        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
-        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-        <p className="text-4xl font-extrabold font-serif px-4">OpnSource</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Reux</p>
+        <p className="text-4xl font-extrabold font-serif px-4">User Interface (UI)</p>
+    <p className="text-4xl font-extrabold font-serif px-4">User Experience (UX)</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Mobile App</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Web App</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Cross-Platform</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Responsive Design</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Backend Development</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Frontend Development</p>
+    <p className="text-4xl font-extrabold font-serif px-4">API Integration</p>
+    <p className="text-4xl font-extrabold font-serif px-4">User Authentication</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Push Notifications</p>
+    <p className="text-4xl font-extrabold font-serif px-4">In-App Purchases</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Cloud Services</p>
+    <p className="text-4xl font-extrabold font-serif px-4">App Deployment</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Version Control</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Performance Optimization</p>
       </Marquee>
       <Marquee className="my-5"  direction="left" speed={50}>
-        <p className="text-4xl font-extrabold font-serif px-4">React</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
-        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
-        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
-        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
-        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
-        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-        <p className="text-4xl font-extrabold font-serif px-4">OpenSource</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Redux</p>
+      <p className="text-4xl font-extrabold font-serif px-4">User Engagement</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Data Synchronization</p>
+    <p className="text-4xl font-extrabold font-serif px-4">App Analytics</p>
+    <p className="text-4xl font-extrabold font-serif px-4">App Monetization</p>
+    <p className="text-4xl font-extrabold font-serif px-4">App Store Optimization (ASO)</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Continuous Integration</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Continuous Delivery</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Testing and Debugging</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Scalability</p>
+    <p className="text-4xl font-extrabold font-serif px-4">App Security</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Prototype</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Wireframe</p>
+    <p className="text-4xl font-extrabold font-serif px-4">Feature Set</p>
       </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
         {/* ---------------------------------6th phase finish----------------------------*/}
