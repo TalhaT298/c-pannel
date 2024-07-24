@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import grap from "../../assets/graphicsp.png";
 import graphicsw from "../../assets/graphicsw.png";
 import { GrProjects } from "react-icons/gr";
-import promptpv from "../../assets/prompt.mp4";
+import graphicsv from "../../assets/graphics.mp4";
 import p21 from "../../assets/p21.png";
 import p22 from "../../assets/p22.png";
 import p23 from "../../assets/p23.png";
@@ -66,7 +66,7 @@ const GraphicsDesign = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={promptpv} type="video/mp4" />
+              <source src={graphicsv} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
@@ -77,7 +77,7 @@ const GraphicsDesign = () => {
               Experience our creative graphic design solutions through this visual showcase. Our talented team is committed to providing outstanding services aligned with your unique vision. From brainstorming to flawless creation, we ensure a smooth process in crafting striking and effective designs that enhance your brand
               </p>
               <a
-                href={promptpv}
+                href={graphicsv}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
