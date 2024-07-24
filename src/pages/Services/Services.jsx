@@ -164,7 +164,7 @@ const Services = () => {
                   <p className="pl-2 font-bold">WooCommerce integration</p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="/webdesign">
+                  <Link to="/app">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight

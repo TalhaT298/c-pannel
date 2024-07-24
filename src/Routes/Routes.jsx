@@ -30,7 +30,7 @@ import Video from "../pages/Video/Video";
             element:<Home></Home>
         },
         {
-            path:'/webdesign',
+            path:'/app',
             element:<WebDesign></WebDesign>
         },
         {

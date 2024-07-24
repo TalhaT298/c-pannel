@@ -141,7 +141,7 @@ const Offer = () => {
               and best practices for app and online design to
             </p>
             <div className="card-actions  flex justify-center items-center">
-              <Link to="/webdesign">
+              <Link to="/app">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight

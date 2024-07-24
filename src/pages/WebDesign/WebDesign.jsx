@@ -19,7 +19,7 @@ import person106 from "../../assets/lisa.png";
 const WebDesign = () => {
     return (
         <>
-        <Link to="/webdesign"></Link>
+        <Link to="/app"></Link>
         <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
