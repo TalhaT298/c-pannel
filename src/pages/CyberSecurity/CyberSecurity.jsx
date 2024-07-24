@@ -12,9 +12,9 @@ import p13 from "../../assets/p13.png";
 import p14 from "../../assets/p14.png";
 import p15 from "../../assets/p15.png";
 import p16 from "../../assets/p16.png";
-import person104 from "../../assets/aishab.png";
-import person105 from "../../assets/rahul.png";
-import person106 from "../../assets/lisa.png";
+import person107 from "../../assets/person107.png";
+import person108 from "../../assets/person108.png";
+import person109 from "../../assets/person109.png";
 
 const CyberSecurity = () => {
   return (
@@ -191,7 +191,7 @@ const CyberSecurity = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-              Let's Secure Your Dream with Cybersecurity.
+              Let's Secure Your Dream with Cybersecurity
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -230,7 +230,7 @@ const CyberSecurity = () => {
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">70+</p>
+                <p className="text-lg text-white">30+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
@@ -351,7 +351,7 @@ const CyberSecurity = () => {
                 <div className="-my-8 divide-y-2 divide-cyan-700">
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person104} className="w-40 h-40" alt="" />
+                      <img src={person107} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
@@ -364,7 +364,7 @@ const CyberSecurity = () => {
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person105} className="w-40 h-40" alt="" />
+                      <img src={person108} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
@@ -377,7 +377,7 @@ const CyberSecurity = () => {
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person106} className="w-40 h-40" alt="" />
+                      <img src={person109} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
