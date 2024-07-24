@@ -17,21 +17,30 @@ import person105 from "../../assets/rahul.png";
 import person106 from "../../assets/lisa.png";
 
 const PromptEngineering = () => {
-    return (
-        <>
-        <Link to="/prompt"></Link>
-        <div>
+  return (
+    <>
+      <Link to="/prompt"></Link>
+      <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
             <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Prompt Engineering
+              Prompt Engineering
             </h3>
             <h2 className="text-white font-extrabold text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's prompt engineering services excel in crafting custom solutions that address your specific needs and objectives. We specialize in developing and optimizing prompt engineering techniques to enhance the effectiveness of AI-driven applications and systems. Our team provides comprehensive support, from initial strategy development and implementation to ongoing refinement and improvement, ensuring that your prompts deliver accurate, relevant, and impactful results. We prioritize innovation and precision, harnessing the latest advancements in AI to maximize the efficiency and effectiveness of your prompts.
+              Oceancapp's prompt engineering services excel in crafting custom
+              solutions that address your specific needs and objectives. We
+              specialize in developing and optimizing prompt engineering
+              techniques to enhance the effectiveness of AI-driven applications
+              and systems. Our team provides comprehensive support, from initial
+              strategy development and implementation to ongoing refinement and
+              improvement, ensuring that your prompts deliver accurate,
+              relevant, and impactful results. We prioritize innovation and
+              precision, harnessing the latest advancements in AI to maximize
+              the efficiency and effectiveness of your prompts.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -74,7 +83,12 @@ const PromptEngineering = () => {
                 Learn More About Our Prompt Engineering Services
               </h3>
               <p className="text-white mb-8">
-              Explore our innovative prompt engineering solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services tailored to your specific needs. From initial ideation to flawless execution, we guarantee a seamless journey towards optimizing your AI interactions and maximizing their potential.
+                Explore our innovative prompt engineering solutions through this
+                informative video. Our dedicated team of experts is committed to
+                delivering top-tier services tailored to your specific needs.
+                From initial ideation to flawless execution, we guarantee a
+                seamless journey towards optimizing your AI interactions and
+                maximizing their potential.
               </p>
               <a
                 href={promptpv}
@@ -94,37 +108,69 @@ const PromptEngineering = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-          Prompt Engineering Excellence Delivered
+            Prompt Engineering Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we pride ourselves on offering prompt engineering solutions that excel in efficiency, innovation, and customer satisfaction. Our commitment to quality ensures that your engineering projects are not only completed on time but also exceed your expectations.
+            At Oceancapp, we pride ourselves on offering prompt engineering
+            solutions that excel in efficiency, innovation, and customer
+            satisfaction. Our commitment to quality ensures that your
+            engineering projects are not only completed on time but also exceed
+            your expectations.
           </p>{" "}
           <br />
           <p>
-          Our team of skilled engineers has extensive experience in providing customized engineering solutions tailored to your unique needs. We stay updated with the latest technologies and industry standards to deliver cutting-edge engineering solutions. We understand that every project is unique, which is why we provide personalized engineering services that align with your project requirements and business goals. From concept to execution, we've got you covered.
+            Our team of skilled engineers has extensive experience in providing
+            customized engineering solutions tailored to your unique needs. We
+            stay updated with the latest technologies and industry standards to
+            deliver cutting-edge engineering solutions. We understand that every
+            project is unique, which is why we provide personalized engineering
+            services that align with your project requirements and business
+            goals. From concept to execution, we've got you covered.
           </p>{" "}
           <br />
           <p>
-          Our focus is on delivering engineering solutions that are not only efficient but also sustainable. We ensure streamlined processes and effective project management to meet your deadlines without compromising on quality. Additionally, we prioritize safety and compliance in all our engineering projects, adhering to rigorous standards to ensure the safety of your personnel and assets.
+            Our focus is on delivering engineering solutions that are not only
+            efficient but also sustainable. We ensure streamlined processes and
+            effective project management to meet your deadlines without
+            compromising on quality. Additionally, we prioritize safety and
+            compliance in all our engineering projects, adhering to rigorous
+            standards to ensure the safety of your personnel and assets.
           </p>
           <br />
           <p>
-          With the increasing complexity of engineering challenges, having a reliable partner is crucial. Our solutions are designed to address various engineering needs, from civil and structural engineering to mechanical and electrical systems. We leverage our expertise to deliver comprehensive solutions that optimize performance and minimize risks.
+            With the increasing complexity of engineering challenges, having a
+            reliable partner is crucial. Our solutions are designed to address
+            various engineering needs, from civil and structural engineering to
+            mechanical and electrical systems. We leverage our expertise to
+            deliver comprehensive solutions that optimize performance and
+            minimize risks.
           </p>
           <br />
           <p>
-          At Oceancapp, we believe in showcasing our engineering expertise through our work. You can easily showcase your successful engineering projects directly on your website with our portfolio feature, highlighting your achievements and capabilities to potential clients and partners.
+            At Oceancapp, we believe in showcasing our engineering expertise
+            through our work. You can easily showcase your successful
+            engineering projects directly on your website with our portfolio
+            feature, highlighting your achievements and capabilities to
+            potential clients and partners.
           </p>
           <br />
           <p>
-          Are you passionate about engineering and looking to join a dynamic team? Oceancapp is always seeking talented individuals to join our growing family. As part of our team, you'll have the opportunity to work on challenging projects, develop your skills, and contribute to our mission of delivering excellence in engineering solutions.
+            Are you passionate about engineering and looking to join a dynamic
+            team? Oceancapp is always seeking talented individuals to join our
+            growing family. As part of our team, you'll have the opportunity to
+            work on challenging projects, develop your skills, and contribute to
+            our mission of delivering excellence in engineering solutions.
           </p>
           <br />
           <p>
-          Whether you're planning a new project or seeking to enhance existing infrastructure, Oceancapp is your trusted partner for prompt engineering solutions. Contact us today to discuss your project requirements and discover how we can turn your engineering challenges into successful outcomes.
+            Whether you're planning a new project or seeking to enhance existing
+            infrastructure, Oceancapp is your trusted partner for prompt
+            engineering solutions. Contact us today to discuss your project
+            requirements and discover how we can turn your engineering
+            challenges into successful outcomes.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
@@ -225,108 +271,172 @@ const PromptEngineering = () => {
         </div>
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
-        <Marquee className="pt-16"  direction="right" speed={50}>
-        <p className="text-4xl font-extrabold font-serif px-4">React</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
-        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
-        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
-        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
-        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
-        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-        <p className="text-4xl font-extrabold font-serif px-4">OpnSource</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Reux</p>
-      </Marquee>
-      <Marquee className="my-5"  direction="left" speed={50}>
-        <p className="text-4xl font-extrabold font-serif px-4">React</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Java</p>
-        <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
-        <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Go</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
-        <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
-        <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Python</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
-        <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
-        <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-        <p className="text-4xl font-extrabold font-serif px-4">OpenSource</p>
-        <p className="text-4xl font-extrabold font-serif px-4">Redux</p>
-      </Marquee>
+        <Marquee className="pt-16" direction="right" speed={50}>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Design
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Tuning
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Optimization
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Instruction Engineering
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Query Formulation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Contextualization
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Response Generation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Fine-Tuning</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Response Analysis
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Natural Language Processing (NLP)
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Language Models
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Conversational AI
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Context Management
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Efficiency
+          </p>
+        </Marquee>
+        <Marquee className="my-5" direction="left" speed={50}>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Task-Specific Prompts
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Injection
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Interactive Prompts
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Testing
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Model Calibration
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Scenario Generation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            User Intent Understanding
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Dynamic Prompting
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Adaptation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            AI Interaction Design
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Multi-Turn Prompts
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Complexity
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Adaptive Prompts
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Prompt Evaluation Metrics
+          </p>
+        </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
-        <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
-          <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Words From Clients
-          </h3>
-        </div>
-        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-        <div>
-          <section className="text-gray-600 body-font overflow-hidden">
-            <div className="container px-5 py-12 mx-auto">
-              <div className="-my-8 divide-y-2 divide-cyan-700">
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person104} className="w-40 h-40" alt="" />
+          <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
+            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+              Words From Clients
+            </h3>
+          </div>
+          <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div>
+            <section className="text-gray-600 body-font overflow-hidden">
+              <div className="container px-5 py-12 mx-auto">
+                <div className="-my-8 divide-y-2 divide-cyan-700">
+                  <div className="py-8 flex flex-wrap md:flex-nowrap">
+                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                      <img src={person104} className="w-40 h-40" alt="" />
+                    </div>
+                    <div className="md:flex-grow">
+                      <h2 className="text-2xl font-medium text-white title-font mb-2">
+                        Aisha Rahman - Entrepreneu
+                      </h2>
+                      <p className="leading-relaxed text-white">
+                        Oceancapp transformed my vision into a stunning reality
+                        with their WordPress development services. The team’s
+                        attention to detail and innovative approach ensured my
+                        website not only looked beautiful but also functioned
+                        seamlessly. Their commitment to quality and customer
+                        satisfaction is unparalleled
+                      </p>
+                    </div>
                   </div>
-                  <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white title-font mb-2">
-                    Aisha Rahman - Entrepreneu
-                    </h2>
-                    <p className="leading-relaxed text-white">
-                    Oceancapp transformed my vision into a stunning reality with their WordPress development services. The team’s attention to detail and innovative approach ensured my website not only looked beautiful but also functioned seamlessly. Their commitment to quality and customer satisfaction is unparalleled
-                    </p>
-                    
+                  <div className="py-8 flex flex-wrap md:flex-nowrap">
+                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                      <img src={person105} className="w-40 h-40" alt="" />
+                    </div>
+                    <div className="md:flex-grow">
+                      <h2 className="text-2xl font-medium text-white title-font mb-2">
+                        Rahul Sen - WordPress Development
+                      </h2>
+                      <p className="leading-relaxed text-white">
+                        Choosing Oceancapp for our WordPress development needs
+                        was the best decision we made. Their team transformed
+                        our outdated website into a sleek, responsive, and
+                        user-friendly platform. The attention to detail and
+                        commitment to excellence is unmatched. Oceancapp truly
+                        understands the nuances of WordPress, and their
+                        innovative approach simplified everything for us. We
+                        couldn't be happier with the results
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person105} className="w-40 h-40" alt="" />
-                  </div>
-                  <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white title-font mb-2">
-                    Rahul Sen -  WordPress Development
-                    </h2>
-                    <p className="leading-relaxed text-white">
-                    Choosing Oceancapp for our WordPress development needs was the best decision we made. Their team transformed our outdated website into a sleek, responsive, and user-friendly platform. The attention to detail and commitment to excellence is unmatched. Oceancapp truly understands the nuances of WordPress, and their innovative approach simplified everything for us. We couldn't be happier with the results
-                    </p>
-                    
-                  </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person106} className="w-40 h-40" alt="" />
-                  </div>
-                  <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white title-font mb-2">
-                    Lisa Thompson- WordPress Development
-                    </h2>
-                    <p className="leading-relaxed text-white">
-                    Oceancapp's WordPress service exceeded our expectations in every way. From the initial consultation to the final delivery, their professionalism and expertise were evident. They listened to our needs, provided insightful recommendations, and delivered a website that not only looks fantastic but also performs flawlessly. Oceancapp's dedication to customer satisfaction is evident in every aspect of their work.
-                    </p>
-                    
+                  <div className="py-8 flex flex-wrap md:flex-nowrap">
+                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                      <img src={person106} className="w-40 h-40" alt="" />
+                    </div>
+                    <div className="md:flex-grow">
+                      <h2 className="text-2xl font-medium text-white title-font mb-2">
+                        Lisa Thompson- WordPress Development
+                      </h2>
+                      <p className="leading-relaxed text-white">
+                        Oceancapp's WordPress service exceeded our expectations
+                        in every way. From the initial consultation to the final
+                        delivery, their professionalism and expertise were
+                        evident. They listened to our needs, provided insightful
+                        recommendations, and delivered a website that not only
+                        looks fantastic but also performs flawlessly.
+                        Oceancapp's dedication to customer satisfaction is
+                        evident in every aspect of their work.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        </div>
+            </section>
+          </div>
         </div>
         {/* ---------------------------------6th phase finish----------------------------*/}
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default PromptEngineering;
