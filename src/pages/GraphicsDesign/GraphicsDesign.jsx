@@ -94,69 +94,37 @@ const GraphicsDesign = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Prompt Engineering Excellence Delivered
+          graphic design Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-            At Oceancapp, we pride ourselves on offering prompt engineering
-            solutions that excel in efficiency, innovation, and customer
-            satisfaction. Our commitment to quality ensures that your
-            engineering projects are not only completed on time but also exceed
-            your expectations.
+          At Oceancapp, we excel in delivering creative graphics design solutions that captivate, communicate, and inspire. Our commitment to quality craftsmanship ensures that your visual identity not only meets but exceeds your expectations.
           </p>{" "}
           <br />
           <p>
-            Our team of skilled engineers has extensive experience in providing
-            customized engineering solutions tailored to your unique needs. We
-            stay updated with the latest technologies and industry standards to
-            deliver cutting-edge engineering solutions. We understand that every
-            project is unique, which is why we provide personalized engineering
-            services that align with your project requirements and business
-            goals. From concept to execution, we've got you covered.
+          Our team of talented designers has a wealth of experience in crafting bespoke graphics that resonate with your brand's essence. We stay ahead of design trends and technologies to deliver visually stunning and impactful creations. Understanding the unique personality of each client, we tailor our designs to align perfectly with your brand identity and marketing goals.
           </p>{" "}
           <br />
           <p>
-            Our focus is on delivering engineering solutions that are not only
-            efficient but also sustainable. We ensure streamlined processes and
-            effective project management to meet your deadlines without
-            compromising on quality. Additionally, we prioritize safety and
-            compliance in all our engineering projects, adhering to rigorous
-            standards to ensure the safety of your personnel and assets.
+          Our focus is on creating designs that are not only visually appealing but also strategically crafted to engage your audience effectively. Whether you need a new logo, marketing collateral, or website graphics, we bring creativity and precision to every project. We ensure seamless collaboration and transparent communication throughout the design process, ensuring your vision comes to life.
           </p>
           <br />
           <p>
-            With the increasing complexity of engineering challenges, having a
-            reliable partner is crucial. Our solutions are designed to address
-            various engineering needs, from civil and structural engineering to
-            mechanical and electrical systems. We leverage our expertise to
-            deliver comprehensive solutions that optimize performance and
-            minimize risks.
+          With the ever-evolving landscape of visual communication, having standout graphics is essential. Our designs are optimized for various platforms and media, ensuring consistency and impact across print and digital channels. We also emphasize usability and accessibility in our designs, ensuring they are both aesthetically pleasing and functionally effective.
           </p>
           <br />
           <p>
-            At Oceancapp, we believe in showcasing our engineering expertise
-            through our work. You can easily showcase your successful
-            engineering projects directly on your website with our portfolio
-            feature, highlighting your achievements and capabilities to
-            potential clients and partners.
+          At Oceancapp, we showcase our design prowess through our portfolio, where you can see examples of our best graphic design work. This allows you to visualize our capabilities and envision how our designs can elevate your brand presence.
           </p>
           <br />
           <p>
-            Are you passionate about engineering and looking to join a dynamic
-            team? Oceancapp is always seeking talented individuals to join our
-            growing family. As part of our team, you'll have the opportunity to
-            work on challenging projects, develop your skills, and contribute to
-            our mission of delivering excellence in engineering solutions.
+          Are you passionate about graphic design and looking to join a dynamic team? Oceancapp welcomes creative individuals who are eager to push boundaries and innovate in the world of visual storytelling. Join us to work on exciting projects, hone your skills, and contribute to our mission of delivering excellence in graphic design.
           </p>
           <br />
           <p>
-            Whether you're planning a new project or seeking to enhance existing
-            infrastructure, Oceancapp is your trusted partner for prompt
-            engineering solutions. Contact us today to discuss your project
-            requirements and discover how we can turn your engineering
-            challenges into successful outcomes.
+          Whether you're launching a new brand or revitalizing your visual identity, Oceancapp is here to partner with you. Contact us today to discuss your graphic design needs and discover how we can bring creativity and impact to your projects.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
