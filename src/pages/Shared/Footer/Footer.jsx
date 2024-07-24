@@ -156,7 +156,7 @@ const Footer = () => {
                 <li className="pb-4">
                   <Link to="">
                   <div className="flex ">
-                  <MdOutlinePhoneCallback size="1.3rem" className="" color="white" /> <a className="text-white text-sm">contact@oceanCapp.com</a>
+                  <MdOutlinePhoneCallback size="1.3rem" className="" color="white" /> <a className="text-white text-sm">+880 1785030648</a>
                   </div>
                   </Link>
                 </li>
@@ -164,7 +164,7 @@ const Footer = () => {
                   <Link to="">
                     {" "}
                     <div className="flex ">
-                  <MdEmail size="1.3rem" className="" color="white" /> <a className="text-white text-sm">+880 1785030648</a>
+                  <MdEmail size="1.3rem" className="" color="white" /> <a className="text-white text-sm">@oceancapp.com</a>
                   </div>
                   </Link>
                 </li>
