@@ -8,30 +8,39 @@ import videop from "../../assets/videop.png";
 import videow from "../../assets/videow.png";
 import { GrProjects } from "react-icons/gr";
 import viv from "../../assets/vi.mp4";
-import p25 from "../../assets/p25.png";
-import p26 from "../../assets/p26.png";
-import p27 from "../../assets/p27.png";
-import p28 from "../../assets/p28.png";
+import p29 from "../../assets/p29.png";
+import p30 from "../../assets/p30.png";
+import p31 from "../../assets/p31.png";
+import p32 from "../../assets/p32.png";
 import person404 from "../../assets/person404.png";
 import person405 from "../../assets/person405.png";
 import person406 from "../../assets/person406.png";
 
 const Video = () => {
-    return (
-        <>
-        <Link to="/video"></Link>
-        <div>
+  return (
+    <>
+      <Link to="/video"></Link>
+      <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
             <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Video Editing
+              Video Editing
             </h3>
             <h2 className="text-white font-extrabold text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's video editing services stand out for their ability to turn raw footage into expertly crafted, engaging content tailored to your unique requirements. We excel in producing high-quality videos that captivate and connect with your audience effectively. Our skilled team offers full-spectrum support, from initial footage evaluation and editing to final touches and enhancements, ensuring a polished and compelling result. We emphasize creative storytelling and technical precision, utilizing advanced editing tools and techniques to create videos that leave a lasting impression.
+              Oceancapp's video editing services stand out for their ability to
+              turn raw footage into expertly crafted, engaging content tailored
+              to your unique requirements. We excel in producing high-quality
+              videos that captivate and connect with your audience effectively.
+              Our skilled team offers full-spectrum support, from initial
+              footage evaluation and editing to final touches and enhancements,
+              ensuring a polished and compelling result. We emphasize creative
+              storytelling and technical precision, utilizing advanced editing
+              tools and techniques to create videos that leave a lasting
+              impression.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -74,7 +83,12 @@ const Video = () => {
                 Learn More About Video Editing Design Services
               </h3>
               <p className="text-white mb-8">
-              Discover our expert video editing solutions through this engaging video. Our skilled team is dedicated to providing high-quality services tailored to your specific needs. From initial concept to flawless final cut, we ensure a smooth process in transforming your footage into compelling and professional videos.
+                Discover our expert video editing solutions through this
+                engaging video. Our skilled team is dedicated to providing
+                high-quality services tailored to your specific needs. From
+                initial concept to flawless final cut, we ensure a smooth
+                process in transforming your footage into compelling and
+                professional videos.
               </p>
               <a
                 href={viv}
@@ -94,37 +108,68 @@ const Video = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-          video editing Excellence Delivered
+            video editing Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we specialize in delivering professional video editing solutions that engage, entertain, and elevate your content. Our dedication to quality ensures that your videos not only meet but exceed industry standards, leaving a lasting impression on your audience.
+            At Oceancapp, we specialize in delivering professional video editing
+            solutions that engage, entertain, and elevate your content. Our
+            dedication to quality ensures that your videos not only meet but
+            exceed industry standards, leaving a lasting impression on your
+            audience.
           </p>{" "}
           <br />
           <p>
-          Our team of skilled editors is equipped with the expertise and creativity to transform raw footage into compelling visual stories. We stay updated with the latest editing techniques and technologies to deliver polished and impactful videos. Understanding the unique objectives of each project, we tailor our editing process to effectively convey your message and achieve your desired outcomes.
+            Our team of skilled editors is equipped with the expertise and
+            creativity to transform raw footage into compelling visual stories.
+            We stay updated with the latest editing techniques and technologies
+            to deliver polished and impactful videos. Understanding the unique
+            objectives of each project, we tailor our editing process to
+            effectively convey your message and achieve your desired outcomes.
           </p>{" "}
           <br />
           <p>
-          Our focus is on creating videos that are not only visually stunning but also strategically edited to resonate with your target audience. Whether you need promotional videos, corporate presentations, or social media content, we bring precision and creativity to every project. We ensure seamless collaboration and transparent communication throughout the editing process, ensuring your vision is brought to life.
+            Our focus is on creating videos that are not only visually stunning
+            but also strategically edited to resonate with your target audience.
+            Whether you need promotional videos, corporate presentations, or
+            social media content, we bring precision and creativity to every
+            project. We ensure seamless collaboration and transparent
+            communication throughout the editing process, ensuring your vision
+            is brought to life.
           </p>
           <br />
           <p>
-          With the increasing demand for high-quality video content, having professional editing is essential. Our editors are skilled in enhancing visual appeal, refining storytelling, and optimizing audiovisual elements for maximum impact. We also prioritize efficiency and timely delivery, ensuring your videos are ready to captivate your audience on schedule.
+            With the increasing demand for high-quality video content, having
+            professional editing is essential. Our editors are skilled in
+            enhancing visual appeal, refining storytelling, and optimizing
+            audiovisual elements for maximum impact. We also prioritize
+            efficiency and timely delivery, ensuring your videos are ready to
+            captivate your audience on schedule.
           </p>
           <br />
           <p>
-          At Oceancapp, we showcase our editing expertise through our portfolio, where you can view examples of our best video editing work. This allows you to see firsthand how our editing techniques can elevate your content and amplify your brand message.
+            At Oceancapp, we showcase our editing expertise through our
+            portfolio, where you can view examples of our best video editing
+            work. This allows you to see firsthand how our editing techniques
+            can elevate your content and amplify your brand message.
           </p>
           <br />
           <p>
-          Are you passionate about video editing and looking to join a dynamic team? Oceancapp welcomes talented individuals who are eager to push creative boundaries and deliver exceptional video editing solutions. Join us to work on exciting projects, refine your skills, and contribute to our mission of excellence in video editing.
+            Are you passionate about video editing and looking to join a dynamic
+            team? Oceancapp welcomes talented individuals who are eager to push
+            creative boundaries and deliver exceptional video editing solutions.
+            Join us to work on exciting projects, refine your skills, and
+            contribute to our mission of excellence in video editing.
           </p>
           <br />
           <p>
-          Whether you're launching a new video campaign or refining existing content, Oceancapp is your trusted partner for professional video editing. Contact us today to discuss your video editing needs and discover how we can enhance your visual storytelling through expert editing techniques.
+            Whether you're launching a new video campaign or refining existing
+            content, Oceancapp is your trusted partner for professional video
+            editing. Contact us today to discuss your video editing needs and
+            discover how we can enhance your visual storytelling through expert
+            editing techniques.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
@@ -143,7 +188,7 @@ const Video = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-              Transform Your Vision into Stunning Designs
+              Turn Your Ideas into Captivating Video Edits
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -155,34 +200,34 @@ const Video = () => {
               <div className="w-14 h-14 bg-transparent  rounded-full border-[3px] border-[#191919]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p25}
+                  src={p29}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919] relative -left-5">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p26}
+                  src={p30}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-10">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p27}
+                  src={p31}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-[60px]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p28}
+                  src={p32}
                   alt="avatar navigate ui"
                 />
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">90+</p>
+                <p className="text-lg text-white">120+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
@@ -226,93 +271,114 @@ const Video = () => {
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Typography</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Cutting</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Trimming</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Splitting</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Timeline</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Transitions</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Effects</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Color Theory
+            Color Correction
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Layout Design
+            Color Grading
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Vector Graphics
+            Green Screen
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Keying</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Masking</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Compositing</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Montage</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Audio Sync</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Sound Design
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Raster Graphics
+            Audio Mixing
           </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Voiceover</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Titles</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Subtitles</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Brand Identity
+            Lower Thirds
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Visual Hierarchy
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Image Editing
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Illustration
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Wireframing</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            User Interface (UI) Design
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            User Experience (UX) Design
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Print Design
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Digital Design
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Infographics
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Logo Design</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Packaging Design
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Web Design</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Icon Design</p>
-        </Marquee>
-        <Marquee className="my-5" direction="left" speed={50}>
           <p className="text-4xl font-extrabold font-serif px-4">
             Motion Graphics
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Animation</p>
-          <p className="text-4xl font-extrabold font-serif px-4">3D Modeling</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Graphic Elements
+            Visual Effects (VFX)
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Rendering</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Exporting</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Frame Rate</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Resolution</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Aspect Ratio
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Adobe Creative Suite
+            Multicam Editing
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Design Principles
+            Proxy Editing
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Visual Communication
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Prototyping</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Creative Direction
+            Storyboarding
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Design Thinking
+            Non-Linear Editing (NLE)
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Rough Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Final Cut</p>
+        </Marquee>
+        <Marquee className="my-5" direction="left" speed={50}>
+          <p className="text-4xl font-extrabold font-serif px-4">Clip</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Sequence</p>
+          <p className="text-4xl font-extrabold font-serif px-4">B-Roll</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Jump Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">L-Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">J-Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Cross Dissolve
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Fade In</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Fade Out</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Speed Ramp</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Stabilization
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Visual Branding
+            Split Screen
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Photo Manipulation
+            Picture-in-Picture
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Overlay</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Editing Software
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Visual Storytelling
+            Video Effects Library
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Design Aesthetics
+            Editing Workflow
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Typography Hierarchy
+            Adjustment Layers
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Layering</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Retiming</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Noise Reduction
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Chromatic Aberration
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Scene Transition
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Sync Licensing
           </p>
         </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
@@ -334,10 +400,17 @@ const Video = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      Emily Clark - Graphic Design Expert
+                        Emily Clark - Graphic Design Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Choosing Oceancapp for our graphic design needs was a remarkable decision. Their team created visually stunning designs that perfectly captured our brand's essence and message. The creativity and attention to detail they brought to the table were exceptional. Oceancapp’s ability to translate our vision into compelling graphics has truly elevated our brand's presence."
+                        "Choosing Oceancapp for our graphic design needs was a
+                        remarkable decision. Their team created visually
+                        stunning designs that perfectly captured our brand's
+                        essence and message. The creativity and attention to
+                        detail they brought to the table were exceptional.
+                        Oceancapp’s ability to translate our vision into
+                        compelling graphics has truly elevated our brand's
+                        presence."
                       </p>
                     </div>
                   </div>
@@ -347,10 +420,17 @@ const Video = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      Lily Adams - Creative Design Solutions
+                        Lily Adams - Creative Design Solutions
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Oceancapp’s graphic design services have greatly enhanced our marketing materials. They delivered designs that are not only aesthetically pleasing but also highly effective in communicating our message. The team's professionalism and innovative approach were evident throughout the project. Oceancapp’s dedication to high-quality design work has made a significant impact on our visual branding."
+                        "Oceancapp’s graphic design services have greatly
+                        enhanced our marketing materials. They delivered designs
+                        that are not only aesthetically pleasing but also highly
+                        effective in communicating our message. The team's
+                        professionalism and innovative approach were evident
+                        throughout the project. Oceancapp’s dedication to
+                        high-quality design work has made a significant impact
+                        on our visual branding."
                       </p>
                     </div>
                   </div>
@@ -360,10 +440,17 @@ const Video = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      James Brown - Visual Design Specialist
+                        James Brown - Visual Design Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Partnering with Oceancapp for our visual design needs was an excellent choice. Their team provided creative and impactful design solutions that resonated with our audience. The quality of their work and their ability to understand our requirements and deliver outstanding results were impressive. Oceancapp’s commitment to excellence in graphic design has been a key factor in our successful marketing campaigns."
+                        "Partnering with Oceancapp for our visual design needs
+                        was an excellent choice. Their team provided creative
+                        and impactful design solutions that resonated with our
+                        audience. The quality of their work and their ability to
+                        understand our requirements and deliver outstanding
+                        results were impressive. Oceancapp’s commitment to
+                        excellence in graphic design has been a key factor in
+                        our successful marketing campaigns."
                       </p>
                     </div>
                   </div>
@@ -374,8 +461,8 @@ const Video = () => {
         </div>
         {/* ---------------------------------6th phase finish----------------------------*/}
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default Video;
