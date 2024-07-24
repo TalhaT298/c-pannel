@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import appp from "../../assets/appp.png";
 import appl from "../../assets/appl.png";
 import { GrProjects } from "react-icons/gr";
-import sampleVideo2 from "../../assets/code.mp4";
+import appvd from "../../assets/appvd.mp4";
 import p9 from "../../assets/p9.png";
 import p10 from "../../assets/p10.png";
 import p11 from "../../assets/p11.png";
@@ -66,7 +66,7 @@ const WebDesign = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={sampleVideo2} type="video/mp4" />
+              <source src={appvd} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
@@ -77,7 +77,7 @@ const WebDesign = () => {
               Explore our cutting-edge app development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services tailored to your unique needs. From initial ideation to flawless execution, we guarantee a seamless journey towards bringing your app vision to life
               </p>
               <a
-                href={sampleVideo2}
+                href={appvd}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
@@ -143,7 +143,7 @@ const WebDesign = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-              Let's Build Your Dream Website
+              Let's Build Your Dream App
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -182,7 +182,7 @@ const WebDesign = () => {
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">70+</p>
+                <p className="text-lg text-white">50+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
