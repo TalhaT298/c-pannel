@@ -4,8 +4,8 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import grap from "../../assets/graphicsp.png";
-import graphicsw from "../../assets/graphicsw.png";
+import videop from "../../assets/videop.png";
+import videow from "../../assets/videow.png";
 import { GrProjects } from "react-icons/gr";
 import graphicsv from "../../assets/graphics.mp4";
 import p25 from "../../assets/p25.png";
@@ -31,16 +31,7 @@ const Video = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-              Oceancapp's graphic design services are renowned for creating
-              visually stunning and custom-tailored solutions that reflect your
-              brand's unique identity. We specialize in crafting captivating
-              graphics that enhance your visual communication and drive
-              engagement. Our talented team offers end-to-end design support,
-              from initial concept and creation to final execution and
-              revisions, ensuring that every design element aligns with your
-              strategic goals. We focus on blending creativity with
-              functionality, utilizing the latest design trends and techniques
-              to deliver compelling and memorable visuals.
+            Oceancapp's video editing services stand out for their ability to turn raw footage into expertly crafted, engaging content tailored to your unique requirements. We excel in producing high-quality videos that captivate and connect with your audience effectively. Our skilled team offers full-spectrum support, from initial footage evaluation and editing to final touches and enhancements, ensuring a polished and compelling result. We emphasize creative storytelling and technical precision, utilizing advanced editing tools and techniques to create videos that leave a lasting impression.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -55,12 +46,12 @@ const Video = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={grap}
+                src={videop}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={graphicsw}
+                src={videow}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
