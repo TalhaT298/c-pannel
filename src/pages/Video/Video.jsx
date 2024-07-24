@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import videop from "../../assets/videop.png";
 import videow from "../../assets/videow.png";
 import { GrProjects } from "react-icons/gr";
-import graphicsv from "../../assets/graphics.mp4";
+import viv from "../../assets/vi.mp4";
 import p25 from "../../assets/p25.png";
 import p26 from "../../assets/p26.png";
 import p27 from "../../assets/p27.png";
@@ -66,7 +66,7 @@ const Video = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={graphicsv} type="video/mp4" />
+              <source src={viv} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
@@ -77,7 +77,7 @@ const Video = () => {
               Discover our expert video editing solutions through this engaging video. Our skilled team is dedicated to providing high-quality services tailored to your specific needs. From initial concept to flawless final cut, we ensure a smooth process in transforming your footage into compelling and professional videos.
               </p>
               <a
-                href={graphicsv}
+                href={viv}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
