@@ -12,9 +12,9 @@ import p17 from "../../assets/p17.png";
 import p18 from "../../assets/p18.png";
 import p19 from "../../assets/p19.png";
 import p20 from "../../assets/p20.png";
-import person104 from "../../assets/aishab.png";
-import person105 from "../../assets/rahul.png";
-import person106 from "../../assets/lisa.png";
+import person204 from "../../assets/person204.png";
+import person205 from "../../assets/person205.png";
+import person206 from "../../assets/person206.png";
 
 const WebDesign = () => {
     return (
@@ -273,42 +273,42 @@ const WebDesign = () => {
               <div className="-my-8 divide-y-2 divide-cyan-700">
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person104} className="w-40 h-40" alt="" />
+                    <img src={person204} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
                     <h2 className="text-2xl font-medium text-white title-font mb-2">
-                    Aisha Rahman - Entrepreneu
+                    Ravi Patel - Application Development Specialist
                     </h2>
                     <p className="leading-relaxed text-white">
-                    Oceancapp transformed my vision into a stunning reality with their WordPress development services. The team’s attention to detail and innovative approach ensured my website not only looked beautiful but also functioned seamlessly. Their commitment to quality and customer satisfaction is unparalleled
+                    "Partnering with Oceancapp for our application development needs was a great choice. Their team provided insightful guidance and developed a robust application that integrates seamlessly with our systems. The quality of their work and their ability to address complex challenges have been exceptional. Oceancapp’s dedication to creating effective and user-friendly applications has been invaluable to our success."
                     </p>
                     
                   </div>
                 </div>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                 <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person105} className="w-40 h-40" alt="" />
+                    <img src={person205} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
                     <h2 className="text-2xl font-medium text-white title-font mb-2">
-                    Rahul Sen -  WordPress Development
+                    Fatima Khan - Custom App Solutions
                     </h2>
                     <p className="leading-relaxed text-white">
-                    Choosing Oceancapp for our WordPress development needs was the best decision we made. Their team transformed our outdated website into a sleek, responsive, and user-friendly platform. The attention to detail and commitment to excellence is unmatched. Oceancapp truly understands the nuances of WordPress, and their innovative approach simplified everything for us. We couldn't be happier with the results
+                    "Oceancapp’s custom app development services have greatly benefited our organization. They delivered a tailored application that meets our unique requirements and enhances our operational efficiency. The team’s professionalism and technical proficiency were impressive throughout the project. Oceancapp’s commitment to delivering a high-quality app that truly serves our needs is commendable."
                     </p>
                     
                   </div>
                 </div>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <img src={person106} className="w-40 h-40" alt="" />
+                    <img src={person206} className="w-40 h-40" alt="" />
                   </div>
                   <div className="md:flex-grow">
                     <h2 className="text-2xl font-medium text-white title-font mb-2">
-                    Lisa Thompson- WordPress Development
+                    Sophia Ahmed - Mobile App Development
                     </h2>
                     <p className="leading-relaxed text-white">
-                    Oceancapp's WordPress service exceeded our expectations in every way. From the initial consultation to the final delivery, their professionalism and expertise were evident. They listened to our needs, provided insightful recommendations, and delivered a website that not only looks fantastic but also performs flawlessly. Oceancapp's dedication to customer satisfaction is evident in every aspect of their work.
+                    "Choosing Oceancapp for our mobile app development was an outstanding decision. Their team designed and developed an intuitive, high-performance app that perfectly aligns with our business goals. From initial concept to final launch, their attention to detail and innovative solutions were evident. Oceancapp’s expertise in mobile app development has provided us with a top-notch product that stands out in the market."
                     </p>
                     
                   </div>
