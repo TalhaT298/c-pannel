@@ -4,8 +4,8 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import word3 from "../../assets/word3.png";
-import word4 from "../../assets/word4.png";
+import appp from "../../assets/appp.png";
+import appl from "../../assets/appl.png";
 import { GrProjects } from "react-icons/gr";
 import sampleVideo2 from "../../assets/code.mp4";
 import p9 from "../../assets/p9.png";
@@ -31,7 +31,7 @@ const WebDesign = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's web development services stand out for their ability to deliver tailored solutions that perfectly align with our clients' specific needs. We excel in crafting custom websites and web applications designed to boost functionality and meet distinct business objectives. Our expert team offers end-to-end support, from initial conceptualization and development to continuous maintenance and updates, ensuring smooth integration and peak performance. We focus on intuitive interfaces and stringent security protocols, providing an outstanding experience for both you and your users.
+            Oceancapp's app development services are distinguished by our commitment to creating custom applications that cater to the specific needs of our clients. We specialize in designing and building innovative apps that enhance functionality and address unique business requirements. Our skilled team provides end-to-end support, from initial ideation and development to continuous updates and maintenance, ensuring seamless performance and user satisfaction. We focus on delivering intuitive user experiences and incorporating the latest technologies, guaranteeing that your app stands out in a competitive market.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -46,12 +46,12 @@ const WebDesign = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={word3}
+                src={appp}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={word4}
+                src={appl}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
@@ -71,10 +71,10 @@ const WebDesign = () => {
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Our Web Development Services
+                Learn More About Our App Development Services
               </h3>
               <p className="text-white mb-8">
-              Explore our dynamic web development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services customized to your unique requirements. From initial ideation to flawless execution, we guarantee a seamless journey towards achieving your digital goals
+              Explore our cutting-edge app development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services tailored to your unique needs. From initial ideation to flawless execution, we guarantee a seamless journey towards bringing your app vision to life
               </p>
               <a
                 href={sampleVideo2}
