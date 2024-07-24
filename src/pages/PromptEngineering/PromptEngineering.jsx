@@ -71,10 +71,10 @@ const PromptEngineering = () => {
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Our Web Development Services
+                Learn More About Our Prompt Engineering Services
               </h3>
               <p className="text-white mb-8">
-              Explore our dynamic web development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services customized to your unique requirements. From initial ideation to flawless execution, we guarantee a seamless journey towards achieving your digital goals
+              Explore our innovative prompt engineering solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services tailored to your specific needs. From initial ideation to flawless execution, we guarantee a seamless journey towards optimizing your AI interactions and maximizing their potential.
               </p>
               <a
                 href={sampleVideo2}
@@ -94,37 +94,37 @@ const PromptEngineering = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Web Development Excellence Delivered
+          Prompt Engineering Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we pride ourselves on offering unparalleled web development services that stand out in the industry. Our commitment to quality, innovation, and customer satisfaction ensures that your website will not only meet but exceed your expectations.
+          At Oceancapp, we pride ourselves on offering prompt engineering solutions that excel in efficiency, innovation, and customer satisfaction. Our commitment to quality ensures that your engineering projects are not only completed on time but also exceed your expectations.
           </p>{" "}
           <br />
           <p>
-          Our team of skilled developers has extensive experience in creating custom web solutions tailored to your unique needs. We stay updated with the latest trends and technologies to deliver cutting-edge websites. We understand that every business is unique, which is why we provide customized web solutions that align with your brand identity and business goals. From bespoke designs to tailored functionalities, we've got you covered.
+          Our team of skilled engineers has extensive experience in providing customized engineering solutions tailored to your unique needs. We stay updated with the latest technologies and industry standards to deliver cutting-edge engineering solutions. We understand that every project is unique, which is why we provide personalized engineering services that align with your project requirements and business goals. From concept to execution, we've got you covered.
           </p>{" "}
           <br />
           <p>
-          Our focus is on creating websites that are not only visually appealing but also user-friendly. We ensure seamless navigation and an engaging user experience to keep your visitors coming back. Additionally, we build websites with SEO best practices in mind, helping to improve your website’s visibility on search engines and driving more organic traffic to your site.
+          Our focus is on delivering engineering solutions that are not only efficient but also sustainable. We ensure streamlined processes and effective project management to meet your deadlines without compromising on quality. Additionally, we prioritize safety and compliance in all our engineering projects, adhering to rigorous standards to ensure the safety of your personnel and assets.
           </p>
           <br />
           <p>
-          With the increasing use of mobile devices, having a responsive website is crucial. Our websites are optimized for all devices, ensuring a seamless experience for your users, whether they're on a desktop, tablet, or smartphone. We also prioritize the performance and security of your website. Our developers implement best practices to ensure your site loads quickly and remains secure against potential threats.
+          With the increasing complexity of engineering challenges, having a reliable partner is crucial. Our solutions are designed to address various engineering needs, from civil and structural engineering to mechanical and electrical systems. We leverage our expertise to deliver comprehensive solutions that optimize performance and minimize risks.
           </p>
           <br />
           <p>
-          At Oceancapp, we believe in showcasing our expertise through our work. You can easily display your best web projects directly on your website with our portfolio feature, highlighting your top projects and demonstrating your capabilities to potential clients and partners.
+          At Oceancapp, we believe in showcasing our engineering expertise through our work. You can easily showcase your successful engineering projects directly on your website with our portfolio feature, highlighting your achievements and capabilities to potential clients and partners.
           </p>
           <br />
           <p>
-          Are you passionate about web development and looking to join a dynamic team? Oceancapp is always on the lookout for talented individuals to join our growing family. As part of our team, you'll have the opportunity to work on exciting projects, develop your skills, and contribute to our mission of delivering excellence in web development.
+          Are you passionate about engineering and looking to join a dynamic team? Oceancapp is always seeking talented individuals to join our growing family. As part of our team, you'll have the opportunity to work on challenging projects, develop your skills, and contribute to our mission of delivering excellence in engineering solutions.
           </p>
           <br />
           <p>
-          Whether you're looking to build a new website or enhance your existing one, Oceancapp is here to help. Contact us today to discuss your project and discover how we can transform your vision into a seamless web experience.
+          Whether you're planning a new project or seeking to enhance existing infrastructure, Oceancapp is your trusted partner for prompt engineering solutions. Contact us today to discuss your project requirements and discover how we can turn your engineering challenges into successful outcomes.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
