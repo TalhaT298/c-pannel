@@ -4,8 +4,8 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import word3 from "../../assets/word3.png";
-import word4 from "../../assets/word4.png";
+import promptp from "../../assets/promptp.png";
+import propmtw from "../../assets/propmtw.png";
 import { GrProjects } from "react-icons/gr";
 import sampleVideo2 from "../../assets/code.mp4";
 import p9 from "../../assets/p9.png";
@@ -31,7 +31,7 @@ const PromptEngineering = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's web development services stand out for their ability to deliver tailored solutions that perfectly align with our clients' specific needs. We excel in crafting custom websites and web applications designed to boost functionality and meet distinct business objectives. Our expert team offers end-to-end support, from initial conceptualization and development to continuous maintenance and updates, ensuring smooth integration and peak performance. We focus on intuitive interfaces and stringent security protocols, providing an outstanding experience for both you and your users.
+            Oceancapp's prompt engineering services excel in crafting custom solutions that address your specific needs and objectives. We specialize in developing and optimizing prompt engineering techniques to enhance the effectiveness of AI-driven applications and systems. Our team provides comprehensive support, from initial strategy development and implementation to ongoing refinement and improvement, ensuring that your prompts deliver accurate, relevant, and impactful results. We prioritize innovation and precision, harnessing the latest advancements in AI to maximize the efficiency and effectiveness of your prompts.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -46,12 +46,12 @@ const PromptEngineering = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={word3}
+                src={promptp}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={word4}
+                src={propmtw}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
