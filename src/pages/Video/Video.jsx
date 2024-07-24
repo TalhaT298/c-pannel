@@ -71,15 +71,10 @@ const Video = () => {
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Our Graphic Design Services
+                Learn More About Video Editing Design Services
               </h3>
               <p className="text-white mb-8">
-                Experience our creative graphic design solutions through this
-                visual showcase. Our talented team is committed to providing
-                outstanding services aligned with your unique vision. From
-                brainstorming to flawless creation, we ensure a smooth process
-                in crafting striking and effective designs that enhance your
-                brand
+              Discover our expert video editing solutions through this engaging video. Our skilled team is dedicated to providing high-quality services tailored to your specific needs. From initial concept to flawless final cut, we ensure a smooth process in transforming your footage into compelling and professional videos.
               </p>
               <a
                 href={graphicsv}
@@ -99,67 +94,37 @@ const Video = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            graphic design Excellence Delivered
+          video editing Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-            At Oceancapp, we excel in delivering creative graphics design
-            solutions that captivate, communicate, and inspire. Our commitment
-            to quality craftsmanship ensures that your visual identity not only
-            meets but exceeds your expectations.
+          At Oceancapp, we specialize in delivering professional video editing solutions that engage, entertain, and elevate your content. Our dedication to quality ensures that your videos not only meet but exceed industry standards, leaving a lasting impression on your audience.
           </p>{" "}
           <br />
           <p>
-            Our team of talented designers has a wealth of experience in
-            crafting bespoke graphics that resonate with your brand's essence.
-            We stay ahead of design trends and technologies to deliver visually
-            stunning and impactful creations. Understanding the unique
-            personality of each client, we tailor our designs to align perfectly
-            with your brand identity and marketing goals.
+          Our team of skilled editors is equipped with the expertise and creativity to transform raw footage into compelling visual stories. We stay updated with the latest editing techniques and technologies to deliver polished and impactful videos. Understanding the unique objectives of each project, we tailor our editing process to effectively convey your message and achieve your desired outcomes.
           </p>{" "}
           <br />
           <p>
-            Our focus is on creating designs that are not only visually
-            appealing but also strategically crafted to engage your audience
-            effectively. Whether you need a new logo, marketing collateral, or
-            website graphics, we bring creativity and precision to every
-            project. We ensure seamless collaboration and transparent
-            communication throughout the design process, ensuring your vision
-            comes to life.
+          Our focus is on creating videos that are not only visually stunning but also strategically edited to resonate with your target audience. Whether you need promotional videos, corporate presentations, or social media content, we bring precision and creativity to every project. We ensure seamless collaboration and transparent communication throughout the editing process, ensuring your vision is brought to life.
           </p>
           <br />
           <p>
-            With the ever-evolving landscape of visual communication, having
-            standout graphics is essential. Our designs are optimized for
-            various platforms and media, ensuring consistency and impact across
-            print and digital channels. We also emphasize usability and
-            accessibility in our designs, ensuring they are both aesthetically
-            pleasing and functionally effective.
+          With the increasing demand for high-quality video content, having professional editing is essential. Our editors are skilled in enhancing visual appeal, refining storytelling, and optimizing audiovisual elements for maximum impact. We also prioritize efficiency and timely delivery, ensuring your videos are ready to captivate your audience on schedule.
           </p>
           <br />
           <p>
-            At Oceancapp, we showcase our design prowess through our portfolio,
-            where you can see examples of our best graphic design work. This
-            allows you to visualize our capabilities and envision how our
-            designs can elevate your brand presence.
+          At Oceancapp, we showcase our editing expertise through our portfolio, where you can view examples of our best video editing work. This allows you to see firsthand how our editing techniques can elevate your content and amplify your brand message.
           </p>
           <br />
           <p>
-            Are you passionate about graphic design and looking to join a
-            dynamic team? Oceancapp welcomes creative individuals who are eager
-            to push boundaries and innovate in the world of visual storytelling.
-            Join us to work on exciting projects, hone your skills, and
-            contribute to our mission of delivering excellence in graphic
-            design.
+          Are you passionate about video editing and looking to join a dynamic team? Oceancapp welcomes talented individuals who are eager to push creative boundaries and deliver exceptional video editing solutions. Join us to work on exciting projects, refine your skills, and contribute to our mission of excellence in video editing.
           </p>
           <br />
           <p>
-            Whether you're launching a new brand or revitalizing your visual
-            identity, Oceancapp is here to partner with you. Contact us today to
-            discuss your graphic design needs and discover how we can bring
-            creativity and impact to your projects.
+          Whether you're launching a new video campaign or refining existing content, Oceancapp is your trusted partner for professional video editing. Contact us today to discuss your video editing needs and discover how we can enhance your visual storytelling through expert editing techniques.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
