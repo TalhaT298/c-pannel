@@ -94,37 +94,37 @@ const WebDesign = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Web Development Excellence Delivered
+           App Development Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we pride ourselves on offering unparalleled web development services that stand out in the industry. Our commitment to quality, innovation, and customer satisfaction ensures that your website will not only meet but exceed your expectations.
+          At Oceancapp, we pride ourselves on offering unparalleled app development services that stand out in the industry. Our commitment to quality, innovation, and customer satisfaction ensures that your app will not only meet but exceed your expectations.
           </p>{" "}
           <br />
           <p>
-          Our team of skilled developers has extensive experience in creating custom web solutions tailored to your unique needs. We stay updated with the latest trends and technologies to deliver cutting-edge websites. We understand that every business is unique, which is why we provide customized web solutions that align with your brand identity and business goals. From bespoke designs to tailored functionalities, we've got you covered.
+          Our team of skilled developers has extensive experience in creating custom app solutions tailored to your unique needs. We stay updated with the latest trends and technologies to deliver cutting-edge applications. We understand that every business is unique, which is why we provide customized app solutions that align with your brand identity and business goals. From bespoke designs to tailored functionalities, we've got you covered.
           </p>{" "}
           <br />
           <p>
-          Our focus is on creating websites that are not only visually appealing but also user-friendly. We ensure seamless navigation and an engaging user experience to keep your visitors coming back. Additionally, we build websites with SEO best practices in mind, helping to improve your website’s visibility on search engines and driving more organic traffic to your site.
+          Our focus is on creating apps that are not only visually appealing but also user-friendly. We ensure seamless navigation and an engaging user experience to keep your users coming back. Additionally, we build apps with performance and usability in mind, ensuring they run smoothly and efficiently on all devices.
           </p>
           <br />
           <p>
-          With the increasing use of mobile devices, having a responsive website is crucial. Our websites are optimized for all devices, ensuring a seamless experience for your users, whether they're on a desktop, tablet, or smartphone. We also prioritize the performance and security of your website. Our developers implement best practices to ensure your site loads quickly and remains secure against potential threats.
+          With the increasing use of mobile devices, having a responsive and intuitive app is crucial. Our apps are optimized for various platforms, ensuring a seamless experience for your users, whether they're on Android, iOS, or any other device. We also prioritize the performance and security of your app. Our developers implement best practices to ensure your app runs quickly and remains secure against potential threats.
           </p>
           <br />
           <p>
-          At Oceancapp, we believe in showcasing our expertise through our work. You can easily display your best web projects directly on your website with our portfolio feature, highlighting your top projects and demonstrating your capabilities to potential clients and partners.
+          At Oceancapp, we believe in showcasing our expertise through our work. You can easily display your best app projects directly on your website with our portfolio feature, highlighting your top projects and demonstrating your capabilities to potential clients and partners.
           </p>
           <br />
           <p>
-          Are you passionate about web development and looking to join a dynamic team? Oceancapp is always on the lookout for talented individuals to join our growing family. As part of our team, you'll have the opportunity to work on exciting projects, develop your skills, and contribute to our mission of delivering excellence in web development.
+          Are you passionate about app development and looking to join a dynamic team? Oceancapp is always on the lookout for talented individuals to join our growing family. As part of our team, you'll have the opportunity to work on exciting projects, develop your skills, and contribute to our mission of delivering excellence in app development.
           </p>
           <br />
           <p>
-          Whether you're looking to build a new website or enhance your existing one, Oceancapp is here to help. Contact us today to discuss your project and discover how we can transform your vision into a seamless web experience.
+          Whether you're looking to build a new app or enhance your existing one, Oceancapp is here to help. Contact us today to discuss your project and discover how we can transform your vision into a seamless app experience.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
