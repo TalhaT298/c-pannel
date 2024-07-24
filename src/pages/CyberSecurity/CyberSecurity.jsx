@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import word3 from "../../assets/word3.png";
 import word4 from "../../assets/word4.png";
 import { GrProjects } from "react-icons/gr";
-import sampleVideo2 from "../../assets/code.mp4";
+import sampleVideo3 from "../../assets/cybervd.mp4";
 import p9 from "../../assets/p9.png";
 import p10 from "../../assets/p10.png";
 import p11 from "../../assets/p11.png";
@@ -31,7 +31,7 @@ const CyberSecurity = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's web development services stand out for their ability to deliver tailored solutions that perfectly align with our clients' specific needs. We excel in crafting custom websites and web applications designed to boost functionality and meet distinct business objectives. Our expert team offers end-to-end support, from initial conceptualization and development to continuous maintenance and updates, ensuring smooth integration and peak performance. We focus on intuitive interfaces and stringent security protocols, providing an outstanding experience for both you and your users.
+            Oceancapp's cybersecurity services are unparalleled in their capacity to provide tailored solutions that address our clients' unique security challenges. We specialize in implementing customized security protocols and strategies designed to protect your digital assets and ensure compliance with industry standards. Our dedicated team delivers comprehensive support, from initial risk assessment and strategy development to ongoing monitoring and incident response, ensuring robust protection and peace of mind. We emphasize proactive measures and cutting-edge technologies, safeguarding your business against evolving cyber threats
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -66,18 +66,18 @@ const CyberSecurity = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={sampleVideo2} type="video/mp4" />
+              <source src={sampleVideo3} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Our Web Development Services
+                Learn More About Our Cybersecurity Services
               </h3>
               <p className="text-white mb-8">
-              Explore our dynamic web development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services customized to your unique requirements. From initial ideation to flawless execution, we guarantee a seamless journey towards achieving your digital goals
+              Explore our dynamic cybersecurity solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services customized to your unique requirements. From initial ideation to flawless execution, we guarantee a seamless journey towards achieving your digital goals.
               </p>
               <a
-                href={sampleVideo2}
+                href={sampleVideo3}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
