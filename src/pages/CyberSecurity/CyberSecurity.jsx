@@ -4,8 +4,8 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import word3 from "../../assets/word3.png";
-import word4 from "../../assets/word4.png";
+import cyberman from "../../assets/cyberman.png";
+import word5 from "../../assets/cyberem.png";
 import { GrProjects } from "react-icons/gr";
 import sampleVideo3 from "../../assets/cybervd.mp4";
 import p9 from "../../assets/p9.png";
@@ -55,12 +55,12 @@ const CyberSecurity = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={word3}
+                src={cyberman}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={word4}
+                src={word5}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
