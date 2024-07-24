@@ -8,10 +8,10 @@ import appp from "../../assets/appp.png";
 import appl from "../../assets/appl.png";
 import { GrProjects } from "react-icons/gr";
 import appvd from "../../assets/appvd.mp4";
-import p9 from "../../assets/p9.png";
-import p10 from "../../assets/p10.png";
-import p11 from "../../assets/p11.png";
-import p12 from "../../assets/p12.png";
+import p17 from "../../assets/p17.png";
+import p18 from "../../assets/p18.png";
+import p19 from "../../assets/p19.png";
+import p20 from "../../assets/p20.png";
 import person104 from "../../assets/aishab.png";
 import person105 from "../../assets/rahul.png";
 import person106 from "../../assets/lisa.png";
@@ -155,28 +155,28 @@ const WebDesign = () => {
               <div className="w-14 h-14 bg-transparent  rounded-full border-[3px] border-[#191919]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p9}
+                  src={p17}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919] relative -left-5">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p10}
+                  src={p18}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-10">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p11}
+                  src={p19}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-[60px]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p12}
+                  src={p20}
                   alt="avatar navigate ui"
                 />
               </div>
