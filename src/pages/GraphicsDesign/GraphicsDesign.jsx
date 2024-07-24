@@ -12,9 +12,9 @@ import p25 from "../../assets/p25.png";
 import p26 from "../../assets/p26.png";
 import p27 from "../../assets/p27.png";
 import p28 from "../../assets/p28.png";
-import person304 from "../../assets/person304.png";
-import person305 from "../../assets/person305.png";
-import person306 from "../../assets/person306.png";
+import person404 from "../../assets/person404.png";
+import person405 from "../../assets/person405.png";
+import person406 from "../../assets/person406.png";
 
 const GraphicsDesign = () => {
   return (
@@ -374,61 +374,40 @@ const GraphicsDesign = () => {
                 <div className="-my-8 divide-y-2 divide-cyan-700">
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person304} className="w-40 h-40" alt="" />
+                      <img src={person404} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Maya Singh - Prompt Engineering Specialist
+                      Emily Clark - Graphic Design Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Opting for Oceancapp’s prompt engineering services was
-                        a game-changer for our projects. Their team expertly
-                        crafted precise and effective prompts that significantly
-                        enhanced our system's performance and user interaction.
-                        The professionalism and depth of knowledge they brought
-                        to the table were impressive. Oceancapp’s innovative
-                        approach to prompt engineering has greatly streamlined
-                        our processes and delivered outstanding results."
+                      "Choosing Oceancapp for our graphic design needs was a remarkable decision. Their team created visually stunning designs that perfectly captured our brand's essence and message. The creativity and attention to detail they brought to the table were exceptional. Oceancapp’s ability to translate our vision into compelling graphics has truly elevated our brand's presence."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person305} className="w-40 h-40" alt="" />
+                      <img src={person405} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Zara Hussain - AI Prompt Development
+                      Lily Adams - Creative Design Solutions
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Oceancapp’s expertise in AI prompt development has
-                        truly elevated our applications. They designed and
-                        implemented custom prompts that optimized our AI
-                        interactions, resulting in more accurate and efficient
-                        outputs. The team’s thorough understanding and tailored
-                        solutions were evident throughout our collaboration.
-                        Oceancapp’s dedication to refining and perfecting prompt
-                        engineering has been instrumental to our success."
+                      "Oceancapp’s graphic design services have greatly enhanced our marketing materials. They delivered designs that are not only aesthetically pleasing but also highly effective in communicating our message. The team's professionalism and innovative approach were evident throughout the project. Oceancapp’s dedication to high-quality design work has made a significant impact on our visual branding."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person306} className="w-40 h-40" alt="" />
+                      <img src={person406} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Raj Patel - Prompt Engineering Consultant
+                      James Brown - Visual Design Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Working with Oceancapp for our prompt engineering needs
-                        was a fantastic experience. Their team provided
-                        insightful strategies and crafted high-quality prompts
-                        that enhanced the functionality of our AI systems. The
-                        attention to detail and innovative solutions they
-                        offered were exceptional. Oceancapp’s commitment to
-                        excellence in prompt engineering has had a significant
-                        positive impact on our projects."
+                      "Partnering with Oceancapp for our visual design needs was an excellent choice. Their team provided creative and impactful design solutions that resonated with our audience. The quality of their work and their ability to understand our requirements and deliver outstanding results were impressive. Oceancapp’s commitment to excellence in graphic design has been a key factor in our successful marketing campaigns."
                       </p>
                     </div>
                   </div>
