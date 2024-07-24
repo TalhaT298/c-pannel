@@ -83,12 +83,7 @@ const CyberSecurity = () => {
                 Learn More About Our Cybersecurity Services
               </h3>
               <p className="text-white mb-8">
-                Explore our dynamic cybersecurity solutions through this
-                informative video. Our dedicated team of experts is committed to
-                delivering top-tier services customized to your unique
-                requirements. From initial ideation to flawless execution, we
-                guarantee a seamless journey towards achieving your digital
-                goals.
+              Discover our advanced cybersecurity solutions in this insightful video. Our expert team is devoted to providing top-notch services tailored to your specific needs. From conceptualization to flawless implementation, we ensure a smooth path to safeguarding your digital assets.
               </p>
               <a
                 href={sampleVideo3}

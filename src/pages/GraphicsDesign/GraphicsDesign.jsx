@@ -71,15 +71,10 @@ const GraphicsDesign = () => {
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Our Prompt Engineering Services
+                Learn More About Our Graphic Design Services
               </h3>
               <p className="text-white mb-8">
-                Explore our innovative prompt engineering solutions through this
-                informative video. Our dedicated team of experts is committed to
-                delivering top-tier services tailored to your specific needs.
-                From initial ideation to flawless execution, we guarantee a
-                seamless journey towards optimizing your AI interactions and
-                maximizing their potential.
+              Experience our creative graphic design solutions through this visual showcase. Our talented team is committed to providing outstanding services aligned with your unique vision. From brainstorming to flawless creation, we ensure a smooth process in crafting striking and effective designs that enhance your brand
               </p>
               <a
                 href={promptpv}

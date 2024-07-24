@@ -83,12 +83,7 @@ const PromptEngineering = () => {
                 Learn More About Our Prompt Engineering Services
               </h3>
               <p className="text-white mb-8">
-                Explore our innovative prompt engineering solutions through this
-                informative video. Our dedicated team of experts is committed to
-                delivering top-tier services tailored to your specific needs.
-                From initial ideation to flawless execution, we guarantee a
-                seamless journey towards optimizing your AI interactions and
-                maximizing their potential.
+              "Uncover our cutting-edge prompt engineering services through this enlightening video. Our experienced team is focused on delivering high-quality solutions designed to meet your needs. From initial concept to impeccable execution, we ensure a smooth process in enhancing your AI capabilities.
               </p>
               <a
                 href={promptpv}

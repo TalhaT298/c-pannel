@@ -74,7 +74,7 @@ const WebDesign = () => {
                 Learn More About Our App Development Services
               </h3>
               <p className="text-white mb-8">
-              Explore our cutting-edge app development solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services tailored to your unique needs. From initial ideation to flawless execution, we guarantee a seamless journey towards bringing your app vision to life
+              Check out our innovative app development solutions in this engaging video. Our skilled team is dedicated to offering exceptional services customized to your requirements. From brainstorming to seamless delivery, we promise a smooth journey in turning your app concept into reality.
               </p>
               <a
                 href={appvd}
