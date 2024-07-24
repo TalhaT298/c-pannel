@@ -12,9 +12,9 @@ import p21 from "../../assets/p21.png";
 import p22 from "../../assets/p22.png";
 import p23 from "../../assets/p23.png";
 import p24 from "../../assets/p24.png";
-import person104 from "../../assets/aishab.png";
-import person105 from "../../assets/rahul.png";
-import person106 from "../../assets/lisa.png";
+import person304 from "../../assets/person304.png";
+import person305 from "../../assets/person305.png";
+import person306 from "../../assets/person306.png";
 
 const PromptEngineering = () => {
   return (
@@ -189,7 +189,7 @@ const PromptEngineering = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-              Let's Build Your Dream Website
+            Let's Engineer Your Dreams.
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -372,59 +372,40 @@ const PromptEngineering = () => {
                 <div className="-my-8 divide-y-2 divide-cyan-700">
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person104} className="w-40 h-40" alt="" />
+                      <img src={person304} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Aisha Rahman - Entrepreneu
+                      Maya Singh - Prompt Engineering Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                        Oceancapp transformed my vision into a stunning reality
-                        with their WordPress development services. The team’s
-                        attention to detail and innovative approach ensured my
-                        website not only looked beautiful but also functioned
-                        seamlessly. Their commitment to quality and customer
-                        satisfaction is unparalleled
+                      "Opting for Oceancapp’s prompt engineering services was a game-changer for our projects. Their team expertly crafted precise and effective prompts that significantly enhanced our system's performance and user interaction. The professionalism and depth of knowledge they brought to the table were impressive. Oceancapp’s innovative approach to prompt engineering has greatly streamlined our processes and delivered outstanding results."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person105} className="w-40 h-40" alt="" />
+                      <img src={person305} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Rahul Sen - WordPress Development
+                      Zara Hussain - AI Prompt Development
                       </h2>
                       <p className="leading-relaxed text-white">
-                        Choosing Oceancapp for our WordPress development needs
-                        was the best decision we made. Their team transformed
-                        our outdated website into a sleek, responsive, and
-                        user-friendly platform. The attention to detail and
-                        commitment to excellence is unmatched. Oceancapp truly
-                        understands the nuances of WordPress, and their
-                        innovative approach simplified everything for us. We
-                        couldn't be happier with the results
+                      "Oceancapp’s expertise in AI prompt development has truly elevated our applications. They designed and implemented custom prompts that optimized our AI interactions, resulting in more accurate and efficient outputs. The team’s thorough understanding and tailored solutions were evident throughout our collaboration. Oceancapp’s dedication to refining and perfecting prompt engineering has been instrumental to our success."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person106} className="w-40 h-40" alt="" />
+                      <img src={person306} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Lisa Thompson- WordPress Development
+                      Raj Patel - Prompt Engineering Consultant
                       </h2>
                       <p className="leading-relaxed text-white">
-                        Oceancapp's WordPress service exceeded our expectations
-                        in every way. From the initial consultation to the final
-                        delivery, their professionalism and expertise were
-                        evident. They listened to our needs, provided insightful
-                        recommendations, and delivered a website that not only
-                        looks fantastic but also performs flawlessly.
-                        Oceancapp's dedication to customer satisfaction is
-                        evident in every aspect of their work.
+                      "Working with Oceancapp for our prompt engineering needs was a fantastic experience. Their team provided insightful strategies and crafted high-quality prompts that enhanced the functionality of our AI systems. The attention to detail and innovative solutions they offered were exceptional. Oceancapp’s commitment to excellence in prompt engineering has had a significant positive impact on our projects."
                       </p>
                     </div>
                   </div>
