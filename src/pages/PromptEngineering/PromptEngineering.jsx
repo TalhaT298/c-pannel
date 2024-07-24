@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import promptp from "../../assets/promptp.png";
 import propmtw from "../../assets/propmtw.png";
 import { GrProjects } from "react-icons/gr";
-import sampleVideo2 from "../../assets/code.mp4";
+import promptpv from "../../assets/prompt.mp4";
 import p9 from "../../assets/p9.png";
 import p10 from "../../assets/p10.png";
 import p11 from "../../assets/p11.png";
@@ -66,7 +66,7 @@ const PromptEngineering = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={sampleVideo2} type="video/mp4" />
+              <source src={promptpv} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
@@ -77,7 +77,7 @@ const PromptEngineering = () => {
               Explore our innovative prompt engineering solutions through this informative video. Our dedicated team of experts is committed to delivering top-tier services tailored to your specific needs. From initial ideation to flawless execution, we guarantee a seamless journey towards optimizing your AI interactions and maximizing their potential.
               </p>
               <a
-                href={sampleVideo2}
+                href={promptpv}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
