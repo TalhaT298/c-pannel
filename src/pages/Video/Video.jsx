@@ -12,9 +12,9 @@ import p29 from "../../assets/p29.png";
 import p30 from "../../assets/p30.png";
 import p31 from "../../assets/p31.png";
 import p32 from "../../assets/p32.png";
-import person404 from "../../assets/person404.png";
-import person405 from "../../assets/person405.png";
-import person406 from "../../assets/person406.png";
+import person504 from "../../assets/person504.png";
+import person505 from "../../assets/person505.png";
+import person506 from "../../assets/person506.png";
 
 const Video = () => {
   return (
@@ -396,61 +396,40 @@ const Video = () => {
                 <div className="-my-8 divide-y-2 divide-cyan-700">
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person404} className="w-40 h-40" alt="" />
+                      <img src={person504} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Emily Clark - Graphic Design Expert
+                        Liam Roberts - Multimedia Editing Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Choosing Oceancapp for our graphic design needs was a
-                        remarkable decision. Their team created visually
-                        stunning designs that perfectly captured our brand's
-                        essence and message. The creativity and attention to
-                        detail they brought to the table were exceptional.
-                        Oceancapp’s ability to translate our vision into
-                        compelling graphics has truly elevated our brand's
-                        presence."
+                      "Partnering with Oceancapp for our video editing requirements was an excellent choice. Their team provided insightful guidance and produced top-notch edits that seamlessly integrated with our overall marketing strategy. The quality of their work and their ability to understand and execute our vision were exceptional. Oceancapp’s commitment to excellence in video editing has greatly enhanced our multimedia projects."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person405} className="w-40 h-40" alt="" />
+                      <img src={person505} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Lily Adams - Creative Design Solutions
+                      Sophia Johnson - Visual Storytelling Solutions
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Oceancapp’s graphic design services have greatly
-                        enhanced our marketing materials. They delivered designs
-                        that are not only aesthetically pleasing but also highly
-                        effective in communicating our message. The team's
-                        professionalism and innovative approach were evident
-                        throughout the project. Oceancapp’s dedication to
-                        high-quality design work has made a significant impact
-                        on our visual branding."
+                      "Oceancapp’s video editing services have significantly enhanced our content. They delivered high-quality edits that effectively conveyed our message and kept our audience captivated. The team's professionalism, innovative approach, and ability to meet tight deadlines were impressive throughout the project. Oceancapp’s dedication to delivering exceptional video editing work has been instrumental in our success."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person406} className="w-40 h-40" alt="" />
+                      <img src={person506} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        James Brown - Visual Design Specialist
+                      Ava Martinez - Video Editing Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Partnering with Oceancapp for our visual design needs
-                        was an excellent choice. Their team provided creative
-                        and impactful design solutions that resonated with our
-                        audience. The quality of their work and their ability to
-                        understand our requirements and deliver outstanding
-                        results were impressive. Oceancapp’s commitment to
-                        excellence in graphic design has been a key factor in
-                        our successful marketing campaigns."
+                      "Choosing Oceancapp for our video editing needs was a fantastic decision. Their team transformed our raw footage into a polished and engaging final product that perfectly captured our vision. The creativity, technical skills, and attention to detail they demonstrated were outstanding. Oceancapp’s expertise in video editing has truly brought our projects to life and exceeded our expectations."
                       </p>
                     </div>
                   </div>
