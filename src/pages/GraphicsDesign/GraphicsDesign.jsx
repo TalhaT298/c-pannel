@@ -8,10 +8,10 @@ import grap from "../../assets/graphicsp.png";
 import graphicsw from "../../assets/graphicsw.png";
 import { GrProjects } from "react-icons/gr";
 import graphicsv from "../../assets/graphics.mp4";
-import p21 from "../../assets/p21.png";
-import p22 from "../../assets/p22.png";
-import p23 from "../../assets/p23.png";
-import p24 from "../../assets/p24.png";
+import p25 from "../../assets/p25.png";
+import p26 from "../../assets/p26.png";
+import p27 from "../../assets/p27.png";
+import p28 from "../../assets/p28.png";
 import person304 from "../../assets/person304.png";
 import person305 from "../../assets/person305.png";
 import person306 from "../../assets/person306.png";
@@ -143,7 +143,7 @@ const GraphicsDesign = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-            Let's Engineer Your Dreams.
+            Transform Your Vision into Stunning Designs
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -155,34 +155,34 @@ const GraphicsDesign = () => {
               <div className="w-14 h-14 bg-transparent  rounded-full border-[3px] border-[#191919]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p21}
+                  src={p25}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919] relative -left-5">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p22}
+                  src={p26}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-10">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p23}
+                  src={p27}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-[60px]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p24}
+                  src={p28}
                   alt="avatar navigate ui"
                 />
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">70+</p>
+                <p className="text-lg text-white">90+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
