@@ -355,15 +355,10 @@ const CyberSecurity = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Aisha Rahman - Entrepreneu
+                      Aisha Rahman - Network Security Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                        Oceancapp transformed my vision into a stunning reality
-                        with their WordPress development services. The team’s
-                        attention to detail and innovative approach ensured my
-                        website not only looked beautiful but also functioned
-                        seamlessly. Their commitment to quality and customer
-                        satisfaction is unparalleled
+                      "Opting for Oceancapp’s cybersecurity services was a game-changer for us. A team of experts meticulously analyzed our systems and implemented robust security measures, effectively shielding us from potential threats. Their proactive approach and thoroughness in ensuring our data integrity have given us peace of mind. Oceancapp's dedication to cybersecurity is evident in their exceptional service and expertise."
                       </p>
                     </div>
                   </div>
@@ -373,17 +368,10 @@ const CyberSecurity = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Rahul Sen - WordPress Development
+                      Nazia Begum - IT Security Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                        Choosing Oceancapp for our WordPress development needs
-                        was the best decision we made. Their team transformed
-                        our outdated website into a sleek, responsive, and
-                        user-friendly platform. The attention to detail and
-                        commitment to excellence is unmatched. Oceancapp truly
-                        understands the nuances of WordPress, and their
-                        innovative approach simplified everything for us. We
-                        couldn't be happier with the results
+                      "Oceancapp’s cybersecurity solutions exceeded our expectations. They delivered a comprehensive security strategy that protected our sensitive information from cyber threats. The team’s professionalism and in-depth knowledge of cybersecurity were evident in every interaction. Their commitment to safeguarding our data has been invaluable, and we’re confident in their ability to keep us secure."
                       </p>
                     </div>
                   </div>
@@ -393,17 +381,12 @@ const CyberSecurity = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Lisa Thompson- WordPress Development
+                        Tamim Iqbal- Cybersecurity Consultant
                       </h2>
                       <p className="leading-relaxed text-white">
-                        Oceancapp's WordPress service exceeded our expectations
-                        in every way. From the initial consultation to the final
-                        delivery, their professionalism and expertise were
-                        evident. They listened to our needs, provided insightful
-                        recommendations, and delivered a website that not only
-                        looks fantastic but also performs flawlessly.
-                        Oceancapp's dedication to customer satisfaction is
-                        evident in every aspect of their work.
+                      "Working with Oceancapp for our cybersecurity needs was a wise choice. Their team provided a thorough assessment of our existing security measures and introduced cutting-edge solutions to enhance our protection. The clarity of their communication and the effectiveness of their strategies set them apart. Oceancapp’s dedication to keeping our systems secure has been exceptional, and we highly recommend their services."
+
+
                       </p>
                     </div>
                   </div>
