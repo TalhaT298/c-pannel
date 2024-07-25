@@ -71,7 +71,7 @@ const Education = () => {
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Video Editing Design Services
+                Learn More About Education Services
               </h3>
               <p className="text-white mb-8">
               Explore our comprehensive education services through this informative video. Our dedicated team is committed to delivering top-tier educational solutions tailored to your specific needs. From initial planning to flawless execution, we ensure a seamless journey towards achieving your learning and development goals.
@@ -94,68 +94,37 @@ const Education = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            video editing Excellence Delivered
+            Education Services Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-            At Oceancapp, we specialize in delivering professional video editing
-            solutions that engage, entertain, and elevate your content. Our
-            dedication to quality ensures that your videos not only meet but
-            exceed industry standards, leaving a lasting impression on your
-            audience.
+          At Oceancapp, we are committed to delivering excellence in education services that inspire learning, foster growth, and empower individuals. Our dedication to quality education ensures that learners of all ages and backgrounds receive the support they need to succeed.
           </p>{" "}
           <br />
           <p>
-            Our team of skilled editors is equipped with the expertise and
-            creativity to transform raw footage into compelling visual stories.
-            We stay updated with the latest editing techniques and technologies
-            to deliver polished and impactful videos. Understanding the unique
-            objectives of each project, we tailor our editing process to
-            effectively convey your message and achieve your desired outcomes.
+          Our team of experienced educators and subject matter experts is passionate about providing personalized learning experiences tailored to each student's unique needs. We offer a range of educational services, including tutoring, mentoring, and curriculum development, designed to enhance academic achievement and promote lifelong learning.
           </p>{" "}
           <br />
           <p>
-            Our focus is on creating videos that are not only visually stunning
-            but also strategically edited to resonate with your target audience.
-            Whether you need promotional videos, corporate presentations, or
-            social media content, we bring precision and creativity to every
-            project. We ensure seamless collaboration and transparent
-            communication throughout the editing process, ensuring your vision
-            is brought to life.
+          Whether you're seeking academic support, preparing for standardized tests, or exploring new skills, Oceancapp offers comprehensive educational solutions that cater to your goals. We leverage innovative teaching methods and educational technology to create engaging and effective learning environments, ensuring that every learner reaches their full potential.
           </p>
           <br />
           <p>
-            With the increasing demand for high-quality video content, having
-            professional editing is essential. Our editors are skilled in
-            enhancing visual appeal, refining storytelling, and optimizing
-            audiovisual elements for maximum impact. We also prioritize
-            efficiency and timely delivery, ensuring your videos are ready to
-            captivate your audience on schedule.
+          Our focus is on delivering educational services that are not only informative but also inspiring. We prioritize interactive learning experiences, collaborative opportunities, and personalized feedback to encourage active participation and deepen understanding. Through our tailored approach, we empower learners to excel academically and develop critical thinking skills that extend beyond the classroom.
           </p>
           <br />
           <p>
-            At Oceancapp, we showcase our editing expertise through our
-            portfolio, where you can view examples of our best video editing
-            work. This allows you to see firsthand how our editing techniques
-            can elevate your content and amplify your brand message.
+          At Oceancapp, we showcase our commitment to education through our track record of success and testimonials from satisfied students and parents. Our dedication to student success is evident in every educational service we provide, fostering a supportive learning community where every individual can thrive.
           </p>
           <br />
           <p>
-            Are you passionate about video editing and looking to join a dynamic
-            team? Oceancapp welcomes talented individuals who are eager to push
-            creative boundaries and deliver exceptional video editing solutions.
-            Join us to work on exciting projects, refine your skills, and
-            contribute to our mission of excellence in video editing.
+          Are you passionate about education and looking to join a dynamic team dedicated to making a difference in learners' lives? Oceancapp welcomes educators and mentors who share our commitment to excellence in education. Join us to contribute to meaningful educational initiatives, inspire learners, and shape the future of education.
           </p>
           <br />
           <p>
-            Whether you're launching a new video campaign or refining existing
-            content, Oceancapp is your trusted partner for professional video
-            editing. Contact us today to discuss your video editing needs and
-            discover how we can enhance your visual storytelling through expert
-            editing techniques.
+          Whether you're seeking academic support or exploring new educational opportunities, Oceancapp is here to support your learning journey. Contact us today to discuss your educational goals and discover how we can empower you through our comprehensive education services.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
