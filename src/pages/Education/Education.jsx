@@ -4,7 +4,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import videop from "../../assets/videop.png";
+import edup from "../../assets/edup.png";
 import videow from "../../assets/videow.png";
 import { GrProjects } from "react-icons/gr";
 import viv from "../../assets/vi.mp4";
@@ -25,22 +25,13 @@ const Education = () => {
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
             <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-              Video Editing
+              Education Service
             </h3>
             <h2 className="text-white font-extrabold text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-              Oceancapp's video editing services stand out for their ability to
-              turn raw footage into expertly crafted, engaging content tailored
-              to your unique requirements. We excel in producing high-quality
-              videos that captivate and connect with your audience effectively.
-              Our skilled team offers full-spectrum support, from initial
-              footage evaluation and editing to final touches and enhancements,
-              ensuring a polished and compelling result. We emphasize creative
-              storytelling and technical precision, utilizing advanced editing
-              tools and techniques to create videos that leave a lasting
-              impression.
+            Oceancapp's education services excel in delivering customized learning solutions that cater to the unique needs of our clients. We focus on creating innovative educational programs and resources aimed at improving learning outcomes and promoting intellectual development. Our experienced team provides holistic support, from initial curriculum design and creation to ongoing evaluation and enhancement, ensuring a dynamic and effective learning experience. We emphasize student-focused approaches and advanced educational technologies, enabling students and educators to reach their highest potential.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -55,7 +46,7 @@ const Education = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={videop}
+                src={edup}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
@@ -83,12 +74,7 @@ const Education = () => {
                 Learn More About Video Editing Design Services
               </h3>
               <p className="text-white mb-8">
-                Discover our expert video editing solutions through this
-                engaging video. Our skilled team is dedicated to providing
-                high-quality services tailored to your specific needs. From
-                initial concept to flawless final cut, we ensure a smooth
-                process in transforming your footage into compelling and
-                professional videos.
+              Explore our comprehensive education services through this informative video. Our dedicated team is committed to delivering top-tier educational solutions tailored to your specific needs. From initial planning to flawless execution, we ensure a seamless journey towards achieving your learning and development goals.
               </p>
               <a
                 href={viv}
