@@ -100,31 +100,31 @@ const Creation = () => {
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we are committed to delivering excellence in education services that inspire learning, foster growth, and empower individuals. Our dedication to quality education ensures that learners of all ages and backgrounds receive the support they need to succeed.
+          At Oceancapp, we specialize in turning innovative ideas into reality with our comprehensive Idea to Creation services. Our commitment to quality, creativity, and customer satisfaction ensures that your vision is not only realized but also exceeds expectations.
           </p>{" "}
           <br />
           <p>
-          Our team of experienced educators and subject matter experts is passionate about providing personalized learning experiences tailored to each student's unique needs. We offer a range of educational services, including tutoring, mentoring, and curriculum development, designed to enhance academic achievement and promote lifelong learning.
+          Our team of experienced professionals excels in transforming concepts into tangible products and solutions. We stay updated with the latest trends and technologies to deliver innovative and impactful results. Understanding the unique nature of each idea, we provide personalized services that align with your goals and bring your vision to life.
           </p>{" "}
           <br />
           <p>
-          Whether you're seeking academic support, preparing for standardized tests, or exploring new skills, Oceancapp offers comprehensive educational solutions that cater to your goals. We leverage innovative teaching methods and educational technology to create engaging and effective learning environments, ensuring that every learner reaches their full potential.
+          Our focus is on guiding you through every step of the creation process, from initial brainstorming to final execution. Whether you need product development, design, prototyping, or market launch, we bring expertise and creativity to every project. We ensure seamless collaboration and transparent communication, making the journey from idea to creation smooth and efficient.
           </p>
           <br />
           <p>
-          Our focus is on delivering educational services that are not only informative but also inspiring. We prioritize interactive learning experiences, collaborative opportunities, and personalized feedback to encourage active participation and deepen understanding. Through our tailored approach, we empower learners to excel academically and develop critical thinking skills that extend beyond the classroom.
+          With the increasing demand for innovative solutions, having a reliable partner to bring your ideas to life is crucial. Our services are designed to adapt to various industries and project scopes, ensuring that your ideas are developed with precision and creativity. We also prioritize quality and functionality, ensuring that the final product is not only innovative but also practical and market-ready.
           </p>
           <br />
           <p>
-          At Oceancapp, we showcase our commitment to education through our track record of success and testimonials from satisfied students and parents. Our dedication to student success is evident in every educational service we provide, fostering a supportive learning community where every individual can thrive.
+          At Oceancapp, we showcase our ability to turn ideas into successful creations through our portfolio, where you can see examples of our past projects. This allows you to visualize our capabilities and envision how we can help bring your ideas to fruition.
           </p>
           <br />
           <p>
-          Are you passionate about education and looking to join a dynamic team dedicated to making a difference in learners' lives? Oceancapp welcomes educators and mentors who share our commitment to excellence in education. Join us to contribute to meaningful educational initiatives, inspire learners, and shape the future of education.
+          Are you passionate about innovation and looking to join a dynamic team dedicated to creating impactful solutions? Oceancapp welcomes creative and driven individuals who are eager to transform ideas into reality. Join us to work on exciting projects, develop your skills, and contribute to our mission of excellence in Idea to Creation services.
           </p>
           <br />
           <p>
-          Whether you're seeking academic support or exploring new educational opportunities, Oceancapp is here to support your learning journey. Contact us today to discuss your educational goals and discover how we can empower you through our comprehensive education services.
+          Whether you have a groundbreaking concept or need help refining your ideas, Oceancapp is here to support your journey from idea to creation. Contact us today to discuss your project and discover how we can turn your vision into a reality.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
