@@ -17,21 +17,30 @@ import person505 from "../../assets/person505.png";
 import person506 from "../../assets/person506.png";
 
 const Creation = () => {
-    return (
-        <>
-        <Link to="/creation"></Link>
-        <div>
+  return (
+    <>
+      <Link to="/creation"></Link>
+      <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
             <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-             Idea to Creation
+              Idea to Creation
             </h3>
             <h2 className="text-white font-extrabold text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's Idea to Creation services are exceptional in transforming your concepts into fully realized solutions. We specialize in taking your ideas through every stage of development, from initial brainstorming and planning to final execution and launch. Our dedicated team provides end-to-end support, ensuring that your vision is meticulously crafted and brought to life with precision and creativity. We focus on innovative thinking and comprehensive project management, utilizing the latest tools and techniques to turn your ideas into impactful, tangible results.
+              Oceancapp's Idea to Creation services are exceptional in
+              transforming your concepts into fully realized solutions. We
+              specialize in taking your ideas through every stage of
+              development, from initial brainstorming and planning to final
+              execution and launch. Our dedicated team provides end-to-end
+              support, ensuring that your vision is meticulously crafted and
+              brought to life with precision and creativity. We focus on
+              innovative thinking and comprehensive project management,
+              utilizing the latest tools and techniques to turn your ideas into
+              impactful, tangible results.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -71,10 +80,15 @@ const Creation = () => {
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About  Idea to Creation Services
+                Learn More About Idea to Creation Services
               </h3>
               <p className="text-white mb-8">
-              Explore our seamless journey from idea to creation through this informative video. Our dedicated team is committed to transforming your concepts into reality with top-tier services tailored to your specific needs. From initial brainstorming to flawless execution, we ensure a smooth and efficient process in bringing your vision to life.
+                Explore our seamless journey from idea to creation through this
+                informative video. Our dedicated team is committed to
+                transforming your concepts into reality with top-tier services
+                tailored to your specific needs. From initial brainstorming to
+                flawless execution, we ensure a smooth and efficient process in
+                bringing your vision to life.
               </p>
               <a
                 href={ideav}
@@ -94,37 +108,67 @@ const Creation = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-          Idea to Creation Excellence Delivered
+            Idea to Creation Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we specialize in turning innovative ideas into reality with our comprehensive Idea to Creation services. Our commitment to quality, creativity, and customer satisfaction ensures that your vision is not only realized but also exceeds expectations.
+            At Oceancapp, we specialize in turning innovative ideas into reality
+            with our comprehensive Idea to Creation services. Our commitment to
+            quality, creativity, and customer satisfaction ensures that your
+            vision is not only realized but also exceeds expectations.
           </p>{" "}
           <br />
           <p>
-          Our team of experienced professionals excels in transforming concepts into tangible products and solutions. We stay updated with the latest trends and technologies to deliver innovative and impactful results. Understanding the unique nature of each idea, we provide personalized services that align with your goals and bring your vision to life.
+            Our team of experienced professionals excels in transforming
+            concepts into tangible products and solutions. We stay updated with
+            the latest trends and technologies to deliver innovative and
+            impactful results. Understanding the unique nature of each idea, we
+            provide personalized services that align with your goals and bring
+            your vision to life.
           </p>{" "}
           <br />
           <p>
-          Our focus is on guiding you through every step of the creation process, from initial brainstorming to final execution. Whether you need product development, design, prototyping, or market launch, we bring expertise and creativity to every project. We ensure seamless collaboration and transparent communication, making the journey from idea to creation smooth and efficient.
+            Our focus is on guiding you through every step of the creation
+            process, from initial brainstorming to final execution. Whether you
+            need product development, design, prototyping, or market launch, we
+            bring expertise and creativity to every project. We ensure seamless
+            collaboration and transparent communication, making the journey from
+            idea to creation smooth and efficient.
           </p>
           <br />
           <p>
-          With the increasing demand for innovative solutions, having a reliable partner to bring your ideas to life is crucial. Our services are designed to adapt to various industries and project scopes, ensuring that your ideas are developed with precision and creativity. We also prioritize quality and functionality, ensuring that the final product is not only innovative but also practical and market-ready.
+            With the increasing demand for innovative solutions, having a
+            reliable partner to bring your ideas to life is crucial. Our
+            services are designed to adapt to various industries and project
+            scopes, ensuring that your ideas are developed with precision and
+            creativity. We also prioritize quality and functionality, ensuring
+            that the final product is not only innovative but also practical and
+            market-ready.
           </p>
           <br />
           <p>
-          At Oceancapp, we showcase our ability to turn ideas into successful creations through our portfolio, where you can see examples of our past projects. This allows you to visualize our capabilities and envision how we can help bring your ideas to fruition.
+            At Oceancapp, we showcase our ability to turn ideas into successful
+            creations through our portfolio, where you can see examples of our
+            past projects. This allows you to visualize our capabilities and
+            envision how we can help bring your ideas to fruition.
           </p>
           <br />
           <p>
-          Are you passionate about innovation and looking to join a dynamic team dedicated to creating impactful solutions? Oceancapp welcomes creative and driven individuals who are eager to transform ideas into reality. Join us to work on exciting projects, develop your skills, and contribute to our mission of excellence in Idea to Creation services.
+            Are you passionate about innovation and looking to join a dynamic
+            team dedicated to creating impactful solutions? Oceancapp welcomes
+            creative and driven individuals who are eager to transform ideas
+            into reality. Join us to work on exciting projects, develop your
+            skills, and contribute to our mission of excellence in Idea to
+            Creation services.
           </p>
           <br />
           <p>
-          Whether you have a groundbreaking concept or need help refining your ideas, Oceancapp is here to support your journey from idea to creation. Contact us today to discuss your project and discover how we can turn your vision into a reality.
+            Whether you have a groundbreaking concept or need help refining your
+            ideas, Oceancapp is here to support your journey from idea to
+            creation. Contact us today to discuss your project and discover how
+            we can turn your vision into a reality.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
@@ -226,114 +270,141 @@ const Creation = () => {
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Cutting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Trimming</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Splitting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Timeline</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Transitions</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Effects</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Color Correction
+            Brainstorming
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Color Grading
+            Concept Development
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Ideation</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Market Research
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Prototyping</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Wireframing</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Design Thinking
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Green Screen
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Keying</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Masking</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Compositing</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Montage</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Audio Sync</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Sound Design
+            User Experience (UX) Design
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Audio Mixing
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Voiceover</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Titles</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Subtitles</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Lower Thirds
+            User Interface (UI) Design
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Motion Graphics
+            Product Design
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Visual Effects (VFX)
+            Proof of Concept
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Rendering</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Exporting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Frame Rate</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Resolution</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Innovation</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Aspect Ratio
+            Feasibility Study
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Multicam Editing
+            Project Planning
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Proxy Editing
+            Roadmap Development
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Storyboarding
+            Minimum Viable Product (MVP)
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Non-Linear Editing (NLE)
+            Agile Development
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Rough Cut</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Final Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Sprint Planning
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Iteration</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Testing and Validation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            User Testing
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Feedback Loop
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Quality Assurance (QA)
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Beta Testing
+          </p>
         </Marquee>
         <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Clip</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Sequence</p>
-          <p className="text-4xl font-extrabold font-serif px-4">B-Roll</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Jump Cut</p>
-          <p className="text-4xl font-extrabold font-serif px-4">L-Cut</p>
-          <p className="text-4xl font-extrabold font-serif px-4">J-Cut</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Cross Dissolve
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Fade In</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Fade Out</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Speed Ramp</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Stabilization
+            Launch Strategy
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Split Screen
+            Marketing Plan
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Branding</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Go-to-Market Strategy
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Picture-in-Picture
+            Product Launch
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Overlay</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Scalability</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Editing Software
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Video Effects Library
+            Customer Onboarding
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Editing Workflow
+            Product Lifecycle
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Adjustment Layers
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Layering</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Retiming</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Noise Reduction
+            Continuous Improvement
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Chromatic Aberration
+            Market Analysis
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Scene Transition
+            Customer Feedback
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Sync Licensing
+            Product Enhancement
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Version Control
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Release Management
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Documentation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Collaboration Tools
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Team Management
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Resource Allocation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Milestone Tracking
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Performance Metrics
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">Analytics</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            User Adoption
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Support and Maintenance
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Customer Success
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Iteration Planning
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Feature Prioritization
           </p>
         </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
@@ -358,7 +429,15 @@ const Creation = () => {
                         Liam Roberts - Multimedia Editing Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Partnering with Oceancapp for our video editing requirements was an excellent choice. Their team provided insightful guidance and produced top-notch edits that seamlessly integrated with our overall marketing strategy. The quality of their work and their ability to understand and execute our vision were exceptional. Oceancapp’s commitment to excellence in video editing has greatly enhanced our multimedia projects."
+                        "Partnering with Oceancapp for our video editing
+                        requirements was an excellent choice. Their team
+                        provided insightful guidance and produced top-notch
+                        edits that seamlessly integrated with our overall
+                        marketing strategy. The quality of their work and their
+                        ability to understand and execute our vision were
+                        exceptional. Oceancapp’s commitment to excellence in
+                        video editing has greatly enhanced our multimedia
+                        projects."
                       </p>
                     </div>
                   </div>
@@ -368,10 +447,17 @@ const Creation = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      Sophia Johnson - Visual Storytelling Solutions
+                        Sophia Johnson - Visual Storytelling Solutions
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Oceancapp’s video editing services have significantly enhanced our content. They delivered high-quality edits that effectively conveyed our message and kept our audience captivated. The team's professionalism, innovative approach, and ability to meet tight deadlines were impressive throughout the project. Oceancapp’s dedication to delivering exceptional video editing work has been instrumental in our success."
+                        "Oceancapp’s video editing services have significantly
+                        enhanced our content. They delivered high-quality edits
+                        that effectively conveyed our message and kept our
+                        audience captivated. The team's professionalism,
+                        innovative approach, and ability to meet tight deadlines
+                        were impressive throughout the project. Oceancapp’s
+                        dedication to delivering exceptional video editing work
+                        has been instrumental in our success."
                       </p>
                     </div>
                   </div>
@@ -381,10 +467,17 @@ const Creation = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      Ava Martinez - Video Editing Specialist
+                        Ava Martinez - Video Editing Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Choosing Oceancapp for our video editing needs was a fantastic decision. Their team transformed our raw footage into a polished and engaging final product that perfectly captured our vision. The creativity, technical skills, and attention to detail they demonstrated were outstanding. Oceancapp’s expertise in video editing has truly brought our projects to life and exceeded our expectations."
+                        "Choosing Oceancapp for our video editing needs was a
+                        fantastic decision. Their team transformed our raw
+                        footage into a polished and engaging final product that
+                        perfectly captured our vision. The creativity, technical
+                        skills, and attention to detail they demonstrated were
+                        outstanding. Oceancapp’s expertise in video editing has
+                        truly brought our projects to life and exceeded our
+                        expectations."
                       </p>
                     </div>
                   </div>
@@ -395,8 +488,8 @@ const Creation = () => {
         </div>
         {/* ---------------------------------6th phase finish----------------------------*/}
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default Creation;
