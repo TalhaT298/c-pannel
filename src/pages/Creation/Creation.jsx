@@ -4,8 +4,8 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
-import edup from "../../assets/edup.png";
-import videow from "../../assets/videow.png";
+import ideap from "../../assets/ideap.png";
+import ideaw from "../../assets/ideaw.png";
 import { GrProjects } from "react-icons/gr";
 import viv from "../../assets/vi.mp4";
 import p29 from "../../assets/p29.png";
@@ -31,7 +31,7 @@ const Creation = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's education services excel in delivering customized learning solutions that cater to the unique needs of our clients. We focus on creating innovative educational programs and resources aimed at improving learning outcomes and promoting intellectual development. Our experienced team provides holistic support, from initial curriculum design and creation to ongoing evaluation and enhancement, ensuring a dynamic and effective learning experience. We emphasize student-focused approaches and advanced educational technologies, enabling students and educators to reach their highest potential.
+            Oceancapp's Idea to Creation services are exceptional in transforming your concepts into fully realized solutions. We specialize in taking your ideas through every stage of development, from initial brainstorming and planning to final execution and launch. Our dedicated team provides end-to-end support, ensuring that your vision is meticulously crafted and brought to life with precision and creativity. We focus on innovative thinking and comprehensive project management, utilizing the latest tools and techniques to turn your ideas into impactful, tangible results.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -46,12 +46,12 @@ const Creation = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative">
               <img
-                src={edup}
+                src={ideap}
                 alt="Sale"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={videow}
+                src={ideaw}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
