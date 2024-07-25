@@ -17,10 +17,10 @@ import person505 from "../../assets/person505.png";
 import person506 from "../../assets/person506.png";
 
 const Education = () => {
-    return (
-        <>
-        <Link to="/education"></Link>
-        <div>
+  return (
+    <>
+      <Link to="/education"></Link>
+      <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
@@ -31,7 +31,16 @@ const Education = () => {
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
-            Oceancapp's education services excel in delivering customized learning solutions that cater to the unique needs of our clients. We focus on creating innovative educational programs and resources aimed at improving learning outcomes and promoting intellectual development. Our experienced team provides holistic support, from initial curriculum design and creation to ongoing evaluation and enhancement, ensuring a dynamic and effective learning experience. We emphasize student-focused approaches and advanced educational technologies, enabling students and educators to reach their highest potential.
+              Oceancapp's education services excel in delivering customized
+              learning solutions that cater to the unique needs of our clients.
+              We focus on creating innovative educational programs and resources
+              aimed at improving learning outcomes and promoting intellectual
+              development. Our experienced team provides holistic support, from
+              initial curriculum design and creation to ongoing evaluation and
+              enhancement, ensuring a dynamic and effective learning experience.
+              We emphasize student-focused approaches and advanced educational
+              technologies, enabling students and educators to reach their
+              highest potential.
             </p>
             <Link to="">
               <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
@@ -74,7 +83,12 @@ const Education = () => {
                 Learn More About Education Services
               </h3>
               <p className="text-white mb-8">
-              Explore our comprehensive education services through this informative video. Our dedicated team is committed to delivering top-tier educational solutions tailored to your specific needs. From initial planning to flawless execution, we ensure a seamless journey towards achieving your learning and development goals.
+                Explore our comprehensive education services through this
+                informative video. Our dedicated team is committed to delivering
+                top-tier educational solutions tailored to your specific needs.
+                From initial planning to flawless execution, we ensure a
+                seamless journey towards achieving your learning and development
+                goals.
               </p>
               <a
                 href={eduv}
@@ -100,31 +114,62 @@ const Education = () => {
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center font-thin text-xl pt-4">
           <p>
-          At Oceancapp, we are committed to delivering excellence in education services that inspire learning, foster growth, and empower individuals. Our dedication to quality education ensures that learners of all ages and backgrounds receive the support they need to succeed.
+            At Oceancapp, we are committed to delivering excellence in education
+            services that inspire learning, foster growth, and empower
+            individuals. Our dedication to quality education ensures that
+            learners of all ages and backgrounds receive the support they need
+            to succeed.
           </p>{" "}
           <br />
           <p>
-          Our team of experienced educators and subject matter experts is passionate about providing personalized learning experiences tailored to each student's unique needs. We offer a range of educational services, including tutoring, mentoring, and curriculum development, designed to enhance academic achievement and promote lifelong learning.
+            Our team of experienced educators and subject matter experts is
+            passionate about providing personalized learning experiences
+            tailored to each student's unique needs. We offer a range of
+            educational services, including tutoring, mentoring, and curriculum
+            development, designed to enhance academic achievement and promote
+            lifelong learning.
           </p>{" "}
           <br />
           <p>
-          Whether you're seeking academic support, preparing for standardized tests, or exploring new skills, Oceancapp offers comprehensive educational solutions that cater to your goals. We leverage innovative teaching methods and educational technology to create engaging and effective learning environments, ensuring that every learner reaches their full potential.
+            Whether you're seeking academic support, preparing for standardized
+            tests, or exploring new skills, Oceancapp offers comprehensive
+            educational solutions that cater to your goals. We leverage
+            innovative teaching methods and educational technology to create
+            engaging and effective learning environments, ensuring that every
+            learner reaches their full potential.
           </p>
           <br />
           <p>
-          Our focus is on delivering educational services that are not only informative but also inspiring. We prioritize interactive learning experiences, collaborative opportunities, and personalized feedback to encourage active participation and deepen understanding. Through our tailored approach, we empower learners to excel academically and develop critical thinking skills that extend beyond the classroom.
+            Our focus is on delivering educational services that are not only
+            informative but also inspiring. We prioritize interactive learning
+            experiences, collaborative opportunities, and personalized feedback
+            to encourage active participation and deepen understanding. Through
+            our tailored approach, we empower learners to excel academically and
+            develop critical thinking skills that extend beyond the classroom.
           </p>
           <br />
           <p>
-          At Oceancapp, we showcase our commitment to education through our track record of success and testimonials from satisfied students and parents. Our dedication to student success is evident in every educational service we provide, fostering a supportive learning community where every individual can thrive.
+            At Oceancapp, we showcase our commitment to education through our
+            track record of success and testimonials from satisfied students and
+            parents. Our dedication to student success is evident in every
+            educational service we provide, fostering a supportive learning
+            community where every individual can thrive.
           </p>
           <br />
           <p>
-          Are you passionate about education and looking to join a dynamic team dedicated to making a difference in learners' lives? Oceancapp welcomes educators and mentors who share our commitment to excellence in education. Join us to contribute to meaningful educational initiatives, inspire learners, and shape the future of education.
+            Are you passionate about education and looking to join a dynamic
+            team dedicated to making a difference in learners' lives? Oceancapp
+            welcomes educators and mentors who share our commitment to
+            excellence in education. Join us to contribute to meaningful
+            educational initiatives, inspire learners, and shape the future of
+            education.
           </p>
           <br />
           <p>
-          Whether you're seeking academic support or exploring new educational opportunities, Oceancapp is here to support your learning journey. Contact us today to discuss your educational goals and discover how we can empower you through our comprehensive education services.
+            Whether you're seeking academic support or exploring new educational
+            opportunities, Oceancapp is here to support your learning journey.
+            Contact us today to discuss your educational goals and discover how
+            we can empower you through our comprehensive education services.
           </p>
         </p>
         {/* ---------------------------------3rd phase finish----------------------------*/}
@@ -143,7 +188,7 @@ const Education = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-            Turn Ideas into Stunning Creations with Our Education
+              Turn Ideas into Stunning Creations with Our Education
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -226,114 +271,121 @@ const Education = () => {
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Cutting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Trimming</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Splitting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Timeline</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Transitions</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Effects</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Color Correction
+            Curriculum Development
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Color Grading
+            Instructional Design
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Green Screen
+            Educational Technology
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Keying</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Masking</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Compositing</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Montage</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Audio Sync</p>
+          <p className="text-4xl font-extrabold font-serif px-4">E-Learning</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Sound Design
+            Blended Learning
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Audio Mixing
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Voiceover</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Titles</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Subtitles</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Lower Thirds
+            Online Courses
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Motion Graphics
+            Learning Management System (LMS)
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Visual Effects (VFX)
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Rendering</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Exporting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Frame Rate</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Resolution</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Aspect Ratio
+            Assessment and Evaluation
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Multicam Editing
+            Classroom Management
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Proxy Editing
+            Teaching Strategies
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Storyboarding
+            Professional Development
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Non-Linear Editing (NLE)
+            Student Engagement
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Rough Cut</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Final Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Academic Advising
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Tutoring Services
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Student Support Services
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Distance Education
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Educational Consulting
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Skill Development
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Training Programs
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Educational Workshops
+          </p>
         </Marquee>
         <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Clip</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Sequence</p>
-          <p className="text-4xl font-extrabold font-serif px-4">B-Roll</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Jump Cut</p>
-          <p className="text-4xl font-extrabold font-serif px-4">L-Cut</p>
-          <p className="text-4xl font-extrabold font-serif px-4">J-Cut</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Mentoring</p>
+          <p className="text-4xl font-extrabold font-serif px-4">Courseware</p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Cross Dissolve
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Fade In</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Fade Out</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Speed Ramp</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Stabilization
+            Learning Outcomes
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Split Screen
+            Educational Assessment
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Picture-in-Picture
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Overlay</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Editing Software
+            Interactive Learning
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Video Effects Library
+            Special Education
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Editing Workflow
+            Adult Education
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Adjustment Layers
-          </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Layering</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Retiming</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
-            Noise Reduction
+            Corporate Training
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Chromatic Aberration
+            Credentialing
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Scene Transition
+            Educational Policy
           </p>
           <p className="text-4xl font-extrabold font-serif px-4">
-            Sync Licensing
+            Instructional Technology
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Academic Research
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Educational Content Creation
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Language Learning
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Study Abroad Programs
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Educational Games
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Student Feedback
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Learning Analytics
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Certification Programs
+          </p>
+          <p className="text-4xl font-extrabold font-serif px-4">
+            Career Counseling
           </p>
         </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
@@ -358,7 +410,15 @@ const Education = () => {
                         Liam Roberts - Multimedia Editing Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Partnering with Oceancapp for our video editing requirements was an excellent choice. Their team provided insightful guidance and produced top-notch edits that seamlessly integrated with our overall marketing strategy. The quality of their work and their ability to understand and execute our vision were exceptional. Oceancapp’s commitment to excellence in video editing has greatly enhanced our multimedia projects."
+                        "Partnering with Oceancapp for our video editing
+                        requirements was an excellent choice. Their team
+                        provided insightful guidance and produced top-notch
+                        edits that seamlessly integrated with our overall
+                        marketing strategy. The quality of their work and their
+                        ability to understand and execute our vision were
+                        exceptional. Oceancapp’s commitment to excellence in
+                        video editing has greatly enhanced our multimedia
+                        projects."
                       </p>
                     </div>
                   </div>
@@ -368,10 +428,17 @@ const Education = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      Sophia Johnson - Visual Storytelling Solutions
+                        Sophia Johnson - Visual Storytelling Solutions
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Oceancapp’s video editing services have significantly enhanced our content. They delivered high-quality edits that effectively conveyed our message and kept our audience captivated. The team's professionalism, innovative approach, and ability to meet tight deadlines were impressive throughout the project. Oceancapp’s dedication to delivering exceptional video editing work has been instrumental in our success."
+                        "Oceancapp’s video editing services have significantly
+                        enhanced our content. They delivered high-quality edits
+                        that effectively conveyed our message and kept our
+                        audience captivated. The team's professionalism,
+                        innovative approach, and ability to meet tight deadlines
+                        were impressive throughout the project. Oceancapp’s
+                        dedication to delivering exceptional video editing work
+                        has been instrumental in our success."
                       </p>
                     </div>
                   </div>
@@ -381,10 +448,17 @@ const Education = () => {
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                      Ava Martinez - Video Editing Specialist
+                        Ava Martinez - Video Editing Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                      "Choosing Oceancapp for our video editing needs was a fantastic decision. Their team transformed our raw footage into a polished and engaging final product that perfectly captured our vision. The creativity, technical skills, and attention to detail they demonstrated were outstanding. Oceancapp’s expertise in video editing has truly brought our projects to life and exceeded our expectations."
+                        "Choosing Oceancapp for our video editing needs was a
+                        fantastic decision. Their team transformed our raw
+                        footage into a polished and engaging final product that
+                        perfectly captured our vision. The creativity, technical
+                        skills, and attention to detail they demonstrated were
+                        outstanding. Oceancapp’s expertise in video editing has
+                        truly brought our projects to life and exceeded our
+                        expectations."
                       </p>
                     </div>
                   </div>
@@ -395,8 +469,8 @@ const Education = () => {
         </div>
         {/* ---------------------------------6th phase finish----------------------------*/}
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default Education;
