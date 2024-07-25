@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import edup from "../../assets/edup.png";
-import videow from "../../assets/videow.png";
+import edupw from "../../assets/edupw.png";
 import { GrProjects } from "react-icons/gr";
 import viv from "../../assets/vi.mp4";
 import p29 from "../../assets/p29.png";
@@ -51,7 +51,7 @@ const Education = () => {
                 className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4"
               ></img>
               <img
-                src={videow}
+                src={edupw}
                 alt="Open Shop"
                 className="rounded-lg shadow-lg absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               ></img>
