@@ -8,10 +8,10 @@ import ideap from "../../assets/ideap.png";
 import ideaw from "../../assets/ideaw.png";
 import { GrProjects } from "react-icons/gr";
 import ideav from "../../assets/ideav.mp4";
-import p29 from "../../assets/p29.png";
-import p30 from "../../assets/p30.png";
-import p31 from "../../assets/p31.png";
-import p32 from "../../assets/p32.png";
+import p41 from "../../assets/p41.png";
+import p42 from "../../assets/p42.png";
+import p43 from "../../assets/p43.png";
+import p44 from "../../assets/p44.png";
 import person504 from "../../assets/person504.png";
 import person505 from "../../assets/person505.png";
 import person506 from "../../assets/person506.png";
@@ -143,7 +143,7 @@ const Creation = () => {
             </div>
             {/* header  */}
             <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
-              Turn Your Ideas into Captivating Video Edits
+              Turn Your Ideas into Creation
             </h1>
             {/* description  */}
             <p className="max-w-[58%] mx-auto text-center">
@@ -155,34 +155,34 @@ const Creation = () => {
               <div className="w-14 h-14 bg-transparent  rounded-full border-[3px] border-[#191919]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p29}
+                  src={p41}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919] relative -left-5">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p30}
+                  src={p42}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-10">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p31}
+                  src={p43}
                   alt="avatar navigate ui"
                 />
               </div>
               <div className="w-14 h-14 bg-[#191919]  rounded-full border-[3px] border-[#191919]  relative -left-[60px]">
                 <img
                   className="w-full h-full rounded-full"
-                  src={p32}
+                  src={p44}
                   alt="avatar navigate ui"
                 />
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">120+</p>
+                <p className="text-lg text-white">10+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
