@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import ideap from "../../assets/ideap.png";
 import ideaw from "../../assets/ideaw.png";
 import { GrProjects } from "react-icons/gr";
-import viv from "../../assets/vi.mp4";
+import ideav from "../../assets/ideav.mp4";
 import p29 from "../../assets/p29.png";
 import p30 from "../../assets/p30.png";
 import p31 from "../../assets/p31.png";
@@ -66,18 +66,18 @@ const Creation = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={viv} type="video/mp4" />
+              <source src={ideav} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <h3 className="text-3xl text-white font-bold mb-4">
-                Learn More About Education Services
+                Learn More About  Idea to Creation Services
               </h3>
               <p className="text-white mb-8">
-              Explore our comprehensive education services through this informative video. Our dedicated team is committed to delivering top-tier educational solutions tailored to your specific needs. From initial planning to flawless execution, we ensure a seamless journey towards achieving your learning and development goals.
+              Explore our seamless journey from idea to creation through this informative video. Our dedicated team is committed to transforming your concepts into reality with top-tier services tailored to your specific needs. From initial brainstorming to flawless execution, we ensure a smooth and efficient process in bringing your vision to life.
               </p>
               <a
-                href={viv}
+                href={ideav}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
@@ -94,7 +94,7 @@ const Creation = () => {
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
           <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-            Education Services Excellence Delivered
+          Idea to Creation Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
