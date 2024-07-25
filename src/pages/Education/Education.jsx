@@ -7,7 +7,7 @@ import { PiArrowRightLight } from "react-icons/pi";
 import edup from "../../assets/edup.png";
 import edupw from "../../assets/edupw.png";
 import { GrProjects } from "react-icons/gr";
-import viv from "../../assets/vi.mp4";
+import eduv from "../../assets/eduv.mp4";
 import p29 from "../../assets/p29.png";
 import p30 from "../../assets/p30.png";
 import p31 from "../../assets/p31.png";
@@ -66,7 +66,7 @@ const Education = () => {
               controls
               className="w-full md:w-1/2 rounded-lg shadow-lg mb-4 md:mb-0"
             >
-              <source src={viv} type="video/mp4" />
+              <source src={eduv} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
@@ -77,7 +77,7 @@ const Education = () => {
               Explore our comprehensive education services through this informative video. Our dedicated team is committed to delivering top-tier educational solutions tailored to your specific needs. From initial planning to flawless execution, we ensure a seamless journey towards achieving your learning and development goals.
               </p>
               <a
-                href={viv}
+                href={eduv}
                 download
                 className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
               >
@@ -182,7 +182,7 @@ const Education = () => {
               </div>
 
               <div className="relative -left-5">
-                <p className="text-lg text-white">120+</p>
+                <p className="text-lg text-white">80+</p>
                 <p className="text-sm text-gray-400">people already showing</p>
               </div>
             </div>
