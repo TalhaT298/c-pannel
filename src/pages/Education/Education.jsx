@@ -12,9 +12,9 @@ import p37 from "../../assets/p37.png";
 import p38 from "../../assets/p38.png";
 import p39 from "../../assets/p39.png";
 import p40 from "../../assets/p40.png";
-import person504 from "../../assets/person504.png";
-import person505 from "../../assets/person505.png";
-import person506 from "../../assets/person506.png";
+import person604 from "../../assets/person604.png";
+import person605 from "../../assets/person605.png";
+import person606 from "../../assets/person606.png";
 
 const Education = () => {
   return (
@@ -403,62 +403,40 @@ const Education = () => {
                 <div className="-my-8 divide-y-2 divide-cyan-700">
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person504} className="w-40 h-40" alt="" />
+                      <img src={person604} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Liam Roberts - Multimedia Editing Expert
+                      Isabella Walker - Online Learning Expert
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Partnering with Oceancapp for our video editing
-                        requirements was an excellent choice. Their team
-                        provided insightful guidance and produced top-notch
-                        edits that seamlessly integrated with our overall
-                        marketing strategy. The quality of their work and their
-                        ability to understand and execute our vision were
-                        exceptional. Oceancapp’s commitment to excellence in
-                        video editing has greatly enhanced our multimedia
-                        projects."
+                      "Opting for Oceancapp for our educational content creation was transformative. Their team developed engaging and informative materials that have significantly improved our online learning platform. The precision, creativity, and depth of understanding they brought to the project were exceptional. Oceancapp’s expertise in education services has truly enhanced the quality of our offerings."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person505} className="w-40 h-40" alt="" />
+                      <img src={person605} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Sophia Johnson - Visual Storytelling Solutions
+                      Olivia Bennett - Curriculum Development Specialist
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Oceancapp’s video editing services have significantly
-                        enhanced our content. They delivered high-quality edits
-                        that effectively conveyed our message and kept our
-                        audience captivated. The team's professionalism,
-                        innovative approach, and ability to meet tight deadlines
-                        were impressive throughout the project. Oceancapp’s
-                        dedication to delivering exceptional video editing work
-                        has been instrumental in our success."
+                      "Oceancapp’s education services have profoundly benefited our institution. They provided well-structured and comprehensive curricula that perfectly meet our educational needs. The team's professionalism, innovative approach, and dedication to excellence were evident throughout our collaboration. Oceancapp’s commitment to delivering high-quality educational content has made a remarkable impact on our learners."
                       </p>
                     </div>
                   </div>
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <img src={person506} className="w-40 h-40" alt="" />
+                      <img src={person606} className="w-40 h-40" alt="" />
                     </div>
                     <div className="md:flex-grow">
                       <h2 className="text-2xl font-medium text-white title-font mb-2">
-                        Ava Martinez - Video Editing Specialist
+                      Ethan Reynolds - Educational Consultant
                       </h2>
                       <p className="leading-relaxed text-white">
-                        "Choosing Oceancapp for our video editing needs was a
-                        fantastic decision. Their team transformed our raw
-                        footage into a polished and engaging final product that
-                        perfectly captured our vision. The creativity, technical
-                        skills, and attention to detail they demonstrated were
-                        outstanding. Oceancapp’s expertise in video editing has
-                        truly brought our projects to life and exceeded our
-                        expectations."
+                      "Partnering with Oceancapp for our educational services was a wise decision. Their team offered valuable insights and created exceptional educational materials that resonate with our audience. The quality of their work, coupled with their ability to understand our needs and deliver outstanding results, was impressive. Oceancapp’s dedication to excellence in education services has been pivotal to our success."
                       </p>
                     </div>
                   </div>
