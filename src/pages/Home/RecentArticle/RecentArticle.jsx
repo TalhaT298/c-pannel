@@ -142,7 +142,7 @@ const RecentArticle = () => {
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    10k
+                    89
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -156,7 +156,7 @@ const RecentArticle = () => {
                     <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    34
+                    17
                   </h2>
                 </div>
                 <div className="flex items-center gap-2"></div>
@@ -361,7 +361,7 @@ const RecentArticle = () => {
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    10k
+                    15
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -375,7 +375,7 @@ const RecentArticle = () => {
                     <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    34
+                    2
                   </h2>
                 </div>
                 <div className="flex items-center gap-2"></div>
@@ -581,7 +581,7 @@ const RecentArticle = () => {
                     </g>
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    10k
+                    25
                   </h2>
                 </div>
                 <div className="flex items-center gap-2">
@@ -595,7 +595,7 @@ const RecentArticle = () => {
                     <FaShareAlt className="" style={{ fontSize: "20px" }} />
                   </svg>
                   <h2 className="text-lg font-semibold text-slate-800 dark:text-white/90">
-                    34
+                    4
                   </h2>
                 </div>
                 <div className="flex items-center gap-2"></div>
