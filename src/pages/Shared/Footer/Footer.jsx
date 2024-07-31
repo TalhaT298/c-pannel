@@ -26,8 +26,8 @@ const Footer = () => {
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <img src={logo} className="h-12" alt="" />
             </a>
-            <p className="mt-2 text-sm text-white">
-              Air plant banjo lyft occupy retro adaptogen indego
+            <p className="mt-2 text-sm font-bold text-white">
+            Simplifying Innovation with IT
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
