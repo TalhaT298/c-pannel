@@ -109,41 +109,41 @@ const Footer = () => {
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-base mb-3">
-                Hiring Developers
+                Hiring  
               </h2>
               <nav className="list-none mb-10">
                 <li className="pb-4">
                   <Link to="">
-                    <a className="text-white text-sm">Hire Developers</a>
+                    <a className="text-white text-sm">Graphics Design</a>
                   </Link>
                 </li>
                 <li className="pb-4">
                   <Link to="">
                     {" "}
-                    <a className="text-white text-sm">Hire JavaScript Developers</a>
+                    <a className="text-white text-sm">WordPress development</a>
                   </Link>
                 </li>
                 <li className="pb-4">
                   <Link to="">
                     {" "}
-                    <a className="text-white text-sm">Hire Python Developers</a>
+                    <a className="text-white text-sm">Web Development</a>
                   </Link>
                 </li>
                 <li className="pb-4">
                   <Link to="">
-                    <a className="text-white text-sm">Hire Java Developers</a>
-                  </Link>
-                </li>
-                <li className="pb-4">
-                  <Link to="">
-                    {" "}
-                    <a className="text-white text-sm">Hire Golang Developers</a>
+                    <a className="text-white text-sm">Cyber Security</a>
                   </Link>
                 </li>
                 <li className="pb-4">
                   <Link to="">
                     {" "}
-                    <a className="text-white text-sm">Hire .NET Developers</a>
+                    <a className="text-white text-sm">App Development</a>
+                  </Link>
+                </li>
+                <li className="pb-4">
+                  <Link to="">
+                    {" "}
+                    <a className="text-white text-sm">Prompt Engineering</a>
                   </Link>
                 </li>
               </nav>
