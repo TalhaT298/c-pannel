@@ -79,7 +79,7 @@ const Banner = () => {
               <div className="stat-desc">Successful Projects</div>
             </div>
 
-            <div className="stat">
+            {/* <div className="stat">
               <div className="stat-figure text-secondary">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Banner = () => {
                 <CountUp end={1200} duration={50} />
               </div>
               <div className="stat-desc">Research</div>
-            </div>
+            </div> */}
           </div>
           <Link to="">
             <button className="flex items-center justify-center sm:justify-start gap-4 px-8 py-3 mt-6 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
