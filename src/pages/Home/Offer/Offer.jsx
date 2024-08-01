@@ -20,7 +20,7 @@ const Offer = () => {
   return (
     <div className="px-4">
       <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
-        <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+        <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
           Solution We Offer
         </h3>
       </div>
@@ -34,7 +34,11 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="WordPress development" className="rounded-xl w-80 mx-auto" />
+            <img
+              src={img2}
+              alt="WordPress development"
+              className="rounded-xl w-80 mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">WordPress Development</h2>
@@ -65,7 +69,11 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img3} alt="Web Development" className="rounded-xl mx-auto" />
+            <img
+              src={img3}
+              alt="Web Development"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Web Development</h2>
@@ -96,7 +104,11 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img4} alt="Cyber Security" className="rounded-xl mx-auto" />
+            <img
+              src={img4}
+              alt="Cyber Security"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Cyber Security</h2>
@@ -127,7 +139,11 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img1} alt="App Development" className="rounded-xl mx-auto" />
+            <img
+              src={img1}
+              alt="App Development"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">App Development</h2>
@@ -157,15 +173,18 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img6} alt="Prompt Engineering" className="rounded-xl mx-auto" />
+            <img
+              src={img6}
+              alt="Prompt Engineering"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Prompt Engineering</h2>
             <p>
               Our proficient prompt engineers specialize in optimizing AI
-              prompts to enhance user interactions, ensuring precise,
-              efficient, and meaningful responses tailored to your
-              business needs.
+              prompts to enhance user interactions, ensuring precise, efficient,
+              and meaningful responses tailored to your business needs.
             </p>
             <div className="card-actions flex justify-center items-center">
               <Link to="/prompt">
@@ -220,15 +239,18 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={edu} alt="Education and Learning" className="rounded-xl mx-auto" />
+            <img
+              src={edu}
+              alt="Education and Learning"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Education and Learning</h2>
             <p>
               Our comprehensive educational solutions provide engaging and
               interactive learning experiences, leveraging the latest
-              technologies to enhance knowledge retention and skill
-              development.
+              technologies to enhance knowledge retention and skill development.
             </p>
             <div className="card-actions flex justify-center items-center">
               <Link to="/edu">
@@ -252,7 +274,11 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={v} alt="Virtual Assistants" className="rounded-xl mx-auto" />
+            <img
+              src={v}
+              alt="Virtual Assistants"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Virtual Assistants</h2>
@@ -283,7 +309,11 @@ const Offer = () => {
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img5} alt="Graphic Design" className="rounded-xl mx-auto" />
+            <img
+              src={img5}
+              alt="Graphic Design"
+              className="rounded-xl mx-auto"
+            />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Graphic Design</h2>
