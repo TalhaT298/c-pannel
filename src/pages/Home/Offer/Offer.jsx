@@ -24,7 +24,7 @@ const Offer = () => {
           Solution We Offer
         </h3>
       </div>
-      <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
         <div
           className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"

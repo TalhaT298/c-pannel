@@ -39,7 +39,7 @@ const RecentArticle = () => {
           recent articles
         </h3>
       </div>
-      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-10 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="mx-auto md:w-10/12 my-4">
         <Swiper
           slidesPerView={3}

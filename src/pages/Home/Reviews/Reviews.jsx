@@ -24,7 +24,7 @@ const Reviews = () => {
       {/* <div className="h-1 w-[800px] bg-white rounded flex justify-center items-center mx-auto my-auto"></div> */}
       {/* <div class="h-1 w-80 bg-white rounded flex justify-center items-center mx-auto my-auto animate-ping"></div> */}
       {/* w-[600px] */}
-      <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-10 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <AwesomeSlider className="custom-slider">
         {reviews.map((userReview) => (
           <div

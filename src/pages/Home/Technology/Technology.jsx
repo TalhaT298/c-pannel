@@ -36,7 +36,7 @@ const Technology = () => {
         In today's competitive market, companies must develop their own software
         products to stay ahead.
       </p>
-      <div className="h-1 w-[600px]  bg-cyan-400 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+      <div className="h-1 w-10  bg-cyan-400 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       {/* //130*130 */}
       {/* <Marquee className="my-5 " direction="right" speed={50}>
       

@@ -53,7 +53,7 @@ const FAQ = () => {
           </h3>
           
         </div>
-        <div className="h-1 w-80 mb-8 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div className="h-1 w-10 mb-8 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <div className="rounded-lg font-sans">
           {accordionsData.map((PerAccordion, idx) => (
             <div
