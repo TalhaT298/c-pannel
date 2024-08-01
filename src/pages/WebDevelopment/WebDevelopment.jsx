@@ -403,11 +403,9 @@ const WebDevelopment = () => {
               <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="bg-gradient-to-r from-cyan-700 p-6 rounded-lg custom-gradient shadow-lg">
-                    <img className="" src={a03} alt="" />
+                    <img className="justify-center items-center py-4" src={a03} alt="" />
                     <h2 className="text-xl font-bold mb-4">EasyBook</h2>
-                    <p className="mb-4">
-                      People can easily buy and read books from here.
-                    </p>
+                     
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -453,13 +451,9 @@ const WebDevelopment = () => {
                   </div>
 
                   <div className="bg-gradient-to-t from-cyan-700  p-6 rounded-lg shadow-lg">
-                  <img src={a02} alt="" />
+                  <img className="justify-center items-center py-4" src={a02} alt="" />
                     <h2 className="text-xl font-bold mb-4">Buy-Courses</h2>
-                    <p className="mb-4">
-                      Anyone can buy different types of courses according to
-                      their choice from here which will help them in skill
-                      development.
-                    </p>
+                     
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -499,11 +493,9 @@ const WebDevelopment = () => {
                   </div>
 
                   <div className="bg-gradient-to-l from-cyan-700 p-6 rounded-lg shadow-lg">
-                  <img src={a01} alt="" />
+                  <img className="justify-center items-center py-4" src={a01} alt="" />
                     <h2 className="text-xl font-bold mb-4">Surgical-Site</h2>
-                    <p className="mb-4">
-                      Anyone can buy their required surgical from here.
-                    </p>
+                     
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
