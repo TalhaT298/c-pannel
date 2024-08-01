@@ -439,13 +439,15 @@ const WebDevelopment = () => {
                         MongoDB
                       </span>
                     </div>
-                    <a href="#" className="text-white font-bold">
+                    <a href="https://final-project-9df2d.web.app/" className="text-white font-bold">
                       See Details
                     </a>
                     <div className="mt-4">
+                      <Link to="https://final-project-9df2d.web.app/">
                       <span className="bg-white text-black px-2 py-1 rounded">
                         Live Website
                       </span>
+                      </Link>
                       
                     </div>
                   </div>
@@ -481,13 +483,15 @@ const WebDevelopment = () => {
                         MongoDB
                       </span>
                     </div>
-                    <a href="#" className="text-white font-bold">
+                    <a href="https://educare-bd0b7.web.app/" className="text-white font-bold">
                       See Details
                     </a>
                     <div className="mt-4">
+                    <Link to="https://educare-bd0b7.web.app/">
                       <span className="bg-white text-black px-2 py-1 rounded">
                         Live Website
                       </span>
+                      </Link>
                       
                     </div>
                   </div>
@@ -529,13 +533,15 @@ const WebDevelopment = () => {
                         Firebase
                       </span>
                     </div>
-                    <a href="#" className="text-white font-bold">
+                    <a href="https://surgicalsavvy.netlify.app/" className="text-white font-bold">
                       See Details
                     </a>
                     <div className="mt-4">
+                    <Link to="https://surgicalsavvy.netlify.app/">
                       <span className="bg-white text-black px-2 py-1 rounded">
                         Live Website
                       </span>
+                      </Link>
                       
                     </div>
                   </div>
