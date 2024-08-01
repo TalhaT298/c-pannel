@@ -325,12 +325,98 @@ const WebDevelopment = () => {
         </div>
         {/* ---------------------------------6th phase finish----------------------------*/}
         {/* ---------------------------7th phase start ----------------------------*/}
+        <div>
         <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
           <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Projects
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div>
+        <div className="bg-gray-900 text-white">
+
+<div className="container mx-auto py-8">
+  <h1 className="text-center text-3xl font-bold mb-8">For the Love of Reading</h1>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <h2 className="text-xl font-bold mb-4">EasyBook</h2>
+      <p className="mb-4">People can easily buy and read books from here.</p>
+      <h3 className="font-bold mb-2">Technology</h3>
+      <div className="flex flex-wrap gap-2 mb-4">
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">HTML</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">CSS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Tailwind</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">DaisyUI</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">React JS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Node JS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Express</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Firebase</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">JWT Authentication</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">MongoDB</span>
+      </div>
+      <a href="#" className="text-yellow-400">See Details</a>
+      <div className="mt-4">
+        <span className="bg-green-500 text-white px-2 py-1 rounded">Live Website</span>
+        <span className="bg-red-500 text-white px-2 py-1 rounded">Client Side</span>
+        <span className="bg-red-500 text-white px-2 py-1 rounded">Server Side</span>
+      </div>
+    </div>
+
+  
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <h2 className="text-xl font-bold mb-4">Buy-Courses</h2>
+      <p className="mb-4">Anyone can buy different types of courses according to their choice from here which will help them in skill development.</p>
+      <h3 className="font-bold mb-2">Technology</h3>
+      <div className="flex flex-wrap gap-2 mb-4">
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">HTML5</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">CSS3</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">React JS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Node JS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Express</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Firebase</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">JWT Authentication</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">MongoDB</span>
+      </div>
+      <a href="#" className="text-yellow-400">See Details</a>
+      <div className="mt-4">
+        <span className="bg-green-500 text-white px-2 py-1 rounded">Live Website</span>
+        <span className="bg-red-500 text-white px-2 py-1 rounded">Client Side</span>
+        <span className="bg-red-500 text-white px-2 py-1 rounded">Server Side</span>
+      </div>
+    </div>
+
+ 
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <h2 className="text-xl font-bold mb-4">Surgical-Site</h2>
+      <p className="mb-4">Anyone can buy their required surgical from here.</p>
+      <h3 className="font-bold mb-2">Technology</h3>
+      <div className="flex flex-wrap gap-2 mb-4">
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">HTML</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">CSS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Bootstrap</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">React JS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Node JS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Express</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">DaisyUI</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">MongoDB</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">AOS</span>
+        <span className="bg-blue-500 text-white px-2 py-1 rounded">Firebase</span>
+      </div>
+      <a href="#" className="text-yellow-400">See Details</a>
+      <div className="mt-4">
+        <span className="bg-green-500 text-white px-2 py-1 rounded">Live Website</span>
+        <span className="bg-red-500 text-white px-2 py-1 rounded">Client Side</span>
+        <span className="bg-red-500 text-white px-2 py-1 rounded">Server Side</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+        </div>
+
         {/* ---------------------------7th phase finish ----------------------------*/}
       </div>
     </>
