@@ -198,12 +198,12 @@ const Footer = () => {
         <div className="h-[1px] w-full bg-white"></div>
         <div className="">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p className="text-gray-500 text-sm text-center sm:text-left">
+            <p className="text-white text-sm text-center sm:text-left">
               © 2024 OceanCapp —
               <a
-                href="https://twitter.com/knyttneve"
+                href=" "
                 rel="noopener noreferrer"
-                className="text-gray-600 ml-1"
+                className="text-white ml-1"
                 target="_blank"
                 previewlistener="true"
               >
