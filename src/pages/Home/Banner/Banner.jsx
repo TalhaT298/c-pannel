@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <div className="hero pt-2 pb-4">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={banner} alt="" className="w-full lg:w-1/2 rounded-lg shadow-2xl" />
+        <img src={banner} alt="" className="w-full lg:w-1/2 sm:w-60 rounded-lg shadow-2xl" />
         <div className="text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 text-transparent bg-clip-text font-bold">
             <Typewriter
@@ -27,7 +27,7 @@ const Banner = () => {
               onLoopDone={handleDone}
             />
           </h1>
-          <p className="py-6 font-semibold">
+          <p className="py-6 font-semibold  ">
             Trust OceanCapp as your outsourcing partner for top-notch software solutions designed to give your business a competitive edge.
           </p>
           <div className="stats shadow w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
