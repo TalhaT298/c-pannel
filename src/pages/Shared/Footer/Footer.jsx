@@ -64,9 +64,6 @@ const Footer = () => {
                     <a className="text-white text-sm">Privacy Policy</a>
                   </Link>
                 </li>
-                {/* <li>
-                <Link to=""> <a class="text-white">Report neighborhood</a></Link>
-                </li> */}
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -96,15 +93,6 @@ const Footer = () => {
                     <a className="text-white text-sm">End to End Development</a>
                   </Link>
                 </li>
-                {/* <li>
-                <Link to=""> <a class="text-white">Hosting responsibly</a></Link>
-                </li>
-                <li>
-                <Link to=""> <a class="text-white">Airbnb-friendly apartments</a></Link>
-                </li>
-                <li>
-                <Link to=""> <a class="text-white">Join a free Hosting class</a></Link>
-                </li> */}
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
