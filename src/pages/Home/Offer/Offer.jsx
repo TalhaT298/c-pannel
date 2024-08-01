@@ -15,11 +15,11 @@ import idea23 from "../../../assets/idea23.png";
 import v from "../../../assets/v.png";
 import img5 from "../../../assets/graphics.png";
 import "./Offer.css";
+
 const Offer = () => {
   return (
-    <div>
+    <div className="px-4">
       <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
-        
         <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
           Solution We Offer
         </h3>
@@ -27,23 +27,23 @@ const Offer = () => {
       <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center my-10">
         <div
-          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img2} alt="Shoes" className="rounded-xl w-80" />
+            <img src={img2} alt="WordPress development" className="rounded-xl w-80 mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">WordPress development</h2>
+            <h2 className="card-title">WordPress Development</h2>
             <p>
               Our skilled WordPress developers create custom, user-friendly, and
               SEO-optimized websites that are easy to manage and tailored to
               your needs.
             </p>
-            <div className="card-actions  flex justify-center items-center">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/gameDevelopment">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -58,14 +58,14 @@ const Offer = () => {
         </div>
 
         <div
-          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img3} alt="Shoes" className="rounded-xl" />
+            <img src={img3} alt="Web Development" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Web Development</h2>
@@ -74,7 +74,7 @@ const Offer = () => {
               services' processes and our skilled team of developers and
               designers.
             </p>
-            <div className="card-actions  flex justify-center items-center">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/webdevelopment">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -89,24 +89,23 @@ const Offer = () => {
         </div>
 
         <div
-           
-          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img4} alt="Shoes" className="rounded-xl" />
+            <img src={img4} alt="Cyber Security" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Cyber Security</h2>
             <p>
-              we're your cybersecurity guardians, crafting innovative solutions
+              We're your cybersecurity guardians, crafting innovative solutions
               to protect your digital assets from evolving threats. Trust us to
               secure your digital future.
             </p>
-            <div className="card-actions  flex justify-center items-center">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/cybersecurity">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -120,25 +119,23 @@ const Offer = () => {
           </div>
         </div>
 
-       
         <div
-          
-          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img1} alt="Shoes" className="rounded-xl" />
+            <img src={img1} alt="App Development" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">App Development</h2>
             <p>
               Our skilled designers use their knowledge of industry standards
-              and best practices for app and online design to
+              and best practices for app and online design.
             </p>
-            <div className="card-actions  flex justify-center items-center">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/app">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -151,28 +148,26 @@ const Offer = () => {
             </div>
           </div>
         </div>
+
         <div
-          // whileHover={{ scale: 1.05 }}
-          // whileTap={{ scale: 0.8 }}
-          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img6} alt="Shoes" className="rounded-xl" />
+            <img src={img6} alt="Prompt Engineering" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">Prompt Engineering</h2>
             <p>
               Our proficient prompt engineers specialize in optimizing AI
               prompts to enhance user interactions, ensuring precise,
-              efficient,...
-              {/* and meaningful responses tailored to your
-              business needs */}
+              efficient, and meaningful responses tailored to your
+              business needs.
             </p>
-            <div className="card-actions  flex justify-center items-center">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/prompt">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
@@ -187,26 +182,24 @@ const Offer = () => {
         </div>
 
         <div
-          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={img5} alt="Shoes" className="rounded-xl" />
+            <img src={idea23} alt="Ideas" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Graphics Design</h2>
+            <h2 className="card-title">Unique Ideas</h2>
             <p>
-              Our talented graphic designers craft visually compelling and
-              innovative designs that effectively communicate...
-              {/* your brand
-              message, ensuring your visuals stand out and captivate your
-              audience. */}
+              Our expertise lies in transforming innovative concepts into
+              reality, delivering unique and customized digital solutions that
+              set you apart from the competition.
             </p>
             <div className="card-actions flex justify-center items-center">
-              <Link to="/graphics">
+              <Link to="/ideas">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
@@ -219,59 +212,26 @@ const Offer = () => {
           </div>
         </div>
 
-        {/* education service */}
         <div
-          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={edu} alt="Shoes" className="rounded-xl w-80" />
+            <img src={edu} alt="Education and Learning" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Education Services</h2>
+            <h2 className="card-title">Education and Learning</h2>
             <p>
-              Our talented educators develop engaging and innovative lessons
-              that effectively communicate complex concepts..
+              Our comprehensive educational solutions provide engaging and
+              interactive learning experiences, leveraging the latest
+              technologies to enhance knowledge retention and skill
+              development.
             </p>
-            <div className="card-actions  flex justify-center items-center">
-              <Link to="/education">
-                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
-                  Learn More
-                  <PiArrowRightLight
-                    size="1.1rem"
-                    className="text-white group-hover:text-black"
-                  />
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        {/* idea to creation */}
-        <div
-          // whileHover={{ scale: 1.05 }}
-          // whileTap={{ scale: 0.8 }}
-          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
-          style={{
-            boxShadow:
-              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
-          }}
-        >
-          <figure className="px-4 pt-10">
-            <img src={idea23} alt="Shoes" className="rounded-xl" />
-          </figure>
-          <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Idea to Creation</h2>
-            <p>
-              OOne of the most compelling and crucial aspects of our IT solution
-              is transforming ideas into reality.
-              {/* and meaningful responses tailored to your
-              business needs */}
-            </p>
-            <div className="card-actions  flex justify-center items-center">
-              <Link to="/creation">
+            <div className="card-actions flex justify-center items-center">
+              <Link to="/edu">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
@@ -284,28 +244,56 @@ const Offer = () => {
           </div>
         </div>
 
-        {/* video editting */}
         <div
-          className="card bg-gradient-to-l from-cyan-700 mx-4 mb-8 md:w-96 rounded custom-gradient"
+          className="card bg-gradient-to-r from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
           style={{
             boxShadow:
               "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
           }}
         >
           <figure className="px-4 pt-10">
-            <img src={v} alt="Shoes" className="rounded-xl" />
+            <img src={v} alt="Virtual Assistants" className="rounded-xl mx-auto" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Video Editing</h2>
+            <h2 className="card-title">Virtual Assistants</h2>
             <p>
-              Our skilled video editors create visually stunning and innovative
-              edits that effectively communicate your brand's story...
-              {/* your brand
-              message, ensuring your visuals stand out and captivate your
-              audience. */}
+              Our Virtual Assistants leverage advanced AI to provide seamless,
+              personalized support, enhancing efficiency and productivity for
+              businesses and individuals alike.
             </p>
             <div className="card-actions flex justify-center items-center">
-              <Link to="/video">
+              <Link to="/virtual">
+                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
+                  Learn More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="card bg-gradient-to-t from-cyan-700 mx-4 mb-8 md:w-96 w-full rounded custom-gradient"
+          style={{
+            boxShadow:
+              "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <figure className="px-4 pt-10">
+            <img src={img5} alt="Graphic Design" className="rounded-xl mx-auto" />
+          </figure>
+          <div className="card-body text-center flex justify-center items-center">
+            <h2 className="card-title">Graphic Design</h2>
+            <p>
+              Our graphic design services transform concepts into stunning
+              visual representations, ensuring your brand stands out with
+              creativity and impact.
+            </p>
+            <div className="card-actions flex justify-center items-center">
+              <Link to="/design">
                 <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
                   Learn More
                   <PiArrowRightLight
