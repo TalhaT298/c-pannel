@@ -15,6 +15,9 @@ import p12 from "../../assets/p12.png";
 import person104 from "../../assets/aishab.png";
 import person105 from "../../assets/rahul.png";
 import person106 from "../../assets/lisa.png";
+import a01 from "../../assets/71.png";
+import a02 from "../../assets/72.png";
+import a03 from "../../assets/73.png";
 import kj from "../../assets/l.png"
 
 const WebDevelopment = () => {
@@ -400,7 +403,7 @@ const WebDevelopment = () => {
               <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="bg-gradient-to-r from-cyan-700 p-6 rounded-lg custom-gradient shadow-lg">
-                    <img src={kj} alt="" />
+                    <img className="" src={a03} alt="" />
                     <h2 className="text-xl font-bold mb-4">EasyBook</h2>
                     <p className="mb-4">
                       People can easily buy and read books from here.
@@ -450,6 +453,7 @@ const WebDevelopment = () => {
                   </div>
 
                   <div className="bg-gradient-to-t from-cyan-700  p-6 rounded-lg shadow-lg">
+                  <img src={a02} alt="" />
                     <h2 className="text-xl font-bold mb-4">Buy-Courses</h2>
                     <p className="mb-4">
                       Anyone can buy different types of courses according to
@@ -495,6 +499,7 @@ const WebDevelopment = () => {
                   </div>
 
                   <div className="bg-gradient-to-l from-cyan-700 p-6 rounded-lg shadow-lg">
+                  <img src={a01} alt="" />
                     <h2 className="text-xl font-bold mb-4">Surgical-Site</h2>
                     <p className="mb-4">
                       Anyone can buy their required surgical from here.
