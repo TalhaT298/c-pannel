@@ -6,12 +6,7 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 const Idea = () => {
   return (
-    // <div class="relative inline-block">
-    //   <img src={idea} alt="" class="block"></img>
-    //   <div class="absolute pb-96 pl-60 transform -translate-x-1/2 -translate-y-1/2  bg-opacity-100 p-4">
-    //   Have Any Project Idea
-    //   </div>
-    // </div>
+    
     <div className="flex flex-col md:flex-row">
       <div className="w-full md:w-3/5 pt-6 lg:pl-20 lg:pt-24 pl-4 pr-4">
         <h1 className="lg:text-4xl text-xl font-bold lg:pb-6 pb-3">
@@ -24,11 +19,7 @@ const Idea = () => {
         </p>
         <Link to="https://www.facebook.com/oceancapp">
         <button className=" text-xl pl-1 mt-6 w- bg-black text-white border-black border group hover:bg-black hover:text-white">
-          {/* Get Started
-          <PiArrowRightLight
-            size="1.4rem"
-            className="text-white group-hover:text-white"
-          /> */}
+          
           <a
             href="#"
             className="flex items-center gap-4 px-8 py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-lg font-medium rounded-lg"
