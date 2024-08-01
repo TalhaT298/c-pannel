@@ -381,7 +381,7 @@ const About = () => {
       {/* 2nd pase part 1------------------------------------- finish */}
       {/* 2nd phase finish */}
       {/* 3rd phase Strat */}
-      <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
+      {/* <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
         <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif text-center">
           Get Advice From Expert
         </h3>
@@ -583,7 +583,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* 3rd phase finish */}
       {/* 4th phase Strat */}
