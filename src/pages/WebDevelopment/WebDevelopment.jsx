@@ -442,7 +442,7 @@ const WebDevelopment = () => {
                       See Details
                     </a>
                     <div className="mt-4">
-                      <span className="bg-green-500 text-white px-2 py-1 rounded">
+                      <span className="bg-white text-black px-2 py-1 rounded">
                         Live Website
                       </span>
                       
@@ -487,7 +487,7 @@ const WebDevelopment = () => {
                       See Details
                     </a>
                     <div className="mt-4">
-                      <span className="bg-green-500 text-white px-2 py-1 rounded">
+                      <span className="bg-white text-black px-2 py-1 rounded">
                         Live Website
                       </span>
                       
@@ -536,7 +536,7 @@ const WebDevelopment = () => {
                       See Details
                     </a>
                     <div className="mt-4">
-                      <span className="bg-green-500 text-white px-2 py-1 rounded">
+                      <span className="bg-white text-black px-2 py-1 rounded">
                         Live Website
                       </span>
                       
