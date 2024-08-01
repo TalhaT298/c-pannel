@@ -407,34 +407,34 @@ const WebDevelopment = () => {
                     </p>
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         HTML
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         CSS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Tailwind
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         DaisyUI
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         React JS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-whitepx-2 py-1 rounded">
                         Node JS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Express
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Firebase
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         JWT Authentication
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         MongoDB
                       </span>
                     </div>
@@ -463,28 +463,28 @@ const WebDevelopment = () => {
                     </p>
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         HTML5
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         CSS3
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         React JS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Node JS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Express
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Firebase
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         JWT Authentication
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         MongoDB
                       </span>
                     </div>
@@ -504,41 +504,41 @@ const WebDevelopment = () => {
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-r from-cyan-700 p-6 rounded-lg shadow-lg">
+                  <div className="bg-gradient-to-l from-cyan-700 p-6 rounded-lg shadow-lg">
                     <h2 className="text-xl font-bold mb-4">Surgical-Site</h2>
                     <p className="mb-4">
                       Anyone can buy their required surgical from here.
                     </p>
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         HTML
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         CSS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Bootstrap
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         React JS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Node JS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Express
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         DaisyUI
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-whitepx-2 py-1 rounded">
                         MongoDB
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         AOS
                       </span>
-                      <span className="bg-blue-500 text-white px-2 py-1 rounded">
+                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Firebase
                       </span>
                     </div>
