@@ -408,7 +408,7 @@ const WebDevelopment = () => {
                      
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
+                      {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         HTML
                       </span>
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -422,7 +422,7 @@ const WebDevelopment = () => {
                       </span>
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         React JS
-                      </span>
+                      </span> */}
                       <span className="bg-gradient-to-t from-black to-white/10 text-whitepx-2 py-1 rounded">
                         Node JS
                       </span>
@@ -456,18 +456,18 @@ const WebDevelopment = () => {
                      
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
+                      {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         HTML5
                       </span>
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         CSS3
-                      </span>
+                      </span> */}
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         React JS
                       </span>
-                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
+                      {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Node JS
-                      </span>
+                      </span> */}
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Express
                       </span>
@@ -498,7 +498,7 @@ const WebDevelopment = () => {
                      
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
+                      {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         HTML
                       </span>
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -506,7 +506,7 @@ const WebDevelopment = () => {
                       </span>
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         Bootstrap
-                      </span>
+                      </span> */}
                       <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
                         React JS
                       </span>
