@@ -324,6 +324,14 @@ const WebDevelopment = () => {
         </div>
         </div>
         {/* ---------------------------------6th phase finish----------------------------*/}
+        {/* ---------------------------7th phase start ----------------------------*/}
+        <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
+          <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            Projects
+          </h3>
+        </div>
+        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        {/* ---------------------------7th phase finish ----------------------------*/}
       </div>
     </>
   );
