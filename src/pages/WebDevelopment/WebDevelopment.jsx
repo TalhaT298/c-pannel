@@ -438,19 +438,14 @@ const WebDevelopment = () => {
                         MongoDB
                       </span>
                     </div>
-                    <a href="#" className="text-yellow-400">
+                    <a href="#" className="text-white font-bold">
                       See Details
                     </a>
                     <div className="mt-4">
                       <span className="bg-green-500 text-white px-2 py-1 rounded">
                         Live Website
                       </span>
-                      <span className="bg-red-500 text-white px-2 py-1 rounded">
-                        Client Side
-                      </span>
-                      <span className="bg-red-500 text-white px-2 py-1 rounded">
-                        Server Side
-                      </span>
+                      
                     </div>
                   </div>
 
@@ -488,19 +483,14 @@ const WebDevelopment = () => {
                         MongoDB
                       </span>
                     </div>
-                    <a href="#" className="text-yellow-400">
+                    <a href="#" className="text-white font-bold">
                       See Details
                     </a>
                     <div className="mt-4">
                       <span className="bg-green-500 text-white px-2 py-1 rounded">
                         Live Website
                       </span>
-                      <span className="bg-red-500 text-white px-2 py-1 rounded">
-                        Client Side
-                      </span>
-                      <span className="bg-red-500 text-white px-2 py-1 rounded">
-                        Server Side
-                      </span>
+                      
                     </div>
                   </div>
 
@@ -542,19 +532,14 @@ const WebDevelopment = () => {
                         Firebase
                       </span>
                     </div>
-                    <a href="#" className="text-yellow-400">
+                    <a href="#" className="text-white font-bold">
                       See Details
                     </a>
                     <div className="mt-4">
                       <span className="bg-green-500 text-white px-2 py-1 rounded">
                         Live Website
                       </span>
-                      <span className="bg-red-500 text-white px-2 py-1 rounded">
-                        Client Side
-                      </span>
-                      <span className="bg-red-500 text-white px-2 py-1 rounded">
-                        Server Side
-                      </span>
+                      
                     </div>
                   </div>
                 </div>
