@@ -504,7 +504,7 @@ const WebDevelopment = () => {
                     </div>
                   </div>
 
-                  <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+                  <div className="bg-gradient-to-r from-cyan-700 p-6 rounded-lg shadow-lg">
                     <h2 className="text-xl font-bold mb-4">Surgical-Site</h2>
                     <p className="mb-4">
                       Anyone can buy their required surgical from here.
