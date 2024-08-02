@@ -535,7 +535,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="card-actions pt-2 flex justify-start items-center">
-                  <Link to="">
+                  <Link to="/video">
                     <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
                       Learn More
                       <PiArrowRightLight
