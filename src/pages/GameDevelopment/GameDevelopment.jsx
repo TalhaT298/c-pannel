@@ -15,10 +15,14 @@ import p8 from "../../assets/p8.png";
 import person104 from "../../assets/aishab.png";
 import person105 from "../../assets/rahul.png";
 import person106 from "../../assets/lisa.png";
+import { Helmet } from "react-helmet-async";
 const GameDevelopment = () => {
   return (
     <>
       <Link to="/gameDevelopment"></Link>
+      <Helmet>
+        <title>Oceancapp | WordPress Development</title>
+      </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
