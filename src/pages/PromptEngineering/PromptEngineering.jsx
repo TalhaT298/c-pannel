@@ -15,10 +15,14 @@ import p24 from "../../assets/p24.png";
 import person304 from "../../assets/person304.png";
 import person305 from "../../assets/person305.png";
 import person306 from "../../assets/person306.png";
+import { Helmet } from "react-helmet-async";
 
 const PromptEngineering = () => {
   return (
     <>
+     <Helmet>
+        <title>Oceancapp | Prompt Engineering</title>
+      </Helmet>
       <Link to="/prompt"></Link>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
