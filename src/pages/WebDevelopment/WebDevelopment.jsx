@@ -26,7 +26,7 @@ const WebDevelopment = () => {
     <>
       <Link to="/webdevelopment"></Link>
       <Helmet>
-        <title>Oceancapp|Web Development</title>
+        <title>Oceancapp | Web Development</title>
       </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}

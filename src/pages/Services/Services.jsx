@@ -18,10 +18,14 @@ import person101 from "../../assets/person101.png";
 import person102 from "../../assets/person102.png";
 import person103 from "../../assets/person103.png";
 import { PiArrowRightLight } from "react-icons/pi";
+import { Helmet } from "react-helmet-async";
 const Services = () => {
   return (
-    <Link to="/services">
       <>
+      <Link to="/services"></Link>
+      <Helmet>
+        <title>Oceancapp | Services</title>
+      </Helmet>
         {/* 1st phase start */}
         <div>
           <img src={ser} alt="" />
@@ -672,7 +676,7 @@ const Services = () => {
         </div>
         {/* 12th phase finish----------------------------------- */}
       </>
-    </Link>
+    
   );
 };
 
