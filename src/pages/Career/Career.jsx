@@ -157,9 +157,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
@@ -181,9 +181,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
@@ -206,9 +206,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
@@ -231,9 +231,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
@@ -256,9 +256,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
@@ -281,9 +281,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
@@ -306,9 +306,9 @@ const Career = () => {
                   2+ Years Exp.
                 </div>
               </div>
-              <Link to="">
+              <Link to="https://wa.link/8bkntc">
                 <a
-                  href="#"
+                  href="https://wa.link/8bkntc"
                   className="inline-block bg-cyan-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                 >
                   Apply Now
