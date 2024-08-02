@@ -19,11 +19,15 @@ import a01 from "../../assets/71.png";
 import a02 from "../../assets/72.png";
 import a03 from "../../assets/73.png";
 import kj from "../../assets/l.png"
+import { Helmet } from "react-helmet-async";
 
 const WebDevelopment = () => {
   return (
     <>
       <Link to="/webdevelopment"></Link>
+      <Helmet>
+                <title>javaJive |Order Food</title>
+            </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
