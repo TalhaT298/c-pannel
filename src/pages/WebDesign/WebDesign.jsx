@@ -15,11 +15,15 @@ import p20 from "../../assets/p20.png";
 import person204 from "../../assets/person204.png";
 import person205 from "../../assets/person205.png";
 import person206 from "../../assets/person206.png";
+import { Helmet } from "react-helmet-async";
 
 const WebDesign = () => {
     return (
         <>
         <Link to="/app"></Link>
+        <Helmet>
+        <title>Oceancapp | App Development</title>
+      </Helmet>
         <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
