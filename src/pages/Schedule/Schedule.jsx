@@ -1,11 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 // import { PopupButton } from "react-calendly";
 const Schedule = () => {
   return (
     <div>
       <Link to="/sched"></Link>
+      <Helmet>
+        <title>Oceancapp | Schedule</title>
+      </Helmet>
       {/* <PopupButton
                 url="https://calendly.com/tariquetalha6/oceancapp"
                 
