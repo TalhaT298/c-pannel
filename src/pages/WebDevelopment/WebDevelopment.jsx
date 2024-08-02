@@ -18,7 +18,7 @@ import person106 from "../../assets/lisa.png";
 import a01 from "../../assets/71.png";
 import a02 from "../../assets/72.png";
 import a03 from "../../assets/73.png";
-import kj from "../../assets/l.png"
+import kj from "../../assets/l.png";
 import { Helmet } from "react-helmet-async";
 
 const WebDevelopment = () => {
@@ -26,8 +26,8 @@ const WebDevelopment = () => {
     <>
       <Link to="/webdevelopment"></Link>
       <Helmet>
-                <title>javaJive |Order Food</title>
-            </Helmet>
+        <title>Oceancapp|Web Development</title>
+      </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
@@ -407,9 +407,13 @@ const WebDevelopment = () => {
               <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="bg-gradient-to-r from-cyan-700 p-6 rounded-lg custom-gradient shadow-lg">
-                    <img className="justify-center items-center py-4" src={a03} alt="" />
+                    <img
+                      className="justify-center items-center py-4"
+                      src={a03}
+                      alt=""
+                    />
                     <h2 className="text-xl font-bold mb-4">EasyBook</h2>
-                     
+
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -443,23 +447,29 @@ const WebDevelopment = () => {
                         MongoDB
                       </span>
                     </div>
-                    <a href="https://final-project-9df2d.web.app/" className="text-white font-bold">
+                    <a
+                      href="https://final-project-9df2d.web.app/"
+                      className="text-white font-bold"
+                    >
                       See Details
                     </a>
                     <div className="mt-4">
                       <Link to="https://final-project-9df2d.web.app/">
-                      <span className="bg-white text-black px-2 py-1 rounded">
-                        Live Website
-                      </span>
+                        <span className="bg-white text-black px-2 py-1 rounded">
+                          Live Website
+                        </span>
                       </Link>
-                      
                     </div>
                   </div>
 
                   <div className="bg-gradient-to-t from-cyan-700  p-6 rounded-lg shadow-lg">
-                  <img className="justify-center items-center py-4" src={a02} alt="" />
+                    <img
+                      className="justify-center items-center py-4"
+                      src={a02}
+                      alt=""
+                    />
                     <h2 className="text-xl font-bold mb-4">Buy-Courses</h2>
-                     
+
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -487,23 +497,29 @@ const WebDevelopment = () => {
                         MongoDB
                       </span>
                     </div>
-                    <a href="https://educare-bd0b7.web.app/" className="text-white font-bold">
+                    <a
+                      href="https://educare-bd0b7.web.app/"
+                      className="text-white font-bold"
+                    >
                       See Details
                     </a>
                     <div className="mt-4">
-                    <Link to="https://educare-bd0b7.web.app/">
-                      <span className="bg-white text-black px-2 py-1 rounded">
-                        Live Website
-                      </span>
+                      <Link to="https://educare-bd0b7.web.app/">
+                        <span className="bg-white text-black px-2 py-1 rounded">
+                          Live Website
+                        </span>
                       </Link>
-                      
                     </div>
                   </div>
 
                   <div className="bg-gradient-to-l from-cyan-700 p-6 rounded-lg shadow-lg">
-                  <img className="justify-center items-center py-4" src={a01} alt="" />
+                    <img
+                      className="justify-center items-center py-4"
+                      src={a01}
+                      alt=""
+                    />
                     <h2 className="text-xl font-bold mb-4">Surgical-Site</h2>
-                     
+
                     <h3 className="font-bold mb-2">Technology</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       {/* <span className="bg-gradient-to-t from-black to-white/10 text-white px-2 py-1 rounded">
@@ -537,16 +553,18 @@ const WebDevelopment = () => {
                         Firebase
                       </span>
                     </div>
-                    <a href="https://surgicalsavvy.netlify.app/" className="text-white font-bold">
+                    <a
+                      href="https://surgicalsavvy.netlify.app/"
+                      className="text-white font-bold"
+                    >
                       See Details
                     </a>
                     <div className="mt-4">
-                    <Link to="https://surgicalsavvy.netlify.app/">
-                      <span className="bg-white text-black px-2 py-1 rounded">
-                        Live Website
-                      </span>
+                      <Link to="https://surgicalsavvy.netlify.app/">
+                        <span className="bg-white text-black px-2 py-1 rounded">
+                          Live Website
+                        </span>
                       </Link>
-                      
                     </div>
                   </div>
                 </div>
