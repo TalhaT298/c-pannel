@@ -139,52 +139,45 @@ const Contact = () => {
   return (
     <div>
        <Link to="/contact"></Link>
-       <div className='py-10 flex justify-center items-center'>
-      <div className="w-full max-w-3xl rounded-lg bg-white px-10 pb-10 pt-8 shadow-md dark:bg-cyan-700">
-        <div className="mb-6">
-          <h2 className="text-center text-white text-3xl font-semibold tracking-tight">Contact Us</h2>
+       <div className="flex justify-center items-center py-10 min-h-screen bg-gray-100 dark:bg-gray-900">
+      <div className="w-full max-w-lg lg:max-w-3xl bg-white dark:bg-cyan-700 rounded-lg shadow-md px-6 py-8 sm:px-10 sm:py-10">
+        <div className="mb-6 text-center">
+          <h2 className="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">Contact Us</h2>
         </div>
-        <form ref={form} onSubmit={sendEmail} className="w-full space-y-6">
-          <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
-            <label className="block font-medium" htmlFor="user_name">
-              Name
-            </label>
+        <form ref={form} onSubmit={sendEmail} className="space-y-6">
+          <div className="text-sm text-zinc-700 dark:text-zinc-400">
+            <label className="block font-medium" htmlFor="user_name">Name</label>
             <input
-              className="h-10 w-full rounded border px-3 py-2 text-sm leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
+              className="w-full h-10 px-3 py-2 mt-1 border rounded leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
               id="user_name"
               placeholder="Your Name"
               name="user_name"
               type="text"
             />
           </div>
-          <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
-            <label className="block font-medium" htmlFor="user_email">
-              Email
-            </label>
+          <div className="text-sm text-zinc-700 dark:text-zinc-400">
+            <label className="block font-medium" htmlFor="user_email">Email</label>
             <input
-              className="h-10 w-full rounded border px-3 py-2 text-sm leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
+              className="w-full h-10 px-3 py-2 mt-1 border rounded leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
               id="user_email"
               placeholder="Your Email"
               name="user_email"
               type="email"
             />
           </div>
-          <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
-            <label className="block font-medium" htmlFor="message">
-              Message
-            </label>
+          <div className="text-sm text-zinc-700 dark:text-zinc-400">
+            <label className="block font-medium" htmlFor="message">Message</label>
             <textarea
-              className="min-h-[80px] w-full rounded border px-3 py-2 leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
+              className="w-full min-h-[80px] px-3 py-2 mt-1 border rounded leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
               id="message"
               placeholder="What's on your mind"
               name="message"
             />
           </div>
-          <button className="rounded-md bg-sky-500 px-4 py-2 text-teal-600 transition-colors dark:bg-white" type="submit">
+          <button className="w-full px-4 py-2 mt-4 text-teal-600 transition-colors bg-sky-500 rounded-md dark:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 dark:focus:ring-offset-gray-900" type="submit">
             Submit
           </button>
         </form>
-        {/* done */}
       </div>
     </div>
     </div>
