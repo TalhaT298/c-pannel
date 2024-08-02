@@ -15,13 +15,16 @@ import p32 from "../../assets/p32.png";
 import person504 from "../../assets/person504.png";
 import person505 from "../../assets/person505.png";
 import person506 from "../../assets/person506.png";
+import { Helmet } from "react-helmet-async";
  
 
 const Video = () => {
   return (
     <>
       <Link to="/video"></Link>
-       
+      <Helmet>
+        <title>Oceancapp | Video Editing</title>
+      </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
