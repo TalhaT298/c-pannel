@@ -30,6 +30,7 @@ import person3 from "../../assets/p3.png";
 import person4 from "../../assets/p4.png";
 
 import aboutb from "../../assets/aboutbanner.png";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const [currentSlider, setCurrentSlider] = useState(0);
@@ -72,6 +73,9 @@ const About = () => {
   return (
     <>
       <Link to="/about"></Link>
+      <Helmet>
+        <title>Oceancapp | About</title>
+      </Helmet>
       {/* 0 phase start */}
       <section className="text-white body-font overflow-hidden">
         <div className="container py-2 mx-auto">
