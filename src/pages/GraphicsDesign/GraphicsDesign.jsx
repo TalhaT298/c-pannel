@@ -15,10 +15,14 @@ import p28 from "../../assets/p28.png";
 import person404 from "../../assets/person404.png";
 import person405 from "../../assets/person405.png";
 import person406 from "../../assets/person406.png";
+import { Helmet } from "react-helmet-async";
 
 const GraphicsDesign = () => {
   return (
     <>
+     <Helmet>
+        <title>Oceancapp | GraphicsDesign</title>
+      </Helmet>
       <Link to="/graphics"></Link>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
