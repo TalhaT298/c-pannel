@@ -117,6 +117,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
   const form = useRef();
@@ -138,6 +139,9 @@ const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Oceancapp | Contact</title>
+      </Helmet>
        <Link to="/contact"></Link>
        <div className="flex justify-center items-center py-10 min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-full max-w-lg lg:max-w-3xl bg-white dark:bg-cyan-700 rounded-lg shadow-md px-6 py-8 sm:px-10 sm:py-10">
