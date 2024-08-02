@@ -15,11 +15,15 @@ import p16 from "../../assets/p16.png";
 import person107 from "../../assets/person107.png";
 import person108 from "../../assets/person108.png";
 import person109 from "../../assets/person109.png";
+import { Helmet } from "react-helmet-async";
 
 const CyberSecurity = () => {
   return (
     <>
       <Link to="/cybersecurity"></Link>
+      <Helmet>
+        <title>Oceancapp | CyberSecurity</title>
+      </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">

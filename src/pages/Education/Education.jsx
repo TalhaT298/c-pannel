@@ -15,17 +15,21 @@ import p40 from "../../assets/p40.png";
 import person604 from "../../assets/person604.png";
 import person605 from "../../assets/person605.png";
 import person606 from "../../assets/person606.png";
+import { Helmet } from "react-helmet-async";
 
 const Education = () => {
   return (
     <>
       <Link to="/education"></Link>
+      <Helmet>
+        <title>Oceancapp | Education Services</title>
+      </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
             <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
-              Education Service
+              Education Services
             </h3>
             <h2 className="text-white font-extrabold text-2xl mb-4">
               Register by contacting us
