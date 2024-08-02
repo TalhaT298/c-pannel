@@ -14,11 +14,15 @@ import { IoMdTimer } from "react-icons/io";
 import { FaWarehouse } from "react-icons/fa";
 import { IoGitCompare } from "react-icons/io5";
 import efficientu from "../../assets/Efficient.png";
+import { Helmet } from "react-helmet-async";
 
 const Career = () => {
   return (
     <>
       <Link to="/career"></Link>
+      <Helmet>
+        <title>Oceancapp | Career</title>
+      </Helmet>
       <div>
         {/* 1st phase */}
         <div>
