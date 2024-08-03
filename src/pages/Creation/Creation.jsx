@@ -15,11 +15,15 @@ import p44 from "../../assets/p44.png";
 import person704 from "../../assets/person704.png";
 import person705 from "../../assets/person705.png";
 import person706 from "../../assets/person706.png";
+import { Helmet } from "react-helmet-async";
 
 const Creation = () => {
   return (
     <>
       <Link to="/creation"></Link>
+      <Helmet>
+        <title>Oceancapp | Idea to Creation</title>
+      </Helmet>
       <div>
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
