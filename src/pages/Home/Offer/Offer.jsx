@@ -18,9 +18,9 @@ import "./Offer.css";
 const Offer = () => {
   return (
     <div>
-      <div className="mx-auto md:w-8/12 mb-8 mt-16 flex justify-center items-center ">
+      <div className="mx-auto md:w-8/12 mb-8 mt-8 flex justify-center items-center ">
         
-        <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+        <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
           Solution We Offer
         </h3>
       </div>
