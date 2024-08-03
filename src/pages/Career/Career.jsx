@@ -48,7 +48,7 @@ const Career = () => {
                       innovative software solutions.
                     </p>
                     <a
-                      href="#"
+                      href="https://wa.link/8bkntc"
                       className="inline-block bg-cyan-600 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-cyan-500"
                     >
                       Explore Job Openings &rarr;
@@ -79,7 +79,7 @@ const Career = () => {
             OceanCapp is a top-tier IT company that offers premium solutions
             using the latest technology stacks.
           </p>
-          <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div className="h-1 w-10 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         </div>
         <div className="flex items-center justify-center">
           <div className="container mx-auto px-4 py-8">
@@ -334,7 +334,7 @@ const Career = () => {
             OceanCapp is a top-tier IT company that offers premium solutions
             using the latest technology stacks.
           </p> */}
-          <div className="h-1 w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div className="h-1 w-10 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
             <img src={efficientu} alt="" className="w-full md:w-auto" />

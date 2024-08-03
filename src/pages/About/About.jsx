@@ -207,7 +207,7 @@ const About = () => {
       <h3 className="text-4xl bg-gradient-to-r from-cyan-100 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase font-bold font-serif text-center pb-4">
         Our Journey
       </h3>
-      <div className="h-1 w-40 md:w-80 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping "></div>
+      <div className="h-1 w-40 md:w-10 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping "></div>
       <div>
         <p className="text-center font-semibold text-2xl pt-4">
           <p>
