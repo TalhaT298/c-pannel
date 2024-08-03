@@ -17,7 +17,7 @@ const Banner = () => {
         <div className="text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 text-transparent bg-clip-text font-bold">
             <Typewriter
-              words={['Web Design', 'Game Development', 'Web Development', 'Cyber Security']}
+              words={['WordPress Development', 'Web Development', 'Cyber Security', 'App Development','Prompt Engineering','Graphics Design','Education Services','Idea to Creation','Video Editing']}
               loop={50}
               cursor
               cursorStyle=''
