@@ -202,40 +202,40 @@ const Footer = () => {
             <div className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <div className="grid grid-flow-col gap-3">
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                  <Link to="">
-                    <a href="">
-                      <FaFacebookF size="1.2rem" color="white" />
+                  <Link to="https://www.facebook.com/oceancapp">
+                    <a href="https://www.facebook.com/oceancapp">
+                      <FaFacebookF href="https://www.facebook.com/oceancapp" size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
 
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                  <Link to="">
-                    <a href="">
-                      <FaInstagram size="1.2rem" color="white" />
+                  <Link to="https://www.facebook.com/oceancapp">
+                    <a href="https://www.facebook.com/oceancapp">
+                      <FaInstagram href="https://www.facebook.com/oceancapp" size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
 
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                  <Link to="">
-                    <a href="">
-                      <FaLinkedinIn size="1.2rem" color="white" />
+                  <Link to="https://www.linkedin.com/company/oceancapp/">
+                    <a href="https://www.linkedin.com/company/oceancapp/">
+                      <FaLinkedinIn href="https://www.linkedin.com/company/oceancapp/" size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
 
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                  <Link to="">
-                    <a href="">
-                      <BsTwitterX size="1.2rem" color="white" />
+                  <Link to="https://x.com/ocean_capp">
+                    <a href="https://x.com/ocean_capp">
+                      <BsTwitterX href="https://x.com/ocean_capp" size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                  <Link to="">
-                    <a href="">
-                      <FaWhatsapp size="1.2rem" color="white" />
+                  <Link to="https://wa.link/8bkntc">
+                    <a href="https://wa.link/8bkntc">
+                      <FaWhatsapp href="https://wa.link/8bkntc" size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
@@ -261,9 +261,9 @@ const Footer = () => {
                   </Link>
                 </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                  <Link to="">
-                    <a href="">
-                      <BiLogoGmail size="1.2rem" color="white" />
+                  <Link to="mailto:oceancapp@gmail.com">
+                    <a href="mailto:oceancapp@gmail.com">
+                      <BiLogoGmail href="mailto:oceancapp@gmail.com" size="1.2rem" color="white" />
                     </a>
                   </Link>
                 </motion.div>
