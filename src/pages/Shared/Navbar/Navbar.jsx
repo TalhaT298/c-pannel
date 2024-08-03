@@ -110,7 +110,7 @@ const Navbar = () => {
               </Link>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-white ">
                 <button className="relative h-14 w-32 origin-top transform rounded border-2 border-stone-50 text-sm text-stone-50 before:absolute before:top-0 before:block before:h-0 before:w-full before:duration-500 hover:text-white hover:before:absolute hover:before:left-0 hover:before:-z-10 hover:before:h-full hover:before:bg-sky-500">
-                  Schedulae a Call
+                  Schedule a Call
                 </button>
               </li>
             </ul>
