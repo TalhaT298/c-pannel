@@ -101,35 +101,35 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                     <a className="text-white text-sm">Graphics Design</a>
                   </Link>
                 </li>
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                     {" "}
                     <a className="text-white text-sm">WordPress development</a>
                   </Link>
                 </li>
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                     {" "}
                     <a className="text-white text-sm">Web Development</a>
                   </Link>
                 </li>
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                     <a className="text-white text-sm">Cyber Security</a>
                   </Link>
                 </li>
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                     {" "}
                     <a className="text-white text-sm">App Development</a>
                   </Link>
                 </li>
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                     {" "}
                     <a className="text-white text-sm">Prompt Engineering</a>
                   </Link>
@@ -142,17 +142,17 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="https://wa.link/8bkntc">
                   <div className="flex ">
-                  <MdOutlinePhoneCallback size="1.3rem" className="" color="white" /> <a className="text-white text-sm">+880 1785030648</a>
+                  <MdOutlinePhoneCallback size="1.3rem" className="" color="white" /> <a href="https://wa.link/8bkntc" className="text-white text-sm">+880 1785030648</a>
                   </div>
                   </Link>
                 </li>
                 <li className="pb-4">
-                  <Link to="">
+                  <Link to="mailto:oceancapp@gmail.com">
                     {" "}
                     <div className="flex ">
-                  <MdEmail size="1.3rem" className="" color="white" /> <a className="text-white text-sm">@oceancapp.com</a>
+                  <MdEmail size="1.3rem" className="" color="white" /> <a href="mailto:oceancapp@gmail.com" className="text-white text-sm">@oceancapp.com</a>
                   </div>
                   </Link>
                 </li>
