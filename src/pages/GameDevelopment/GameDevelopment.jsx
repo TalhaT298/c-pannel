@@ -27,10 +27,10 @@ const GameDevelopment = () => {
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               WordPress Development
             </h3>
-            <h2 className="text-white font-extrabold text-2xl mb-4">
+            <h2 className="text-white font-extrabold text-xxl sm:text-3xl md:text-4xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
@@ -108,7 +108,7 @@ const GameDevelopment = () => {
         {/* ---------------------------------2nd phase finish----------------------------*/}
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
-          <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             WordPress Excellence Delivered
           </h3>
         </div>
