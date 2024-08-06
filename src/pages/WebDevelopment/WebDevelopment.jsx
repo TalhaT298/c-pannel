@@ -32,10 +32,10 @@ const WebDevelopment = () => {
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               Web Development
             </h3>
-            <h2 className="text-white font-extrabold text-2xl mb-4">
+            <h2 className="text-white font-extrabold text-xl sm:text-3xl md:text-4xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
@@ -115,12 +115,12 @@ const WebDevelopment = () => {
         {/* ---------------------------------2nd phase finish----------------------------*/}
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
-          <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Web Development Excellence Delivered
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-        <p className="text-center font-thin text-xl pt-4">
+        <p className="text-center text-white font-thin text-xl pt-4 px-4 lg:px-0 md:px-0">
           <p>
             At Oceancapp, we pride ourselves on offering unparalleled web
             development services that stand out in the industry. Our commitment
@@ -280,48 +280,48 @@ const WebDevelopment = () => {
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">React</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Java</p>
-          <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
-          <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Go</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
-          <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
-          <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Python</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
-          <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
-          <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-          <p className="text-4xl font-extrabold font-serif px-4">OpnSource</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Reux</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">React</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Java</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">PHP</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">.Net</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Go</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Laravel</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">AWS</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">JavaScript</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Python</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Flutter</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Typescript</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">NPM</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">MongoDB</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Firebase</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Github</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">OpnSource</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Reux</p>
         </Marquee>
         <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">React</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Java</p>
-          <p className="text-4xl font-extrabold font-serif px-4">PHP</p>
-          <p className="text-4xl font-extrabold font-serif px-4">.Net</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Go</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Laravel</p>
-          <p className="text-4xl font-extrabold font-serif px-4">AWS</p>
-          <p className="text-4xl font-extrabold font-serif px-4">JavaScript</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Python</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Flutter</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Typescript</p>
-          <p className="text-4xl font-extrabold font-serif px-4">NPM</p>
-          <p className="text-4xl font-extrabold font-serif px-4">MongoDB</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Firebase</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Github</p>
-          <p className="text-4xl font-extrabold font-serif px-4">OpenSource</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Redux</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">React</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Java</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">PHP</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">.Net</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Go</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Laravel</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">AWS</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">JavaScript</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Python</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Flutter</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Typescript</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">NPM</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">MongoDB</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Firebase</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Github</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">OpenSource</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Redux</p>
         </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
           <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               Words From Clients
             </h3>
           </div>
