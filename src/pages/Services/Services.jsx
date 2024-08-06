@@ -35,12 +35,12 @@ const Services = () => {
       <div>
         <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-          <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             OUR SERVICES
           </h3>
         </div>
         <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-        <p className="text-center py-4 font-thin text-white">
+        <p className="text-center px-4 lg:px-0 md:px-0 py-4 font-thin text-white">
           Oceancapp offers a diverse range of IT solutions to meet various
           needs. Our web development services include custom website design,
           e-commerce solutions, and responsive designs for all devices. We

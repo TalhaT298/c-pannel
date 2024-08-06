@@ -48,7 +48,7 @@ const Banner = () => {
           <div className="stats shadow w-full flex flex-col sm:flex-row gap-4 ml-4 lg:ml-0 md:ml-0">
             <div className="stat flex-1" style={{ borderRight: "none" }}>
               <div className="stat-figure text-secondary">
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -62,7 +62,7 @@ const Banner = () => {
                     stroke="currentColor"
                     d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   ></path>
-                </svg>
+                </svg> */}
               </div>
               <div className="stat-value">
                 <CountUp end={38} duration={50} />
@@ -72,7 +72,7 @@ const Banner = () => {
 
             <div className="stat flex-1" style={{ borderLeft: "none" }}>
               <div className="stat-figure text-secondary">
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const Banner = () => {
                     stroke="currentColor"
                     d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
                   ></path>
-                </svg>
+                </svg> */}
               </div>
               <div className="stat-value">
                 <CountUp end={4200} duration={50} />
@@ -96,7 +96,7 @@ const Banner = () => {
           </div>
 
           <Link to="https://wa.link/8bkntc">
-            <button className="flex items-center justify-center gap-4 px-8 py-3 mt-6 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg lg:ml-0 md:ml-0 ml-24">
+            <button className="flex items-center justify-center gap-4 px-8 py-3 mt-6 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg lg:ml-0 md:ml-0 ml-20">
               Learn More
               <PiArrowRightLight
                 size="1.1rem"
