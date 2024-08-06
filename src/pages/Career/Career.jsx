@@ -139,7 +139,7 @@ const Career = () => {
         {/* 3rd phase start*/}
         <div className="container mx-auto ">
           <div className="shadow-md rounded-lg p-8">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl text-cyan-500 font-bold mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-4xl text-cyan-500 font-bold mb-4">
               Open Position
             </h1>
             <p className="text-white mb-8 ">
@@ -326,7 +326,7 @@ const Career = () => {
         {/* 4th phase --------------------------start here */}
         <div className="mx-auto md:w-8/12 mb-2 mt-8 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-            <h3 className="text-3xl sm:text-3xl md:text-4xl text-cyan-500 uppercase font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl text-cyan-500 uppercase font-bold font-serif">
               Vacancy Available
             </h3>
           </div>
