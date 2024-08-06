@@ -87,12 +87,12 @@ const About = () => {
                 src={aboutb}
               />
             </div>
-            <div className="w-full lg:w-3/5 lg:pl-36 lg:py-6 mt-8 lg:mt-16">
+            <div className="w-full lg:w-3/5 lg:pl-36 lg:py-6 mt-8 lg:mt-16 px-4 lg:px-0 md:px-0">
               <h1 className="text-white text-4xl sm:text-6xl md:text-8xl title-font font-medium mb-1">
                 Empowering Next<span className="text-cyan-600">_</span>{" "}
                 Generation
               </h1>
-              <p className="leading-relaxed text-gray-400">
+              <p className="leading-relaxed text-white">
                 Unlock superior software solutions with OceanCapp, a leading
                 offshore development firm delivering creativity and expertise.
               </p>
@@ -174,7 +174,7 @@ const About = () => {
           <h1 className="lg:text-5xl font-bold mb-3">
             {sliders[currentSlider].title}
           </h1>
-          <p className="text-xs sm:text-sm md:text-base text-gray-400 lg:text-lg">
+          <p className="text-xs sm:text-sm md:text-base text-white lg:text-lg">
             {sliders[currentSlider].des}
           </p>
         </div>
@@ -204,13 +204,13 @@ const About = () => {
       </div>
       {/* 1st phase done finish*/}
       {/* 2nd phase 1 start joldi  ekhane*/}
-      <h3 className="text-4xl bg-gradient-to-r from-cyan-100 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase font-bold font-serif text-center pb-4">
+      <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-100 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase font-bold font-serif text-center pb-4">
         Our Journey
       </h3>
       <div className="h-1 w-40 md:w-10 bg-cyan-500 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping "></div>
       <div>
-        <p className="text-center font-semibold text-2xl pt-4">
-          <p>
+        <p className="text-center font-semibold text-xxl pt-4 px-4 lg:px-0 md:px-0">
+          <p className="">
             Welcome to Oceancapp, where innovation converges with expertise to
             elevate your digital journey. As pioneers in the IT realm, we
             proudly offer a comprehensive spectrum of services tailored to meet
@@ -288,7 +288,7 @@ const About = () => {
         </div>
       </div> */}
       {/* 2nd pase part 1 start ----------------------------------------------*/}
-      <div className="flex items-center justify-center border border-black w-full h-[80vh] bg-gradient-to-tr from-black via-black/90 to-black">
+      <div className="flex items-center justify-center border border-black w-full h-[80vh] bg-gradient-to-tr from-black via-black/90 to-black py-6">
         <div className="flex flex-col items-center my-10 text-white space-y-8">
           {/* featured div  */}
           <div className="flex items-center gap-4 bg-gradient-to-t from-cyan-600 to-white/10 py-2 px-6 rounded-lg">
@@ -301,7 +301,7 @@ const About = () => {
             </div>
           </div>
           {/* header  */}
-          <h1 className="text-5xl font-semibold text-white text-center leading-[65px] ">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-semibold text-white text-center leading-[65px] ">
             Show Us Your Superpower
           </h1>
           {/* description  */}
