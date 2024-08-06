@@ -37,8 +37,8 @@ const Offer = () => {
             <img src={img2} alt="Shoes" className="rounded-xl w-80" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">WordPress development</h2>
-            <p>
+            <h2 className="card-title text-white">WordPress development</h2>
+            <p className="text-white">
               Our skilled WordPress developers create custom, user-friendly, and
               SEO-optimized websites that are easy to manage and tailored to
               your needs.
@@ -68,8 +68,8 @@ const Offer = () => {
             <img src={img3} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Web Development</h2>
-            <p>
+            <h2 className="card-title text-white">Web Development</h2>
+            <p className="text-white">
               Build user-centric websites using our unique web development
               services' processes and our skilled team of developers and
               designers.
@@ -100,8 +100,8 @@ const Offer = () => {
             <img src={img4} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Cyber Security</h2>
-            <p>
+            <h2 className="card-title text-white">Cyber Security</h2>
+            <p className="text-white">
               we're your cybersecurity guardians, crafting innovative solutions
               to protect your digital assets from evolving threats. Trust us to
               secure your digital future.
@@ -133,8 +133,8 @@ const Offer = () => {
             <img src={img1} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">App Development</h2>
-            <p>
+            <h2 className="card-title text-white">App Development</h2>
+            <p className="text-white">
               Our skilled designers use their knowledge of industry standards
               and best practices for app and online design to
             </p>
@@ -164,8 +164,8 @@ const Offer = () => {
             <img src={img6} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Prompt Engineering</h2>
-            <p>
+            <h2 className="card-title text-white">Prompt Engineering</h2>
+            <p className="text-white">
               Our proficient prompt engineers specialize in optimizing AI
               prompts to enhance user interactions, ensuring precise,
               efficient,...
@@ -197,8 +197,8 @@ const Offer = () => {
             <img src={img5} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Graphics Design</h2>
-            <p>
+            <h2 className="card-title text-white">Graphics Design</h2>
+            <p className="text-white">
               Our talented graphic designers craft visually compelling and
               innovative designs that effectively communicate...
               {/* your brand
@@ -231,8 +231,8 @@ const Offer = () => {
             <img src={edu} alt="Shoes" className="rounded-xl w-80" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Education Services</h2>
-            <p>
+            <h2 className="card-title text-white">Education Services</h2>
+            <p className="text-white">
               Our talented educators develop engaging and innovative lessons
               that effectively communicate complex concepts..
             </p>
@@ -263,8 +263,8 @@ const Offer = () => {
             <img src={idea23} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Idea to Creation</h2>
-            <p>
+            <h2 className="card-title text-white">Idea to Creation</h2>
+            <p className="text-white">
               OOne of the most compelling and crucial aspects of our IT solution
               is transforming ideas into reality.
               {/* and meaningful responses tailored to your
@@ -296,8 +296,8 @@ const Offer = () => {
             <img src={v} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">Video Editing</h2>
-            <p>
+            <h2 className="card-title text-white">Video Editing</h2>
+            <p className="text-white">
               Our skilled video editors create visually stunning and innovative
               edits that effectively communicate your brand's story...
               {/* your brand
