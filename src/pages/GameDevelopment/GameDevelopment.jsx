@@ -113,7 +113,7 @@ const GameDevelopment = () => {
           </h3>
         </div>
         <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-        <p className="text-center font-thin text-xl pt-4">
+        <p className="text-center font-thin text-xl pt-4 px-4 lg:px-0 md:px-0">
           <p>
             At Oceancapp, we pride ourselves on offering unparalleled WordPress
             development services that stand out in the industry. Our commitment
@@ -325,11 +325,11 @@ const GameDevelopment = () => {
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
         <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
-          <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Words From Clients
           </h3>
         </div>
-        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <div>
           <section className="text-gray-600 body-font overflow-hidden">
             <div className="container px-5 py-12 mx-auto">
