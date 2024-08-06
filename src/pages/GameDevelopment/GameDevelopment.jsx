@@ -30,7 +30,7 @@ const GameDevelopment = () => {
             <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               WordPress Development
             </h3>
-            <h2 className="text-white font-extrabold text-xl sm:text-3xl md:text-3xl mb-4">
+            <h2 className="text-white font-extrabold text-xl sm:text-2xl md:text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
@@ -112,7 +112,7 @@ const GameDevelopment = () => {
             WordPress Excellence Delivered
           </h3>
         </div>
-        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
         <p className="text-center text-white font-thin text-xl pt-4 px-4 lg:px-0 md:px-0">
           <p>
             At Oceancapp, we pride ourselves on offering unparalleled WordPress

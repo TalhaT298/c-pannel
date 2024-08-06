@@ -28,10 +28,10 @@ const CyberSecurity = () => {
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-3xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               Cyber Security
             </h3>
-            <h2 className="text-white font-extrabold text-2xl mb-4">
+            <h2 className="text-white font-extrabold text-xl sm:text-2xl md:text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
@@ -106,12 +106,12 @@ const CyberSecurity = () => {
         {/* ---------------------------------2nd phase finish----------------------------*/}
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
-          <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Cybersecurity Excellence Delivered
           </h3>
         </div>
-        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-        <p className="text-center font-thin text-xl pt-4">
+        <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <p className="text-center text-white font-thin text-xl pt-4 px-4 lg:px-0 md:px-0">
           <p>
             At Oceancapp, we pride ourselves on offering unparalleled
             cybersecurity services that stand out in the industry. Our
@@ -235,115 +235,115 @@ const CyberSecurity = () => {
             </div>
             {/* buttons  */}
             <div className="flex flex-wrap gap-10 items-center py-4">
-              <Link to="">
-                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
-                  Show Here{" "}
-                  <svg
-                    width={25}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g strokeWidth="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      {" "}
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
-                        fill="white"
-                      ></path>
-                    </g>
-                  </svg>
-                </button>
-              </Link>
-              <Link to="">
-                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
-                  Projects <GrProjects className="" />
-                </button>
-              </Link>
-            </div>
+            <Link to="">
+              <button className="flex items-center gap-4 px-4 py-2 md:px-8 md:py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-sm md:text-lg font-medium rounded-lg">
+                Show Here{" "}
+                <svg
+                  width={20}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g strokeWidth="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+                      fill="white"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </Link>
+            <Link to="">
+              <button className="flex items-center gap-4 px-4 py-2 md:px-8 md:py-3 bg-gradient-to-t from-black to-white/10 text-white text-sm md:text-lg font-medium rounded-lg">
+                Projects <GrProjects className="" />
+              </button>
+            </Link>
+          </div>
           </div>
         </div>
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Firewall</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Encryption</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Firewall</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Encryption</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Penetration Testing
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Threat Intelligence
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Malware</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Phishing</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Malware</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Phishing</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Intrusion Detection
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Vulnerability Assessment
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Access Control
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Cyber Threat
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Data Breach</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Data Breach</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Network Security
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Risk Management
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Incident Response
           </p>
         </Marquee>
         <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Security Policy
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Two-Factor Authentication (2FA)
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Endpoint Protection
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">SIEM</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">SIEM</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Cryptography
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Authentication
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Authorization
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Data Protection
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Secure Coding
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Compliance</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Forensics</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Compliance</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Forensics</p>
         </Marquee>
         {/* ---------------------------------5th phase finish----------------------------*/}
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
           <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               Words From Clients
             </h3>
           </div>
-          <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
           <div>
             <section className="text-gray-600 body-font overflow-hidden">
               <div className="container px-5 py-12 mx-auto">
