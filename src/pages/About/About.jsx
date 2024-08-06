@@ -348,10 +348,10 @@ const About = () => {
           {/* buttons  */}
           <div className="flex flex-wrap gap-10 items-center py-4">
             <Link to="">
-              <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
+              <button className="flex items-center gap-4 px-4 py-2 md:px-8 md:py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-sm md:text-lg font-medium rounded-lg">
                 Show Here{" "}
                 <svg
-                  width={25}
+                  width={20}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -375,7 +375,7 @@ const About = () => {
               </button>
             </Link>
             <Link to="">
-              <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
+              <button className="flex items-center gap-4 px-4 py-2 md:px-8 md:py-3 bg-gradient-to-t from-black to-white/10 text-white text-sm md:text-lg font-medium rounded-lg">
                 Projects <GrProjects className="" />
               </button>
             </Link>
