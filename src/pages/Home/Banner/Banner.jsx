@@ -52,7 +52,7 @@ const Banner = () => {
               <div className="stat-value">
                 <CountUp end={38} duration={50} />
               </div>
-              <div className="stat-desc">Dedicated Engineers</div>
+              <div className="stat-desc text-white">Dedicated Engineers</div>
             </div>
 
             <div className="stat">
@@ -76,7 +76,7 @@ const Banner = () => {
               <div className="stat-value">
                 <CountUp end={4200} duration={50} />
               </div>
-              <div className="stat-desc">Successful Projects</div>
+              <div className="stat-desc text-white">Successful Projects</div>
             </div>
 
             {/* <div className="stat">
@@ -103,7 +103,7 @@ const Banner = () => {
               <div className="stat-desc">Research</div>
             </div> */}
           </div>
-          <Link to="">
+          <Link to="https://wa.link/8bkntc">
             <button className="flex items-center justify-center sm:justify-start gap-4 px-8 py-3 mt-6 bg-gradient-to-t from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
               Learn More
               <PiArrowRightLight
