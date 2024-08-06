@@ -31,7 +31,7 @@ const Something = () => {
             Assurance
           </span>
         </div>
-        <div className="w-full md:w-1/2 font-thin pt-3 md:pt-5 text-center md:text-left" data-aos="fade-left">
+        <div className="w-full md:w-1/2 font-thin pt-3 md:pt-5 text-center md:text-left text-white" data-aos="fade-left">
           Discover Oceancapp, your trusted partner in managing global projects with precision and care. With over 147 experts, 359 client protections, and a 100% service guarantee, we ensure your projects sail smoothly and successfully. Join the 527+ satisfied clients who rely on Oceancapp for unparalleled expertise and peace of mind.
         </div>
       </div>
