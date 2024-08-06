@@ -273,51 +273,51 @@ const GameDevelopment = () => {
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-8" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Themes</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Core</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Plugins</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Templates</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Hosting</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Database</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Pages</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Posts</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Widgets</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Gutenberg</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Themes</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Core</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Plugins</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Templates</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Hosting</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Database</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Pages</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Posts</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Widgets</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Gutenberg</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Custom Fields
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Shortcodes</p>
-          <p className="text-4xl font-extrabold font-serif px-4">SEO</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Backups</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Security</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Shortcodes</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">SEO</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Backups</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Security</p>
         </Marquee>
         <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">Multisite</p>
-          <p className="text-4xl font-extrabold font-serif px-4">eCommerce</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Performance</p>
-          <p className="text-4xl font-extrabold font-serif px-4">APIs</p>
-          <p className="text-4xl font-extrabold font-serif px-4">WP-CLI</p>
-          <p className="text-4xl font-extrabold font-serif px-4">REST API</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Taxonomies</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Hooks</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Actions</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Filters</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Customizer</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Blocks</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Multisite</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">eCommerce</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Performance</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">APIs</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">WP-CLI</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">REST API</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Taxonomies</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Hooks</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Actions</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Filters</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Customizer</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Blocks</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Page Builders
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Child Themes
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Responsive Design
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Menus</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Menus</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Media Library
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Custom Post Types
           </p>
         </Marquee>
