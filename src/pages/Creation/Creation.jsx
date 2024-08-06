@@ -28,10 +28,10 @@ const Creation = () => {
         {/* ---------------------------------1st phase ----------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-3xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               Idea to Creation
             </h3>
-            <h2 className="text-white font-extrabold text-2xl mb-4">
+            <h2 className="text-white font-extrabold text-xl sm:text-2xl md:text-2xl mb-4">
               Register by contacting us
             </h2>
             <p className="text-white mb-8">
@@ -111,12 +111,12 @@ const Creation = () => {
         {/* ---------------------------------2nd phase finish----------------------------*/}
         {/* ---------------------------------3rd phase start----------------------------*/}
         <div>
-          <h3 className="text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Idea to Creation Excellence Delivered
           </h3>
         </div>
-        <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
-        <p className="text-center font-thin text-xl pt-4">
+        <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+        <p className="text-center font-thin text-xl text-white px-4 lg:px-0 md:px-0 pt-4">
           <p>
             At Oceancapp, we specialize in turning innovative ideas into reality
             with our comprehensive Idea to Creation services. Our commitment to
@@ -236,178 +236,178 @@ const Creation = () => {
             </div>
             {/* buttons  */}
             <div className="flex flex-wrap gap-10 items-center py-4">
-              <Link to="">
-                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-lg font-medium rounded-lg">
-                  Show Here{" "}
-                  <svg
-                    width={25}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g strokeWidth="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      {" "}
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
-                        fill="white"
-                      ></path>
-                    </g>
-                  </svg>
-                </button>
-              </Link>
-              <Link to="">
-                <button className="flex items-center gap-4 px-8 py-3 bg-gradient-to-t from-black to-white/10 text-white text-lg font-medium rounded-lg">
-                  Projects <GrProjects className="" />
-                </button>
-              </Link>
-            </div>
+            <Link to="">
+              <button className="flex items-center gap-4 px-4 py-2 md:px-8 md:py-3 bg-gradient-to-b from-cyan-600 to-black text-white text-sm md:text-lg font-medium rounded-lg">
+                Show Here{" "}
+                <svg
+                  width={20}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g strokeWidth="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+                      fill="white"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </Link>
+            <Link to="">
+              <button className="flex items-center gap-4 px-4 py-2 md:px-8 md:py-3 bg-gradient-to-t from-black to-white/10 text-white text-sm md:text-lg font-medium rounded-lg">
+                Projects <GrProjects className="" />
+              </button>
+            </Link>
+          </div>
           </div>
         </div>
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
         <Marquee className="pt-16" direction="right" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Brainstorming
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Concept Development
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Ideation</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Ideation</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Market Research
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Prototyping</p>
-          <p className="text-4xl font-extrabold font-serif px-4">Wireframing</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Prototyping</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Wireframing</p>
+          <p className="text-xl md:text-4xlfont-extrabold font-serif px-4">
             Design Thinking
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             User Experience (UX) Design
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             User Interface (UI) Design
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Product Design
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Proof of Concept
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Innovation</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Innovation</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Feasibility Study
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Project Planning
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Roadmap Development
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Minimum Viable Product (MVP)
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Agile Development
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Sprint Planning
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Iteration</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Iteration</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Testing and Validation
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             User Testing
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Feedback Loop
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Quality Assurance (QA)
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Beta Testing
           </p>
         </Marquee>
         <Marquee className="my-5" direction="left" speed={50}>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Launch Strategy
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Marketing Plan
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Branding</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Branding</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Go-to-Market Strategy
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Product Launch
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Scalability</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Scalability</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Customer Onboarding
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Product Lifecycle
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Continuous Improvement
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Market Analysis
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Customer Feedback
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Product Enhancement
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Version Control
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Release Management
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Documentation
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Collaboration Tools
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Team Management
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Resource Allocation
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Milestone Tracking
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Performance Metrics
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">Analytics</p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Analytics</p>
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             User Adoption
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Support and Maintenance
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Customer Success
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Iteration Planning
           </p>
-          <p className="text-4xl font-extrabold font-serif px-4">
+          <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Feature Prioritization
           </p>
         </Marquee>
@@ -415,11 +415,11 @@ const Creation = () => {
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
           <div className="mx-auto md:w-8/12 mb-2 mt-10 flex justify-center items-center ">
-            <h3 className="text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
               Words From Clients
             </h3>
           </div>
-          <div className="h-1 w-80 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
+          <div className="h-1 w-10 bg-cyan-600 rounded flex justify-center items-center mx-auto my-auto hover:animate-ping"></div>
           <div>
             <section className="text-gray-600 body-font overflow-hidden">
               <div className="container px-5 py-12 mx-auto">
