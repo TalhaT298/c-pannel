@@ -38,7 +38,7 @@ const Career = () => {
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center items-center p-4">
                   <div className="text-center">
-                    <h1 className="text-5xl font-bold mb-4">
+                    <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
                       Be a Part of The Fastest Growing Talented Team
                     </h1>
                     <p className="text-white mb-6">
@@ -71,11 +71,11 @@ const Career = () => {
         <div>
           <div className="mx-auto md:w-8/12 mb-2 mt-16 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-            <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl text-cyan-500 uppercase font-bold font-serif">
               Why Join US
             </h3>
           </div>
-          <p className="flex justify-center items-center mb-4">
+          <p className="flex justify-center items-center mb-4 px-4 lg:px-0 md:px-0">
             OceanCapp is a top-tier IT company that offers premium solutions
             using the latest technology stacks.
           </p>
@@ -139,10 +139,10 @@ const Career = () => {
         {/* 3rd phase start*/}
         <div className="container mx-auto ">
           <div className="shadow-md rounded-lg p-8">
-            <h1 className="text-4xl text-cyan-500 font-bold mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl text-cyan-500 font-bold mb-4">
               Open Position
             </h1>
-            <p className="text-white mb-8">
+            <p className="text-white mb-8 ">
               Don't let a lack of personnel hinder your progress. Enhance your
               team's capabilities and meet your business goals through superior
               IT Staff Augmentation.
@@ -326,7 +326,7 @@ const Career = () => {
         {/* 4th phase --------------------------start here */}
         <div className="mx-auto md:w-8/12 mb-2 mt-8 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}--</p */}
-            <h3 className="text-4xl text-cyan-500 uppercase font-bold font-serif">
+            <h3 className="text-3xl sm:text-3xl md:text-4xl text-cyan-500 uppercase font-bold font-serif">
               Vacancy Available
             </h3>
           </div>
