@@ -110,7 +110,7 @@ const Creation = () => {
         </div>
         {/* ---------------------------------2nd phase finish----------------------------*/}
         {/* ---------------------------------3rd phase start----------------------------*/}
-        <div className="py-6">
+        <div className="py-8">
         <div>
           <h3 className="text-2xl sm:text-3xl md:text-4xl py-4 text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
             Idea to Creation Excellence Delivered
@@ -179,7 +179,7 @@ const Creation = () => {
         </div>
         {/* ---------------------------------3rd phase finish----------------------------*/}
         {/* ---------------------------------4th phase start----------------------------*/}
-        <div className="flex items-center justify-center border border-black w-full h-[80vh] bg-gradient-to-tr from-black via-black/90 to-black">
+        <div className="flex items-center justify-center  w-full h-[80vh] bg-gradient-to-tr from-black via-black/90 to-black">
           <div className="flex flex-col items-center my-10 text-white space-y-8">
             {/* featured div  */}
             <div className="flex items-center gap-4 bg-gradient-to-t from-cyan-600 to-white/10 py-2 px-6 my-6 rounded-lg">
@@ -275,6 +275,7 @@ const Creation = () => {
         </div>
         {/* ---------------------------------4th phase finish----------------------------*/}
         {/* ---------------------------------5th phase start----------------------------*/}
+        <div className="py-8">
         <Marquee className="pt-16" direction="right" speed={50}>
           <p className="text-xl md:text-4xl font-extrabold font-serif px-4">
             Brainstorming
@@ -413,6 +414,7 @@ const Creation = () => {
             Feature Prioritization
           </p>
         </Marquee>
+        </div>
         {/* ---------------------------------5th phase finish----------------------------*/}
         {/* ---------------------------------6th phase finish----------------------------*/}
         <div>
