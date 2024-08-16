@@ -178,8 +178,8 @@ const CyberSecurity = () => {
         </div>
         {/* ---------------------------------3rd phase finish----------------------------*/}
         {/* ---------------------------------4th phase start----------------------------*/}
-        <div className="flex items-center justify-center  w-full h-[80vh] bg-gradient-to-tr from-black via-black/90 to-black">
-          <div className="flex flex-col items-center my-10 text-white space-y-8">
+        <div className="flex items-center justify-center  w-full h-[80vh] ">
+          <div className="flex flex-col items-center my-12 mt-60 mb-60 lg:mt-0 md:mt-0 lg:mb-0 md:mb-0 text-white space-y-8">
             {/* featured div  */}
             <div className="flex items-center gap-4 bg-gradient-to-t from-cyan-600 to-white/10 py-2 px-6 my-10 mt-10 rounded-lg">
               <div className=" w-8 h-8 text-black text-2xl font-semibold bg-white flex justify-center items-center rounded-full">

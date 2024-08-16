@@ -96,7 +96,7 @@ const FAQ = () => {
                 </span>
               </button>
               <div
-                className={`grid overflow-hidden text-gray-500 transition-all duration-300 ease-in-out dark:text-gray-300 ${
+                className={`grid overflow-hidden text-white transition-all duration-300 ease-in-out dark:text-white ${
                   isOpen === idx
                     ? "grid-rows-[1fr] pb-3 opacity-100"
                     : "grid-rows-[0fr] opacity-0"

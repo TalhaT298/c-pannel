@@ -181,7 +181,7 @@ const Video = () => {
         </div>
         {/* ---------------------------------3rd phase finish----------------------------*/}
         {/* ---------------------------------4th phase start----------------------------*/}
-        <div className="flex items-center justify-center  w-full h-[80vh] bg-gradient-to-tr from-black via-black/90 to-black">
+        <div className="flex items-center justify-center  w-full h-[80vh] ">
           <div className="flex flex-col items-center my-10 mt-16 text-white space-y-8">
             {/* featured div  */}
             <div className="flex items-center gap-4 bg-gradient-to-t from-cyan-600 to-white/10 py-2 px-6 my-6 rounded-lg">
