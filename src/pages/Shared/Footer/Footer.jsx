@@ -141,14 +141,14 @@ const Footer = () => {
                 Contact Us
               </h2>
               <nav className="list-none mb-10">
-                <li className="pb-4 pl-[90px] lg:pl-0 md:pl-0">
+                <li className="pb-4 pl-[85px] lg:pl-0 md:pl-0">
                   <Link to="https://wa.link/8bkntc">
                   <div className="flex ">
                   <MdOutlinePhoneCallback size="1.3rem" className="" color="white" /> <a href="https://wa.link/8bkntc" className="text-white text-sm">+880 1785030648</a>
                   </div>
                   </Link>
                 </li>
-                <li className="pb-4 pl-[90px] lg:pl-0 md:pl-0">
+                <li className="pb-4 pl-[85px] lg:pl-0 md:pl-0">
                   <Link to="mailto:oceancapp@gmail.com">
                     {" "}
                     <div className="flex ">
