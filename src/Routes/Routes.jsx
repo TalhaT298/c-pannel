@@ -18,6 +18,7 @@ import Career from "../pages/Career/Career";
 import Education from "../pages/Education/Education";
 import Creation from "../pages/Creation/Creation";
 import Video from "../pages/Video/Video";
+import Vlog from "../pages/Vlog/Vlog";
 
   
   export const router = createBrowserRouter([
@@ -84,6 +85,10 @@ import Video from "../pages/Video/Video";
         {
             path:'/video',
             element:<Video></Video>
+        },
+        {
+            path:'/vlog',
+            element:<Vlog></Vlog>
         },
 
       ]
