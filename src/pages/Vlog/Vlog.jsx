@@ -18,40 +18,83 @@ const Vlog = () => {
         </p>
         <div className="h-1 w-10 bg-cyan-600 rounded my-4 flex justify-center items-center mx-auto   hover:animate-ping"></div>
         {/* -----------------1st phase start -------------------------*/}
-        <div className="relative bg-gradient-to-r from-cyan-800 p-6 rounded-lg shadow-lg">
-          <div className="absolute top-4 right-4">
-            <button className="w-16 h-16 flex items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600">
-              <FaArrowRight className="w-5 h-5" />
-            </button>
-          </div>
-
-          <div className="flex">
-            <div className="w-1/2">
-              <img
-                src={gr}
-                alt="Grok Image"
-                className="w-full h-full object-cover rounded-lg"
-              />
+        <div className="hidden lg:block md:block">
+        <div className="flex items-center justify-center min-h-screen ">
+          <div className="relative bg-gradient-to-r from-cyan-950 p-6 rounded-lg shadow-lg w-4/5">
+            <div className="absolute top-4 right-4">
+              <button className="w-16 h-16 flex items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600">
+                <FaArrowRight className="w-5 h-5" />
+              </button>
             </div>
 
-            <div className="w-1/2 pl-6 text-gray-300 mt-96">
-              <p className="text-sm text-gray-200">August 13, 2024</p>
+            <div className="flex">
+              <div className="w-1/2">
+                <img
+                  src={gr}
+                  alt="Grok Image"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
 
-              <h2 className="text-3xl font-bold text-white mt-2">
-                Grok-2 Beta Release
-              </h2>
+              <div className="w-1/2 pl-6 text-gray-300 mt-96">
+                <p className="text-sm text-gray-200">August 13, 2024</p>
 
-              <p className="text-gray-200 mt-4">
-                Grok-2 is our frontier language model with state-of-the-art
-                reasoning capabilities. This release includes two members of the
-                Grok family: Grok-2 and Grok-2 mini. Both models are now being
-                released to Grok users on the X platform.
-              </p>
+                <h2 className="text-3xl font-bold text-white mt-2">
+                  Grok-2 Beta Release
+                </h2>
+
+                <p className="text-gray-200 mt-4">
+                  Grok-2 is our frontier language model with state-of-the-art
+                  reasoning capabilities. This release includes two members of
+                  the Grok family: Grok-2 and Grok-2 mini. Both models are now
+                  being released to Grok users on the X platform.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        </div>
 
         {/* -----------------1st phase finish -------------------------*/}
+        {/* 1st phase mobile------------------- */}
+        <div className="lg:hidden md:hidden block">
+        <div className="flex items-center justify-center min-h-screen">
+  <div className="relative bg-gradient-to-r from-cyan-950 p-6 rounded-lg shadow-lg w-full max-w-4xl">
+    <div className="absolute top-4 right-4">
+      <button className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600">
+        <FaArrowRight className="w-4 h-4" />
+      </button>
+    </div>
+
+    <div className="flex flex-col lg:flex-row">
+      <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
+        <img
+          src={gr}
+          alt="Grok Image"
+          className="w-full h-auto object-cover rounded-lg"
+        />
+      </div>
+
+      <div className="w-full lg:w-1/2 lg:pl-6 text-gray-300">
+        <p className="text-sm text-gray-200">August 13, 2024</p>
+
+        <h2 className="text-2xl lg:text-3xl font-bold text-white mt-2">
+          Grok-2 Beta Release
+        </h2>
+
+        <p className="text-gray-200 mt-4">
+          Grok-2 is our frontier language model with state-of-the-art
+          reasoning capabilities. This release includes two members of the
+          Grok family: Grok-2 and Grok-2 mini. Both models are now being
+          released to Grok users on the X platform.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+        {/* 1st phase mobile               end ------------------- */}
       </div>
     </>
   );
