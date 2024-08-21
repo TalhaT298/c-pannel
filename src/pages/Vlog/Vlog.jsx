@@ -135,12 +135,12 @@ const Vlog = () => {
                     ></img>
 
                     <div className="flex">
-                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
                         Chichen
                       </h2>
                       <MdOutlineArrowOutward className="text-white w-6 h-6" />
                     </div>
-                    <p className="leading-relaxed text-base">
+                    <p className="leading-relaxed text-white">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
                     </p>
@@ -155,12 +155,12 @@ const Vlog = () => {
                     ></img>
 
                     <div className="flex">
-                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
                         Chichen
                       </h2>
                       <MdOutlineArrowOutward className="text-white w-6 h-6" />
                     </div>
-                    <p className="leading-relaxed text-base">
+                    <p className="leading-relaxed text-white">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
                     </p>
@@ -175,12 +175,12 @@ const Vlog = () => {
                     ></img>
 
                     <div className="flex">
-                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
                         Chichen
                       </h2>
                       <MdOutlineArrowOutward className="text-white w-6 h-6" />
                     </div>
-                    <p className="leading-relaxed text-base">
+                    <p className="leading-relaxed text-white">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
                     </p>
