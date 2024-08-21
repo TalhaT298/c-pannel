@@ -100,9 +100,11 @@ const Vlog = () => {
         {/* 2nd phase start--------------------------- */}
         <div className="w-full h-[0.4px] bg-white"></div>
         <div className="bg-black text-white p-8">
-          <h2 className="text-3xl mb-6">All blog posts</h2>
+          <h2 className="text-3xl mb-6 font-bold bg-gradient-to-r from-cyan-500 via-cyan-700 to-cyan-950 bg-clip-text text-transparent uppercase">
+            All blog posts
+          </h2>
           <section className="text-gray-600 body-font">
-            <div className="container px-5 py-6 mx-auto">
+            <div className="container px-0 py-6 mx-auto">
               <div className="flex flex-wrap -m-4">
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
@@ -111,12 +113,12 @@ const Vlog = () => {
                       src="https://dummyimage.com/720x400"
                       alt="content"
                     ></img>
-                    
+
                     <div className="flex">
-                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                      Chichen 
-                    </h2>
-                    <MdOutlineArrowOutward className=" w-6 h-6"/>
+                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className=" w-6 h-6" />
                     </div>
                     <p className="leading-relaxed text-base">
                       Fingerstache flexitarian street art 8-bit waistcoat.
@@ -131,7 +133,7 @@ const Vlog = () => {
                       src="https://dummyimage.com/721x401"
                       alt="content"
                     ></img>
-                    
+
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                       Colosseum Roma
                     </h2>
@@ -148,7 +150,7 @@ const Vlog = () => {
                       src="https://dummyimage.com/722x402"
                       alt="content"
                     ></img>
-                    
+
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                       Great Pyramid of Giza
                     </h2>
@@ -165,7 +167,7 @@ const Vlog = () => {
                       src="https://dummyimage.com/723x403"
                       alt="content"
                     ></img>
-                    
+
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                       San Francisco
                     </h2>
