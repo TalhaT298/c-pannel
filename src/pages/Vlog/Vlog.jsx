@@ -18,7 +18,7 @@ const Vlog = () => {
         </p>
         <div className="h-1 w-10 bg-cyan-600 rounded my-4 flex justify-center items-center mx-auto   hover:animate-ping"></div>
         {/* -----------------1st phase start -------------------------*/}
-        <div className="relative bg-gray-900 p-6 rounded-lg shadow-lg">
+        <div className="relative bg-gradient-to-r from-cyan-800 p-6 rounded-lg shadow-lg">
           <div className="absolute top-4 right-4">
             <button className="w-16 h-16 flex items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600">
               <FaArrowRight className="w-5 h-5" />
