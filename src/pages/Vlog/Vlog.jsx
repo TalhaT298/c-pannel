@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import gr from "../../../src/assets/gr.png";
 import gh from "../../../src/assets/gh.png";
 import { FaArrowRight } from "react-icons/fa";
+import { MdOutlineArrowOutward } from "react-icons/md";
 const Vlog = () => {
   return (
     <>
@@ -110,12 +111,13 @@ const Vlog = () => {
                       src="https://dummyimage.com/720x400"
                       alt="content"
                     ></img>
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      SUBTITLE
-                    </h3>
+                    
+                    <div className="flex">
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                      Chichen Itza
+                      Chichen 
                     </h2>
+                    <MdOutlineArrowOutward className=" w-6 h-6"/>
+                    </div>
                     <p className="leading-relaxed text-base">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
@@ -129,9 +131,7 @@ const Vlog = () => {
                       src="https://dummyimage.com/721x401"
                       alt="content"
                     ></img>
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      SUBTITLE
-                    </h3>
+                    
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                       Colosseum Roma
                     </h2>
@@ -148,9 +148,7 @@ const Vlog = () => {
                       src="https://dummyimage.com/722x402"
                       alt="content"
                     ></img>
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      SUBTITLE
-                    </h3>
+                    
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                       Great Pyramid of Giza
                     </h2>
@@ -167,9 +165,7 @@ const Vlog = () => {
                       src="https://dummyimage.com/723x403"
                       alt="content"
                     ></img>
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      SUBTITLE
-                    </h3>
+                    
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                       San Francisco
                     </h2>
