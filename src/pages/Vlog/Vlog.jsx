@@ -118,7 +118,7 @@ const Vlog = () => {
                       <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                         Chichen
                       </h2>
-                      <MdOutlineArrowOutward className=" w-6 h-6" />
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
                     </div>
                     <p className="leading-relaxed text-base">
                       Fingerstache flexitarian street art 8-bit waistcoat.
@@ -134,9 +134,12 @@ const Vlog = () => {
                       alt="content"
                     ></img>
 
-                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                      Colosseum Roma
-                    </h2>
+                    <div className="flex">
+                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
                     <p className="leading-relaxed text-base">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
@@ -151,9 +154,12 @@ const Vlog = () => {
                       alt="content"
                     ></img>
 
-                    <h2 className="text-lg text-gray-800 font-medium title-font mb-4">
-                      Great Pyramid of Giza
-                    </h2>
+                    <div className="flex">
+                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
                     <p className="leading-relaxed text-base">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
@@ -168,9 +174,12 @@ const Vlog = () => {
                       alt="content"
                     ></img>
 
-                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                      San Francisco
-                    </h2>
+                    <div className="flex">
+                      <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
                     <p className="leading-relaxed text-base">
                       Fingerstache flexitarian street art 8-bit waistcoat.
                       Distillery hexagon disrupt edison bulbche.
