@@ -107,7 +107,7 @@ const Vlog = () => {
             <div className="container px-0 py-6 mx-auto">
               <div className="flex flex-wrap -m-4">
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <div className="bg-gray-100 p-6 rounded-lg">
+                  <div className="bg-gradient-to-r from-cyan-800 p-6 rounded-lg">
                     <img
                       className="h-40 rounded w-full object-cover object-center mb-6"
                       src="https://dummyimage.com/720x400"
@@ -127,7 +127,7 @@ const Vlog = () => {
                   </div>
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <div className="bg-gray-100 p-6 rounded-lg">
+                  <div className="bg-gradient-to-b from-cyan-800 p-6 rounded-lg">
                     <img
                       className="h-40 rounded w-full object-cover object-center mb-6"
                       src="https://dummyimage.com/721x401"
@@ -144,14 +144,14 @@ const Vlog = () => {
                   </div>
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <div className="bg-gray-100 p-6 rounded-lg">
+                  <div className="bg-gradient-to-t from-cyan-800 p-6 rounded-lg">
                     <img
                       className="h-40 rounded w-full object-cover object-center mb-6"
                       src="https://dummyimage.com/722x402"
                       alt="content"
                     ></img>
 
-                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                    <h2 className="text-lg text-gray-800 font-medium title-font mb-4">
                       Great Pyramid of Giza
                     </h2>
                     <p className="leading-relaxed text-base">
@@ -161,7 +161,7 @@ const Vlog = () => {
                   </div>
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <div className="bg-gray-100 p-6 rounded-lg">
+                  <div className="bg-gradient-to-l from-cyan-700 p-6 rounded-lg">
                     <img
                       className="h-40 rounded w-full object-cover object-center mb-6"
                       src="https://dummyimage.com/723x403"
