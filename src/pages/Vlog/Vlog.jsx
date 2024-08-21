@@ -58,7 +58,7 @@ const Vlog = () => {
         {/* -----------------1st phase finish -------------------------*/}
         {/* 1st phase mobile------------------- */}
         <div className="lg:hidden md:hidden block">
-        <div className="flex items-center justify-center min-h-screen">
+        <div className="flex items-center justify-center py-6">
   <div className="relative bg-gradient-to-r from-cyan-950 p-6 rounded-lg shadow-lg w-full max-w-4xl">
     <div className="absolute top-4 right-4">
       <button className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600">
