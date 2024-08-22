@@ -6,9 +6,13 @@ import gr from "../../../src/assets/gr.png";
 import gh from "../../../src/assets/gh.png";
 import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { Helmet } from "react-helmet-async";
 const Vlog = () => {
   return (
     <>
+    <Helmet>
+        <title>Oceancapp | Vlog</title>
+      </Helmet>
       <Link to="/vlog"></Link>
       <div>
         <div className="mx-auto md:w-8/12 mb-4 mt-8 flex justify-center items-center ">
