@@ -188,6 +188,92 @@ const Vlog = () => {
                 </div>
               </div>
             </div>
+
+            {/*--------------- 2nd dive ==============*/}
+            <div className="container px-0 py-6 mx-auto">
+              <div className="flex flex-wrap -m-4">
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <div className="bg-gradient-to-r from-cyan-800 p-6 rounded-lg">
+                    <img
+                      className="h-40 rounded w-full object-cover object-center mb-6"
+                      src="https://dummyimage.com/720x400"
+                      alt="content"
+                    ></img>
+
+                    <div className="flex">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
+                    <p className="leading-relaxed text-white">
+                      Fingerstache flexitarian street art 8-bit waistcoat.
+                      Distillery hexagon disrupt edison bulbche.
+                    </p>
+                  </div>
+                </div>
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <div className="bg-gradient-to-b from-cyan-800 p-6 rounded-lg">
+                    <img
+                      className="h-40 rounded w-full object-cover object-center mb-6"
+                      src="https://dummyimage.com/721x401"
+                      alt="content"
+                    ></img>
+
+                    <div className="flex">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
+                    <p className="leading-relaxed text-white">
+                      Fingerstache flexitarian street art 8-bit waistcoat.
+                      Distillery hexagon disrupt edison bulbche.
+                    </p>
+                  </div>
+                </div>
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <div className="bg-gradient-to-t from-cyan-800 p-6 rounded-lg">
+                    <img
+                      className="h-40 rounded w-full object-cover object-center mb-6"
+                      src="https://dummyimage.com/722x402"
+                      alt="content"
+                    ></img>
+
+                    <div className="flex">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
+                    <p className="leading-relaxed text-white">
+                      Fingerstache flexitarian street art 8-bit waistcoat.
+                      Distillery hexagon disrupt edison bulbche.
+                    </p>
+                  </div>
+                </div>
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <div className="bg-gradient-to-l from-cyan-700 p-6 rounded-lg">
+                    <img
+                      className="h-40 rounded w-full object-cover object-center mb-6"
+                      src="https://dummyimage.com/723x403"
+                      alt="content"
+                    ></img>
+
+                    <div className="flex">
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        Chichen
+                      </h2>
+                      <MdOutlineArrowOutward className="text-white w-6 h-6" />
+                    </div>
+                    <p className="leading-relaxed text-white">
+                      Fingerstache flexitarian street art 8-bit waistcoat.
+                      Distillery hexagon disrupt edison bulbche.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
 
