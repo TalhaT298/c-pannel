@@ -25,7 +25,7 @@ const PromptEngineering = () => {
       </Helmet>
       <Link to="/prompt"></Link>
       <div>
-        {/* ---------------------------------1st phase ----------------------------*/}
+        {/* ---------------------------------1st phase --------------------------*/}
         <div className="flex flex-col md:flex-row items-center justify-between p-8 shadow-md rounded-lg">
           <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
             <h3 className="text-3xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
