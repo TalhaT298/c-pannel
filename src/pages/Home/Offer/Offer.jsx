@@ -102,7 +102,7 @@ const Offer = () => {
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title text-white">Cyber Security</h2>
             <p className="text-white">
-              we're your cybersecurity guardians, crafting innovative solutions
+              We're your cybersecurity guardians, crafting innovative solutions
               to protect your digital assets from evolving threats. Trust us to
               secure your digital future.
             </p>
@@ -265,7 +265,7 @@ const Offer = () => {
           <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title text-white">Idea to Creation</h2>
             <p className="text-white">
-              OOne of the most compelling and crucial aspects of our IT solution
+              One of the most compelling and crucial aspects of our IT solution
               is transforming ideas into reality.
               {/* and meaningful responses tailored to your
               business needs */}
